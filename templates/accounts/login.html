@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Login — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Log in</h1>
+<p class="muted">Return to the Emporium.</p>
+
+<form method="post" class="form-card">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="cta-button">Log in</button>
+</form>
+
+<p class="muted">
+  New here? <a href="{% url 'register' %}">Create an account</a>
+</p>
+{% endblock %}

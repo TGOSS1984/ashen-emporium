@@ -16,14 +16,35 @@
         <a href="/" class="brand">Ashen Emporium</a>
 
         <ul class="nav-links">
-            <li><a href="#">Catalogue</a></li>
-            <li><a href="#">Cart</a></li>
-            <li><a href="#">Account</a></li>
-        </ul>
+    <li><a href="#">Catalogue</a></li>
+    <li><a href="#">Cart</a></li>
+
+    {% if request.user.is_authenticated %}
+        <li><a href="{% url 'account_home' %}">Account</a></li>
+        <li>
+            <form method="post" action="{% url 'logout' %}" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="link-button">Logout</button>
+            </form>
+        </li>
+    {% else %}
+        <li><a href="{% url 'login' %}">Login</a></li>
+        <li><a href="{% url 'register' %}">Register</a></li>
+    {% endif %}
+</ul>
+
     </div>
 </nav>
 
 <main class="container">
+    {% if messages %}
+  <div class="messages">
+    {% for message in messages %}
+      <div class="message message-{{ message.tags }}">{{ message }}</div>
+    {% endfor %}
+  </div>
+{% endif %}
+
     {% block content %}{% endblock %}
 </main>
 

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Your Account — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Your Account</h1>
+<p class="muted">Signed in as <strong>{{ request.user.username }}</strong></p>
+
+<div class="card">
+  <h2>Order history</h2>
+  <p class="muted">Coming soon — once Orders is built.</p>
+</div>
+{% endblock %}
