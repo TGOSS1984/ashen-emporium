@@ -2,6 +2,10 @@ from django.db import models
 from django.urls import reverse
 from django.utils.text import slugify
 
+from django.core.validators import FileExtensionValidator
+from django.utils.html import format_html
+
+
 
 class Product(models.Model):
     class Category(models.TextChoices):
@@ -72,3 +76,56 @@ class Product(models.Model):
                 i += 1
             self.slug = slug
         super().save(*args, **kwargs)
+
+class Asset(models.Model):
+    """
+    A raw media asset (usually an image) that can later be attached to products.
+    This is intentionally separate from Product so we can import an image library first.
+    """
+    asset_id = models.CharField(max_length=64, unique=True, help_text="Stable ID (e.g. filename stem or hash)")
+    image = models.ImageField(
+        upload_to="assets/",
+        validators=[FileExtensionValidator(allowed_extensions=["jpg", "jpeg", "png", "webp"])],
+    )
+
+    title = models.CharField(max_length=140, blank=True)
+    source = models.CharField(max_length=140, blank=True, help_text="Optional: where this asset came from")
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+
+    def __str__(self) -> str:
+        return self.title or self.asset_id
+
+    def admin_thumb(self) -> str:
+        if not self.image:
+            return "-"
+        return format_html(
+            '<img src="{}" style="height:50px;width:auto;border-radius:6px;border:1px solid #1f2933;" />',
+            self.image.url,
+        )
+
+    admin_thumb.short_description = "Preview"
+
+
+class ProductImage(models.Model):
+    """
+    Join table: a product can have multiple images; an asset can be reused.
+    """
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="images")
+    asset = models.ForeignKey(Asset, on_delete=models.PROTECT, related_name="product_links")
+
+    alt_text = models.CharField(max_length=140, blank=True)
+    sort_order = models.PositiveIntegerField(default=0)
+    is_primary = models.BooleanField(default=False)
+
+    class Meta:
+        ordering = ["sort_order", "id"]
+        constraints = [
+            models.UniqueConstraint(fields=["product", "asset"], name="uniq_product_asset"),
+        ]
+
+    def __str__(self) -> str:
+        return f"{self.product.sku} → {self.asset.asset_id}"
+
