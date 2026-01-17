@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Ashen Emporium{% endblock %}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="/" class="brand">Ashen Emporium</a>
+
+        <ul class="nav-links">
+            <li><a href="#">Catalogue</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+    <p>© {{ now|date:"Y" }} Ashen Emporium — Forged in Cinder</p>
+</footer>
+
+</body>
+</html>
