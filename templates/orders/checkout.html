@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Checkout — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Checkout</h1>
+
+<div class="detail">
+  <div class="card">
+    <h2>Your Order</h2>
+    <ul>
+      {% for item in items %}
+        <li>
+          {{ item.product.name }} × {{ item.qty }}
+          <span class="muted">({{ item.line_total_gbp }})</span>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div class="divider"></div>
+    <p class="price-lg">{{ total_gbp }}</p>
+  </div>
+
+  <div class="card">
+    <h2>Confirm Order</h2>
+    <p class="muted">
+      Payments are added in the next step. For now, this places an order.
+    </p>
+
+    <form method="post">
+      {% csrf_token %}
+      <button type="submit" class="cta-button">Place Order</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

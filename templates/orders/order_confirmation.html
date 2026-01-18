@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Order Confirmed — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Order Confirmed</h1>
+
+<p class="muted">
+  Thank you. Your order has been recorded.
+</p>
+
+<div class="card">
+  <h2>Order #{{ order.id }}</h2>
+
+  <ul>
+    {% for item in order.items.all %}
+      <li>
+        {{ item.product_name }} × {{ item.qty }}
+        <span class="muted">
+          (£{{ item.line_total_pence|floatformat:0 }})
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="divider"></div>
+  <p class="price-lg">{{ order.total_gbp }}</p>
+</div>
+
+<a href="{% url 'product_list' %}" class="cta-button">
+  Continue Shopping
+</a>
+{% endblock %}

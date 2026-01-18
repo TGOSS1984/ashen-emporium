@@ -53,12 +53,19 @@
   </div>
 
   <div class="cart-summary">
-    <div class="card">
-      <h2>Total</h2>
-      <p class="price-lg">{{ total_gbp }}</p>
-      <p class="muted">Checkout comes next (Commit 10).</p>
-    </div>
+  <div class="card">
+    <h2>Total</h2>
+
+    <p class="price-lg">{{ total_gbp }}</p>
+
+    <a href="{% url 'checkout' %}" class="cta-button">
+      Proceed to Checkout
+    </a>
+
+    <p class="muted">Checkout comes next (Commit 10).</p>
   </div>
+</div>
+
 {% else %}
   <p class="muted">Your basket is empty.</p>
   <a class="cta-button" href="{% url 'product_list' %}">Browse catalogue</a>
