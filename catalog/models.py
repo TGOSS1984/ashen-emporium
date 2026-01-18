@@ -129,4 +129,15 @@ class ProductImage(models.Model):
 
     def __str__(self) -> str:
         return f"{self.product.sku} → {self.asset.asset_id}"
+    
+    def save(self, *args, **kwargs):
+        """
+            Ensure only one primary image per product.
+            If this row is set primary, unset all other primary images for the same product.
+        """
+        super().save(*args, **kwargs)
+
+        if self.is_primary:
+            ProductImage.objects.filter(product=self.product).exclude(pk=self.pk).update(is_primary=False)
+
 
