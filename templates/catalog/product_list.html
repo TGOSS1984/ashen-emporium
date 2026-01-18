@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Catalogue — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Catalogue</h1>
+<p class="muted">Curated relics, forged arms, and forbidden incantations.</p>
+
+<form method="get" class="filter-bar">
+    <input type="text" name="q" placeholder="Search…" value="{{ q }}">
+
+    <select name="category">
+        <option value="">All categories</option>
+        {% for value, label in category_choices %}
+            <option value="{{ value }}" {% if value == category %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+    </select>
+
+    <select name="rarity">
+        <option value="">All rarities</option>
+        {% for value, label in rarity_choices %}
+            <option value="{{ value }}" {% if value == rarity %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+    </select>
+
+    <label class="checkbox">
+        <input type="checkbox" name="in_stock" value="1" {% if in_stock == "1" %}checked{% endif %}>
+        In stock only
+    </label>
+
+    <button type="submit" class="cta-button">Filter</button>
+</form>
+
+<div class="grid">
+    {% for product in page_obj %}
+        <a class="product-card" href="{{ product.get_absolute_url }}">
+            <div class="thumb">
+                {% with img=product.primary_image %}
+                    {% if img %}
+                        <img src="{{ img.url }}" alt="{{ product.name }}">
+                    {% else %}
+                        <div class="thumb-placeholder">No image</div>
+                    {% endif %}
+                {% endwith %}
+            </div>
+
+            <div class="product-meta">
+                <div class="row">
+                    <h2 class="product-title">{{ product.name }}</h2>
+                    <span class="price">{{ product.price_gbp }}</span>
+                </div>
+
+                <div class="tags">
+                    <span class="tag">{{ product.get_category_display }}</span>
+                    <span class="tag">{{ product.get_rarity_display }}</span>
+                    {% if product.in_stock %}
+                        <span class="tag tag-ok">In stock</span>
+                    {% else %}
+                        <span class="tag tag-warn">Out</span>
+                    {% endif %}
+                </div>
+            </div>
+        </a>
+    {% empty %}
+        <p>No products matched your search.</p>
+    {% endfor %}
+</div>
+
+{% if page_obj.paginator.num_pages > 1 %}
+<nav class="pagination">
+    {% if page_obj.has_previous %}
+        <a href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&page={{ page_obj.previous_page_number }}">Prev</a>
+    {% endif %}
+
+    <span class="muted">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+
+    {% if page_obj.has_next %}
+        <a href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&page={{ page_obj.next_page_number }}">Next</a>
+    {% endif %}
+</nav>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.name }} — Ashen Emporium{% endblock %}
+
+{% block content %}
+<a class="muted" href="{% url 'product_list' %}">← Back to catalogue</a>
+
+<div class="detail">
+    <div class="detail-media">
+        {% with img=product.primary_image %}
+            {% if img %}
+                <img class="detail-main" src="{{ img.url }}" alt="{{ product.name }}">
+            {% else %}
+                <div class="thumb-placeholder">No image</div>
+            {% endif %}
+        {% endwith %}
+
+        {% if product.images.all %}
+        <div class="gallery">
+            {% for pi in product.images.all %}
+                <img class="gallery-thumb" src="{{ pi.asset.image.url }}" alt="{{ pi.alt_text|default:product.name }}">
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="detail-info card">
+        <h1>{{ product.name }}</h1>
+
+        <div class="tags">
+            <span class="tag">{{ product.get_category_display }}</span>
+            <span class="tag">{{ product.get_rarity_display }}</span>
+            {% if product.in_stock %}
+                <span class="tag tag-ok">In stock</span>
+            {% else %}
+                <span class="tag tag-warn">Out of stock</span>
+            {% endif %}
+        </div>
+
+        <p class="price-lg">{{ product.price_gbp }}</p>
+
+        {% if product.short_description %}
+            <p class="muted">{{ product.short_description }}</p>
+        {% endif %}
+
+        {% if product.description %}
+            <div class="lore">
+                {{ product.description|linebreaks }}
+            </div>
+        {% else %}
+            <p class="muted">No lore has been inscribed for this item yet.</p>
+        {% endif %}
+
+        <div class="divider"></div>
+
+        <p class="muted">
+            SKU: <strong>{{ product.sku }}</strong>
+        </p>
+    </div>
+</div>
+{% endblock %}

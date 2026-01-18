@@ -22,7 +22,7 @@ class Product(models.Model):
         MYTHIC = "mythic", "Mythic"
         RELIC = "relic", "Relic"
 
-    sku = models.CharField(max_length=32, unique=True)
+    sku = models.CharField(max_length=64, unique=True)
     name = models.CharField(max_length=140)
     slug = models.SlugField(max_length=160, unique=True, blank=True)
 
@@ -77,6 +77,14 @@ class Product(models.Model):
                 i += 1
             self.slug = slug
         super().save(*args, **kwargs)
+
+    def primary_image(self):
+        primary = self.images.filter(is_primary=True).select_related("asset").first()
+        if primary:
+            return primary.asset.image
+        first = self.images.select_related("asset").first()
+        return first.asset.image if first else None
+
 
 class Asset(models.Model):
     """

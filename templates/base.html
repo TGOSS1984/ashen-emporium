@@ -15,9 +15,10 @@
     <div class="nav-container">
         <a href="/" class="brand">Ashen Emporium</a>
 
-        <ul class="nav-links">
-    <li><a href="#">Catalogue</a></li>
-    <li><a href="#">Cart</a></li>
+    <ul class="nav-links">
+            <li><a href="{% url 'product_list' %}">Catalogue</a></li>
+            <li><a href="#">Cart</a></li>
+
 
     {% if request.user.is_authenticated %}
         <li><a href="{% url 'account_home' %}">Account</a></li>
@@ -31,7 +32,7 @@
         <li><a href="{% url 'login' %}">Login</a></li>
         <li><a href="{% url 'register' %}">Register</a></li>
     {% endif %}
-</ul>
+    </ul>
 
     </div>
 </nav>
