@@ -39,6 +39,17 @@
 
         <p class="price-lg">{{ product.price_gbp }}</p>
 
+        {% if product.in_stock %}
+        <form method="post" action="{% url 'cart_add' product.id %}" class="add-cart">
+            {% csrf_token %}
+            <label class="muted">Qty</label>
+            <input type="number" name="qty" min="1" value="1">
+            <button type="submit" class="cta-button">Add to basket</button>
+        </form>
+        {% else %}
+        <p class="muted">This item is currently unavailable.</p>
+        {% endif %}
+
         {% if product.short_description %}
             <p class="muted">{{ product.short_description }}</p>
         {% endif %}

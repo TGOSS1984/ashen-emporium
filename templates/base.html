@@ -17,7 +17,7 @@
 
     <ul class="nav-links">
             <li><a href="{% url 'product_list' %}">Catalogue</a></li>
-            <li><a href="#">Cart</a></li>
+            <li><a href="{% url 'cart_detail' %}">Cart{% if cart_count %} ({{ cart_count }}){% endif %}</a></li>
 
 
     {% if request.user.is_authenticated %}

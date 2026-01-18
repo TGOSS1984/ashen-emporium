@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}Basket — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Your Basket</h1>
+
+{% if items %}
+  <div class="card">
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Qty</th>
+          <th>Line Total</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for item in items %}
+        <tr>
+          <td>
+            <div class="cart-item">
+              {% with img=item.product.primary_image %}
+                {% if img %}
+                  <img class="cart-thumb" src="{{ img.url }}" alt="{{ item.product.name }}">
+                {% endif %}
+              {% endwith %}
+              <a href="{{ item.product.get_absolute_url }}">{{ item.product.name }}</a>
+            </div>
+          </td>
+          <td>{{ item.line_total_gbp }}</td>
+          <td>
+            <form method="post" action="{% url 'cart_update' item.product.id %}" class="qty-form">
+              {% csrf_token %}
+              <input type="number" name="qty" min="0" value="{{ item.qty }}">
+              <button type="submit" class="link-button">Update</button>
+            </form>
+          </td>
+          <td>{{ item.line_total_gbp }}</td>
+
+          <td>
+            <form method="post" action="{% url 'cart_remove' item.product.id %}">
+              {% csrf_token %}
+              <button type="submit" class="link-button">Remove</button>
+            </form>
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="cart-summary">
+    <div class="card">
+      <h2>Total</h2>
+      <p class="price-lg">{{ total_gbp }}</p>
+      <p class="muted">Checkout comes next (Commit 10).</p>
+    </div>
+  </div>
+{% else %}
+  <p class="muted">Your basket is empty.</p>
+  <a class="cta-button" href="{% url 'product_list' %}">Browse catalogue</a>
+{% endif %}
+{% endblock %}
