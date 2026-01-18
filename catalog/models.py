@@ -14,6 +14,7 @@ class Product(models.Model):
         ARMOUR = "armour", "Armour"
         RELIC = "relic", "Relic"
         CONSUMABLE = "consumable", "Consumable"
+        SPELL = "spell", "Spell"
 
     class Rarity(models.TextChoices):
         COMMON = "common", "Common"
