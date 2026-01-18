@@ -23,9 +23,19 @@
     {% endfor %}
   </ul>
 
-  <div class="divider"></div>
+    <div class="divider"></div>
+
   <p class="price-lg">{{ order.total_gbp }}</p>
+
+  {% if order.status != "paid" %}
+    <a class="cta-button" href="{% url 'start_checkout' order.id %}">
+      Pay with Stripe
+    </a>
+  {% else %}
+    <p class="muted">Payment confirmed.</p>
+  {% endif %}
 </div>
+
 
 <a href="{% url 'product_list' %}" class="cta-button">
   Continue Shopping

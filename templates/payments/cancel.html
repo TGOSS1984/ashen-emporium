@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Payment Cancelled — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Payment Cancelled</h1>
+<p class="muted">No payment was taken. You can try again whenever you're ready.</p>
+
+{% if order %}
+  <div class="card">
+    <h2>Order #{{ order.id }}</h2>
+    <a class="cta-button" href="{% url 'order_confirmation' order.id %}">Back to order</a>
+  </div>
+{% else %}
+  <a class="cta-button" href="{% url 'cart_detail' %}">Back to basket</a>
+{% endif %}
+{% endblock %}

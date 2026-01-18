@@ -24,12 +24,19 @@ class Order(models.Model):
         default=Status.DRAFT,
     )
 
+    stripe_session_id = models.CharField(max_length=255, blank=True, default="")
+    stripe_payment_intent_id = models.CharField(max_length=255, blank=True, default="")
+
+    total_pence = models.PositiveIntegerField()
+
     total_pence = models.PositiveIntegerField()
 
     created_at = models.DateTimeField(auto_now_add=True)
 
+    @property
     def total_gbp(self) -> str:
         return f"£{self.total_pence/100:,.2f}"
+
 
     def __str__(self) -> str:
         return f"Order #{self.id} ({self.get_status_display()})"
@@ -50,5 +57,10 @@ class OrderItem(models.Model):
 
     line_total_pence = models.PositiveIntegerField()
 
+    @property
+    def line_total_gbp(self) -> str:
+        return f"£{self.line_total_pence/100:,.2f}"
+
     def __str__(self) -> str:
         return f"{self.product_name} x{self.qty}"
+
