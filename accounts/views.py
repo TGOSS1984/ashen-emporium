@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.shortcuts import redirect, render
 
+from orders.models import Order
 
 def register(request):
     if request.user.is_authenticated:
@@ -48,4 +49,5 @@ def user_logout(request):
 
 @login_required
 def account_home(request):
-    return render(request, "accounts/account_home.html")
+    orders = Order.objects.filter(user=request.user).order_by("-created_at")[:10]
+    return render(request, "accounts/account_home.html", {"orders": orders})

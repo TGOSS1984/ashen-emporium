@@ -63,4 +63,10 @@ class OrderItem(models.Model):
 
     def __str__(self) -> str:
         return f"{self.product_name} x{self.qty}"
+    
+    @property
+    def unit_price_gbp(self) -> str:
+        return f"£{self.unit_price_pence/100:,.2f}"
+    
+    
 

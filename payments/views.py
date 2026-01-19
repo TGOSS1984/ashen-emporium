@@ -50,6 +50,9 @@ def start_checkout(request, order_id: int):
             }
         )
 
+    if order.stripe_session_id and order.status != Order.Status.PAID:
+        messages.info(request, "Payment session already created. Try again from the order page.")
+
     session = stripe.checkout.Session.create(
         mode="payment",
         line_items=line_items,

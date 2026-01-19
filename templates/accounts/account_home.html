@@ -8,6 +8,19 @@
 
 <div class="card">
   <h2>Order history</h2>
-  <p class="muted">Coming soon — once Orders is built.</p>
+
+  {% if orders %}
+    <ul>
+      {% for order in orders %}
+        <li>
+          <a href="{% url 'order_confirmation' order.id %}">Order #{{ order.id }}</a>
+          <span class="muted">— {{ order.get_status_display }} — {{ order.total_gbp }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="muted">No orders yet.</p>
+  {% endif %}
 </div>
+
 {% endblock %}

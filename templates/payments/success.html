@@ -13,9 +13,17 @@
     <h2>Order #{{ order.id }}</h2>
     <p class="muted">Status: <strong>{{ order.get_status_display }}</strong></p>
     <p class="price-lg">{{ order.total_gbp }}</p>
+
+    {% if order.status != "paid" %}
+      <p class="muted">
+        Your payment completed. If the status still shows “Placed”, refresh in a moment — Stripe confirms via webhook.
+      </p>
+    {% else %}
+      <p class="muted">Payment confirmed.</p>
+    {% endif %}
+
     <a class="cta-button" href="{% url 'order_confirmation' order.id %}">View order</a>
   </div>
-{% else %}
-  <a class="cta-button" href="{% url 'product_list' %}">Return to catalogue</a>
 {% endif %}
+
 {% endblock %}
