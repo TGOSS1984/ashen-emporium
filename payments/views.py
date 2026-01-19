@@ -31,6 +31,10 @@ def start_checkout(request, order_id: int):
     if not settings.STRIPE_SECRET_KEY:
         messages.error(request, "Stripe is not configured (missing secret key).")
         return redirect("order_confirmation", order_id=order.id)
+    
+    # Resume existing Stripe session if one already exists
+    if order.stripe_session_url and order.status != Order.Status.PAID:
+        return redirect(order.stripe_session_url)
 
     success_url = request.build_absolute_uri(
         reverse("payment_success")
@@ -53,11 +57,6 @@ def start_checkout(request, order_id: int):
             }
         )
 
-    if order.stripe_session_id and order.status != Order.Status.PAID:
-        messages.info(request, "Payment session already created. Please complete payment using the existing session.")
-        return redirect("order_confirmation", order_id=order.id)
-
-
     session = stripe.checkout.Session.create(
         mode="payment",
         line_items=line_items,
@@ -69,7 +68,9 @@ def start_checkout(request, order_id: int):
 
     order.stripe_session_id = session.id
     order.stripe_payment_intent_id = session.payment_intent or ""
-    order.save(update_fields=["stripe_session_id", "stripe_payment_intent_id"])
+    order.stripe_session_url = session.url or ""
+    order.save(update_fields=["stripe_session_id", "stripe_payment_intent_id", "stripe_session_url"])
+
 
     return redirect(session.url)
 

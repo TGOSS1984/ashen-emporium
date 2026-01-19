@@ -27,6 +27,8 @@ class Order(models.Model):
 
     stripe_session_id = models.CharField(max_length=255, blank=True, default="")
     stripe_payment_intent_id = models.CharField(max_length=255, blank=True, default="")
+    stripe_session_url = models.URLField(blank=True, default="")
+
 
     total_pence = models.PositiveIntegerField()
 
