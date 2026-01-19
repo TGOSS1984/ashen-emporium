@@ -1,7 +1,25 @@
+# Virtual environments
 .venv/
+
+# Python
 __pycache__/
 *.pyc
+
+# Environment variables
 .env
+
+# Local databases
 db.sqlite3
+
+# User uploads
 media/
+
+# Collected static files
+staticfiles/
+
+# OS / IDE noise
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
