@@ -9,13 +9,12 @@ from django.db import transaction
 
 from catalog.models import Asset
 
-
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp"}
 
 
 def slugish(value: str) -> str:
     """
-    Make a safe identifier from filenames:
+    Make a safe identifier from strings:
     - lowercase
     - spaces -> hyphens
     - strip odd chars
@@ -26,12 +25,46 @@ def slugish(value: str) -> str:
     return value
 
 
+def norm_code(value: str) -> str:
+    """
+    Normalise a code like MENU_Knowledge_11212 -> MENU_KNOWLEDGE_11212
+    """
+    value = (value or "").strip().upper()
+    value = value.replace("-", "_").replace(" ", "_")
+    value = re.sub(r"[^A-Z0-9_]+", "", value)
+    value = re.sub(r"_+", "_", value)
+    return value
+
+
 def sha1_file(path: Path) -> str:
     h = hashlib.sha1()
     with path.open("rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
     return h.hexdigest()
+
+
+def parse_title_and_code(stem: str) -> tuple[str, str]:
+    """
+    Parse filenames like:
+      "Academy Glintstone Staff - MENU_Knowledge_11212"
+    Returns:
+      ("Academy Glintstone Staff", "MENU_Knowledge_11212")
+
+    If no delimiter is found, falls back to:
+      (TitleFromStem, stem)
+    """
+    stem = (stem or "").strip()
+
+    if " - " in stem:
+        left, right = stem.split(" - ", 1)
+        title = left.strip()
+        code = right.strip()
+        return title, code
+
+    # Fallback: no delimiter
+    title = stem.replace("_", " ").replace("-", " ").strip().title()
+    return title, stem
 
 
 class Command(BaseCommand):
@@ -46,7 +79,7 @@ class Command(BaseCommand):
         parser.add_argument(
             "--use-hash-id",
             action="store_true",
-            help="Use SHA1(file) as asset_id instead of filename stem (best if filenames may collide).",
+            help="Use SHA1(file) as asset_id instead of parsed CODE (best if filenames may collide).",
         )
         parser.add_argument(
             "--source-label",
@@ -74,7 +107,6 @@ class Command(BaseCommand):
         update_existing = options["update_existing"]
         source_label = options["source_label"]
 
-        # Find files
         files = []
         for p in source.rglob("*"):
             if p.is_file() and p.suffix.lower() in IMAGE_EXTS:
@@ -100,19 +132,20 @@ class Command(BaseCommand):
             for path in files:
                 try:
                     rel = path.relative_to(source)
-
-                    # Top-level folder becomes a useful source tag (weapons/shields/armour/etc.)
                     top_folder = rel.parts[0] if len(rel.parts) > 1 else "misc"
 
-                    # asset_id: filename-based by default (easy to reason about)
-                    # Use --use-hash-id if you have collisions.
-                    filename_stem = slugish(path.stem)
+                    # Parse title + code from "Name - CODE"
+                    parsed_title, parsed_code = parse_title_and_code(path.stem)
+
                     if use_hash_id:
                         asset_id = sha1_file(path)[:16]
+                        title = parsed_title or path.stem
+                        file_code = slugish(path.stem).upper().replace("-", "_")
                     else:
-                        asset_id = filename_stem
+                        asset_id = norm_code(parsed_code)
+                        title = parsed_title or path.stem
+                        file_code = asset_id
 
-                    title = path.stem.replace("_", " ").replace("-", " ").strip().title()
                     source_value = f"{source_label}:{top_folder}"
 
                     existing = Asset.objects.filter(asset_id=asset_id).first()
@@ -120,12 +153,8 @@ class Command(BaseCommand):
                         skipped += 1
                         continue
 
-                    # Preserve the extension; normalise filename
-                    safe_filename = slugish(path.name)
-                    if not safe_filename.lower().endswith(path.suffix.lower()):
-                        safe_filename = f"{safe_filename}{path.suffix.lower()}"
-
-                    # Store in MEDIA_ROOT under /assets/<top_folder>/...
+                    # Store file under /media/assets/<folder>/<CODE>.<ext> (clean filename)
+                    safe_filename = f"{file_code}{path.suffix.lower()}"
                     dest_name = os.path.join("assets", top_folder, safe_filename)
 
                     if dry_run:
@@ -161,4 +190,3 @@ class Command(BaseCommand):
         self.stdout.write(f"Updated: {updated}")
         self.stdout.write(f"Skipped: {skipped}")
         self.stdout.write(f"Errors:  {errors}")
-
