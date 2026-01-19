@@ -32,9 +32,12 @@ def start_checkout(request, order_id: int):
         messages.error(request, "Stripe is not configured (missing secret key).")
         return redirect("order_confirmation", order_id=order.id)
     
-    # Resume existing Stripe session if one already exists
-    if order.stripe_session_url and order.status != Order.Status.PAID:
+    reset = request.GET.get("reset") == "1"
+
+    # Resume existing Stripe session if one already exists (unless reset requested)
+    if order.status == Order.Status.PLACED and order.stripe_session_url and not reset:
         return redirect(order.stripe_session_url)
+
 
     success_url = request.build_absolute_uri(
         reverse("payment_success")

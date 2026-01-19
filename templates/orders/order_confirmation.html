@@ -28,18 +28,24 @@
 
   <p class="price-lg">{{ order.total_gbp }}</p>
 
-  {% if order.status == "placed" %}
+ {% if order.status == "placed" %}
   {% if order.stripe_session_url %}
-    <a class="cta-button" href="{{ order.stripe_session_url }}">Continue payment</a>
+    <a class="cta-button" href="{% url 'start_checkout' order.id %}">Continue payment</a>
+    <p class="muted" style="margin-top: .75rem;">
+      If you see a Stripe “session complete” screen, <a href="{% url 'start_checkout' order.id %}?reset=1">start a new payment session</a>.
+    </p>
   {% else %}
     <a class="cta-button" href="{% url 'start_checkout' order.id %}">Pay with Stripe</a>
   {% endif %}
   <p class="muted" style="margin-top: .75rem;">
     Your payment will be confirmed via Stripe webhook.
   </p>
-{% else %}
+{% elif order.status == "paid" %}
   <p class="muted">Payment confirmed. Your order is complete.</p>
+{% else %}
+  <p class="muted">This order is not payable ({{ order.get_status_display }}).</p>
 {% endif %}
+
 
 </div>
 
