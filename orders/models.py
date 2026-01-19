@@ -7,6 +7,7 @@ class Order(models.Model):
         DRAFT = "draft", "Draft"
         PLACED = "placed", "Placed"
         PAID = "paid", "Paid"
+        FULFILLED = "fulfilled", "Fulfilled"
         CANCELLED = "cancelled", "Cancelled"
 
     user = models.ForeignKey(

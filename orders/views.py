@@ -18,6 +18,15 @@ def checkout(request):
     total_pence = cart.total_pence()
 
     if request.method == "POST":
+        # ✅ Stock check BEFORE creating the order
+        for item in items:
+            if item.product.stock_qty < item.qty:
+                messages.error(
+                    request,
+                    f"Not enough stock for {item.product.name}. Please adjust your basket."
+                )
+                return redirect("cart_detail")
+
         order = Order.objects.create(
             user=request.user,
             email=request.user.email or "",
@@ -46,6 +55,7 @@ def checkout(request):
         "orders/checkout.html",
         {"items": items, "total_gbp": total_gbp},
     )
+
 
 
 @login_required

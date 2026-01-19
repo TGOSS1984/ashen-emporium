@@ -28,7 +28,8 @@
 
   <p class="price-lg">{{ order.total_gbp }}</p>
 
-  {% if order.status != "paid" %}
+  {% if order.status == "placed" %}
+
   <a class="cta-button" href="{% url 'start_checkout' order.id %}">Pay with Stripe</a>
   <p class="muted" style="margin-top: .75rem;">
     Your payment will be confirmed via Stripe webhook.
@@ -36,6 +37,11 @@
 {% else %}
   <p class="muted">Payment confirmed. Your order is complete.</p>
 {% endif %}
+
+{% if order.status == "fulfilled" %}
+  <p class="muted">This order has been fulfilled.</p>
+{% endif %}
+
 
 </div>
 

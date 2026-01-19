@@ -8,7 +8,18 @@ class OrderItemInline(admin.TabularInline):
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
-    list_display = ("id", "email", "status", "total_pence", "created_at")
-    list_filter = ("status",)
-    search_fields = ("email", "id")
-    inlines = [OrderItemInline]
+    list_display = (
+        "id",
+        "user",
+        "status",
+        "total_gbp",
+        "created_at",
+    )
+    list_filter = ("status", "created_at")
+    search_fields = ("id", "user__username", "user__email")
+
+@admin.action(description="Mark selected orders as fulfilled")
+def mark_fulfilled(modeladmin, request, queryset):
+    queryset.filter(status=Order.Status.PAID).update(status=Order.Status.FULFILLED)
+
+

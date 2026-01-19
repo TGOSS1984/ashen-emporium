@@ -8,11 +8,14 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
 from django.views.decorators.csrf import csrf_exempt
 
+from django.db import transaction
+
 from orders.models import Order
+from catalog.models import Product
+
 
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
-
 
 @login_required
 def start_checkout(request, order_id: int):
@@ -51,7 +54,9 @@ def start_checkout(request, order_id: int):
         )
 
     if order.stripe_session_id and order.status != Order.Status.PAID:
-        messages.info(request, "Payment session already created. Try again from the order page.")
+        messages.info(request, "Payment session already created. Please complete payment using the existing session.")
+        return redirect("order_confirmation", order_id=order.id)
+
 
     session = stripe.checkout.Session.create(
         mode="payment",
@@ -117,11 +122,24 @@ def stripe_webhook(request):
         order_id = session.get("metadata", {}).get("order_id")
 
         if order_id:
-            order = Order.objects.filter(id=order_id).first()
+            order = Order.objects.select_for_update().filter(id=order_id).first()
+
             if order and order.status != Order.Status.PAID:
-                order.status = Order.Status.PAID
-                order.stripe_session_id = session.get("id", order.stripe_session_id)
-                order.stripe_payment_intent_id = session.get("payment_intent", order.stripe_payment_intent_id) or ""
-                order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
+                with transaction.atomic():
+                    # Mark paid
+                    order.status = Order.Status.PAID
+                    order.stripe_session_id = session.get("id", order.stripe_session_id)
+                    order.stripe_payment_intent_id = session.get("payment_intent", order.stripe_payment_intent_id) or ""
+                    order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
+
+                    # Decrement stock using the order snapshot
+                    for item in order.items.all():
+                        # Find the live product by SKU (because OrderItem doesn't FK Product)
+                        product = Product.objects.filter(sku=item.sku).first()
+                        if not product:
+                            continue
+                        product.stock_qty = max(product.stock_qty - item.qty, 0)
+                        product.save(update_fields=["stock_qty"])
+
 
     return HttpResponse(status=200)
