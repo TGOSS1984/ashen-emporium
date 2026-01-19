@@ -70,9 +70,16 @@ class Command(BaseCommand):
                 skipped_no_sku += 1
                 continue
 
-            if Product.objects.filter(sku=sku).exists():
+            existing = Product.objects.filter(sku=sku).first()
+            if existing:
                 skipped_existing += 1
+                if publish:
+                    existing.is_active = True
+                existing.stock_qty = default_stock
+                existing.price_pence = default_price
+                existing.save(update_fields=["is_active", "stock_qty", "price_pence"])
                 continue
+
 
             name = (asset.title or "").strip() or sku.replace("_", " ").title()
             category = category_from_source(asset)
