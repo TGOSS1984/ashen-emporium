@@ -365,3 +365,12 @@ body {
 .cart-summary {
     margin-top: 1rem;
 }
+
+/*CSS for empty state*/
+
+.empty-state {
+    padding: 3rem 1rem;
+    text-align: center;
+    border: 1px solid #1f2933;
+    background-color: #050608;
+}

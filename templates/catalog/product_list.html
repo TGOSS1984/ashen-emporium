@@ -62,8 +62,19 @@
             </div>
         </a>
     {% empty %}
+    {% if q or category or rarity or in_stock == "1" %}
         <p>No products matched your search.</p>
-    {% endfor %}
+        <p class="muted">Try clearing filters or browsing all categories.</p>
+    {% else %}
+        <div class="empty-state">
+            <h2>The Ashen Emporium is quiet…</h2>
+            <p class="muted">
+                No relics are currently offered for trade. Return later, Tarnished.
+            </p>
+        </div>
+    {% endif %}
+{% endfor %}
+
 </div>
 
 {% if page_obj.paginator.num_pages > 1 %}
