@@ -1,0 +1,2540 @@
+lore_code,lore_name,matched_sku,matched_product_name,score,action
+100,Petition for Help,,,0.524,UNMATCHED
+101,Broken Finger Stalker Contract,,,0.517,UNMATCHED
+1000,Crimson Amber Medallion,MENU_KNOWLEDGE_18000,Crimson Amber Medallion,1.000,UPDATED
+1001,Crimson Amber Medallion +1,MENU_KNOWLEDGE_18001,Crimson Amber Medallion +1,1.000,UPDATED
+1002,Crimson Amber Medallion +2,MENU_KNOWLEDGE_18002,Crimson Amber Medallion +2,1.000,UPDATED
+1010,Cerulean Amber Medallion,MENU_KNOWLEDGE_18010,Cerulean Amber Medallion,1.000,UPDATED
+1011,Cerulean Amber Medallion +1,MENU_KNOWLEDGE_18011,Cerulean Amber Medallion +1,1.000,UPDATED
+1012,Cerulean Amber Medallion +2,MENU_KNOWLEDGE_18012,Cerulean Amber Medallion +2,1.000,UPDATED
+1020,Viridian Amber Medallion,MENU_KNOWLEDGE_18020,Viridian Amber Medallion,1.000,UPDATED
+1021,Viridian Amber Medallion +1,MENU_KNOWLEDGE_18021,Viridian Amber Medallion +1,1.000,UPDATED
+1022,Viridian Amber Medallion +2,MENU_KNOWLEDGE_18022,Viridian Amber Medallion +2,1.000,UPDATED
+1030,Arsenal Charm,MENU_KNOWLEDGE_18030,Arsenal Charm,1.000,UPDATED
+1031,Arsenal Charm +1,MENU_KNOWLEDGE_18031,Arsenal Charm +1,1.000,UPDATED
+1032,Great-Jar's Arsenal,MENU_KNOWLEDGE_18032,Great-Jar_s Arsenal,1.000,UPDATED
+1040,Erdtree's Favor,MENU_KNOWLEDGE_18040,Erdtree_s Favor,1.000,UPDATED
+1041,Erdtree's Favor +1,MENU_KNOWLEDGE_18041,Erdtree_s Favor +1,1.000,UPDATED
+1042,Erdtree's Favor +2,MENU_KNOWLEDGE_18042,Erdtree_s Favor +2,1.000,UPDATED
+1050,Radagon's Scarseal,MENU_KNOWLEDGE_18050,Radagon_s Scarseal,1.000,UPDATED
+1051,Radagon's Soreseal,MENU_KNOWLEDGE_18051,Radagon_s Soreseal,1.000,UPDATED
+1060,Starscourge Heirloom,MENU_KNOWLEDGE_18070,Starscourge Heirloom,1.000,UPDATED
+1070,Prosthesis-Wearer Heirloom,MENU_KNOWLEDGE_18080,Prosthesis-Wearer Heirloom,1.000,UPDATED
+1080,Stargazer Heirloom,MENU_KNOWLEDGE_18090,Stargazer Heirloom,1.000,UPDATED
+1090,Two Fingers Heirloom,MENU_KNOWLEDGE_18100,Two Fingers Heirloom,1.000,UPDATED
+1100,Silver Scarab,MENU_KNOWLEDGE_18110,Silver Scarab,1.000,UPDATED
+1110,Gold Scarab,MENU_KNOWLEDGE_18120,Gold Scarab,1.000,UPDATED
+1140,Moon of Nokstella,MENU_KNOWLEDGE_18150,Moon of Nokstella,1.000,UPDATED
+1150,Green Turtle Talisman,MENU_KNOWLEDGE_18160,Green Turtle Talisman,1.000,UPDATED
+1160,Stalwart Horn Charm,MENU_KNOWLEDGE_18170,Stalwart Horn Charm,1.000,UPDATED
+1161,Stalwart Horn Charm +1,MENU_KNOWLEDGE_18171,Stalwart Horn Charm +1,1.000,UPDATED
+1170,Immunizing Horn Charm,MENU_KNOWLEDGE_18180,Immunizing Horn Charm,1.000,UPDATED
+1171,Immunizing Horn Charm +1,MENU_KNOWLEDGE_18181,Immunizing Horn Charm +1,1.000,UPDATED
+1180,Clarifying Horn Charm,MENU_KNOWLEDGE_18190,Clarifying Horn Charm,1.000,UPDATED
+1181,Clarifying Horn Charm +1,MENU_KNOWLEDGE_18190,Clarifying Horn Charm,0.955,DUPLICATE_SKIPPED
+1190,Prince of Death's Pustule,MENU_KNOWLEDGE_03220,Prince of Death_s Pustule,1.000,UPDATED
+1191,Prince of Death's Cyst,MENU_KNOWLEDGE_18201,Prince of Death_s Cyst,1.000,UPDATED
+1200,Mottled Necklace,MENU_KNOWLEDGE_18210,Mottled Necklace,1.000,UPDATED
+1201,Mottled Necklace +1,MENU_KNOWLEDGE_18211,Mottled Necklace +1,1.000,UPDATED
+1210,Bull-Goat's Talisman,MENU_KNOWLEDGE_18220,Bull-Goat_s Talisman,1.000,UPDATED
+1220,Marika's Scarseal,MENU_KNOWLEDGE_18060,Marika_s Scarseal,1.000,UPDATED
+1221,Marika's Soreseal,MENU_KNOWLEDGE_18061,Marika_s Soreseal,1.000,UPDATED
+1230,Warrior Jar Shard,MENU_KNOWLEDGE_18870,Warrior Jar Shard,1.000,UPDATED
+1231,Shard of Alexander,MENU_KNOWLEDGE_18871,Shard of Alexander,1.000,UPDATED
+1250,Millicent's Prosthesis,MENU_KNOWLEDGE_18890,Millicent_s Prosthesis,1.000,UPDATED
+2000,Magic Scorpion Charm,MENU_KNOWLEDGE_18230,Magic Scorpion Charm,1.000,UPDATED
+2010,Lightning Scorpion Charm,MENU_KNOWLEDGE_18240,Lightning Scorpion Charm,1.000,UPDATED
+2020,Fire Scorpion Charm,MENU_KNOWLEDGE_18250,Fire Scorpion Charm,1.000,UPDATED
+2030,Sacred Scorpion Charm,MENU_KNOWLEDGE_18260,Sacred Scorpion Charm,1.000,UPDATED
+2040,Red-Feathered Branchsword,MENU_KNOWLEDGE_18270,Red-Feathered Branch Sword,0.980,UPDATED
+2050,Ritual Sword Talisman,MENU_KNOWLEDGE_18280,Ritual Sword Talisman,1.000,UPDATED
+2060,Spear Talisman,MENU_KNOWLEDGE_18290,Spear Talisman,1.000,UPDATED
+2070,Hammer Talisman,MENU_KNOWLEDGE_18300,Hammer Talisman,1.000,UPDATED
+2080,Winged Sword Insignia,MENU_KNOWLEDGE_18310,Winged Sword Insignia,1.000,UPDATED
+2081,Rotten Winged Sword Insignia,MENU_KNOWLEDGE_18311,Rotten Winged Sword Insignia,1.000,UPDATED
+2090,Dagger Talisman,MENU_KNOWLEDGE_18320,Dagger Talisman,1.000,UPDATED
+2100,Arrow's Reach Talisman,MENU_KNOWLEDGE_18330,Arrow_s Reach Talisman,1.000,UPDATED
+2110,Blue Dancer Charm,MENU_KNOWLEDGE_18350,Blue Dancer Charm,1.000,UPDATED
+2120,Twinblade Talisman,MENU_KNOWLEDGE_18360,Twinblade Talisman,1.000,UPDATED
+2130,Axe Talisman,MENU_KNOWLEDGE_18370,Axe Talisman,1.000,UPDATED
+2140,Lance Talisman,MENU_KNOWLEDGE_18380,Lance Talisman,1.000,UPDATED
+2150,Arrow's Sting Talisman,MENU_KNOWLEDGE_18340,Arrow_s Sting Talisman,1.000,UPDATED
+2160,Lord of Blood's Exultation,MENU_KNOWLEDGE_18390,Lord of Blood_s Exultation,1.000,UPDATED
+2170,Kindred of Rot's Exultation,MENU_KNOWLEDGE_18400,Kindred of Rot_s Exultation,1.000,UPDATED
+2180,Claw Talisman,MENU_KNOWLEDGE_18800,Claw Talisman,1.000,UPDATED
+2190,Roar Medallion,MENU_KNOWLEDGE_18810,Roar Medallion,1.000,UPDATED
+2200,Curved Sword Talisman,MENU_KNOWLEDGE_18820,Curved Sword Talisman,1.000,UPDATED
+2210,Companion Jar,MENU_KNOWLEDGE_18830,Companion Jar,1.000,UPDATED
+2220,Perfumer's Talisman,MENU_KNOWLEDGE_18840,Perfumer_s Talisman,1.000,UPDATED
+3000,Graven-School Talisman,MENU_KNOWLEDGE_18410,Graven-School Talisman,1.000,UPDATED
+3001,Graven-Mass Talisman,MENU_KNOWLEDGE_18411,Graven-Mass Talisman,1.000,UPDATED
+3040,Faithful's Canvas Talisman,MENU_KNOWLEDGE_18440,Faithful_s Canvas Talisman,1.000,UPDATED
+3050,Flock's Canvas Talisman,MENU_KNOWLEDGE_18450,Flock_s Canvas Talisman,1.000,UPDATED
+3060,Old Lord's Talisman,MENU_KNOWLEDGE_18460,Old Lord_s Talisman,1.000,UPDATED
+3070,Radagon Icon,MENU_KNOWLEDGE_18470,Radagon_s Icon,0.923,LOW_CONFIDENCE
+3080,Primal Glintstone Blade,MENU_KNOWLEDGE_18480,Primal Glintstone Blade,1.000,UPDATED
+3090,Godfrey Icon,MENU_KNOWLEDGE_18860,Godfrey Icon,1.000,UPDATED
+4000,Dragoncrest Shield Talisman,MENU_KNOWLEDGE_18490,Dragoncrest Shield Talisman,1.000,UPDATED
+4001,Dragoncrest Shield Talisman +1,MENU_KNOWLEDGE_18491,Dragoncrest Shield Talisman +1,1.000,UPDATED
+4002,Dragoncrest Shield Talisman +2,MENU_KNOWLEDGE_18492,Dragoncrest Shield Talisman +2,1.000,UPDATED
+4003,Dragoncrest Greatshield Talisman,MENU_KNOWLEDGE_18493,Dragoncrest Greatshield Talisman,1.000,UPDATED
+4010,Spelldrake Talisman,MENU_KNOWLEDGE_18500,Spelldrake Talisman,1.000,UPDATED
+4011,Spelldrake Talisman +1,MENU_KNOWLEDGE_18501,Spelldrake Talisman +1,1.000,UPDATED
+4012,Spelldrake Talisman +2,MENU_KNOWLEDGE_18502,Spelldrake Talisman +2,1.000,UPDATED
+4020,Flamedrake Talisman,MENU_KNOWLEDGE_18510,Flamedrake Talisman,1.000,UPDATED
+4021,Flamedrake Talisman +1,MENU_KNOWLEDGE_18511,Flamedrake Talisman +1,1.000,UPDATED
+4022,Flamedrake Talisman +2,MENU_KNOWLEDGE_18512,Flamedrake Talisman +2,1.000,UPDATED
+4030,Boltdrake Talisman,MENU_KNOWLEDGE_18520,Boltdrake Talisman,1.000,UPDATED
+4031,Boltdrake Talisman +1,MENU_KNOWLEDGE_18521,Boltdrake Talisman +1,1.000,UPDATED
+4032,Boltdrake Talisman +2,MENU_KNOWLEDGE_18522,Boltdrake Talisman +2,1.000,UPDATED
+4040,Haligdrake Talisman,MENU_KNOWLEDGE_18530,Haligdrake Talisman,1.000,UPDATED
+4041,Haligdrake Talisman +1,MENU_KNOWLEDGE_18531,Haligdrake Talisman +1,1.000,UPDATED
+4042,Haligdrake Talisman +2,MENU_KNOWLEDGE_18532,Haligdrake Talisman +2,1.000,UPDATED
+4050,Pearldrake Talisman,MENU_KNOWLEDGE_18540,Pearldrake Talisman,1.000,UPDATED
+4051,Pearldrake Talisman +1,MENU_KNOWLEDGE_18541,Pearldrake Talisman +1,1.000,UPDATED
+4052,Pearldrake Talisman +2,MENU_KNOWLEDGE_18542,Pearldrake Talisman +2,1.000,UPDATED
+4060,Crucible Scale Talisman,MENU_KNOWLEDGE_18550,Crucible Scale Talisman,1.000,UPDATED
+4070,Crucible Feather Talisman,MENU_KNOWLEDGE_18560,Crucible Feather Talisman,1.000,UPDATED
+4080,Blue-Feathered Branchsword,MENU_KNOWLEDGE_18570,Blue-Feathered Branch Sword,0.981,UPDATED
+4090,Ritual Shield Talisman,MENU_KNOWLEDGE_18580,Ritual Shield Talisman,1.000,UPDATED
+4100,Greatshield Talisman,MENU_KNOWLEDGE_18590,Greatshield Talisman,1.000,UPDATED
+4110,Crucible Knot Talisman,MENU_KNOWLEDGE_18600,Crucible Knot Talisman,1.000,UPDATED
+5000,Crimson Seed Talisman,MENU_KNOWLEDGE_18610,Crimson Seed Talisman,1.000,UPDATED
+5010,Cerulean Seed Talisman,MENU_KNOWLEDGE_18620,Cerulean Seed Talisman,1.000,UPDATED
+5020,Blessed Dew Talisman,MENU_KNOWLEDGE_18630,Blessed Dew Talisman,1.000,UPDATED
+5030,Taker's Cameo,MENU_KNOWLEDGE_18640,Taker_s Cameo,1.000,UPDATED
+5040,Godskin Swaddling Cloth,MENU_KNOWLEDGE_18650,Godskin Swaddling Cloth,1.000,UPDATED
+5050,Assassin's Crimson Dagger,MENU_KNOWLEDGE_18660,Assassin_s Crimson Dagger,1.000,UPDATED
+5060,Assassin's Cerulean Dagger,MENU_KNOWLEDGE_18670,Assassin_s Cerulean Dagger,1.000,UPDATED
+6000,Crepus's Vial,MENU_KNOWLEDGE_18680,Crepus_s Vial,1.000,UPDATED
+6010,Concealing Veil,MENU_KNOWLEDGE_18690,Concealing Veil,1.000,UPDATED
+6020,Carian Filigreed Crest,MENU_KNOWLEDGE_18700,Carian Filigreed Crest,1.000,UPDATED
+6040,Longtail Cat Talisman,MENU_KNOWLEDGE_18720,Longtail Cat Talisman,1.000,UPDATED
+6050,Shabriri's Woe,MENU_KNOWLEDGE_18730,Shabriri_s Woe,1.000,UPDATED
+6060,Daedicar's Woe,MENU_KNOWLEDGE_18740,Daedicar_s Woe,1.000,UPDATED
+6070,Sacrificial Twig,MENU_KNOWLEDGE_18750,Sacrificial Twig,1.000,UPDATED
+6080,Furled Finger's Trick-Mirror,MENU_KNOWLEDGE_18760,Furled Finger_s Trick Mirror,1.000,UPDATED
+6090,Host's Trick-Mirror,MENU_KNOWLEDGE_18770,Host_s Trick Mirror,1.000,UPDATED
+6100,Entwining Umbilical Cord,,,0.481,UNMATCHED
+6110,Ancestral Spirit's Horn,MENU_KNOWLEDGE_18880,Ancestral Spirit_s Horn,1.000,UPDATED
+10,No Skill,,,0.526,UNMATCHED
+100,Lion's Claw,,,0.609,UNMATCHED
+101,Impaling Thrust,,,0.533,UNMATCHED
+102,Piercing Fang,,,0.538,UNMATCHED
+103,Spinning Slash,,,0.552,UNMATCHED
+105,Charge Forth,,,0.560,UNMATCHED
+106,Stamp (Upward Cut),,,0.483,UNMATCHED
+107,Stamp (Sweep),,,0.636,UNMATCHED
+108,Blood Tax,,,0.615,UNMATCHED
+109,Repeating Thrust,,,0.621,UNMATCHED
+110,Wild Strikes,,,0.609,UNMATCHED
+111,Spinning Strikes,MENU_KNOWLEDGE_06408,Lightning Strike,0.750,LOW_CONFIDENCE
+112,Double Slash,,,0.522,UNMATCHED
+113,Prelate's Charge,,,0.634,UNMATCHED
+114,Unsheathe,,,0.571,UNMATCHED
+115,Square Off,,,0.609,UNMATCHED
+116,Giant Hunt,,,0.545,UNMATCHED
+117,Torch Attack,,,0.522,UNMATCHED
+118,Loretta's Slash,MENU_KNOWLEDGE_06026,Loretta_s Mastery,0.750,LOW_CONFIDENCE
+119,Poison Moth Flight,,,0.621,UNMATCHED
+120,Spinning Weapon,,,0.571,UNMATCHED
+122,Storm Assault,,,0.545,UNMATCHED
+123,Stormcaller,,,0.600,UNMATCHED
+124,Sword Dance,,,0.560,UNMATCHED
+125,Spinning Chain,,,0.541,UNMATCHED
+200,Glintblade Phalanx,MENU_KNOWLEDGE_06005,Glintblade Phalanx,1.000,UPDATED
+201,Sacred Blade,,,0.696,UNMATCHED
+202,Ice Spear,MENU_KNOWLEDGE_10614,Spiked Spear,0.762,LOW_CONFIDENCE
+203,Glintstone Pebble,MENU_KNOWLEDGE_06000,Glintstone Pebble,1.000,UPDATED
+204,Bloody Slash,,,0.643,UNMATCHED
+205,Lifesteal Fist,,,0.696,UNMATCHED
+207,Eruption,,,0.588,UNMATCHED
+208,Prayerful Strike,,,0.571,UNMATCHED
+209,Gravitas,,,0.625,UNMATCHED
+210,Storm Blade,,,0.667,UNMATCHED
+212,Earthshaker,,,0.593,UNMATCHED
+213,Golden Land,,,0.727,UNMATCHED
+214,Flaming Strike,,,0.733,UNMATCHED
+216,Thunderbolt,,,0.667,UNMATCHED
+217,Lightning Slash,MENU_KNOWLEDGE_06406,Lightning Spear,0.800,LOW_CONFIDENCE
+218,Carian Grandeur,,,0.690,UNMATCHED
+219,Carian Greatsword,MENU_KNOWLEDGE_06050,Carian Greatsword,1.000,UPDATED
+220,Vacuum Slice,,,0.560,UNMATCHED
+221,Black Flame Tornado,MENU_KNOWLEDGE_06214,Black Flame Ritual,0.757,LOW_CONFIDENCE
+222,Sacred Ring of Light,MENU_KNOWLEDGE_06061,Triple Rings of Light,0.780,LOW_CONFIDENCE
+223,Firebreather,,,0.640,UNMATCHED
+224,Blood Blade,,,0.727,UNMATCHED
+225,Phantom Slash,,,0.500,UNMATCHED
+226,Spectral Lance,,,0.600,UNMATCHED
+227,Chilling Mist,,,0.621,UNMATCHED
+228,Poisonous Mist,MENU_KNOWLEDGE_06610,Poison Mist,0.880,LOW_CONFIDENCE
+300,Shield Bash,,,0.581,UNMATCHED
+301,Barricade Shield,,,0.733,UNMATCHED
+302,Parry,,,0.600,UNMATCHED
+303,Buckler Parry,,,0.700,UNMATCHED
+305,Carian Retaliation,MENU_KNOWLEDGE_06040,Carian Retaliation,1.000,UPDATED
+306,Storm Wall,,,0.609,UNMATCHED
+307,Golden Parry,,,0.696,UNMATCHED
+308,Shield Crash,,,0.562,UNMATCHED
+309,Thops's Barrier,MENU_KNOWLEDGE_06039,Thops_s Barrier,1.000,UPDATED
+400,Through and Through,,,0.478,UNMATCHED
+401,Barrage,,,0.636,UNMATCHED
+402,Mighty Shot,,,0.667,UNMATCHED
+404,Enchanted Shot,,,0.560,UNMATCHED
+405,Sky Shot,,,0.556,UNMATCHED
+406,Rain of Arrows,,,0.611,UNMATCHED
+501,Hoarfrost Stomp,,,0.538,UNMATCHED
+502,Storm Stomp,,,0.600,UNMATCHED
+503,Kick,,,0.545,UNMATCHED
+504,Lightning Ram,MENU_KNOWLEDGE_06406,Lightning Spear,0.786,LOW_CONFIDENCE
+505,Flame of the Redmanes,,,0.714,UNMATCHED
+506,Ground Slam,,,0.696,UNMATCHED
+507,Golden Slam,,,0.727,UNMATCHED
+508,Waves of Darkness,,,0.640,UNMATCHED
+509,Hoarah Loux's Earthshaker,,,0.500,UNMATCHED
+600,Determination,,,0.545,UNMATCHED
+601,Royal Knight's Resolve,,,0.636,UNMATCHED
+602,Assassin's Gambit,,,0.684,UNMATCHED
+603,Golden Vow,MENU_KNOWLEDGE_06504,Golden Vow,1.000,UPDATED
+604,Sacred Order,,,0.621,UNMATCHED
+605,Shared Order,,,0.667,UNMATCHED
+606,Seppuku,,,0.353,UNMATCHED
+607,Cragblade,,,0.600,UNMATCHED
+650,Barbaric Roar,,,0.522,UNMATCHED
+651,War Cry,,,0.500,UNMATCHED
+652,Beast's Roar,,,0.667,UNMATCHED
+653,Troll's Roar,MENU_KNOWLEDGE_06092,Greyoll_s Roar,0.846,LOW_CONFIDENCE
+654,Braggart's Roar,,,0.600,UNMATCHED
+700,Endure,,,0.526,UNMATCHED
+701,Vow of the Indomitable,,,0.511,UNMATCHED
+702,Holy Ground,,,0.526,UNMATCHED
+800,Quickstep,,,0.500,UNMATCHED
+801,Bloodhound's Step,,,0.727,UNMATCHED
+802,Raptor of the Mists,,,0.579,UNMATCHED
+850,White Shadow's Lure,,,0.467,UNMATCHED
+1000,Surge of Faith,,,0.741,UNMATCHED
+1001,Flame Spit,MENU_KNOWLEDGE_06202,Flame Sling,0.762,LOW_CONFIDENCE
+1002,Tongues of Fire,,,0.581,UNMATCHED
+1003,Oracular Bubble,MENU_KNOWLEDGE_06608,Great Oracular Bubble,0.833,LOW_CONFIDENCE
+1004,Bubble Shower,,,0.583,UNMATCHED
+1005,Great Oracular Bubble,MENU_KNOWLEDGE_06608,Great Oracular Bubble,1.000,UPDATED
+1006,Sea of Magma,,,0.615,UNMATCHED
+1007,Viper Bite,,,0.667,UNMATCHED
+1008,Moonlight Greatsword,,,0.649,UNMATCHED
+1009,Siluria's Woe,,,0.667,UNMATCHED
+1010,Rallying Standard,,,0.621,UNMATCHED
+1011,Bear Witness!,,,0.600,UNMATCHED
+1012,Eochaid's Dancing Blade,,,0.550,UNMATCHED
+1013,Soul Stifler,,,0.571,UNMATCHED
+1014,Taker's Flames,MENU_KNOWLEDGE_18640,Taker_s Cameo,0.815,LOW_CONFIDENCE
+1015,Shriek of Milos,,,0.571,UNMATCHED
+1016,Reduvia Blood Blade,,,0.611,UNMATCHED
+1017,Glintstone Dart,MENU_KNOWLEDGE_06014,Glintstone Arc,0.897,LOW_CONFIDENCE
+1018,Flowing Form,,,0.600,UNMATCHED
+1019,Night-and-Flame Stance,,,0.585,UNMATCHED
+1020,Wave of Gold,MENU_KNOWLEDGE_06251,Wrath of Gold,0.800,LOW_CONFIDENCE
+1021,Ruinous Ghostflame,,,0.632,UNMATCHED
+1022,Establish Order,,,0.615,UNMATCHED
+1023,Mists of Slumber,,,0.552,UNMATCHED
+1024,Spearcall Ritual,,,0.600,UNMATCHED
+1025,Wolf's Assault,,,0.600,UNMATCHED
+1026,Thundercloud Form,,,0.571,UNMATCHED
+1027,Cursed-Blood Slice,,,0.564,UNMATCHED
+1028,Waterfowl Dance,,,0.581,UNMATCHED
+1029,Gold Breaker,,,0.609,UNMATCHED
+1030,"I Command Thee, Kneel!",,,0.516,UNMATCHED
+1031,Regal Roar,,,0.667,UNMATCHED
+1032,Starcaller Cry,,,0.562,UNMATCHED
+1033,Wave of Destruction,,,0.562,UNMATCHED
+1034,Bloodboon Ritual,,,0.720,UNMATCHED
+1035,Flowing Form,,,0.600,UNMATCHED
+1036,Blade of Death,,,0.643,UNMATCHED
+1037,Blade of Gold,MENU_KNOWLEDGE_06311,Barrier of Gold,0.786,LOW_CONFIDENCE
+1038,Destined Death,,,0.615,UNMATCHED
+1039,Spinning Wheel,,,0.593,UNMATCHED
+1040,Alabaster Lords' Pull,,,0.516,UNMATCHED
+1041,Onyx Lords' Repulsion,,,0.564,UNMATCHED
+1042,Oath of Vengeance,,,0.533,UNMATCHED
+1043,Ice Lightning Sword,,,0.706,UNMATCHED
+1044,Regal Beastclaw,,,0.720,UNMATCHED
+1045,Flame Dance,,,0.667,UNMATCHED
+1046,Claw Flick,,,0.609,UNMATCHED
+1047,Nebula,,,0.556,UNMATCHED
+1048,Ghostflame Ignition,,,0.632,UNMATCHED
+1049,Ancient Lightning Spear,MENU_KNOWLEDGE_06074,Ancient Dragons_ Lightning Spear,0.852,LOW_CONFIDENCE
+1050,Frenzyflame Thrust,,,0.649,UNMATCHED
+1051,Miquella's Ring of Light,,,0.711,UNMATCHED
+1052,Golden Tempering,,,0.632,UNMATCHED
+1053,Last Rites,,,0.545,UNMATCHED
+1054,Unblockable Blade,,,0.714,UNMATCHED
+1167,Corpse Wax Cutter,,,0.526,UNMATCHED
+1168,Zamor Ice Storm,MENU_KNOWLEDGE_06029,Zamor Ice Storm,1.000,UPDATED
+1169,Radahn's Rain,MENU_KNOWLEDGE_03079,Radahn_s Great Rune,0.750,LOW_CONFIDENCE
+1170,The Queen's Black Flame,,,0.651,UNMATCHED
+1171,Dynast's Finesse,,,0.533,UNMATCHED
+1172,Magma Shower,MENU_KNOWLEDGE_06205,Magma Shot,0.818,LOW_CONFIDENCE
+1173,Nebula,,,0.556,UNMATCHED
+1174,Death Flare,,,0.727,UNMATCHED
+1175,Bloodhound's Finesse,,,0.667,UNMATCHED
+1176,Magma Guillotine,,,0.615,UNMATCHED
+1177,Corpse Piler,,,0.560,UNMATCHED
+1178,Transient Moonlight,,,0.560,UNMATCHED
+1179,Bloodblade Dance,,,0.667,UNMATCHED
+1182,Knowledge Above All,,,0.513,UNMATCHED
+1183,Devourer of Worlds,,,0.606,UNMATCHED
+1184,Familal Rancor,,,0.588,UNMATCHED
+1185,Rosus's Summons,,,0.667,UNMATCHED
+1186,Thunderstorm,,,0.522,UNMATCHED
+1187,Sacred Phalanx,,,0.714,UNMATCHED
+1188,Great-Serpent Hunt,,,0.579,UNMATCHED
+1189,Angel's Wings,,,0.583,UNMATCHED
+1190,Storm Kick,,,0.667,UNMATCHED
+1191,Unblockable Blade,,,0.714,UNMATCHED
+1192,Sorcery of the Crozier,,,0.583,UNMATCHED
+1193,Erdtree Slam,MENU_KNOWLEDGE_11246,Erdtree Seal,0.833,LOW_CONFIDENCE
+1194,Gravity Bolt,MENU_KNOWLEDGE_06043,Gravity Well,0.750,LOW_CONFIDENCE
+1195,Fires of Slumber,,,0.556,UNMATCHED
+1196,Golden Retaliation,,,0.722,UNMATCHED
+1197,Contagious Fury,,,0.571,UNMATCHED
+1198,Ordovis's Vortex,,,0.541,UNMATCHED
+1199,Spinning Weapon,,,0.571,UNMATCHED
+1,[26000050] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+2,[26000051] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+3,[26000052] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+4,[26000053] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+5,[26000054] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+6,[26000055] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+7,[26000056] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+8,[26000057] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+9,[26000058] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+10,[26000059] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+11,[26000060] Nomadic Merchant's Bell Bearing,,,0.516,UNMATCHED
+1,[26000071] Isolated Merchant's Bell Bearing,,,0.540,UNMATCHED
+2,[26000072] Isolated Merchant's Bell Bearing,,,0.540,UNMATCHED
+1,[26000073] Hermit Merchant's Bell Bearing,,,0.575,UNMATCHED
+3,[26000074] Isolated Merchant's Bell Bearing,,,0.540,UNMATCHED
+2,[26000075] Hermit Merchant's Bell Bearing,,,0.575,UNMATCHED
+3,[26000077] Hermit Merchant's Bell Bearing,,,0.575,UNMATCHED
+1,[26000121] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+2,[26000122] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+3,[26000123] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+4,[26000124] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+5,[26000125] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+1,[26000126] Offer Isolated Merchant's Bell Bearing,,,0.522,UNMATCHED
+2,[26000127] Offer Isolated Merchant's Bell Bearing,,,0.522,UNMATCHED
+6,[26000128] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+1,[26000129] Offer Hermit Merchant's Bell Bearing,,,0.532,UNMATCHED
+7,[26000130] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+8,[26000131] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+9,[26000132] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+10,[26000133] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+11,[26000134] Offer Nomadic Merchant's Bell Bearing,,,0.506,UNMATCHED
+3,[26000135] Offer Isolated Merchant's Bell Bearing,,,0.522,UNMATCHED
+2,[26000136] Offer Hermit Merchant's Bell Bearing,,,0.532,UNMATCHED
+3,[26000138] Offer Hermit Merchant's Bell Bearing,,,0.532,UNMATCHED
+1,[26000151] Offer Smithing Miner's Bell Bearing,,,0.568,UNMATCHED
+2,[26000152] Offer Smithing Miner's Bell Bearing,,,0.568,UNMATCHED
+3,[26000153] Offer Smithing Miner's Bell Bearing,,,0.568,UNMATCHED
+4,[26000154] Offer Smithing Miner's Bell Bearing,,,0.568,UNMATCHED
+1,[26000155] Offer Somber Miner's Bell Bearing,,,0.582,UNMATCHED
+2,[26000156] Offer Somber Miner's Bell Bearing,,,0.582,UNMATCHED
+3,[26000157] Offer Somber Miner's Bell Bearing,,,0.582,UNMATCHED
+4,[26000158] Offer Somber Miner's Bell Bearing,,,0.582,UNMATCHED
+5,[26000159] Offer Somber Miner's Bell Bearing,,,0.582,UNMATCHED
+1,[26000160] Offer Glovewort Picker's Bell Bearing,,,0.559,UNMATCHED
+2,[26000161] Offer Glovewort Picker's Bell Bearing,,,0.559,UNMATCHED
+3,[26000162] Offer Glovewort Picker's Bell Bearing,,,0.559,UNMATCHED
+1,[26000163] Offer Ghostform Picker's Bell Bearing,,,0.554,UNMATCHED
+2,[26000164] Offer Ghostform Picker's Bell Bearing,,,0.554,UNMATCHED
+3,[26000165] Offer Ghostform Picker's Bell Bearing,,,0.554,UNMATCHED
+1,[26001121] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+2,[26001122] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+3,[26001123] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+4,[26001124] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+5,[26001125] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+1,[26001126] Offered Isolated Merchant's Bell Bearing,,,0.507,UNMATCHED
+2,[26001127] Offered Isolated Merchant's Bell Bearing,,,0.507,UNMATCHED
+6,[26001128] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+1,[26001129] Offered Hermit Merchant's Bell Bearing,,,0.519,UNMATCHED
+7,[26001130] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+8,[26001131] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+9,[26001132] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+10,[26001133] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+11,[26001134] Offered Nomadic Merchant's Bell Bearing,,,0.518,UNMATCHED
+3,[26001135] Offered Isolated Merchant's Bell Bearing,,,0.507,UNMATCHED
+2,[26001136] Offered Hermit Merchant's Bell Bearing,,,0.519,UNMATCHED
+3,[26001138] Offered Hermit Merchant's Bell Bearing,,,0.519,UNMATCHED
+1,[26001151] Offered Smithing Miner's Bell Bearing,,,0.530,UNMATCHED
+2,[26001152] Offered Smithing Miner's Bell Bearing,,,0.530,UNMATCHED
+3,[26001153] Offered Smithing Miner's Bell Bearing,,,0.530,UNMATCHED
+4,[26001154] Offered Smithing Miner's Bell Bearing,,,0.530,UNMATCHED
+1,[26001155] Offered Somber Miner's Bell Bearing,,,0.543,UNMATCHED
+2,[26001156] Offered Somber Miner's Bell Bearing,,,0.543,UNMATCHED
+3,[26001157] Offered Somber Miner's Bell Bearing,,,0.543,UNMATCHED
+4,[26001158] Offered Somber Miner's Bell Bearing,,,0.543,UNMATCHED
+5,[26001159] Offered Somber Miner's Bell Bearing,,,0.543,UNMATCHED
+1,[26001160] Offered Glovewort Picker's Bell Bearing,,,0.543,UNMATCHED
+2,[26001161] Offered Glovewort Picker's Bell Bearing,,,0.543,UNMATCHED
+3,[26001162] Offered Glovewort Picker's Bell Bearing,,,0.543,UNMATCHED
+1,[26001163] Offered Ghostform Picker's Bell Bearing,,,0.518,UNMATCHED
+2,[26001164] Offered Ghostform Picker's Bell Bearing,,,0.518,UNMATCHED
+3,[26001165] Offered Ghostform Picker's Bell Bearing,,,0.518,UNMATCHED
+10,test gem 1,,,0.526,UNMATCHED
+10000,Ash of War: Lion's Claw,,,0.514,UNMATCHED
+10100,Ash of War: Impaling Thrust,,,0.500,UNMATCHED
+10200,Ash of War: Piercing Fang,,,0.500,UNMATCHED
+10300,Ash of War: Spinning Slash,,,0.500,UNMATCHED
+10500,Ash of War: Charge Forth,,,0.528,UNMATCHED
+10600,Ash of War: Stamp (Upward Cut),,,0.480,UNMATCHED
+10700,Ash of War: Stamp (Sweep),,,0.526,UNMATCHED
+10800,Ash of War: Blood Tax,,,0.537,UNMATCHED
+10900,Ash of War: Repeating Thrust,,,0.500,UNMATCHED
+11000,Ash of War: Wild Strikes,,,0.526,UNMATCHED
+11100,Ash of War: Spinning Strikes,,,0.558,UNMATCHED
+11200,Ash of War: Double Slash,,,0.528,UNMATCHED
+11300,Ash of War: Prelate's Charge,,,0.500,UNMATCHED
+11400,Ash of War: Unsheathe,,,0.600,UNMATCHED
+11500,Ash of War: Square Off,,,0.513,UNMATCHED
+11600,Ash of War: Giant Hunt,,,0.529,UNMATCHED
+11700,Ash of War: Torch Attack,,,0.476,UNMATCHED
+11800,Ash of War: Loretta's Slash,,,0.558,UNMATCHED
+11900,Ash of War: Poison Moth Flight,,,0.490,UNMATCHED
+12000,Ash of War: Spinning Weapon,,,0.486,UNMATCHED
+12100,Ashes of War: Wicked Stance,,,0.500,UNMATCHED
+12200,Ash of War: Storm Assault,,,0.524,UNMATCHED
+12300,Ash of War: Stormcaller,,,0.550,UNMATCHED
+12400,Ash of War: Sword Dance,,,0.500,UNMATCHED
+12500,Ash of War: Spinning Chain,,,0.500,UNMATCHED
+20000,Ash of War: Glintblade Phalanx,MENU_KNOWLEDGE_06005,Glintblade Phalanx,0.766,LOW_CONFIDENCE
+20100,Ash of War: Sacred Blade,,,0.556,UNMATCHED
+20200,Ash of War: Ice Spear,,,0.645,UNMATCHED
+20300,Ash of War: Glintstone Pebble,MENU_KNOWLEDGE_06000,Glintstone Pebble,0.756,LOW_CONFIDENCE
+20400,Ash of War: Bloody Slash,,,0.545,UNMATCHED
+20500,Ash of War: Lifesteal Fist,,,0.474,UNMATCHED
+20700,Ash of War: Eruption,,,0.625,UNMATCHED
+20800,Ash of War: Prayerful Strike,,,0.465,UNMATCHED
+20900,Ash of War: Gravitas,,,0.514,UNMATCHED
+21000,Ash of War: Storm Blade,,,0.571,UNMATCHED
+21200,Ash of War: Earthshaker,,,0.571,UNMATCHED
+21300,Ash of War: Golden Land,,,0.600,UNMATCHED
+21400,Ash of War: Flaming Strike,,,0.537,UNMATCHED
+21600,Ash of War: Thunderbolt,,,0.550,UNMATCHED
+21700,Ash of War: Lightning Slash,,,0.585,UNMATCHED
+21800,Ash of War: Carian Grandeur,,,0.545,UNMATCHED
+21900,Ash of War: Carian Greatsword,MENU_KNOWLEDGE_06050,Carian Greatsword,0.756,LOW_CONFIDENCE
+22000,Ash of War: Vacuum Slice,,,0.512,UNMATCHED
+22100,Ash of War: Black Flame Tornado,,,0.600,UNMATCHED
+22200,Ash of War: Sacred Ring of Light,,,0.655,UNMATCHED
+22300,Ash of War: Firebreather,,,0.537,UNMATCHED
+22400,Ash of War: Blood Blade,,,0.550,UNMATCHED
+22500,Ash of War: Phantom Slash,,,0.474,UNMATCHED
+22600,Ash of War: Spectral Lance,,,0.541,UNMATCHED
+22700,Ash of War: Chilling Mist,,,0.541,UNMATCHED
+22800,Ash of War: Poisonous Mist,,,0.611,UNMATCHED
+30000,Ash of War: Shield Bash,,,0.632,UNMATCHED
+30100,Ash of War: Barricade Shield,,,0.605,UNMATCHED
+30200,Ash of War: Parry,,,0.562,UNMATCHED
+30300,Ash of War: Buckler Parry,,,0.500,UNMATCHED
+30400,Ash of War: Parry,,,0.562,UNMATCHED
+30500,Ash of War: Carian Retaliation,MENU_KNOWLEDGE_06040,Carian Retaliation,0.766,LOW_CONFIDENCE
+30600,Ash of War: Storm Wall,,,0.545,UNMATCHED
+30700,Ash of War: Golden Parry,,,0.556,UNMATCHED
+30800,Ash of War: Shield Crash,,,0.615,UNMATCHED
+30900,Ash of War: No Skill,,,0.571,UNMATCHED
+31000,Ash of War: Thops's Barrier,,,0.732,UNMATCHED
+40000,Ash of War: Through and Through,,,0.467,UNMATCHED
+40100,Ash of War: Barrage,,,0.556,UNMATCHED
+40200,Ash of War: Mighty Shot,,,0.512,UNMATCHED
+40400,Ash of War: Enchanted Shot,,,0.533,UNMATCHED
+40500,Ash of War: Sky Shot,,,0.571,UNMATCHED
+40600,Ash of War: Rain of Arrows,,,0.553,UNMATCHED
+40700,Ashes of War: Invisible Arrow,,,0.536,UNMATCHED
+50100,Ash of War: Hoarfrost Stomp,,,0.444,UNMATCHED
+50200,Ash of War: Storm Stomp,,,0.500,UNMATCHED
+50300,Ash of War: Kick,,,0.571,UNMATCHED
+50400,Ash of War: Lightning Ram,,,0.615,UNMATCHED
+50500,Ash of War: Flame of the Redmanes,,,0.566,UNMATCHED
+50600,Ash of War: Ground Slam,,,0.514,UNMATCHED
+50700,Ash of War: Golden Slam,,,0.571,UNMATCHED
+50800,Ash of War: Waves of Darkness,,,0.489,UNMATCHED
+50900,Ash of War: Hoarah Loux's Earthshaker,,,0.429,UNMATCHED
+60000,Ash of War: Determination,,,0.537,UNMATCHED
+60100,Ash of War: Royal Knight's Resolve,,,0.545,UNMATCHED
+60200,Ash of War: Assassin's Gambit,,,0.531,UNMATCHED
+60300,Ash of War: Golden Vow,,,0.645,UNMATCHED
+60400,Ash of War: Sacred Order,,,0.537,UNMATCHED
+60500,Ash of War: Shared Order,,,0.537,UNMATCHED
+60600,Ash of War: Seppuku,,,0.516,UNMATCHED
+60700,Ash of War: Cragblade,,,0.545,UNMATCHED
+65000,Ash of War: Barbaric Roar,,,0.500,UNMATCHED
+65100,Ash of War: War Cry,,,0.471,UNMATCHED
+65200,Ash of War: Beast's Roar,,,0.545,UNMATCHED
+65300,Ash of War: Troll's Roar,,,0.595,UNMATCHED
+65400,Ash of War: Braggart's Roar,,,0.500,UNMATCHED
+70000,Ash of War: Endure,,,0.629,UNMATCHED
+70100,Ash of War: Vow of the Indomitable,,,0.492,UNMATCHED
+70200,Ash of War: Holy Ground,,,0.514,UNMATCHED
+80000,Ash of War: Quickstep,,,0.550,UNMATCHED
+80100,Ash of War: Bloodhound's Step,,,0.545,UNMATCHED
+80200,Ash of War: Raptor of the Mists,,,0.490,UNMATCHED
+85000,Ash of War: White Shadow's Lure,,,0.520,UNMATCHED
+100,Tarnished's Furled Finger,,,0.588,UNMATCHED
+101,Duelist's Furled Finger,,,0.564,UNMATCHED
+102,Bloody Finger,,,0.571,UNMATCHED
+103,Finger Severer,,,0.720,UNMATCHED
+104,White Cipher Ring,,,0.571,UNMATCHED
+105,Blue Cipher Ring,,,0.606,UNMATCHED
+106,Tarnished's Wizened Finger,,,0.615,UNMATCHED
+107,Phantom Bloody Finger,,,0.513,UNMATCHED
+108,Taunter's Tongue,,,0.588,UNMATCHED
+109,Small Golden Effigy,,,0.564,UNMATCHED
+110,Small Red Effigy,,,0.474,UNMATCHED
+111,Festering Bloody Finger,,,0.529,UNMATCHED
+112,Recusant Finger,,,0.538,UNMATCHED
+115,Memory of Grace,,,0.667,UNMATCHED
+130,Spectral Steed Whistle,,,0.564,UNMATCHED
+135,Phantom Great Rune,,,0.703,UNMATCHED
+150,Furlcalling Finger Remedy,,,0.528,UNMATCHED
+190,Rune Arc,,,0.556,UNMATCHED
+191,Godrick's Great Rune,MENU_KNOWLEDGE_03078,Godrick_s Great Rune,1.000,UPDATED
+192,Radahn's Great Rune,MENU_KNOWLEDGE_03079,Radahn_s Great Rune,1.000,UPDATED
+193,Morgott's Great Rune,MENU_KNOWLEDGE_03080,Morgott_s Great Rune,1.000,UPDATED
+194,Rykard's Great Rune,MENU_KNOWLEDGE_03081,Rykard_s Great Rune,1.000,UPDATED
+195,Mohg's Great Rune,MENU_KNOWLEDGE_03082,Mohg_s Great Rune,1.000,UPDATED
+196,Malenia's Great Rune,MENU_KNOWLEDGE_03083,Malenia_s Great Rune,1.000,UPDATED
+200,Flask of Crimson Tears,,,0.600,UNMATCHED
+201,Flask of Crimson Tears,,,0.600,UNMATCHED
+220,Flask of Cerulean Tears,,,0.612,UNMATCHED
+221,Flask of Cerulean Tears,,,0.612,UNMATCHED
+250,Flask of Wondrous Physick,,,0.489,UNMATCHED
+251,Flask of Wondrous Physick,,,0.489,UNMATCHED
+300,Fire Pot,,,0.632,UNMATCHED
+301,Redmane Fire Pot,,,0.629,UNMATCHED
+302,Giantsflame Fire Pot,,,0.732,UNMATCHED
+320,Lightning Pot,MENU_KNOWLEDGE_06406,Lightning Spear,0.786,LOW_CONFIDENCE
+321,Ancient Dragonbolt Pot,,,0.723,UNMATCHED
+330,Fetid Pot,,,0.600,UNMATCHED
+340,Swarm Pot,,,0.609,UNMATCHED
+350,Holy Water Pot,,,0.519,UNMATCHED
+351,Sacred Order Pot,,,0.593,UNMATCHED
+360,Freezing Pot,MENU_KNOWLEDGE_06030,Freezing Mist,0.800,LOW_CONFIDENCE
+370,Poison Pot,MENU_KNOWLEDGE_06610,Poison Mist,0.762,LOW_CONFIDENCE
+380,Oil Pot,,,0.706,UNMATCHED
+390,Alluring Pot,,,0.593,UNMATCHED
+391,Beastlure Pot,,,0.583,UNMATCHED
+400,Roped Fire Pot,,,0.560,UNMATCHED
+420,Roped Lightning Pot,,,0.732,UNMATCHED
+430,Roped Fetid Pot,,,0.538,UNMATCHED
+440,Roped Poison Pot,,,0.667,UNMATCHED
+450,Roped Oil Pot,,,0.625,UNMATCHED
+460,Roped Magic Pot,,,0.552,UNMATCHED
+470,Roped Fly Pot,,,0.625,UNMATCHED
+480,Roped Freezing Pot,,,0.645,UNMATCHED
+490,Roped Volcano Pot,,,0.556,UNMATCHED
+510,Roped Holy Water Pot,,,0.541,UNMATCHED
+600,Volcano Pot,,,0.571,UNMATCHED
+610,Albinauric Pot,MENU_KNOWLEDGE_11041,Albinauric Bow,0.857,LOW_CONFIDENCE
+630,Cursed-Blood Pot,,,0.593,UNMATCHED
+640,Sleep Pot,,,0.526,UNMATCHED
+650,Rancor Pot,,,0.667,UNMATCHED
+660,Magic Pot,,,0.696,UNMATCHED
+661,Academy Magic Pot,,,0.564,UNMATCHED
+670,Rot Pot,,,0.706,UNMATCHED
+810,Rowa Raisin,,,0.667,UNMATCHED
+811,Sweet Raisin,,,0.571,UNMATCHED
+812,Frozen Raisin,,,0.714,UNMATCHED
+820,Boiled Crab,,,0.727,UNMATCHED
+830,Boiled Prawn,,,0.600,UNMATCHED
+900,Neutralizing Boluses,,,0.545,UNMATCHED
+910,Stanching Boluses,,,0.562,UNMATCHED
+920,Thawfrost Boluses,,,0.516,UNMATCHED
+930,Stimulating Boluses,,,0.588,UNMATCHED
+940,Preserving Boluses,,,0.516,UNMATCHED
+950,Rejuvenating Boluses,,,0.485,UNMATCHED
+960,Clarifying Boluses,,,0.645,UNMATCHED
+1000,Flask of Crimson Tears,,,0.600,UNMATCHED
+1001,Flask of Crimson Tears,,,0.600,UNMATCHED
+1050,Flask of Cerulean Tears,,,0.612,UNMATCHED
+1051,Flask of Cerulean Tears,,,0.612,UNMATCHED
+1100,Pickled Turtle Neck,,,0.629,UNMATCHED
+1110,Immunizing Cured Meat,,,0.667,UNMATCHED
+1120,Invigorating Cured Meat,,,0.545,UNMATCHED
+1130,Clarifying Cured Meat,,,0.667,UNMATCHED
+1140,Dappled Cured Meat,,,0.595,UNMATCHED
+1150,Spellproof Dried Liver,,,0.537,UNMATCHED
+1160,Fireproof Dried Liver,,,0.488,UNMATCHED
+1170,Lightningproof Dried Liver,,,0.621,UNMATCHED
+1180,Holyproof Dried Liver,,,0.542,UNMATCHED
+1190,Silver-Pickled Fowl Foot,,,0.651,UNMATCHED
+1200,Gold-Pickled Fowl Foot,,,0.683,UNMATCHED
+1210,Exalted Flesh,,,0.571,UNMATCHED
+1220,Deathsbane Jerky,,,0.480,UNMATCHED
+1235,Raw Meat Dumpling,,,0.581,UNMATCHED
+1240,Shabriri Grape,MENU_KNOWLEDGE_03052,Shabriri Grape,1.000,UPDATED
+1290,Starlight Shards,,,0.741,UNMATCHED
+1310,Immunizing White Cured Meat,,,0.667,UNMATCHED
+1320,Invigorating White Cured Meat,,,0.557,UNMATCHED
+1330,Clarifying White Cured Meat,,,0.667,UNMATCHED
+1340,Dappled White Cured Meat,,,0.512,UNMATCHED
+1350,Deathsbane White Jerky,,,0.500,UNMATCHED
+1400,Fire Grease,,,0.643,UNMATCHED
+1410,Lightning Grease,MENU_KNOWLEDGE_06406,Lightning Spear,0.774,LOW_CONFIDENCE
+1420,Magic Grease,,,0.600,UNMATCHED
+1430,Holy Grease,,,0.621,UNMATCHED
+1440,Blood Grease,MENU_KNOWLEDGE_01028,Bloodrose,0.762,LOW_CONFIDENCE
+1450,Soporific Grease,,,0.556,UNMATCHED
+1460,Poison Grease,,,0.667,UNMATCHED
+1470,Freezing Grease,,,0.714,UNMATCHED
+1480,Dragonwound Grease,,,0.647,UNMATCHED
+1490,Rot Grease,,,0.720,UNMATCHED
+1500,Drawstring Fire Grease,,,0.638,UNMATCHED
+1510,Drawstring Lightning Grease,,,0.619,UNMATCHED
+1520,Drawstring Magic Grease,,,0.583,UNMATCHED
+1530,Drawstring Holy Grease,,,0.596,UNMATCHED
+1540,Drawstring Blood Grease,,,0.615,UNMATCHED
+1550,Drawstring Soporific Grease,,,0.558,UNMATCHED
+1560,Drawstring Poison Grease,,,0.612,UNMATCHED
+1570,Drawstring Freezing Grease,,,0.549,UNMATCHED
+1590,Drawstring Rot Grease,,,0.649,UNMATCHED
+1690,Shield Grease,,,0.560,UNMATCHED
+1700,Throwing Dagger,,,0.645,UNMATCHED
+1710,Bone Dart,,,0.600,UNMATCHED
+1720,Poisonbone Dart,,,0.667,UNMATCHED
+1730,Kukri,,,0.400,UNMATCHED
+1740,Crystal Dart,MENU_KNOWLEDGE_06006,Crystal Burst,0.800,LOW_CONFIDENCE
+1750,Fan Daggers,,,0.593,UNMATCHED
+1760,Ruin Fragment,MENU_KNOWLEDGE_00523,Ruin Fragment,1.000,UPDATED
+1810,Fetid Flesh,,,0.600,UNMATCHED
+1830,Explosive Stone,,,0.743,UNMATCHED
+1831,Explosive Stone Clump,,,0.634,UNMATCHED
+1840,Poisoned Stone,,,0.720,UNMATCHED
+1841,Poisoned Stone Clump,,,0.600,UNMATCHED
+2020,Rainbow Stone,,,0.640,UNMATCHED
+2030,Glowstone,,,0.667,UNMATCHED
+2040,Telescope,,,0.667,UNMATCHED
+2050,Grace Mimic,,,0.522,UNMATCHED
+2070,Lantern,,,0.667,UNMATCHED
+2080,Blasphemous Claw,,,0.625,UNMATCHED
+2090,Deathroot,MENU_KNOWLEDGE_00557,Deathroot,1.000,UPDATED
+2100,Soft Cotton,,,0.581,UNMATCHED
+2120,Soap,,,0.444,UNMATCHED
+2130,Celestial Dew,MENU_KNOWLEDGE_00624,Celestial Dew,1.000,UPDATED
+2140,Margit's Shackle,,,0.645,UNMATCHED
+2150,Mohg's Shackle,,,0.611,UNMATCHED
+2160,Pureblood Knight's Medal,,,0.583,UNMATCHED
+2190,Miquella's Needle,MENU_KNOWLEDGE_00630,Miquella_s Needle,1.000,UPDATED
+2200,"Prattling Pate ""Hello""",,,0.579,UNMATCHED
+2201,"Prattling Pate ""Thank you""",,,0.500,UNMATCHED
+2202,"Prattling Pate ""Apologies""",,,0.500,UNMATCHED
+2203,"Prattling Pate ""Wonderful""",,,0.500,UNMATCHED
+2204,"Prattling Pate ""Please help""",,,0.500,UNMATCHED
+2205,"Prattling Pate ""My beloved""",,,0.500,UNMATCHED
+2206,"Prattling Pate ""Let's get to it""",,,0.473,UNMATCHED
+2207,"Prattling Pate ""You're beautiful""",,,0.462,UNMATCHED
+2900,Golden Rune [1],,,0.690,UNMATCHED
+2902,Golden Rune [3],,,0.690,UNMATCHED
+2905,Golden Rune [6],,,0.690,UNMATCHED
+2909,Golden Rune [10],,,0.667,UNMATCHED
+2913,Numen's Rune,,,0.625,UNMATCHED
+2914,Hero's Rune [1],,,0.560,UNMATCHED
+2919,Lord's Rune,,,0.727,UNMATCHED
+2950,Remembrance of the Grafted,,,0.578,UNMATCHED
+2951,Remembrance of the Starscourge,,,0.548,UNMATCHED
+2952,Remembrance of the Omen King,,,0.567,UNMATCHED
+2953,Remembrance of the Blasphemous,,,0.545,UNMATCHED
+2954,Remembrance of the Rot Goddess,,,0.549,UNMATCHED
+2955,Remembrance of the Blood Lord,,,0.542,UNMATCHED
+2956,Remembrance of the Black Blade,,,0.537,UNMATCHED
+2957,Remembrance of Hoarah Loux,,,0.533,UNMATCHED
+2958,Remembrance of the Dragonlord,,,0.531,UNMATCHED
+2959,Remembrance of the Full Moon Queen,,,0.594,UNMATCHED
+2960,Remembrance of the Lichdragon,,,0.542,UNMATCHED
+2961,Remembrance of the Fire Giant,,,0.560,UNMATCHED
+2962,Remembrance of the Regal Ancestor,,,0.571,UNMATCHED
+2963,Elden Remembrance,,,0.529,UNMATCHED
+2964,Remembrance of the Naturalborn,,,0.581,UNMATCHED
+2990,Lands Between Rune,,,0.595,UNMATCHED
+3000,Ancestral Infant's Head,,,0.696,UNMATCHED
+3010,Omen Bairn,,,0.600,UNMATCHED
+3011,Regal Omen Bairn,,,0.533,UNMATCHED
+3020,Miranda's Prayer,,,0.733,UNMATCHED
+3030,Cuckoo Glintstone,,,0.645,UNMATCHED
+3040,Mimic's Veil,,,0.560,UNMATCHED
+3050,Glintstone Scrap,MENU_KNOWLEDGE_06028,Glintstone Icecrag,0.824,LOW_CONFIDENCE
+3051,Large Glintstone Scrap,,,0.711,UNMATCHED
+3060,Gravity Stone Fan,,,0.706,UNMATCHED
+3070,Gravity Stone Chunk,,,0.645,UNMATCHED
+3080,Wraith Calling Bell,MENU_KNOWLEDGE_03092,Spirit Calling Bell,0.842,LOW_CONFIDENCE
+3300,Holy Water Grease,,,0.571,UNMATCHED
+3310,Warming Stone,,,0.615,UNMATCHED
+3311,Frenzyflame Stone,,,0.722,UNMATCHED
+3320,Scriptstone,,,0.615,UNMATCHED
+3350,Bewitching Branch,,,0.545,UNMATCHED
+3360,Baldachin's Blessing,,,0.564,UNMATCHED
+3361,Radiant Baldachin's Blessing,,,0.553,UNMATCHED
+3500,Uplifting Aromatic,,,0.545,UNMATCHED
+3510,Spark Aromatic,,,0.571,UNMATCHED
+3520,Ironjar Aromatic,,,0.581,UNMATCHED
+3550,Bloodboil Aromatic,,,0.649,UNMATCHED
+3580,Poison Spraymist,MENU_KNOWLEDGE_06610,Poison Mist,0.815,LOW_CONFIDENCE
+3610,Acid Spraymist,,,0.583,UNMATCHED
+4000,Glintstone Pebble,MENU_KNOWLEDGE_06000,Glintstone Pebble,1.000,DUPLICATE_SKIPPED
+4001,Great Glintstone Shard,MENU_KNOWLEDGE_06015,Great Glintstone Shard,1.000,UPDATED
+4010,Swift Glintstone Shard,MENU_KNOWLEDGE_06001,Swift Glintstone Shard,1.000,UPDATED
+4020,Glintstone Cometshard,MENU_KNOWLEDGE_06002,Glintstone Cometshard,1.000,UPDATED
+4021,Comet,MENU_KNOWLEDGE_06003,Comet,1.000,UPDATED
+4030,Shard Spiral,MENU_KNOWLEDGE_06004,Shard Spiral,1.000,UPDATED
+4040,Glintstone Stars,MENU_KNOWLEDGE_06010,Glintstone Stars,1.000,UPDATED
+4050,Star Shower,MENU_KNOWLEDGE_06016,Star Shower,1.000,UPDATED
+4060,Crystal Barrage,MENU_KNOWLEDGE_06009,Crystal Barrage,1.000,UPDATED
+4070,Glintstone Arc,MENU_KNOWLEDGE_06014,Glintstone Arc,1.000,UPDATED
+4080,Cannon of Haima,MENU_KNOWLEDGE_06017,Cannon of Haima,1.000,UPDATED
+4090,Crystal Burst,MENU_KNOWLEDGE_06006,Crystal Burst,1.000,UPDATED
+4100,Shatter Earth,MENU_KNOWLEDGE_06018,Shatter Earth,1.000,UPDATED
+4110,Rock Blaster,MENU_KNOWLEDGE_06019,Rock Blaster,1.000,UPDATED
+4120,Gavel of Haima,MENU_KNOWLEDGE_06020,Gavel of Haima,1.000,UPDATED
+4130,Terra Magicus,MENU_KNOWLEDGE_06103,Terra Magica,0.880,LOW_CONFIDENCE
+4140,Starlight,MENU_KNOWLEDGE_06102,Starlight,1.000,UPDATED
+4200,Comet Azur,MENU_KNOWLEDGE_06012,Comet Azur,1.000,UPDATED
+4210,Founding Rain of Stars,MENU_KNOWLEDGE_06021,Founding Rain of Stars,1.000,UPDATED
+4220,Stars of Ruin,MENU_KNOWLEDGE_06022,Stars of Ruin,1.000,UPDATED
+4300,Glintblade Phalanx,MENU_KNOWLEDGE_06005,Glintblade Phalanx,1.000,DUPLICATE_SKIPPED
+4301,Carian Phalanx,MENU_KNOWLEDGE_06023,Carian Phalanx,1.000,UPDATED
+4302,Greatblade Phalanx,MENU_KNOWLEDGE_06024,Greatblade Phalanx,1.000,UPDATED
+4360,Rennala's Full Moon,MENU_KNOWLEDGE_06007,Rennala_s Full Moon,1.000,UPDATED
+4361,Ranni's Dark Moon,MENU_KNOWLEDGE_06025,Ranni_s Dark Moon,1.000,UPDATED
+4370,Magic Downpour,MENU_KNOWLEDGE_06011,Magic Downpour,1.000,UPDATED
+4380,Loretta's Greatbow,MENU_KNOWLEDGE_06013,Loretta_s Greatbow,1.000,UPDATED
+4381,Loretta's Mastery,MENU_KNOWLEDGE_06026,Loretta_s Mastery,1.000,UPDATED
+4390,Magic Glintblade,MENU_KNOWLEDGE_06027,Magic Glintblade,1.000,UPDATED
+4400,Glintstone Icecrag,MENU_KNOWLEDGE_06028,Glintstone Icecrag,1.000,UPDATED
+4410,Zamor Ice Storm,MENU_KNOWLEDGE_06029,Zamor Ice Storm,1.000,DUPLICATE_SKIPPED
+4420,Freezing Mist,MENU_KNOWLEDGE_06030,Freezing Mist,1.000,UPDATED
+4430,Carian Greatsword,MENU_KNOWLEDGE_06050,Carian Greatsword,1.000,DUPLICATE_SKIPPED
+4431,Adula's Moonblade,MENU_KNOWLEDGE_06031,Adula_s Moonblade,1.000,UPDATED
+4440,Carian Slicer,MENU_KNOWLEDGE_06051,Carian Slicer,1.000,UPDATED
+4450,Carian Piercer,MENU_KNOWLEDGE_06052,Carian Piercer,1.000,UPDATED
+4460,Scholar's Armament,MENU_KNOWLEDGE_06100,Scholar_s Armament,1.000,UPDATED
+4470,Scholar's Shield,MENU_KNOWLEDGE_06101,Scholar_s Shield,1.000,UPDATED
+4480,Lucidity,MENU_KNOWLEDGE_06032,Lucidity,1.000,UPDATED
+4490,Frozen Armament,MENU_KNOWLEDGE_06507,Frozen Armament,1.000,UPDATED
+4500,Shattering Crystal,MENU_KNOWLEDGE_06033,Shattering Crystal,1.000,UPDATED
+4510,Crystal Release,MENU_KNOWLEDGE_06034,Crystal Release,1.000,UPDATED
+4520,Crystal Torrent,MENU_KNOWLEDGE_06035,Crystal Torrent,1.000,UPDATED
+4600,Ambush Shard,MENU_KNOWLEDGE_06036,Ambush Shard,1.000,UPDATED
+4610,Night Shard,MENU_KNOWLEDGE_06037,Night Shard,1.000,UPDATED
+4620,Night Comet,MENU_KNOWLEDGE_06038,Night Comet,1.000,UPDATED
+4630,Thops's Barrier,MENU_KNOWLEDGE_06039,Thops_s Barrier,1.000,DUPLICATE_SKIPPED
+4640,Carian Retaliation,MENU_KNOWLEDGE_06040,Carian Retaliation,1.000,DUPLICATE_SKIPPED
+4650,Eternal Darkness,MENU_KNOWLEDGE_06041,Eternal Darkness,1.000,UPDATED
+4660,Unseen Blade,MENU_KNOWLEDGE_06702,Unseen Blade,1.000,UPDATED
+4670,Unseen Form,MENU_KNOWLEDGE_06704,Unseen Form,1.000,UPDATED
+4700,Meteorite,MENU_KNOWLEDGE_06070,Meteorite,1.000,UPDATED
+4701,Meteorite of Astel,MENU_KNOWLEDGE_06042,Meteorite of Astel,1.000,UPDATED
+4710,Rock Sling,MENU_KNOWLEDGE_06071,Rock Sling,1.000,UPDATED
+4720,Gravity Well,MENU_KNOWLEDGE_06043,Gravity Well,1.000,UPDATED
+4721,Collapsing Stars,MENU_KNOWLEDGE_06044,Collapsing Stars,1.000,UPDATED
+4800,Magma Shot,MENU_KNOWLEDGE_06205,Magma Shot,1.000,UPDATED
+4810,Gelmir's Fury,MENU_KNOWLEDGE_06212,Gelmir_s Fury,1.000,UPDATED
+4820,Roiling Magma,MENU_KNOWLEDGE_06213,Roiling Magma,1.000,UPDATED
+4830,Rykard's Rancor,MENU_KNOWLEDGE_06045,Rykard_s Rancor,1.000,UPDATED
+4900,Briars of Sin,MENU_KNOWLEDGE_06046,Briars of Sin,1.000,UPDATED
+4910,Briars of Punishment,MENU_KNOWLEDGE_06047,Briars of Punishment,1.000,UPDATED
+5000,Rancorcall,MENU_KNOWLEDGE_06048,Rancorcall,1.000,UPDATED
+5001,Ancient Death Rancor,MENU_KNOWLEDGE_06049,Ancient Death Rancor,1.000,UPDATED
+5010,Explosive Ghostflame,MENU_KNOWLEDGE_06053,Explosive Ghostflame,1.000,UPDATED
+5020,Fia's Mist,MENU_KNOWLEDGE_06054,Fia_s Mist,1.000,UPDATED
+5030,Tibia's Summons,MENU_KNOWLEDGE_06099,Tibia_s Summons,1.000,UPDATED
+5040,Death Lightning,MENU_KNOWLEDGE_06104,Death Lightning,1.000,UPDATED
+5100,Oracle Bubbles,MENU_KNOWLEDGE_06607,Oracle Bubbles,1.000,UPDATED
+5110,Great Oracular Bubble,MENU_KNOWLEDGE_06608,Great Oracular Bubble,1.000,DUPLICATE_SKIPPED
+6000,Catch Flame,MENU_KNOWLEDGE_06200,Catch Flame,1.000,UPDATED
+6001,"O, Flame!",MENU_KNOWLEDGE_06201,"O, Flame!",1.000,UPDATED
+6010,Flame Sling,MENU_KNOWLEDGE_06202,Flame Sling,1.000,UPDATED
+6020,"Flame, Fall Upon Them",MENU_KNOWLEDGE_06206,"Flame, Fall Upon Them",1.000,UPDATED
+6030,"Whirl, O Flame!",MENU_KNOWLEDGE_06209,"Whirl, O Flame!",1.000,UPDATED
+6040,"Flame, Cleanse Me",MENU_KNOWLEDGE_06303,"Flame, Cleanse Me",1.000,UPDATED
+6050,"Flame, Grant Me Strength",MENU_KNOWLEDGE_06308,"Flame, Grant Me Strength",1.000,UPDATED
+6060,"Flame, Protect Me",MENU_KNOWLEDGE_06309,"Flame, Protect Me",1.000,UPDATED
+6100,Giantsflame Take Thee,MENU_KNOWLEDGE_06204,Giantsflame Take Thee,1.000,UPDATED
+6110,Flame of the Fell God,MENU_KNOWLEDGE_06207,Flame of the Fell God,1.000,UPDATED
+6120,"Burn, O Flame!",MENU_KNOWLEDGE_06211,"Burn, O Flame!",1.000,UPDATED
+6210,Black Flame,MENU_KNOWLEDGE_06203,Black Flame,1.000,UPDATED
+6220,"Surge, O Flame!",MENU_KNOWLEDGE_06208,"Surge, O Flame!",1.000,UPDATED
+6230,Scouring Black Flame,MENU_KNOWLEDGE_06210,Scouring Black Flame,1.000,UPDATED
+6240,Black Flame Ritual,MENU_KNOWLEDGE_06214,Black Flame Ritual,1.000,UPDATED
+6250,Black Flame Blade,MENU_KNOWLEDGE_06712,Black Blade,0.786,LOW_CONFIDENCE
+6260,Black Flame's Protection,MENU_KNOWLEDGE_06310,Black Flame_s Protection,1.000,UPDATED
+6270,Noble Presence,MENU_KNOWLEDGE_06055,Noble Presence,1.000,UPDATED
+6300,Bloodflame Talons,MENU_KNOWLEDGE_06056,Bloodflame Talons,1.000,UPDATED
+6310,Bloodboon,MENU_KNOWLEDGE_06254,Bloodboon,1.000,UPDATED
+6320,Bloodflame Blade,,,0.743,UNMATCHED
+6330,Barrier of Gold,MENU_KNOWLEDGE_06311,Barrier of Gold,1.000,UPDATED
+6340,Protection of the Erdtree,MENU_KNOWLEDGE_06255,Protection of the Erdtree,1.000,UPDATED
+6400,Rejection,MENU_KNOWLEDGE_06250,Rejection,1.000,UPDATED
+6410,Wrath of Gold,MENU_KNOWLEDGE_06251,Wrath of Gold,1.000,UPDATED
+6420,Urgent Heal,MENU_KNOWLEDGE_06300,Urgent Heal,1.000,UPDATED
+6421,Heal,MENU_KNOWLEDGE_06301,Heal,1.000,UPDATED
+6422,Great Heal,MENU_KNOWLEDGE_06505,Great Heal,1.000,UPDATED
+6423,Lord's Heal,MENU_KNOWLEDGE_06506,Lord_s Heal,1.000,UPDATED
+6424,Erdtree Heal,MENU_KNOWLEDGE_06302,Erdtree Heal,1.000,UPDATED
+6430,Blessing's Boon,MENU_KNOWLEDGE_06304,Blessing_s Boon,1.000,UPDATED
+6431,Blessing of the Erdtree,MENU_KNOWLEDGE_06305,Blessing of the Erdtree,1.000,UPDATED
+6440,Cure Poison,MENU_KNOWLEDGE_06057,Cure Poison,1.000,UPDATED
+6441,Lord's Aid,MENU_KNOWLEDGE_06058,Lord_s Aid,1.000,UPDATED
+6450,Flame Fortification,MENU_KNOWLEDGE_06707,Flame Fortification,1.000,UPDATED
+6460,Magic Fortification,MENU_KNOWLEDGE_06708,Magic Fortification,1.000,UPDATED
+6470,Lightning Fortification,MENU_KNOWLEDGE_06709,Lightning Fortification,1.000,UPDATED
+6480,Divine Fortification,MENU_KNOWLEDGE_06710,Divine Fortification,1.000,UPDATED
+6490,Lord's Divine Fortification,MENU_KNOWLEDGE_06711,Lord_s Divine Fortification,1.000,UPDATED
+6500,Night Maiden's Mist,MENU_KNOWLEDGE_06253,Night Maiden_s Mist,1.000,UPDATED
+6510,Assassin's Approach,MENU_KNOWLEDGE_06312,Assassin_s Approach,1.000,UPDATED
+6520,Shadow Bait,MENU_KNOWLEDGE_06313,Shadow Bait,1.000,UPDATED
+6530,Darkness,MENU_KNOWLEDGE_06059,Darkness,1.000,UPDATED
+6600,Golden Vow,MENU_KNOWLEDGE_06504,Golden Vow,1.000,DUPLICATE_SKIPPED
+6700,Discus of Light,MENU_KNOWLEDGE_06252,Discus of Light,1.000,UPDATED
+6701,Triple Rings of Light,MENU_KNOWLEDGE_06061,Triple Rings of Light,1.000,UPDATED
+6710,Radagon's Rings of Light,MENU_KNOWLEDGE_06062,Radagon_s Rings of Light,1.000,UPDATED
+6720,Elden Stars,MENU_KNOWLEDGE_06063,Elden Stars,1.000,UPDATED
+6730,Law of Regression,MENU_KNOWLEDGE_06064,Law of Regression,1.000,UPDATED
+6740,Immutable Shield,MENU_KNOWLEDGE_06065,Immutable Shield,1.000,UPDATED
+6750,Litany of Proper Death,MENU_KNOWLEDGE_06256,Litany of Proper Death,1.000,UPDATED
+6760,Law of Causality,MENU_KNOWLEDGE_06066,Law of Causality,1.000,UPDATED
+6770,Order's Blade,MENU_KNOWLEDGE_06067,Order_s Blade,1.000,UPDATED
+6780,Order Healing,MENU_KNOWLEDGE_06068,Order Healing,1.000,UPDATED
+6800,Bestial Sling,MENU_KNOWLEDGE_06400,Bestial Sling,1.000,UPDATED
+6810,Stone of Gurranq,MENU_KNOWLEDGE_06401,Stone of Gurranq,1.000,UPDATED
+6820,Beast Claw,MENU_KNOWLEDGE_06402,Beast Claw,1.000,UPDATED
+6830,Gurranq's Beast Claw,MENU_KNOWLEDGE_06403,Gurranq_s Beast Claw,1.000,UPDATED
+6840,Bestial Vitality,MENU_KNOWLEDGE_06500,Bestial Vitality,1.000,UPDATED
+6850,Bestial Constitution,MENU_KNOWLEDGE_06503,Bestial Constitution,1.000,UPDATED
+6900,Lightning Spear,MENU_KNOWLEDGE_06406,Lightning Spear,1.000,UPDATED
+6910,Ancient Dragons' Lightning Strike,MENU_KNOWLEDGE_06069,Ancient Dragons_ Lightning Strike,1.000,UPDATED
+6920,Lightning Strike,MENU_KNOWLEDGE_06408,Lightning Strike,1.000,UPDATED
+6921,Frozen Lightning Spear,MENU_KNOWLEDGE_06072,Frozen Lightning Spear,1.000,UPDATED
+6930,Honed Bolt,MENU_KNOWLEDGE_06073,Honed Bolt,1.000,UPDATED
+6940,Ancient Dragons' Lightning Spear,MENU_KNOWLEDGE_06074,Ancient Dragons_ Lightning Spear,1.000,UPDATED
+6941,Fortissax's Lightning Spear,MENU_KNOWLEDGE_06075,Fortissax_s Lightning Spear,1.000,UPDATED
+6950,Lansseax's Glaive,MENU_KNOWLEDGE_06076,Lansseax_s Glaive,1.000,UPDATED
+6960,Electrify Armament,MENU_KNOWLEDGE_06077,Electrify Armament,1.000,UPDATED
+6970,Vyke's Dragonbolt,MENU_KNOWLEDGE_06078,Vyke_s Dragonbolt,1.000,UPDATED
+6971,Dragonbolt Blessing,MENU_KNOWLEDGE_06079,Dragonbolt Blessing,1.000,UPDATED
+7000,Dragonfire,MENU_KNOWLEDGE_06080,Dragonfire,1.000,UPDATED
+7001,Agheel's Flame,MENU_KNOWLEDGE_06081,Agheel_s Flame,1.000,UPDATED
+7010,Magma Breath,MENU_KNOWLEDGE_06082,Magma Breath,1.000,UPDATED
+7011,Theodorix's Magma,MENU_KNOWLEDGE_06105,Theodorix_s Magma,1.000,UPDATED
+7020,Dragonice,MENU_KNOWLEDGE_06083,Dragonice,1.000,UPDATED
+7021,Borealis's Mist,MENU_KNOWLEDGE_06084,Borealis_s Mist,1.000,UPDATED
+7030,Rotten Breath,MENU_KNOWLEDGE_06085,Rotten Breath,1.000,UPDATED
+7031,Ekzykes's Decay,MENU_KNOWLEDGE_06086,Ekzykes_s Decay,1.000,UPDATED
+7040,Glintstone Breath,MENU_KNOWLEDGE_06087,Glintstone Breath,1.000,UPDATED
+7041,Smarag's Glintstone Breath,MENU_KNOWLEDGE_06088,Smarag_s Glintstone Breath,1.000,UPDATED
+7050,Placidusax's Ruin,MENU_KNOWLEDGE_06089,Placidusax_s Ruin,1.000,UPDATED
+7060,Dragonclaw,MENU_KNOWLEDGE_06090,Dragonclaw,1.000,UPDATED
+7080,Dragonmaw,MENU_KNOWLEDGE_06091,Dragonmaw,1.000,UPDATED
+7090,Greyoll's Roar,MENU_KNOWLEDGE_06092,Greyoll_s Roar,1.000,UPDATED
+7200,Pest Threads,MENU_KNOWLEDGE_06609,Pest Threads,1.000,UPDATED
+7210,Swarm of Flies,MENU_KNOWLEDGE_06611,Swarm of Flies,1.000,UPDATED
+7220,Poison Mist,MENU_KNOWLEDGE_06610,Poison Mist,1.000,UPDATED
+7230,Poison Armament,MENU_KNOWLEDGE_06612,Poison Armament,1.000,UPDATED
+7240,Scarlet Aeonia,MENU_KNOWLEDGE_06713,Scarlet Aeonia,1.000,UPDATED
+7300,Inescapable Frenzy,MENU_KNOWLEDGE_06094,Inescapable Frenzy,1.000,UPDATED
+7310,The Flame of Frenzy,MENU_KNOWLEDGE_06095,The Flame of Frenzy,1.000,UPDATED
+7311,Unendurable Frenzy,MENU_KNOWLEDGE_06096,Unendurable Frenzy,1.000,UPDATED
+7320,Frenzied Burst,MENU_KNOWLEDGE_06097,Frenzied Burst,1.000,UPDATED
+7330,Howl of Shabriri,MENU_KNOWLEDGE_06098,Howl of Shabriri,1.000,UPDATED
+7500,Aspects of the Crucible: Tail,MENU_KNOWLEDGE_06613,Aspects of the Crucible_ Tail,1.000,UPDATED
+7510,Aspects of the Crucible: Horns,MENU_KNOWLEDGE_06614,Aspects of the Crucible_ Horns,1.000,UPDATED
+7520,Aspects of the Crucible: Breath,MENU_KNOWLEDGE_06615,Aspects of the Crucible_ Breath,1.000,UPDATED
+7530,Black Blade,MENU_KNOWLEDGE_06712,Black Blade,1.000,UPDATED
+7900,Fire's Deadly Sin,MENU_KNOWLEDGE_06060,Fire_s Deadly Sin,1.000,UPDATED
+7903,Golden Lightning Fortification,MENU_KNOWLEDGE_06706,Golden Lightning Fortification,1.000,UPDATED
+8000,Stonesword Key,MENU_KNOWLEDGE_00228,Stonesword Key,1.000,UPDATED
+8010,Rusty Key,MENU_KNOWLEDGE_00229,Rusty Key,1.000,UPDATED
+8102,Lucent Baldachin's Blessing,,,0.500,UNMATCHED
+8105,Dectus Medallion (Left),MENU_KNOWLEDGE_03000,Dectus Medallion (Left),1.000,UPDATED
+8106,Dectus Medallion (Right),MENU_KNOWLEDGE_03001,Dectus Medallion (Right),1.000,UPDATED
+8107,Rold Medallion,MENU_KNOWLEDGE_03002,Rold Medallion,1.000,UPDATED
+8109,Academy Glintstone Key,MENU_KNOWLEDGE_03006,Academy Glintstone Key,1.000,UPDATED
+8111,Carian Inverted Statue,MENU_KNOWLEDGE_03060,Carian Inverted Statue,1.000,UPDATED
+8121,Dark Moon Ring,MENU_KNOWLEDGE_03050,Dark Moon Ring,1.000,UPDATED
+8126,Fingerprint Grape,MENU_KNOWLEDGE_03054,Fingerprint Grape,1.000,UPDATED
+8127,Letter from Volcano Manor,,,0.531,UNMATCHED
+8128,Tonic of Forgetfulness,MENU_KNOWLEDGE_03056,Tonic of Forgetfulness,1.000,UPDATED
+8129,Serpent's Amnion,MENU_KNOWLEDGE_03057,Serpent_s Amnion,1.000,UPDATED
+8130,Rya's Necklace,MENU_KNOWLEDGE_03064,Rya_s Necklace,1.000,UPDATED
+8131,Irina's Letter,MENU_KNOWLEDGE_03059,Irina_s Letter,1.000,UPDATED
+8132,Letter from Volcano Manor,,,0.531,UNMATCHED
+8133,Red Letter,,,0.667,UNMATCHED
+8134,Drawing-Room Key,MENU_KNOWLEDGE_03062,Drawing-Room Key,1.000,UPDATED
+8136,Rya's Necklace,MENU_KNOWLEDGE_03064,Rya_s Necklace,1.000,DUPLICATE_SKIPPED
+8137,Volcano Manor Invitation,MENU_KNOWLEDGE_03055,Volcano Manor Invitation,1.000,UPDATED
+8142,Amber Starlight,MENU_KNOWLEDGE_03283,Amber Starlight,1.000,UPDATED
+8143,Seluvis's Introduction,MENU_KNOWLEDGE_03071,Seluvis_s Introduction,1.000,UPDATED
+8144,Sellen's Primal Glintstone,MENU_KNOWLEDGE_03072,Sellen_s Primal Glintstone,1.000,UPDATED
+8146,Miniature Ranni,MENU_KNOWLEDGE_03074,Miniature Ranni,1.000,UPDATED
+8147,"Asimi, Silver Tear",,,0.667,UNMATCHED
+8148,Godrick's Great Rune,MENU_KNOWLEDGE_03078,Godrick_s Great Rune,1.000,DUPLICATE_SKIPPED
+8149,Radahn's Great Rune,MENU_KNOWLEDGE_03079,Radahn_s Great Rune,1.000,DUPLICATE_SKIPPED
+8150,Morgott's Great Rune,MENU_KNOWLEDGE_03080,Morgott_s Great Rune,1.000,DUPLICATE_SKIPPED
+8151,Rykard's Great Rune,MENU_KNOWLEDGE_03081,Rykard_s Great Rune,1.000,DUPLICATE_SKIPPED
+8152,Mohg's Great Rune,MENU_KNOWLEDGE_03082,Mohg_s Great Rune,1.000,DUPLICATE_SKIPPED
+8153,Malenia's Great Rune,MENU_KNOWLEDGE_03083,Malenia_s Great Rune,1.000,DUPLICATE_SKIPPED
+8154,Lord of Blood's Favor,MENU_KNOWLEDGE_03087,Lord of Blood_s Favor,1.000,UPDATED
+8155,Lord of Blood's Favor,MENU_KNOWLEDGE_03087,Lord of Blood_s Favor,1.000,DUPLICATE_SKIPPED
+8156,Burial Crow's Letter,,,0.706,UNMATCHED
+8158,Spirit Calling Bell,MENU_KNOWLEDGE_03092,Spirit Calling Bell,1.000,UPDATED
+8159,Fingerslayer Blade,MENU_KNOWLEDGE_03093,Fingerslayer Blade,1.000,UPDATED
+8161,Sewing Needle,MENU_KNOWLEDGE_03095,Sewing Needle,1.000,UPDATED
+8162,Gold Sewing Needle,MENU_KNOWLEDGE_03096,Golden Sewing Needle,0.947,UPDATED
+8163,Tailoring Tools,MENU_KNOWLEDGE_03097,Tailoring Tools,1.000,UPDATED
+8164,Seluvis's Potion,MENU_KNOWLEDGE_03098,Seluvis_s Potion,1.000,UPDATED
+8166,Amber Draught,MENU_KNOWLEDGE_03100,Amber Draught,1.000,UPDATED
+8167,Letter to Patches,,,0.516,UNMATCHED
+8168,Dancer's Castanets,MENU_KNOWLEDGE_03102,Dancer_s Castanets,1.000,UPDATED
+8169,Sellian Sealbreaker,MENU_KNOWLEDGE_03103,Sellian Sealbreaker,1.000,UPDATED
+8171,Chrysalids' Memento,MENU_KNOWLEDGE_03105,Chrysalids_ Memento,1.000,UPDATED
+8172,Black Knifeprint,MENU_KNOWLEDGE_03106,Black Knifeprint,1.000,UPDATED
+8173,Letter to Bernahl,,,0.533,UNMATCHED
+8174,Academy Glintstone Key,MENU_KNOWLEDGE_03006,Academy Glintstone Key,1.000,DUPLICATE_SKIPPED
+8175,Haligtree Secret Medallion (Left),MENU_KNOWLEDGE_03270,Haligtree Secret Medallion (Left),1.000,UPDATED
+8176,Haligtree Secret Medallion (Right),MENU_KNOWLEDGE_03271,Haligtree Secret Medallion (Right),1.000,UPDATED
+8181,Burial Crow's Letter,,,0.706,UNMATCHED
+8182,Mending Rune of Perfect Order,MENU_KNOWLEDGE_03116,Mending Rune of Perfect Order,1.000,UPDATED
+8183,Mending Rune of the Death-Prince,MENU_KNOWLEDGE_03117,Mending Rune of the Death-Prince,1.000,UPDATED
+8184,Mending Rune of the Fell Curse,MENU_KNOWLEDGE_03118,Mending Rune of the Fell Curse,1.000,UPDATED
+8185,Larval Tear,MENU_KNOWLEDGE_03075,Larval Tear,1.000,UPDATED
+8186,Imbued Sword Key,MENU_KNOWLEDGE_03198,Imbued Sword Key,1.000,UPDATED
+8187,Miniature Ranni,MENU_KNOWLEDGE_03074,Miniature Ranni,1.000,DUPLICATE_SKIPPED
+8188,Golden Tailoring Tools,MENU_KNOWLEDGE_03225,Golden Tailoring Tools,1.000,UPDATED
+8189,Iji's Confession,,,0.529,UNMATCHED
+8190,Knifeprint Clue,,,0.645,UNMATCHED
+8191,Cursemark of Death,MENU_KNOWLEDGE_03228,Cursemark of Death,1.000,UPDATED
+8192,Asimi's Husk,,,0.571,UNMATCHED
+8193,Seedbed Curse,MENU_KNOWLEDGE_03272,Seedbed Curse,1.000,UPDATED
+8194,The Stormhawk King,MENU_KNOWLEDGE_03273,Stormhawk King,0.875,LOW_CONFIDENCE
+8195,"Asimi, Silver Chrysalid",,,0.571,UNMATCHED
+8196,Unalloyed Gold Needle,MENU_KNOWLEDGE_03231,Unalloyed Gold Needle,1.000,UPDATED
+8197,Sewer-Gaol Key,MENU_KNOWLEDGE_03227,Sewer-Gaol Key,1.000,UPDATED
+8198,Meeting Place Map,,,0.526,UNMATCHED
+8199,Discarded Palace Key,MENU_KNOWLEDGE_03279,Discarded Palace Key,1.000,UPDATED
+8200,"""Homing Instinct"" Painting",,,0.511,UNMATCHED
+8201,"""Resurrection"" Painting",,,0.533,UNMATCHED
+8202,"""Champion's Song"" Painting",,,0.488,UNMATCHED
+8203,"""Sorcerer"" Painting",,,0.600,UNMATCHED
+8204,"""Prophecy"" Painting",,,0.519,UNMATCHED
+8205,"""Flightless Bird"" Painting",,,0.649,UNMATCHED
+8206,"""Redmane"" Painting",,,0.571,UNMATCHED
+8221,Zorayas's Letter,,,0.733,UNMATCHED
+8222,Alexander's Innards,MENU_KNOWLEDGE_03284,Alexander_s Innards,1.000,UPDATED
+8223,Rogier's Letter,MENU_KNOWLEDGE_03059,Irina_s Letter,0.759,LOW_CONFIDENCE
+8500,Crafting Kit,MENU_KNOWLEDGE_00259,Crafting Kit,1.000,UPDATED
+8590,Whetstone Knife,MENU_KNOWLEDGE_03090,Whetstone Knife,1.000,UPDATED
+8600,"Map: Limgrave, West",MENU_KNOWLEDGE_00261,"Map (Limgrave, West)",1.000,UPDATED
+8601,Map: Weeping Peninsula,MENU_KNOWLEDGE_00262,Map (Weeping Peninsula),1.000,UPDATED
+8602,"Map: Limgrave, East",MENU_KNOWLEDGE_00263,"Map (Limgrave, East)",1.000,UPDATED
+8603,"Map: Liurnia, East",MENU_KNOWLEDGE_00266,"Map (Liurnia, East)",1.000,UPDATED
+8604,"Map: Liurnia, North",MENU_KNOWLEDGE_00265,"Map (Liurnia, North)",1.000,UPDATED
+8605,"Map: Liurnia, West",MENU_KNOWLEDGE_00264,"Map (Liurnia, West)",1.000,UPDATED
+8606,Map: Altus Plateau,MENU_KNOWLEDGE_00268,Map (Altus Plateau),1.000,UPDATED
+8607,"Map: Leyndell, Royal Capital",MENU_KNOWLEDGE_00269,"Map (Leyndell, Royal Capital)",1.000,UPDATED
+8608,Map: Mt. Gelmir,MENU_KNOWLEDGE_00267,Map (Mt. Gelmir),1.000,UPDATED
+8609,Map: Caelid,MENU_KNOWLEDGE_00271,Map (Caelid),1.000,UPDATED
+8610,Map: Dragonbarrow,MENU_KNOWLEDGE_00270,Map (Dragonbarrow),1.000,UPDATED
+8611,"Map: Mountaintops of the Giants, West",MENU_KNOWLEDGE_00273,"Map (Mountaintops of the Giants, West)",1.000,UPDATED
+8612,"Map: Mountaintops of the Giants, East",MENU_KNOWLEDGE_00279,"Map (Mountaintops of the Giants, East)",1.000,UPDATED
+8613,Map: Ainsel River,MENU_KNOWLEDGE_00275,Map (Ainsel River),1.000,UPDATED
+8614,Map: Lake of Rot,MENU_KNOWLEDGE_00274,Map (Lake of Rot),1.000,UPDATED
+8615,Map: Siofra River,MENU_KNOWLEDGE_00276,Map (Siofra River),1.000,UPDATED
+8616,Map: Mohgwyn Palace,MENU_KNOWLEDGE_00277,Map (Mohgwyn Palace),1.000,UPDATED
+8617,Map: Deeproot Depths,MENU_KNOWLEDGE_00278,Map (Deeproot Depths),1.000,UPDATED
+8618,Map: Consecrated Snowfield,MENU_KNOWLEDGE_00272,Map (Consecrated Snowfield),1.000,UPDATED
+8660,Mirage Riddle,,,0.560,UNMATCHED
+8700,Note: Hidden Cave,,,0.556,UNMATCHED
+8701,Note: Imp Shades,,,0.538,UNMATCHED
+8702,Note: Flask of Wondrous Physick,,,0.490,UNMATCHED
+8703,Note: Stonedigger Trolls,,,0.488,UNMATCHED
+8704,Note: Walking Mausoleum,,,0.514,UNMATCHED
+8705,Note: Unseen Assassins,,,0.488,UNMATCHED
+8706,Note: Great Coffins,,,0.588,UNMATCHED
+8707,Note: Flame Chariots,,,0.556,UNMATCHED
+8708,Note: Demi-human Mobs,,,0.545,UNMATCHED
+8709,Note: Land Squirts,,,0.500,UNMATCHED
+8710,Note: Gravity's Advantage,,,0.513,UNMATCHED
+8711,Note: Revenants,,,0.593,UNMATCHED
+8712,Note: Waypoint Ruins,,,0.511,UNMATCHED
+8713,Note: Gateway,,,0.593,UNMATCHED
+8714,Note: Miquella's Needle,MENU_KNOWLEDGE_00630,Miquella_s Needle,0.872,LOW_CONFIDENCE
+8715,Note: Frenzied Flame Village,,,0.696,UNMATCHED
+8716,Note: The Lord of Frenzied Flame,,,0.560,UNMATCHED
+8750,Note: Hidden Cave,,,0.556,UNMATCHED
+8751,Note: Imp Shades,,,0.538,UNMATCHED
+8752,Note: Flask of Wondrous Physick,,,0.490,UNMATCHED
+8753,Note: Stonedigger Trolls,,,0.488,UNMATCHED
+8754,Note: Walking Mausoleum,,,0.514,UNMATCHED
+8755,Note: Unseen Assassins,,,0.488,UNMATCHED
+8756,Note: Great Coffins,,,0.588,UNMATCHED
+8757,Note: Flame Chariots,,,0.556,UNMATCHED
+8758,Note: Demi-human Mobs,,,0.545,UNMATCHED
+8759,Note: Land Squirts,,,0.500,UNMATCHED
+8760,Note: Gravity's Advantage,,,0.513,UNMATCHED
+8761,Note: Revenants,,,0.593,UNMATCHED
+8762,Note: Waypoint Ruins,,,0.511,UNMATCHED
+8763,Note: Gateway,,,0.593,UNMATCHED
+8765,Note: Frenzied Flame Village,,,0.696,UNMATCHED
+8850,Conspectus Scroll,,,0.694,UNMATCHED
+8851,Royal House Scroll,MENU_KNOWLEDGE_00311,Royal House Scroll,1.000,UPDATED
+8855,Fire Monks' Prayerbook,MENU_KNOWLEDGE_00315,Fire Monks_ Prayerbook,1.000,UPDATED
+8856,Giant's Prayerbook,MENU_KNOWLEDGE_00316,Giant_s Prayerbook,1.000,UPDATED
+8857,Godskin Prayerbook,MENU_KNOWLEDGE_00317,Godskin Prayerbook,1.000,UPDATED
+8858,Two Fingers' Prayerbook,MENU_KNOWLEDGE_00318,Two Fingers Prayerbook,1.000,UPDATED
+8859,Assassin's Prayerbook,MENU_KNOWLEDGE_00319,Assassin_s Prayerbook,1.000,UPDATED
+8860,Erdtree Prayerbook,,,0.706,UNMATCHED
+8862,Golden Order Principia,MENU_KNOWLEDGE_00322,Golden Order Principia,1.000,UPDATED
+8864,Dragon Cult Prayerbook,MENU_KNOWLEDGE_00324,Dragon Cult Prayerbook,1.000,UPDATED
+8865,Ancient Dragon Prayerbook,MENU_KNOWLEDGE_00325,Ancient Dragon Prayerbook,1.000,UPDATED
+8866,Academy Scroll,,,0.609,UNMATCHED
+8910,Pidia's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.762,LOW_CONFIDENCE
+8911,Seluvis's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,1.000,UPDATED
+8912,Patches' Bell Bearing,,,0.714,UNMATCHED
+8913,Sellen's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.837,LOW_CONFIDENCE
+8915,D's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.789,LOW_CONFIDENCE
+8916,Bernahl's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.773,LOW_CONFIDENCE
+8917,Miriel's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.791,LOW_CONFIDENCE
+8918,Gostoc's Bell Bearing,,,0.744,UNMATCHED
+8919,Thops's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.762,LOW_CONFIDENCE
+8920,Kalé's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.800,LOW_CONFIDENCE
+8921,Nomadic Merchant's Bell Bearing [1],,,0.582,UNMATCHED
+8926,Isolated Merchant's Bell Bearing [1],,,0.607,UNMATCHED
+8929,Hermit Merchant's Bell Bearing [1],,,0.636,UNMATCHED
+8937,Abandoned Merchant's Bell Bearing,,,0.582,UNMATCHED
+8939,Imprisoned Merchant's Bell Bearing,,,0.647,UNMATCHED
+8940,Iji's Bell Bearing,MENU_KNOWLEDGE_03146,Seluvis_s Bell Bearing,0.800,LOW_CONFIDENCE
+8941,Rogier's Bell Bearing,,,0.744,UNMATCHED
+8942,Blackguard's Bell Bearing,,,0.723,UNMATCHED
+8943,Corhyn's Bell Bearing,MENU_KNOWLEDGE_03144,Miriel_s _ Corhyn_s _ D_s Bell Bearing,0.764,LOW_CONFIDENCE
+8944,Gowry's Bell Bearing,,,0.714,UNMATCHED
+8945,Bone Peddler's Bell Bearing,,,0.694,UNMATCHED
+8946,Meat Peddler's Bell Bearing,,,0.694,UNMATCHED
+8947,Medicine Peddler's Bell Bearing,,,0.642,UNMATCHED
+8948,Gravity Stone Peddler's Bell Bearing,,,0.657,UNMATCHED
+8951,Smithing-Stone Miner's Bell Bearing [1],,,0.648,UNMATCHED
+1,Smithing Stone,,,0.600,UNMATCHED
+2,Smithing Stone,,,0.600,UNMATCHED
+8952,Smithing-Stone Miner's Bell Bearing [2],,,0.648,UNMATCHED
+3,Smithing Stone,,,0.600,UNMATCHED
+4,Smithing Stone,,,0.600,UNMATCHED
+8953,Smithing-Stone Miner's Bell Bearing [3],,,0.648,UNMATCHED
+5,Smithing Stone,,,0.600,UNMATCHED
+6,Smithing Stone,,,0.600,UNMATCHED
+8954,Smithing-Stone Miner's Bell Bearing [4],,,0.648,UNMATCHED
+7,Smithing Stone,,,0.600,UNMATCHED
+8,Smithing Stone,,,0.600,UNMATCHED
+8955,Somberstone Miner's Bell Bearing [1],,,0.648,UNMATCHED
+1,Somber Smithing Stone,,,0.571,UNMATCHED
+2,Somber Smithing Stone,,,0.571,UNMATCHED
+8956,Somberstone Miner's Bell Bearing [2],,,0.648,UNMATCHED
+3,Somber Smithing Stone,,,0.571,UNMATCHED
+4,Somber Smithing Stone,,,0.571,UNMATCHED
+8957,Somberstone Miner's Bell Bearing [3],,,0.648,UNMATCHED
+5,Somber Smithing Stone,,,0.571,UNMATCHED
+6,Somber Smithing Stone,,,0.571,UNMATCHED
+8958,Somberstone Miner's Bell Bearing [4],,,0.648,UNMATCHED
+7,Somber Smithing Stone,,,0.571,UNMATCHED
+8,Somber Smithing Stone,,,0.571,UNMATCHED
+8959,Somberstone Miner's Bell Bearing [5],,,0.648,UNMATCHED
+9,Somber Smithing Stone,,,0.571,UNMATCHED
+8960,Glovewort Picker's Bell Bearing [1],,,0.655,UNMATCHED
+1,Grave Glovewort,,,0.667,UNMATCHED
+2,Grave Glovewort,,,0.667,UNMATCHED
+3,Grave Glovewort,,,0.667,UNMATCHED
+8961,Glovewort Picker's Bell Bearing [2],,,0.655,UNMATCHED
+4,Grave Glovewort,,,0.667,UNMATCHED
+5,Grave Glovewort,,,0.667,UNMATCHED
+6,Grave Glovewort,,,0.667,UNMATCHED
+8962,Glovewort Picker's Bell Bearing [3],,,0.655,UNMATCHED
+7,Grave Glovewort,,,0.667,UNMATCHED
+8,Grave Glovewort,,,0.667,UNMATCHED
+9,Grave Glovewort,,,0.667,UNMATCHED
+8963,Ghost-Glovewort Picker's Bell Bearing [1],,,0.623,UNMATCHED
+1,Ghost Glovewort,,,0.538,UNMATCHED
+2,Ghost Glovewort,,,0.538,UNMATCHED
+3,Ghost Glovewort,,,0.538,UNMATCHED
+8964,Ghost-Glovewort Picker's Bell Bearing [2],,,0.623,UNMATCHED
+4,Ghost Glovewort,,,0.538,UNMATCHED
+5,Ghost Glovewort,,,0.538,UNMATCHED
+6,Ghost Glovewort,,,0.538,UNMATCHED
+8965,Ghost-Glovewort Picker's Bell Bearing [3],,,0.623,UNMATCHED
+7,Ghost Glovewort,,,0.538,UNMATCHED
+8,Ghost Glovewort,,,0.538,UNMATCHED
+9,Ghost Glovewort,,,0.538,UNMATCHED
+8970,Iron Whetblade,MENU_KNOWLEDGE_03020,Iron Whetblade,1.000,UPDATED
+8971,Red-Hot Whetblade,MENU_KNOWLEDGE_03021,Red-Hot Whetblade,1.000,UPDATED
+8972,Sanctified Whetblade,MENU_KNOWLEDGE_03022,Sanctified Whetblade,1.000,UPDATED
+8973,Glintstone Whetblade,MENU_KNOWLEDGE_03023,Glintstone Whetblade,1.000,UPDATED
+8974,Black Whetblade,MENU_KNOWLEDGE_03024,Black Whetblade,1.000,UPDATED
+8975,Unalloyed Gold Needle,MENU_KNOWLEDGE_03231,Unalloyed Gold Needle,1.000,DUPLICATE_SKIPPED
+8976,Unalloyed Gold Needle,MENU_KNOWLEDGE_03231,Unalloyed Gold Needle,1.000,DUPLICATE_SKIPPED
+8977,Valkyrie's Prosthesis,MENU_KNOWLEDGE_03233,Valkyrie_s Prosthesis,1.000,UPDATED
+8978,Sellia's Secret,,,0.647,UNMATCHED
+8979,Beast Eye,MENU_KNOWLEDGE_00637,Beast Eye,1.000,UPDATED
+8980,Weathered Dagger,MENU_KNOWLEDGE_03222,Weathered Dagger,1.000,UPDATED
+9023,Hoslow's Oath,,,0.688,UNMATCHED
+9100,About Sites of Grace,,,0.529,UNMATCHED
+9101,About Sorceries and Incantations,,,0.500,UNMATCHED
+9102,About Bows,,,0.583,UNMATCHED
+9103,About Crouching,,,0.516,UNMATCHED
+9104,About Stance-Breaking,,,0.529,UNMATCHED
+9105,About Stakes of Marika,,,0.571,UNMATCHED
+9106,About Guard Counters,,,0.514,UNMATCHED
+9107,About the Map,,,0.615,UNMATCHED
+9108,About Guidance of Grace,,,0.513,UNMATCHED
+9109,About Horseback Riding,,,0.500,UNMATCHED
+9110,About Death,,,0.583,UNMATCHED
+9111,About Summoning Spirits,,,0.514,UNMATCHED
+9112,About Guarding,,,0.538,UNMATCHED
+9113,About Item Crafting,,,0.516,UNMATCHED
+9115,About Flask of Wondrous Physick,,,0.478,UNMATCHED
+9116,About Adding Skills,,,0.556,UNMATCHED
+9117,About Birdseye Telescopes,,,0.455,UNMATCHED
+9118,About Spiritspring Jumping,,,0.490,UNMATCHED
+9119,About Vanquishing Enemy Groups,,,0.426,UNMATCHED
+9120,About Teardrop Scarabs,,,0.545,UNMATCHED
+9121,About Summoning Other Players,,,0.510,UNMATCHED
+9122,About Cooperative Multiplayer,,,0.471,UNMATCHED
+9123,About Competitive Multiplayer,,,0.471,UNMATCHED
+9124,About Invasion Multiplayer,,,0.512,UNMATCHED
+9125,About Hunter Multiplayer,,,0.488,UNMATCHED
+9126,About Summoning Pools,,,0.556,UNMATCHED
+9127,About Monument Icon,,,0.485,UNMATCHED
+9128,About Requesting Help from Hunters,,,0.483,UNMATCHED
+9129,About Skills,,,0.500,UNMATCHED
+9130,About Fast Travel to Sites of Grace,,,0.462,UNMATCHED
+9131,About Strengthening Armaments,,,0.545,UNMATCHED
+9132,About Roundtable Hold,,,0.541,UNMATCHED
+9134,About Materials,,,0.519,UNMATCHED
+9135,About Containers,,,0.471,UNMATCHED
+9136,About Adding Affinities,,,0.550,UNMATCHED
+9137,About Pouches,,,0.519,UNMATCHED
+9138,About Dodging,,,0.560,UNMATCHED
+9140,About Wielding Armaments,,,0.615,UNMATCHED
+9195,About Multiplayer,,,0.564,UNMATCHED
+9200,Carrier Pigeon Letter [1],,,0.541,UNMATCHED
+9201,Carrier Pigeon Letter [2],,,0.541,UNMATCHED
+9300,Nomadic Warrior's Cookbook [1],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,UPDATED
+9301,Nomadic Warrior's Cookbook [3],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9302,Nomadic Warrior's Cookbook [6],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9303,Nomadic Warrior's Cookbook [10],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9304,Fugitive Warrior's Recipe [5],,,0.491,UNMATCHED
+9305,Nomadic Warrior's Cookbook [7],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9306,Nomadic Warrior's Cookbook [12],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9307,Nomadic Warrior's Cookbook [19],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9308,Nomadic Warrior's Cookbook [13],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9309,Nomadic Warrior's Cookbook [23],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9310,Nomadic Warrior's Cookbook [17],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9311,Nomadic Warrior's Cookbook [2],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9312,Nomadic Warrior's Cookbook [21],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9313,Missionary's Cookbook [6],MENU_KNOWLEDGE_03122,Missionary_s Cookbook,0.955,UPDATED
+9320,Armorer's Cookbook [1],MENU_KNOWLEDGE_03120,Armorer_s Cookbook,0.947,UPDATED
+9321,Armorer's Cookbook [2],MENU_KNOWLEDGE_03120,Armorer_s Cookbook,0.947,DUPLICATE_SKIPPED
+9322,Nomadic Warrior's Cookbook [11],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9323,Nomadic Warrior's Cookbook [20],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9325,Armorer's Cookbook [7],MENU_KNOWLEDGE_03120,Armorer_s Cookbook,0.947,DUPLICATE_SKIPPED
+9326,Armorer's Cookbook [4],MENU_KNOWLEDGE_03120,Armorer_s Cookbook,0.947,DUPLICATE_SKIPPED
+9327,Nomadic Warrior's Cookbook [18],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9328,Armorer's Cookbook [3],MENU_KNOWLEDGE_03120,Armorer_s Cookbook,0.947,DUPLICATE_SKIPPED
+9329,Nomadic Warrior's Cookbook [16],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9330,Armorer's Cookbook [6],MENU_KNOWLEDGE_03120,Armorer_s Cookbook,0.947,DUPLICATE_SKIPPED
+9331,Armorer's Cookbook [5],MENU_KNOWLEDGE_03120,Armorer_s Cookbook,0.947,DUPLICATE_SKIPPED
+9340,Glintstone Craftsman's Cookbook [4],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,UPDATED
+9341,Glintstone Craftsman's Cookbook [1],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,DUPLICATE_SKIPPED
+9342,Glintstone Craftsman's Cookbook [5],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,DUPLICATE_SKIPPED
+9343,Nomadic Warrior's Cookbook [9],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9344,Glintstone Craftsman's Cookbook [8],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,DUPLICATE_SKIPPED
+9345,Glintstone Craftsman's Cookbook [2],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,DUPLICATE_SKIPPED
+9346,Glintstone Craftsman's Cookbook [6],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,DUPLICATE_SKIPPED
+9347,Glintstone Craftsman's Cookbook [7],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,DUPLICATE_SKIPPED
+9348,Glintstone Craftsman's Cookbook [3],MENU_KNOWLEDGE_03121,Glintstone Craftman_s Cookbook,0.952,DUPLICATE_SKIPPED
+9360,Missionary's Cookbook [2],MENU_KNOWLEDGE_03122,Missionary_s Cookbook,0.955,DUPLICATE_SKIPPED
+9361,Missionary's Cookbook [1],MENU_KNOWLEDGE_03122,Missionary_s Cookbook,0.955,DUPLICATE_SKIPPED
+9363,Missionary's Cookbook [5],MENU_KNOWLEDGE_03122,Missionary_s Cookbook,0.955,DUPLICATE_SKIPPED
+9364,Missionary's Cookbook [4],MENU_KNOWLEDGE_03122,Missionary_s Cookbook,0.955,DUPLICATE_SKIPPED
+9365,Missionary's Cookbook [3],MENU_KNOWLEDGE_03122,Missionary_s Cookbook,0.955,DUPLICATE_SKIPPED
+9380,Nomadic Warrior's Cookbook [4],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9383,Nomadic Warrior's Cookbook [5],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9384,Perfumer's Cookbook [1],MENU_KNOWLEDGE_03123,Perfumer_s Cookbook,0.950,UPDATED
+9385,Perfumer's Cookbook [2],MENU_KNOWLEDGE_03123,Perfumer_s Cookbook,0.950,DUPLICATE_SKIPPED
+9386,Perfumer's Cookbook [3],MENU_KNOWLEDGE_03123,Perfumer_s Cookbook,0.950,DUPLICATE_SKIPPED
+9387,Nomadic Warrior's Cookbook [14],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9388,Nomadic Warrior's Cookbook [8],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.963,DUPLICATE_SKIPPED
+9389,Nomadic Warrior's Cookbook [22],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9390,Nomadic Warrior's Cookbook [15],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9391,Nomadic Warrior's Cookbook [24],MENU_KNOWLEDGE_03119,Nomadic Warrior_s Cookbook,0.945,DUPLICATE_SKIPPED
+9392,Perfumer's Cookbook [4],MENU_KNOWLEDGE_03123,Perfumer_s Cookbook,0.950,DUPLICATE_SKIPPED
+9393,Perfumer's Cookbook (13),MENU_KNOWLEDGE_03123,Perfumer_s Cookbook,0.927,LOW_CONFIDENCE
+9400,Ancient Dragon Apostle's Cookbook [1],MENU_KNOWLEDGE_03124,Ancient Dragon Apostle_s Cookbook,0.971,UPDATED
+9401,Ancient Dragon Apostle's Cookbook [2],MENU_KNOWLEDGE_03124,Ancient Dragon Apostle_s Cookbook,0.971,DUPLICATE_SKIPPED
+9402,Ancient Dragon Apostle's Cookbook [4],MENU_KNOWLEDGE_03124,Ancient Dragon Apostle_s Cookbook,0.971,DUPLICATE_SKIPPED
+9403,Ancient Dragon Apostle's Cookbook [3],MENU_KNOWLEDGE_03124,Ancient Dragon Apostle_s Cookbook,0.971,DUPLICATE_SKIPPED
+9420,Fevor's Cookbook [1],MENU_KNOWLEDGE_03125,Fevor_s Cookbook,0.941,UPDATED
+9421,Fevor's Cookbook [3],MENU_KNOWLEDGE_03125,Fevor_s Cookbook,0.941,DUPLICATE_SKIPPED
+9422,Fevor's Cookbook [2],MENU_KNOWLEDGE_03125,Fevor_s Cookbook,0.941,DUPLICATE_SKIPPED
+9423,Missionary's Cookbook [7],MENU_KNOWLEDGE_03122,Missionary_s Cookbook,0.955,DUPLICATE_SKIPPED
+9440,Frenzied's Cookbook [1],MENU_KNOWLEDGE_03126,Frenzied_s Cookbook,0.950,UPDATED
+9441,Frenzied's Cookbook [2],MENU_KNOWLEDGE_03126,Frenzied_s Cookbook,0.950,DUPLICATE_SKIPPED
+9500,Cracked Pot,MENU_KNOWLEDGE_00504,Cracked Pot,1.000,UPDATED
+9501,Ritual Pot,MENU_KNOWLEDGE_03010,Ritual Pot,1.000,UPDATED
+9510,Perfume Bottle,MENU_KNOWLEDGE_00443,Perfume Bottle,1.000,UPDATED
+10000,Glass Shard,MENU_KNOWLEDGE_00382,Glass Shard,1.000,UPDATED
+10010,Golden Seed,,,0.741,UNMATCHED
+10020,Sacred Tear,,,0.667,UNMATCHED
+10030,Memory Stone,MENU_KNOWLEDGE_00553,Memory Stone,1.000,UPDATED
+10040,Talisman Pouch,MENU_KNOWLEDGE_00554,Talisman Pouch,1.000,UPDATED
+10060,Dragon Heart,MENU_KNOWLEDGE_03230,Dragon Heart,1.000,UPDATED
+10070,Lost Ashes of War,,,0.600,UNMATCHED
+10080,Great Rune of the Unborn,MENU_KNOWLEDGE_03202,Copy of Great Rune of the Unborn,0.857,LOW_CONFIDENCE
+10100,Smithing Stone [1],,,0.579,UNMATCHED
+10101,Smithing Stone [2],,,0.579,UNMATCHED
+10102,Smithing Stone [3],,,0.579,UNMATCHED
+10103,Smithing Stone [4],,,0.579,UNMATCHED
+10104,Smithing Stone [5],,,0.579,UNMATCHED
+10105,Smithing Stone [6],,,0.579,UNMATCHED
+10106,Smithing Stone [7],,,0.579,UNMATCHED
+10107,Smithing Stone [8],,,0.579,UNMATCHED
+10140,Ancient Dragon Smithing Stone,MENU_KNOWLEDGE_06069,Ancient Dragons_ Lightning Strike,0.787,LOW_CONFIDENCE
+10160,Somber Smithing Stone [1],,,0.542,UNMATCHED
+10161,Somber Smithing Stone [2],,,0.542,UNMATCHED
+10162,Somber Smithing Stone [3],,,0.541,UNMATCHED
+10163,Somber Smithing Stone [4],,,0.541,UNMATCHED
+10164,Somber Smithing Stone [5],,,0.541,UNMATCHED
+10165,Somber Smithing Stone [6],,,0.541,UNMATCHED
+10166,Somber Smithing Stone [7],,,0.541,UNMATCHED
+10167,Somber Smithing Stone [8],,,0.541,UNMATCHED
+10168,Somber Ancient Dragon Smithing Stone,,,0.706,UNMATCHED
+10200,Somber Smithing Stone [9],,,0.541,UNMATCHED
+10900,Grave Glovewort [1],,,0.621,UNMATCHED
+10901,Grave Glovewort [2],,,0.621,UNMATCHED
+10902,Grave Glovewort [3],,,0.621,UNMATCHED
+10903,Grave Glovewort [4],,,0.621,UNMATCHED
+10904,Grave Glovewort [5],,,0.621,UNMATCHED
+10905,Grave Glovewort [6],,,0.621,UNMATCHED
+10906,Grave Glovewort [7],,,0.621,UNMATCHED
+10907,Grave Glovewort [8],,,0.621,UNMATCHED
+10908,Grave Glovewort [9],,,0.621,UNMATCHED
+10909,Great Grave Glovewort,,,0.545,UNMATCHED
+10910,Ghost Glovewort [1],,,0.516,UNMATCHED
+10911,Ghost Glovewort [2],,,0.516,UNMATCHED
+10912,Ghost Glovewort [3],,,0.516,UNMATCHED
+10913,Ghost Glovewort [4],,,0.516,UNMATCHED
+10914,Ghost Glovewort [5],,,0.516,UNMATCHED
+10915,Ghost Glovewort [6],,,0.516,UNMATCHED
+10916,Ghost Glovewort [7],,,0.516,UNMATCHED
+10917,Ghost Glovewort [8],,,0.516,UNMATCHED
+10918,Ghost Glovewort [9],,,0.516,UNMATCHED
+10919,Great Ghost Glovewort,,,0.562,UNMATCHED
+11000,Crimsonspill Crystal Tear,MENU_KNOWLEDGE_00400,Crimsonspill Crystal Tear,1.000,UPDATED
+11001,Greenspill Crystal Tear,MENU_KNOWLEDGE_00401,Greenspill Crystal Tear,1.000,UPDATED
+11002,Crimson Crystal Tear,MENU_KNOWLEDGE_00402,Crimson Crystal Tear,1.000,UPDATED
+11004,Cerulean Crystal Tear,MENU_KNOWLEDGE_00404,Cerulean Crystal Tear,1.000,UPDATED
+11006,Speckled Hardtear,MENU_KNOWLEDGE_00406,Speckled Hardtear,1.000,UPDATED
+11007,Crimson Bubbletear,MENU_KNOWLEDGE_00407,Crimson Bubbletear,1.000,UPDATED
+11008,Opaline Bubbletear,MENU_KNOWLEDGE_00408,Opaline Bubbletear,1.000,UPDATED
+11009,Crimsonburst Crystal Tear,MENU_KNOWLEDGE_00409,Crimsonburst Crystal Tear,1.000,UPDATED
+11010,Greenburst Crystal Tear,MENU_KNOWLEDGE_00410,Greenburst Crystal Tear,1.000,UPDATED
+11011,Opaline Hardtear,MENU_KNOWLEDGE_00411,Opaline Hardtear,1.000,UPDATED
+11012,Winged Crystal Tear,MENU_KNOWLEDGE_00412,Winged Crystal Tear,1.000,UPDATED
+11013,Thorny Cracked Tear,MENU_KNOWLEDGE_00413,Thorny Cracked Tear,1.000,UPDATED
+11014,Spiked Cracked Tear,MENU_KNOWLEDGE_00414,Spiked Cracked Tear,1.000,UPDATED
+11015,Windy Crystal Tear,MENU_KNOWLEDGE_00415,Windy Crystal Tear,1.000,UPDATED
+11016,Ruptured Crystal Tear,MENU_KNOWLEDGE_00416,Ruptured Crystal Tear,1.000,UPDATED
+11018,Leaden Hardtear,MENU_KNOWLEDGE_00418,Leaden Hardtear,1.000,UPDATED
+11019,Twiggy Cracked Tear,MENU_KNOWLEDGE_00413,Thorny Cracked Tear,0.789,LOW_CONFIDENCE
+11020,Crimsonwhorl Bubbletear,MENU_KNOWLEDGE_00420,Crimsonwhorl Bubbletear,1.000,UPDATED
+11021,Strength-knot Crystal Tear,MENU_KNOWLEDGE_00421,Strength-Knot Crystal Tear,1.000,UPDATED
+11022,Dexterity-knot Crystal Tear,MENU_KNOWLEDGE_00422,Dexterity-Knot Crystal Tear,1.000,UPDATED
+11023,Intelligence-knot Crystal Tear,MENU_KNOWLEDGE_00423,Intelligence-Knot Crystal Tear,1.000,UPDATED
+11024,Faith-knot Crystal Tear,MENU_KNOWLEDGE_00424,Faith-Knot Crystal Tear,1.000,UPDATED
+11025,Cerulean Hidden Tear,MENU_KNOWLEDGE_00425,Cerulean Hidden Tear,1.000,UPDATED
+11026,Stonebarb Cracked Tear,MENU_KNOWLEDGE_00426,Stonebarb Cracked Tear,1.000,UPDATED
+11027,Purifying Crystal Tear,MENU_KNOWLEDGE_00427,Purifying Crystal Tear,1.000,UPDATED
+11028,Flame-Shrouding Cracked Tear,MENU_KNOWLEDGE_00428,Flame-Shrouding Cracked Tear,1.000,UPDATED
+11029,Magic-Shrouding Cracked Tear,MENU_KNOWLEDGE_00429,Magic-Shrouding Cracked Tear,1.000,UPDATED
+11030,Lightning-Shrouding Cracked Tear,MENU_KNOWLEDGE_00430,Lightning-Shrouding Cracked Tear,1.000,UPDATED
+11031,Holy-Shrouding Cracked Tear,MENU_KNOWLEDGE_00431,Holy-Shrouding Cracked Tear,1.000,UPDATED
+15000,Sliver of Meat,MENU_KNOWLEDGE_00506,Sliver of Meat,1.000,UPDATED
+15010,Beast Liver,MENU_KNOWLEDGE_00507,Beast Liver,1.000,UPDATED
+15020,Lump of Flesh,MENU_KNOWLEDGE_00508,Lump of Flesh,1.000,UPDATED
+15030,Beast Blood,MENU_KNOWLEDGE_00509,Beast Blood,1.000,UPDATED
+15040,Old Fang,MENU_KNOWLEDGE_00510,Old Fang,1.000,UPDATED
+15050,Budding Horn,MENU_KNOWLEDGE_00511,Budding Horn,1.000,UPDATED
+15060,Flight Pinion,MENU_KNOWLEDGE_00512,Flight Pinion,1.000,UPDATED
+15070,Hidden Plumage,,,0.516,UNMATCHED
+15080,Four-Toed Fowl Foot,MENU_KNOWLEDGE_00514,Four-Toed Fowl Foot,1.000,UPDATED
+15090,Turtle Neck Meat,MENU_KNOWLEDGE_00515,Turtle Neck Meat,1.000,UPDATED
+15100,Human Bone Shard,MENU_KNOWLEDGE_00516,Human Bone Shard,1.000,UPDATED
+15110,Great Dragonfly Head,MENU_KNOWLEDGE_00517,Great Dragonfly Head,1.000,UPDATED
+15120,Slumbering Egg,MENU_KNOWLEDGE_00518,Slumbering Egg,1.000,UPDATED
+15130,Crab Eggs,MENU_KNOWLEDGE_00519,Crab Eggs,1.000,UPDATED
+15140,Land Octopus Ovary,MENU_KNOWLEDGE_00520,Land Octopus Ovary,1.000,UPDATED
+15150,Miranda Powder,MENU_KNOWLEDGE_00521,Miranda Powder,1.000,UPDATED
+15160,Strip of White Flesh,MENU_KNOWLEDGE_00522,Strip of White Flesh,1.000,UPDATED
+15310,Golden Dung,,,0.667,UNMATCHED
+15340,Thin Beast Bones,MENU_KNOWLEDGE_01020,Hefty Beast Bone,0.750,LOW_CONFIDENCE
+15341,Hefty Beast Bone,MENU_KNOWLEDGE_01020,Hefty Beast Bone,1.000,UPDATED
+15390,Glinstone Scrap,MENU_KNOWLEDGE_06028,Glintstone Icecrag,0.788,LOW_CONFIDENCE
+15400,String,MENU_KNOWLEDGE_00505,String,1.000,UPDATED
+15410,Living Jar Shard,MENU_KNOWLEDGE_01026,Living Jar Shard,1.000,UPDATED
+15420,Albinauric Bloodclot,MENU_KNOWLEDGE_01029,Albinauric Bloodclot,1.000,UPDATED
+15430,Stormhawk Feather,MENU_KNOWLEDGE_01047,Stormhawk Feather,1.000,UPDATED
+20650,Poisonbloom,MENU_KNOWLEDGE_01013,Poisonbloom,1.000,UPDATED
+20651,Trina's Lily,MENU_KNOWLEDGE_01014,Trina_s Lily,1.000,UPDATED
+20652,Fulgurbloom,MENU_KNOWLEDGE_01031,Fulgurbloom,1.000,UPDATED
+20653,Miquella's Lily,MENU_KNOWLEDGE_01039,Miquella_s Lily,1.000,UPDATED
+20654,Grave Violet,MENU_KNOWLEDGE_01033,Grave Violet,1.000,UPDATED
+20660,Faded Erdleaf Flower,MENU_KNOWLEDGE_01003,Faded Erdleaf Flower,1.000,UPDATED
+20680,Erdleaf Flower,MENU_KNOWLEDGE_00526,Erdleaf Flower,1.000,UPDATED
+20681,Altus Bloom,MENU_KNOWLEDGE_01001,Altus Bloom,1.000,UPDATED
+20682,Fire Blossom,MENU_KNOWLEDGE_01006,Fire Blossom,1.000,UPDATED
+20683,Golden Sunflower,MENU_KNOWLEDGE_01021,Golden Sunflower,1.000,UPDATED
+20685,Tarnished Golden Sunflower,MENU_KNOWLEDGE_01044,Tarnished Golden Sunflower,1.000,UPDATED
+20690,Herba,MENU_KNOWLEDGE_00533,Herba,1.000,UPDATED
+20691,Arteria Leaf,MENU_KNOWLEDGE_01042,Arteria Leaf,1.000,UPDATED
+20710,Dewkissed Herba,MENU_KNOWLEDGE_01008,Dewkissed Herba,1.000,UPDATED
+20720,Rowa Fruit,MENU_KNOWLEDGE_00531,Rowa Fruit,1.000,UPDATED
+20721,Golden Rowa,MENU_KNOWLEDGE_00532,Golden Rowa,1.000,UPDATED
+20722,Rimed Rowa,MENU_KNOWLEDGE_01005,Rimed Rowa,1.000,UPDATED
+20723,Bloodrose,MENU_KNOWLEDGE_01028,Bloodrose,1.000,UPDATED
+20740,Eye of Yelough,MENU_KNOWLEDGE_01025,Eye of Yelough,1.000,UPDATED
+20750,Crystal Bud,MENU_KNOWLEDGE_01000,Crystal Bud,1.000,UPDATED
+20751,Rimed Crystal Bud,MENU_KNOWLEDGE_01007,Rimed Crystal Bud,1.000,UPDATED
+20753,Sacramental Bud,MENU_KNOWLEDGE_01016,Sacramental Bud,1.000,UPDATED
+20760,Mushroom,MENU_KNOWLEDGE_01024,Mushroom,1.000,UPDATED
+20761,Melted Mushroom,MENU_KNOWLEDGE_01009,Melted Mushroom,1.000,UPDATED
+20770,Toxic Mushroom,MENU_KNOWLEDGE_01004,Toxic Mushroom,1.000,UPDATED
+20775,Root Resin,MENU_KNOWLEDGE_00542,Root Resin,1.000,UPDATED
+20780,Cracked Crystal,MENU_KNOWLEDGE_00541,Cracked Crystal,1.000,UPDATED
+20795,Sanctuary Stone,MENU_KNOWLEDGE_01038,Sanctuary Stone,1.000,UPDATED
+20800,Nascent Butterfly,MENU_KNOWLEDGE_01043,Nascent Butterfly,1.000,UPDATED
+20801,Aeonian Butterfly,MENU_KNOWLEDGE_01015,Aeonian Butterfly,1.000,UPDATED
+20802,Smoldering Butterfly,MENU_KNOWLEDGE_01034,Smoldering Butterfly,1.000,UPDATED
+20810,Silver Firefly,MENU_KNOWLEDGE_01018,Silver Firefly,1.000,UPDATED
+20811,Gold Firefly,MENU_KNOWLEDGE_01019,Gold Firefly,1.000,UPDATED
+20812,Glintstone Firefly,MENU_KNOWLEDGE_01045,Glintstone Firefly,1.000,UPDATED
+20820,Golden Centipede,MENU_KNOWLEDGE_01030,Golden Centipede,1.000,UPDATED
+20825,Silver Tear Husk,MENU_KNOWLEDGE_01037,Silver Tear Husk,1.000,UPDATED
+20830,Gold-Tinged Excrement,MENU_KNOWLEDGE_00538,Gold-Tinged Excrement,1.000,UPDATED
+20831,Blood-Tainted Excrement,MENU_KNOWLEDGE_00539,Blood-Tainted Excrement,1.000,UPDATED
+20840,Cave Moss,MENU_KNOWLEDGE_01022,Cave Moss,1.000,UPDATED
+20841,Budding Cave Moss,MENU_KNOWLEDGE_01023,Budding Cave Moss,1.000,UPDATED
+20842,Crystal Cave Moss,MENU_KNOWLEDGE_01032,Crystal Cave Moss,1.000,UPDATED
+20845,Yellow Ember,MENU_KNOWLEDGE_01046,Yellow Ember,1.000,UPDATED
+20850,Volcanic Stone,MENU_KNOWLEDGE_01002,Volcanic Stone,1.000,UPDATED
+20852,Formic Rock,MENU_KNOWLEDGE_01017,Formic Rock,1.000,UPDATED
+20855,Gravel Stone,MENU_KNOWLEDGE_01027,Gravel Stone,1.000,UPDATED
+200000,Black Knife Tiche,,,0.727,UNMATCHED
+201000,Banished Knight Oleg,MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,0.800,LOW_CONFIDENCE
+201001,Banished Knight Oleg +1,MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,0.766,LOW_CONFIDENCE
+202000,Banished Knight Engvall,MENU_KNOWLEDGE_12043,Banished Knight_s Shield,0.766,LOW_CONFIDENCE
+203000,Fanged Imp Ashes,,,0.552,UNMATCHED
+204000,Latenna the Albinauric,,,0.556,UNMATCHED
+205000,Nomad Ashes,,,0.545,UNMATCHED
+206000,Nightmaiden & Swordstress Puppets,,,0.600,UNMATCHED
+207000,Mimic Tear Ashes,,,0.519,UNMATCHED
+208000,Crystalian Ashes,,,0.710,UNMATCHED
+208001,Crystalian Ashes +1,,,0.667,UNMATCHED
+209000,Ancestral Follower Ashes,,,0.564,UNMATCHED
+210000,Winged Misbegotten Ashes,,,0.636,UNMATCHED
+211000,Albinauric Ashes,MENU_KNOWLEDGE_12044,Albinauric Shield,0.848,LOW_CONFIDENCE
+212000,Skeletal Militiaman Ashes,,,0.609,UNMATCHED
+213000,Skeletal Bandit Ashes,,,0.529,UNMATCHED
+214000,Oracle Envoy Ashes,,,0.562,UNMATCHED
+215000,Putrid Corpse Ashes,,,0.537,UNMATCHED
+216000,Depraved Perfumer Carmaan,,,0.591,UNMATCHED
+217000,Perfumer Tricia,,,0.706,UNMATCHED
+218000,Glintstone Sorcerer Ashes,,,0.714,UNMATCHED
+219000,Twinsage Sorcerer Ashes,,,0.556,UNMATCHED
+220000,Page Ashes,,,0.609,UNMATCHED
+221000,Battlemage Hugues,,,0.600,UNMATCHED
+222000,Clayman Ashes,,,0.600,UNMATCHED
+223000,Cleanrot Knight Finlay,,,0.591,UNMATCHED
+224000,Kindred of Rot Ashes,,,0.681,UNMATCHED
+225000,Marionette Soldier Ashes,,,0.541,UNMATCHED
+226000,Avionette Soldier Ashes,,,0.500,UNMATCHED
+227000,Fire Monk Ashes,,,0.667,UNMATCHED
+228000,Blackflame Monk Amon,MENU_KNOWLEDGE_06306,Black Flame Armament,0.750,LOW_CONFIDENCE
+229000,Man-Serpent Ashes,MENU_KNOWLEDGE_12002,Man-Serpent_s Shield,0.811,LOW_CONFIDENCE
+230000,Azula Beastman Ashes,,,0.634,UNMATCHED
+231000,Kaiden Sellsword Ashes,,,0.526,UNMATCHED
+232000,Lone Wolf Ashes,,,0.545,UNMATCHED
+233000,Giant Rat Ashes,,,0.562,UNMATCHED
+233005,Giant Rat Ashes +5,,,0.552,UNMATCHED
+233010,Giant Rat Ashes +10,,,0.533,UNMATCHED
+234000,Demi-Human Ashes,,,0.600,UNMATCHED
+234001,Demi-Human Ashes +1,,,0.667,UNMATCHED
+235000,Rotten Stray Ashes,,,0.667,UNMATCHED
+236000,Spirit Jellyfish Ashes,,,0.684,UNMATCHED
+237000,Warhawk Ashes,,,0.615,UNMATCHED
+237001,Warhawk Ashes +1,,,0.571,UNMATCHED
+238000,Stormhawk Deenh,MENU_KNOWLEDGE_10533,Stormhawk Axe,0.786,LOW_CONFIDENCE
+239000,Bloodhound Knight Floh,,,0.632,UNMATCHED
+240000,Wandering Noble Ashes,,,0.533,UNMATCHED
+241000,Noble Sorcerer Ashes,,,0.545,UNMATCHED
+242000,Vulgar Militia Ashes,MENU_KNOWLEDGE_10693,Vulgar Militia Shotel,0.878,LOW_CONFIDENCE
+243000,Mad Pumpkin Head Ashes,,,0.474,UNMATCHED
+244000,Land Squirt Ashes,,,0.541,UNMATCHED
+245000,Miranda Sprout Ashes,,,0.588,UNMATCHED
+246000,Soldjars of Fortune Ashes,,,0.596,UNMATCHED
+247000,Omenkiller Rollo,,,0.476,UNMATCHED
+248000,Greatshield Soldier Ashes,,,0.622,UNMATCHED
+249000,Archer Ashes,,,0.600,UNMATCHED
+250000,Godrick Soldier Ashes,,,0.585,UNMATCHED
+250001,Godrick Soldier Ashes +1,,,0.558,UNMATCHED
+251000,Raya Lucaria Soldier Ashes,,,0.564,UNMATCHED
+252000,Leyndell Soldier Ashes,,,0.542,UNMATCHED
+253000,Radahn Soldier Ashes,,,0.579,UNMATCHED
+254000,Mausoleum Soldier Ashes,,,0.488,UNMATCHED
+255000,Haligtree Soldier Ashes,,,0.520,UNMATCHED
+256000,Ancient Dragon Knight Kristoff,,,0.710,UNMATCHED
+257000,Redmane Knight Ogha,,,0.585,UNMATCHED
+258000,Lhutel the Headless,,,0.516,UNMATCHED
+259000,Nepheli Loux Puppet,,,0.439,UNMATCHED
+260000,Dung Eater Puppet,,,0.486,UNMATCHED
+261000,Finger Maiden Therolina Puppet,,,0.511,UNMATCHED
+262000,Dolores the Sleeping Arrow Puppet,,,0.435,UNMATCHED
+263000,Jarwight Puppet,,,0.538,UNMATCHED
+1,Crouching,,,0.632,UNMATCHED
+2,Guarding,,,0.571,UNMATCHED
+3,Guard Counters,,,0.514,UNMATCHED
+4,Two-Handing Armaments,,,0.611,UNMATCHED
+5,Charge and Jump Attacks,,,0.450,UNMATCHED
+6,Skill,,,0.444,UNMATCHED
+7,Parrying,,,0.625,UNMATCHED
+8,Setting a Target,,,0.529,UNMATCHED
+9,Precision Aiming,,,0.593,UNMATCHED
+10,Equipping Armaments,,,0.647,UNMATCHED
+11,Using Items,,,0.571,UNMATCHED
+12,Using Torches,,,0.560,UNMATCHED
+13,Critical Hits,,,0.621,UNMATCHED
+14,Gestures,,,0.600,UNMATCHED
+15,The Map,,,0.700,UNMATCHED
+16,Spiritspring Jumping,,,0.513,UNMATCHED
+17,Item Shortcut,,,0.545,UNMATCHED
+50,Dying and Dropping Runes,,,0.488,UNMATCHED
+52,Summoning Spirits,,,0.621,UNMATCHED
+53,Resting at Sites of Grace,,,0.537,UNMATCHED
+54,Finding Sites of Grace,,,0.591,UNMATCHED
+55,Guidance of Grace,,,0.581,UNMATCHED
+56,Sacred Flasks,,,0.545,UNMATCHED
+57,Fast Travel to Sites of Grace,,,0.522,UNMATCHED
+58,Mounted Attacks,,,0.516,UNMATCHED
+59,No-Riding Areas,,,0.571,UNMATCHED
+60,Item Crafting,,,0.640,UNMATCHED
+61,Container Items,,,0.538,UNMATCHED
+62,Armament Customization,,,0.550,UNMATCHED
+65,Equip Load,,,0.476,UNMATCHED
+66,While in Combat,,,0.516,UNMATCHED
+67,Strengthening Spirits,,,0.605,UNMATCHED
+68,Leveling Up,,,0.545,UNMATCHED
+70,Status: Poison,,,0.667,UNMATCHED
+71,Status: Scarlet Rot,,,0.562,UNMATCHED
+72,Status: Blood Loss,,,0.667,UNMATCHED
+73,Status: Frost/Frostbite,,,0.486,UNMATCHED
+74,Status: Sleep,,,0.522,UNMATCHED
+75,Status: Madness,,,0.533,UNMATCHED
+76,Status: Death,,,0.640,UNMATCHED
+77,Poise,,,0.667,UNMATCHED
+100,Cooperator's Objective (Furled Finger),,,0.452,UNMATCHED
+101,Adversary's Objective (Duelist),,,0.465,UNMATCHED
+102,Multiplayer Maximums,,,0.486,UNMATCHED
+103,Seeing Summon Signs,,,0.550,UNMATCHED
+104,Leaving Co-op Signs,,,0.529,UNMATCHED
+105,Leaving Hostile Signs,,,0.512,UNMATCHED
+106,Invasion,,,0.500,UNMATCHED
+107,Requesting Support,,,0.581,UNMATCHED
+108,Supporting,,,0.625,UNMATCHED
+109,Summoning Pools,,,0.600,UNMATCHED
+110,Group Passwords,,,0.556,UNMATCHED
+111,Multiplayer Passwords,,,0.524,UNMATCHED
+112,Messages,,,0.476,UNMATCHED
+113,Multiplayer Movement Limits,,,0.500,UNMATCHED
+114,Phantoms,,,0.435,UNMATCHED
+115,Bloodstains,,,0.643,UNMATCHED
+116,Support Objective (Hunter),,,0.488,UNMATCHED
+117,Summon Signs,,,0.519,UNMATCHED
+118,Advanced Messages,,,0.538,UNMATCHED
+119,Invader Objective,,,0.516,UNMATCHED
+150,Limits of Guarding,,,0.581,UNMATCHED
+151,Stance-Breaking,,,0.571,UNMATCHED
+152,Knocking Down Mounted Enemies,,,0.481,UNMATCHED
+153,Hardened Foes,,,0.571,UNMATCHED
+200,Teardrop Scarabs,,,0.621,UNMATCHED
+10000,Head,MENU_KNOWLEDGE_06301,Heal,0.750,LOW_CONFIDENCE
+10100,Body,,,0.462,UNMATCHED
+10200,Arms,,,0.500,UNMATCHED
+10300,Legs,,,0.500,UNMATCHED
+40000,Iron Helmet,,,0.720,UNMATCHED
+40100,Scale Armor,,,0.640,UNMATCHED
+40200,Iron Gauntlets,,,0.609,UNMATCHED
+40300,Leather Trousers,,,0.562,UNMATCHED
+50000,Kaiden Helm,,,0.636,UNMATCHED
+50100,Kaiden Armor,,,0.593,UNMATCHED
+50200,Kaiden Gauntlets,,,0.516,UNMATCHED
+50300,Kaiden Trousers,,,0.538,UNMATCHED
+60000,Drake Knight Helm,,,0.667,UNMATCHED
+60100,Drake Knight Armor,,,0.552,UNMATCHED
+60200,Drake Knight Gauntlets,,,0.511,UNMATCHED
+60300,Drake Knight Greaves,,,0.556,UNMATCHED
+61100,Drake Knight Armor (Altered),,,0.588,UNMATCHED
+80000,Scaled Helm,,,0.583,UNMATCHED
+80100,Scaled Armor,,,0.621,UNMATCHED
+80200,Scaled Gauntlets,,,0.545,UNMATCHED
+80300,Scaled Greaves,,,0.581,UNMATCHED
+90000,Perfumer Hood,,,0.733,UNMATCHED
+90100,Perfumer Robe,,,0.741,UNMATCHED
+90200,Perfumer Gloves,,,0.690,UNMATCHED
+90300,Perfumer Sarong,,,0.706,UNMATCHED
+100000,Traveler's Hat,,,0.615,UNMATCHED
+100100,Perfumer's Traveling Garb,,,0.727,UNMATCHED
+100200,Traveler's Gloves,,,0.621,UNMATCHED
+100300,Traveler's Slops,,,0.606,UNMATCHED
+120000,Alberich's Pointed Hat,,,0.564,UNMATCHED
+120100,Alberich's Robe,,,0.621,UNMATCHED
+120200,Alberich's Bracers,,,0.545,UNMATCHED
+120300,Alberich's Trousers,,,0.600,UNMATCHED
+121100,Alberich's Robe (Altered),,,0.550,UNMATCHED
+130000,Spellblade's Pointed Hat,,,0.522,UNMATCHED
+130100,Spellblade's Traveling Attire,,,0.582,UNMATCHED
+130200,Spellblade's Gloves,,,0.556,UNMATCHED
+130300,Spellblade's Trousers,,,0.562,UNMATCHED
+140000,Bull-Goat Helm,,,0.706,UNMATCHED
+140100,Bull-Goat Armor,,,0.686,UNMATCHED
+140200,Bull-Goat Gauntlets,,,0.615,UNMATCHED
+140300,Bull-Goat Greaves,,,0.649,UNMATCHED
+150000,Iron Kasa,,,0.667,UNMATCHED
+150100,Ronin's Armor,,,0.667,UNMATCHED
+150200,Ronin's Gauntlets,,,0.581,UNMATCHED
+150300,Ronin's Greaves,,,0.600,UNMATCHED
+160000,Guilty Hood,,,0.480,UNMATCHED
+160100,Cloth Garb,,,0.600,UNMATCHED
+160200,Tarnished Wrap,,,0.615,UNMATCHED
+160300,Cloth Trousers,,,0.522,UNMATCHED
+170000,Black Wolf Mask,,,0.615,UNMATCHED
+170100,Blaidd's Armor,,,0.581,UNMATCHED
+170200,Blaidd's Gauntlets,,,0.541,UNMATCHED
+170300,Blaidd's Greaves,,,0.571,UNMATCHED
+171100,Blaidd's Armor (Altered),,,0.511,UNMATCHED
+180000,Black Knife Hood,,,0.688,UNMATCHED
+180100,Black Knife Armor,,,0.727,UNMATCHED
+180200,Black Knife Gauntlets,,,0.703,UNMATCHED
+180300,Black Knife Greaves,,,0.686,UNMATCHED
+181100,Black Knife Armor (Altered),,,0.634,UNMATCHED
+190000,Exile Hood,,,0.560,UNMATCHED
+190100,Exile Armor,,,0.545,UNMATCHED
+190200,Exile Gauntlets,,,0.486,UNMATCHED
+190300,Exile Greaves,,,0.581,UNMATCHED
+200000,Banished Knight Helm,MENU_KNOWLEDGE_12043,Banished Knight_s Shield,0.864,LOW_CONFIDENCE
+200100,Banished Knight Armor,MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,0.783,LOW_CONFIDENCE
+200200,Banished Knight Gauntlets,MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,0.760,LOW_CONFIDENCE
+200300,Banished Knight Greaves,,,0.723,UNMATCHED
+201000,Banished Knight Helm (Altered),MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,0.830,LOW_CONFIDENCE
+210000,Briar Helm,,,0.667,UNMATCHED
+210100,Briar Armor,,,0.583,UNMATCHED
+210200,Briar Gauntlets,,,0.625,UNMATCHED
+210300,Briar Greaves,,,0.733,UNMATCHED
+220000,Page Hood,,,0.545,UNMATCHED
+220100,Page Garb,,,0.571,UNMATCHED
+220300,Page Trousers,,,0.545,UNMATCHED
+230000,Night's Cavalry Helm,,,0.581,UNMATCHED
+230100,Night's Cavalry Armor,,,0.562,UNMATCHED
+230200,Night's Cavalry Gauntlets,,,0.512,UNMATCHED
+230300,Night's Cavalry Greaves,,,0.550,UNMATCHED
+231000,Night's Cavalry Helm (Altered),,,0.513,UNMATCHED
+240000,Blue Silver Mail Hood,,,0.550,UNMATCHED
+240100,Blue Silver Mail Armor,,,0.585,UNMATCHED
+240200,Blue Silver Bracelets,,,0.571,UNMATCHED
+240300,Blue Silver Mail Skirt,,,0.579,UNMATCHED
+250000,Nomadic Merchant's Chapeau,,,0.533,UNMATCHED
+250100,Nomadic Merchant's Finery,,,0.533,UNMATCHED
+250300,Nomadic Merchant's Trousers,,,0.571,UNMATCHED
+260000,Malformed Dragon Helm,,,0.585,UNMATCHED
+260100,Malformed Dragon Armor,,,0.632,UNMATCHED
+260200,Malformed Dragon Gauntlets,,,0.524,UNMATCHED
+260300,Malformed Dragon Greaves,,,0.550,UNMATCHED
+270000,Tree Sentinel Helm,,,0.552,UNMATCHED
+270100,Tree Sentinel Armor,,,0.588,UNMATCHED
+270200,Tree Sentinel Gauntlets,,,0.500,UNMATCHED
+270300,Tree Sentinel Greaves,,,0.542,UNMATCHED
+271100,Tree Sentinel Armor (Altered),,,0.500,UNMATCHED
+280000,Royal Knight Helm,,,0.667,UNMATCHED
+280100,Royal Knight Armor,,,0.556,UNMATCHED
+280200,Royal Knight Gauntlets,,,0.511,UNMATCHED
+280300,Royal Knight Greaves,,,0.550,UNMATCHED
+281100,Royal Knight Armor (Altered),,,0.588,UNMATCHED
+290000,Nox Monk Hood,,,0.533,UNMATCHED
+290100,Nox Monk Armor,,,0.516,UNMATCHED
+290200,Nox Monk Bracelets,,,0.485,UNMATCHED
+290300,Nox Monk Greaves,,,0.500,UNMATCHED
+291000,Nox Monk Hood (Altered),,,0.564,UNMATCHED
+291100,Nox Monk Armor (Altered),,,0.486,UNMATCHED
+292000,Nox Swordstress Crown,,,0.500,UNMATCHED
+292100,Nox Swordstress Armor,,,0.556,UNMATCHED
+293000,Night Maiden Twin Crown,,,0.667,UNMATCHED
+293100,Night Maiden Armor,MENU_KNOWLEDGE_06253,Night Maiden_s Mist,0.757,LOW_CONFIDENCE
+294000,Nox Swordstress Crown (Altered),,,0.480,UNMATCHED
+294100,Nox Swordstress Armor (Altered),,,0.478,UNMATCHED
+300000,Great Horned Headband,,,0.649,UNMATCHED
+300100,Fur Raiment,,,0.692,UNMATCHED
+300300,Fur Leggings,,,0.571,UNMATCHED
+301000,Shining Horned Headband,,,0.591,UNMATCHED
+301100,Shaman Furs,,,0.500,UNMATCHED
+301300,Shaman Leggings,,,0.538,UNMATCHED
+310000,Duelist Helm,,,0.643,UNMATCHED
+310100,Gravekeeper Cloak,,,0.471,UNMATCHED
+310300,Duelist Greaves,MENU_KNOWLEDGE_10884,Duelist Greataxe,0.839,LOW_CONFIDENCE
+311100,Gravekeeper Cloak (Altered),,,0.500,UNMATCHED
+320000,Sanguine Noble Hood,,,0.474,UNMATCHED
+320100,Sanguine Noble Robe,,,0.541,UNMATCHED
+320300,Sanguine Noble Waistcloth,,,0.444,UNMATCHED
+330000,Guardian Mask,,,0.588,UNMATCHED
+330100,Guardian Garb (Full Bloom),,,0.512,UNMATCHED
+330200,Guardian Bracers,,,0.667,UNMATCHED
+330300,Guardian Greaves,,,0.667,UNMATCHED
+331100,Guardian Garb,,,0.647,UNMATCHED
+340000,Cleanrot Helm,,,0.741,UNMATCHED
+340100,Cleanrot Armor,MENU_KNOWLEDGE_10604,Cleanrot Spear,0.786,LOW_CONFIDENCE
+340200,Cleanrot Gauntlets,,,0.625,UNMATCHED
+340300,Cleanrot Greaves,,,0.733,UNMATCHED
+350000,Fire Monk Hood,,,0.686,UNMATCHED
+350100,Fire Monk Armor,,,0.722,UNMATCHED
+350200,Fire Monk Gauntlets,,,0.600,UNMATCHED
+350300,Fire Monk Greaves,,,0.632,UNMATCHED
+351000,Blackflame Monk Hood,,,0.650,UNMATCHED
+351100,Blackflame Monk Armor,,,0.683,UNMATCHED
+351200,Blackflame Monk Gauntlets,,,0.667,UNMATCHED
+351300,Blackflame Monk Greaves,,,0.634,UNMATCHED
+360000,Fire Prelate Helm,,,0.600,UNMATCHED
+360100,Fire Prelate Armor,,,0.541,UNMATCHED
+360200,Fire Prelate Gauntlets,,,0.513,UNMATCHED
+360300,Fire Prelate Greaves,,,0.553,UNMATCHED
+361100,Fire Prelate Armor (Altered),,,0.490,UNMATCHED
+370000,Aristocrat Headband,,,0.500,UNMATCHED
+370100,Aristocrat Garb,,,0.500,UNMATCHED
+370300,Aristocrat Boots,,,0.538,UNMATCHED
+380000,Aristocrat Hat,,,0.516,UNMATCHED
+380100,Aristocrat Coat,,,0.500,UNMATCHED
+390000,Old Aristocrat Cowl,,,0.537,UNMATCHED
+390100,Old Aristocrat Gown,,,0.513,UNMATCHED
+390300,Old Aristocrat Shoes,,,0.622,UNMATCHED
+420000,Vulgar Militia Helm,MENU_KNOWLEDGE_10693,Vulgar Militia Shotel,0.900,LOW_CONFIDENCE
+420100,Vulgar Militia Armor,MENU_KNOWLEDGE_10687,Vulgar Militia Saw,0.842,LOW_CONFIDENCE
+420200,Vulgar Militia Gauntlets,MENU_KNOWLEDGE_10687,Vulgar Militia Saw,0.762,LOW_CONFIDENCE
+420300,Vulgar Militia Greaves,MENU_KNOWLEDGE_10687,Vulgar Militia Saw,0.800,LOW_CONFIDENCE
+430000,Sage Hood,,,0.636,UNMATCHED
+430100,Sage Robe,,,0.545,UNMATCHED
+430300,Sage Trousers,,,0.545,UNMATCHED
+440000,Pumpkin Helm,,,0.522,UNMATCHED
+460000,Elden Lord Crown,,,0.593,UNMATCHED
+460100,Elden Lord Armor,,,0.606,UNMATCHED
+460200,Elden Lord Bracers,,,0.629,UNMATCHED
+460300,Elden Lord Greaves,,,0.629,UNMATCHED
+470000,Radahn's Redmane Helm,,,0.700,UNMATCHED
+470100,Radahn's Lion Armor,,,0.667,UNMATCHED
+470200,Radahn's Gauntlets,MENU_KNOWLEDGE_03079,Radahn_s Great Rune,0.757,LOW_CONFIDENCE
+470300,Radahn's Greaves,MENU_KNOWLEDGE_03079,Radahn_s Great Rune,0.800,LOW_CONFIDENCE
+480100,Lord of Blood's Robe,MENU_KNOWLEDGE_03087,Lord of Blood_s Favor,0.829,LOW_CONFIDENCE
+510000,Queen's Crescent Crown,,,0.564,UNMATCHED
+510100,Queen's Robe,,,0.583,UNMATCHED
+510200,Queen's Bracelets,,,0.552,UNMATCHED
+510300,Queen's Leggings,,,0.524,UNMATCHED
+520000,Godskin Apostle Hood,,,0.632,UNMATCHED
+520100,Godskin Apostle Robe,,,0.579,UNMATCHED
+520200,Godskin Apostle Bracelets,,,0.558,UNMATCHED
+520300,Godskin Apostle Trousers,,,0.524,UNMATCHED
+530000,Godskin Noble Hood,,,0.611,UNMATCHED
+530100,Godskin Noble Robe,,,0.556,UNMATCHED
+530200,Godskin Noble Bracelets,,,0.537,UNMATCHED
+530300,Godskin Noble Trousers,,,0.550,UNMATCHED
+540000,Depraved Perfumer Headscarf,,,0.545,UNMATCHED
+540100,Depraved Perfumer Robe,,,0.556,UNMATCHED
+540200,Depraved Perfumer Gloves,,,0.526,UNMATCHED
+540300,Depraved Perfumer Trousers,,,0.512,UNMATCHED
+570000,Crucible Axe Helm,,,0.700,UNMATCHED
+570100,Crucible Axe Armor,,,0.683,UNMATCHED
+570200,Crucible Gauntlets,,,0.683,UNMATCHED
+570300,Crucible Greaves,,,0.634,UNMATCHED
+571000,Crucible Tree Helm,,,0.703,UNMATCHED
+571100,Crucible Tree Armor,,,0.636,UNMATCHED
+580000,Lusat's Glintstone Crown,MENU_KNOWLEDGE_11215,Lusat_s Glintstone Staff,0.792,LOW_CONFIDENCE
+580100,Lusat's Robe,,,0.562,UNMATCHED
+580200,Lusat's Manchettes,,,0.514,UNMATCHED
+580300,Old Sorcerer's Legwraps,,,0.550,UNMATCHED
+581000,Azur's Glintstone Crown,MENU_KNOWLEDGE_11214,Azur_s Glintstone Staff,0.783,LOW_CONFIDENCE
+581100,Azur's Glintstone Robe,MENU_KNOWLEDGE_11214,Azur_s Glintstone Staff,0.800,LOW_CONFIDENCE
+581200,Azur's Manchettes,,,0.571,UNMATCHED
+590000,All-Knowing Helm,,,0.529,UNMATCHED
+590100,All-Knowing Armor,,,0.514,UNMATCHED
+590200,All-Knowing Gauntlets,,,0.556,UNMATCHED
+590300,All-Knowing Greaves,,,0.514,UNMATCHED
+600000,Twinned Helm,,,0.640,UNMATCHED
+600100,Twinned Armor,,,0.621,UNMATCHED
+600200,Twinned Gauntlets,,,0.545,UNMATCHED
+600300,Twinned Greaves,,,0.645,UNMATCHED
+610000,Ragged Hat,,,0.636,UNMATCHED
+610100,Ragged Armor,,,0.522,UNMATCHED
+610200,Ragged Gloves,,,0.519,UNMATCHED
+610300,Ragged Loincloth,,,0.538,UNMATCHED
+620000,Prophet Blindfold,,,0.516,UNMATCHED
+620100,Corhyn's Robe,,,0.560,UNMATCHED
+620300,Prophet Trousers,,,0.500,UNMATCHED
+621100,Prophet Robe (Altered),,,0.545,UNMATCHED
+622100,Prophet Robe,,,0.545,UNMATCHED
+630000,Astrologer Hood,,,0.667,UNMATCHED
+630100,Astrologer Robe,,,0.667,UNMATCHED
+630200,Astrologer Gloves,,,0.686,UNMATCHED
+630300,Astrologer Trousers,,,0.649,UNMATCHED
+640000,Lionel's Helm,,,0.667,UNMATCHED
+640100,Lionel's Armor,,,0.600,UNMATCHED
+640200,Lionel's Gauntlets,,,0.556,UNMATCHED
+640300,Lionel's Greaves,,,0.632,UNMATCHED
+641100,Lionel's Armor (Altered),,,0.541,UNMATCHED
+650000,Hoslow's Helm,,,0.667,UNMATCHED
+650100,Hoslow's Armor,,,0.621,UNMATCHED
+650200,Hoslow's Gauntlets,,,0.595,UNMATCHED
+650300,Hoslow's Greaves,,,0.629,UNMATCHED
+651000,Diallos's Mask,,,0.583,UNMATCHED
+660000,Vagabond Knight Helm,,,0.667,UNMATCHED
+660100,Vagabond Knight Armor,,,0.565,UNMATCHED
+660200,Vagabond Knight Gauntlets,,,0.560,UNMATCHED
+660300,Vagabond Knight Greaves,,,0.533,UNMATCHED
+670000,Blue Cloth Cowl,,,0.500,UNMATCHED
+670100,Blue Cloth Vest,,,0.500,UNMATCHED
+670200,Warrior Gauntlets,,,0.588,UNMATCHED
+670300,Warrior Greaves,,,0.625,UNMATCHED
+680000,White Mask,,,0.522,UNMATCHED
+680100,War Surgeon Gown,,,0.500,UNMATCHED
+680200,War Surgeon Gloves,,,0.581,UNMATCHED
+680300,War Surgeon Trousers,,,0.526,UNMATCHED
+690000,Royal Remains Helm,,,0.606,UNMATCHED
+690100,Royal Remains Armor,,,0.529,UNMATCHED
+690200,Royal Remains Gauntlets,,,0.526,UNMATCHED
+690300,Royal Remains Greaves,,,0.585,UNMATCHED
+700000,Brave's Cord Circlet,,,0.562,UNMATCHED
+700100,Brave's Battlewear,,,0.579,UNMATCHED
+700200,Brave's Bracer,,,0.621,UNMATCHED
+700300,Brave's Legwraps,,,0.533,UNMATCHED
+701000,Brave's Leather Helm,,,0.700,UNMATCHED
+702000,Brave's Battlewear (Altered),,,0.522,UNMATCHED
+720000,Beast Champion Helm,,,0.552,UNMATCHED
+720100,Beast Champion Armor,,,0.564,UNMATCHED
+720200,Beast Champion Gauntlets,,,0.488,UNMATCHED
+720300,Beast Champion Greaves,,,0.605,UNMATCHED
+730000,Champion Headband,,,0.533,UNMATCHED
+730100,Champion Pauldron,,,0.600,UNMATCHED
+730200,Champion Bracers,,,0.562,UNMATCHED
+730300,Champion Gaiters,,,0.621,UNMATCHED
+740000,Crimson Hood,,,0.545,UNMATCHED
+740100,Noble's Traveling Garb,,,0.513,UNMATCHED
+740200,Noble's Gloves,,,0.581,UNMATCHED
+740300,Noble's Trousers,,,0.600,UNMATCHED
+741000,Navy Hood,,,0.571,UNMATCHED
+760000,Maliketh's Helm,,,0.621,UNMATCHED
+760100,Maliketh's Armor,,,0.621,UNMATCHED
+760200,Maliketh's Gauntlets,,,0.600,UNMATCHED
+760300,Maliketh's Greaves,,,0.632,UNMATCHED
+770000,Malenia's Winged Helm,,,0.585,UNMATCHED
+770100,Malenia's Armor,,,0.686,UNMATCHED
+770200,Malenia's Gauntlet,MENU_KNOWLEDGE_03083,Malenia_s Great Rune,0.789,LOW_CONFIDENCE
+770300,Malenia's Greaves,MENU_KNOWLEDGE_03083,Malenia_s Great Rune,0.811,LOW_CONFIDENCE
+780000,Veteran's Helm,,,0.667,UNMATCHED
+780100,Veteran's Armor,,,0.643,UNMATCHED
+780200,Veteran's Gauntlets,,,0.579,UNMATCHED
+780300,Veteran's Greaves,,,0.667,UNMATCHED
+790000,Bloodhound Knight Helm,,,0.632,UNMATCHED
+790100,Bloodhound Knight Armor,,,0.615,UNMATCHED
+790200,Bloodhound Knight Gauntlets,,,0.605,UNMATCHED
+790300,Bloodhound Knight Greaves,,,0.634,UNMATCHED
+800000,Festive Hood,,,0.609,UNMATCHED
+800100,Festive Garb,,,0.640,UNMATCHED
+801000,Festive Hood (Altered),,,0.529,UNMATCHED
+802000,Blue Festive Hood,,,0.537,UNMATCHED
+802100,Blue Festive Garb,,,0.571,UNMATCHED
+810000,Commoner's Headband,,,0.537,UNMATCHED
+810100,Commoner's Garb,,,0.571,UNMATCHED
+810300,Commoner's Shoes,,,0.562,UNMATCHED
+811000,Commoner's Headband (Altered),,,0.524,UNMATCHED
+811100,Commoner's Garb (Altered),,,0.526,UNMATCHED
+812000,Commoner's Simple Garb,,,0.514,UNMATCHED
+812100,Commoner's Simple Garb (Altered),,,0.491,UNMATCHED
+820000,Envoy Crown,,,0.696,UNMATCHED
+830000,Twinsage Glintstone Crown,,,0.638,UNMATCHED
+830100,Raya Lucarian Robe,,,0.562,UNMATCHED
+830200,Sorcerer Manchettes,,,0.529,UNMATCHED
+830300,Sorcerer Leggings,,,0.600,UNMATCHED
+831000,Olivinus Glintstone Crown,,,0.615,UNMATCHED
+832000,Lazuli Glintstone Crown,,,0.652,UNMATCHED
+833000,Karolos Glintstone Crown,,,0.640,UNMATCHED
+834000,Witch's Glintstone Crown,,,0.696,UNMATCHED
+840000,Marionette Soldier Helm,,,0.556,UNMATCHED
+840100,Marionette Soldier Armor,,,0.541,UNMATCHED
+850000,Marionette Soldier Birdhelm,,,0.500,UNMATCHED
+860000,Raging Wolf Helm,,,0.562,UNMATCHED
+860100,Raging Wolf Armor,,,0.529,UNMATCHED
+860200,Raging Wolf Gauntlets,,,0.533,UNMATCHED
+860300,Raging Wolf Greaves,,,0.526,UNMATCHED
+870000,Land of Reeds Helm,,,0.571,UNMATCHED
+870100,Land of Reeds Armor,,,0.611,UNMATCHED
+870200,Land of Reeds Gauntlets,,,0.550,UNMATCHED
+870300,Land of Reeds Greaves,,,0.632,UNMATCHED
+871100,Land of Reeds Armor (Altered),,,0.531,UNMATCHED
+872000,Okina Mask,,,0.571,UNMATCHED
+872100,White Reed Armor,,,0.562,UNMATCHED
+872200,White Reed Gauntlets,,,0.514,UNMATCHED
+872300,White Reed Greaves,,,0.541,UNMATCHED
+880000,Confessor Hood,,,0.500,UNMATCHED
+880100,Confessor Armor,,,0.500,UNMATCHED
+880200,Confessor Gloves,,,0.533,UNMATCHED
+880300,Confessor Boots,,,0.560,UNMATCHED
+881000,Confessor Hood (Altered),,,0.541,UNMATCHED
+890000,Prisoner Iron Mask,,,0.558,UNMATCHED
+890100,Prisoner Clothing,,,0.550,UNMATCHED
+890300,Prisoner Trousers,,,0.545,UNMATCHED
+891000,Blackguard's Iron Mask,,,0.541,UNMATCHED
+900000,Traveling Maiden Hood,,,0.514,UNMATCHED
+900100,Traveling Maiden Robe,,,0.514,UNMATCHED
+900200,Traveling Maiden Gloves,,,0.500,UNMATCHED
+900300,Traveling Maiden Boots,,,0.524,UNMATCHED
+901100,Traveling Maiden Robe (Altered),,,0.509,UNMATCHED
+902000,Finger Maiden Fillet,,,0.615,UNMATCHED
+902100,Finger Maiden Robe,,,0.556,UNMATCHED
+902300,Finger Maiden Shoes,,,0.632,UNMATCHED
+910000,Preceptor's Big Hat,,,0.500,UNMATCHED
+910100,Preceptor's Long Gown,,,0.632,UNMATCHED
+910200,Preceptor's Gloves,,,0.581,UNMATCHED
+910300,Preceptor's Trousers,,,0.537,UNMATCHED
+911000,Mask of Confidence,,,0.526,UNMATCHED
+911100,Preceptor's Long Gown (Altered),,,0.522,UNMATCHED
+920000,Grass Hair Ornament,,,0.541,UNMATCHED
+930000,Skeletal Mask,,,0.538,UNMATCHED
+930100,Raptor's Black Feathers,,,0.650,UNMATCHED
+930200,Bandit Manchettes,,,0.519,UNMATCHED
+930300,Bandit Boots,,,0.609,UNMATCHED
+931100,Bandit Garb,,,0.545,UNMATCHED
+940000,Eccentric's Hood,,,0.533,UNMATCHED
+940100,Eccentric's Armor,,,0.606,UNMATCHED
+940200,Eccentric's Manchettes,,,0.550,UNMATCHED
+940300,Eccentric's Breeches,,,0.524,UNMATCHED
+950000,Fingerprint Helm,MENU_KNOWLEDGE_03054,Fingerprint Grape,0.788,LOW_CONFIDENCE
+950100,Fingerprint Armor,MENU_KNOWLEDGE_03054,Fingerprint Grape,0.765,LOW_CONFIDENCE
+950200,Fingerprint Gauntlets,MENU_KNOWLEDGE_03054,Fingerprint Grape,0.789,LOW_CONFIDENCE
+950300,Fingerprint Greaves,MENU_KNOWLEDGE_03054,Fingerprint Grape,0.833,LOW_CONFIDENCE
+960000,Consort's Mask,,,0.581,UNMATCHED
+960100,Consort's Robe,,,0.562,UNMATCHED
+960300,Consort's Trousers,,,0.556,UNMATCHED
+961000,Ruler's Mask,,,0.581,UNMATCHED
+961100,Ruler's Robe,,,0.640,UNMATCHED
+962100,Upper-Class Robe,,,0.500,UNMATCHED
+963000,Marais Mask,,,0.571,UNMATCHED
+963100,Marais Robe,,,0.593,UNMATCHED
+963200,Bloodsoaked Manchettes,,,0.585,UNMATCHED
+964000,Bloodsoaked Mask,,,0.625,UNMATCHED
+964100,Official's Attire,,,0.581,UNMATCHED
+970000,Omen Helm,,,0.600,UNMATCHED
+970100,Omen Armor,,,0.600,UNMATCHED
+970200,Omen Gauntlets,,,0.552,UNMATCHED
+970300,Omen Greaves,,,0.667,UNMATCHED
+980000,Carian Knight Helm,MENU_KNOWLEDGE_12055,Carian Knight_s Shield,0.850,LOW_CONFIDENCE
+980100,Carian Knight Armor,,,0.683,UNMATCHED
+980200,Carian Knight Gauntlets,,,0.667,UNMATCHED
+980300,Carian Knight Greaves,,,0.698,UNMATCHED
+990000,Hierodas Glintstone Crown,,,0.638,UNMATCHED
+990100,Errant Sorcerer Robe,,,0.550,UNMATCHED
+990200,Errant Sorcerer Manchettes,,,0.500,UNMATCHED
+990300,Errant Sorcerer Boots,,,0.564,UNMATCHED
+1000000,Haima Glintstone Crown,,,0.667,UNMATCHED
+1000100,Battlemage Robe,,,0.643,UNMATCHED
+1000200,Battlemage Manchettes,,,0.516,UNMATCHED
+1000300,Battlemage Legwraps,,,0.562,UNMATCHED
+1010000,Snow Witch Hat,,,0.500,UNMATCHED
+1010100,Snow Witch Robe,,,0.474,UNMATCHED
+1010300,Snow Witch Skirt,,,0.462,UNMATCHED
+1020100,Traveler's Clothes,,,0.667,UNMATCHED
+1020200,Traveler's Manchettes,,,0.564,UNMATCHED
+1020300,Traveler's Boots,,,0.571,UNMATCHED
+1030000,Juvenile Scholar Cap,,,0.524,UNMATCHED
+1030100,Juvenile Scholar Robe,,,0.513,UNMATCHED
+1040000,Radiant Gold Mask,,,0.533,UNMATCHED
+1040100,Goldmask's Rags,,,0.615,UNMATCHED
+1040200,Gold Bracelets,,,0.615,UNMATCHED
+1040300,Gold Waistwrap,,,0.640,UNMATCHED
+1050100,Fell Omen Cloak,,,0.545,UNMATCHED
+1060000,Albinauric Mask,MENU_KNOWLEDGE_11210,Albinauric Staff,0.774,LOW_CONFIDENCE
+1060100,Dirty Chainmail,,,0.533,UNMATCHED
+1070000,Zamor Mask,,,0.560,UNMATCHED
+1070100,Zamor Armor,,,0.615,UNMATCHED
+1070200,Zamor Bracelets,,,0.609,UNMATCHED
+1070300,Zamor Legwraps,,,0.552,UNMATCHED
+1080000,Imp Head (Cat),,,0.545,UNMATCHED
+1081000,Imp Head (Fanged),,,0.522,UNMATCHED
+1082000,Imp Head (Long-Tongued),,,0.474,UNMATCHED
+1083000,Imp Head (Corpse),,,0.519,UNMATCHED
+1084000,Imp Head (Wolf),,,0.522,UNMATCHED
+1085000,Imp Head (Elder),,,0.583,UNMATCHED
+1090000,Silver Tear Mask,MENU_KNOWLEDGE_01037,Silver Tear Husk,0.875,LOW_CONFIDENCE
+1100000,Chain Coif,,,0.560,UNMATCHED
+1100100,Chain Armor,,,0.583,UNMATCHED
+1100200,Chain Gauntlets,,,0.579,UNMATCHED
+1100300,Chain Leggings,,,0.609,UNMATCHED
+1101000,Greathelm,MENU_KNOWLEDGE_06505,Great Heal,0.842,LOW_CONFIDENCE
+1101100,Eye Surcoat,,,0.560,UNMATCHED
+1102100,Tree Surcoat,,,0.583,UNMATCHED
+1110000,Octopus Head,,,0.600,UNMATCHED
+1120000,Jar,,,0.500,UNMATCHED
+1130000,Mushroom Head,MENU_KNOWLEDGE_01024,Mushroom,0.762,LOW_CONFIDENCE
+1130100,Mushroom Body,MENU_KNOWLEDGE_01024,Mushroom,0.762,LOW_CONFIDENCE
+1130200,Mushroom Arms,MENU_KNOWLEDGE_01024,Mushroom,0.762,LOW_CONFIDENCE
+1130300,Mushroom Legs,MENU_KNOWLEDGE_01024,Mushroom,0.762,LOW_CONFIDENCE
+1300000,Nox Mirrorhelm,,,0.606,UNMATCHED
+1301000,Iji's Mirrorhelm,,,0.629,UNMATCHED
+1400000,Black Hood,,,0.737,UNMATCHED
+1400100,Leather Armor,,,0.621,UNMATCHED
+1400200,Leather Gloves,,,0.600,UNMATCHED
+1400300,Leather Boots,,,0.727,UNMATCHED
+1401000,Bandit Mask,,,0.526,UNMATCHED
+1500000,Knight Helm,,,0.636,UNMATCHED
+1500100,Knight Armor,,,0.696,UNMATCHED
+1500200,Knight Gauntlets,,,0.593,UNMATCHED
+1500300,Knight Greaves,,,0.645,UNMATCHED
+1600000,Greathood,,,0.706,UNMATCHED
+1700000,Godrick Soldier Helm,,,0.600,UNMATCHED
+1700100,Tree-and-Beast Surcoat,,,0.571,UNMATCHED
+1700200,Godrick Soldier Gauntlets,,,0.667,UNMATCHED
+1700300,Godrick Soldier Greaves,,,0.698,UNMATCHED
+1710000,Raya Lucarian Helm,,,0.562,UNMATCHED
+1710100,Cuckoo Surcoat,,,0.625,UNMATCHED
+1710200,Raya Lucarian Gauntlets,,,0.565,UNMATCHED
+1710300,Raya Lucarian Greaves,,,0.632,UNMATCHED
+1720000,Leyndell Soldier Helm,,,0.553,UNMATCHED
+1720100,Erdtree Surcoat,,,0.741,UNMATCHED
+1720200,Leyndell Soldier Gauntlets,,,0.538,UNMATCHED
+1720300,Leyndell Soldier Greaves,,,0.520,UNMATCHED
+1730000,Radahn Soldier Helm,,,0.579,UNMATCHED
+1730100,Redmane Surcoat,,,0.647,UNMATCHED
+1730200,Radahn Soldier Gauntlets,,,0.651,UNMATCHED
+1730300,Radahn Soldier Greaves,,,0.683,UNMATCHED
+1740100,Mausoleum Surcoat,,,0.519,UNMATCHED
+1740200,Mausoleum Gauntlets,,,0.513,UNMATCHED
+1740300,Mausoleum Greaves,,,0.588,UNMATCHED
+1750000,Haligtree Helm,,,0.634,UNMATCHED
+1750100,Haligtree Crest Surcoat,MENU_KNOWLEDGE_12106,Haligtree Crest Greatshield,0.760,LOW_CONFIDENCE
+1750200,Haligtree Gauntlets,,,0.609,UNMATCHED
+1750300,Haligtree Greaves,,,0.682,UNMATCHED
+1760000,Gelmir Knight Helm,,,0.600,UNMATCHED
+1760100,Gelmir Knight Armor,,,0.562,UNMATCHED
+1760200,Gelmir Knight Gauntlets,,,0.522,UNMATCHED
+1760300,Gelmir Knight Greaves,,,0.541,UNMATCHED
+1770000,Godrick Knight Helm,,,0.634,UNMATCHED
+1770100,Godrick Knight Armor,,,0.600,UNMATCHED
+1770200,Godrick Knight Gauntlets,,,0.636,UNMATCHED
+1770300,Godrick Knight Greaves,,,0.667,UNMATCHED
+1780000,Cuckoo Knight Helm,,,0.600,UNMATCHED
+1780100,Cuckoo Knight Armor,,,0.533,UNMATCHED
+1780200,Cuckoo Knight Gauntlets,,,0.537,UNMATCHED
+1780300,Cuckoo Knight Greaves,,,0.615,UNMATCHED
+1790000,Leyndell Knight Helm,,,0.591,UNMATCHED
+1790100,Leyndell Knight Armor,,,0.522,UNMATCHED
+1790200,Leyndell Knight Gauntlets,,,0.520,UNMATCHED
+1790300,Leyndell Knight Greaves,,,0.564,UNMATCHED
+1800000,Redmane Knight Helm,,,0.683,UNMATCHED
+1800100,Redmane Knight Armor,,,0.541,UNMATCHED
+1800200,Redmane Knight Gauntlets,,,0.558,UNMATCHED
+1800300,Redmane Knight Greaves,,,0.634,UNMATCHED
+1810100,Mausoleum Knight Armor,,,0.553,UNMATCHED
+1810200,Mausoleum Knight Gauntlets,,,0.549,UNMATCHED
+1810300,Mausoleum Knight Greaves,,,0.545,UNMATCHED
+1820000,Haligtree Knight Helm,,,0.625,UNMATCHED
+1820100,Haligtree Knight Armor,,,0.556,UNMATCHED
+1820200,Haligtree Knight Gauntlets,,,0.604,UNMATCHED
+1820300,Haligtree Knight Greaves,,,0.667,UNMATCHED
+1830000,Foot Soldier Cap,,,0.529,UNMATCHED
+1830100,Chain-Draped Tabard,,,0.579,UNMATCHED
+1830200,Foot Soldier Gauntlets,,,0.524,UNMATCHED
+1830300,Foot Soldier Greaves,,,0.550,UNMATCHED
+1840000,Foot Soldier Helmet,,,0.545,UNMATCHED
+1840100,Foot Soldier Tabard,,,0.513,UNMATCHED
+1850000,Gilded Foot Soldier Cap,,,0.585,UNMATCHED
+1850100,Leather-Draped Tabard,,,0.600,UNMATCHED
+1860000,Foot Soldier Helm,,,0.533,UNMATCHED
+1860100,Scarlet Tabard,,,0.714,UNMATCHED
+1870100,Bloodsoaked Tabard,,,0.571,UNMATCHED
+1880000,Sacred Crown Helm,,,0.737,UNMATCHED
+1880100,Ivory-Draped Tabard,,,0.632,UNMATCHED
+1890000,Omensmirk Mask,,,0.452,UNMATCHED
+1890100,Omenkiller Robe,,,0.500,UNMATCHED
+1890200,Omenkiller Long Gloves,,,0.500,UNMATCHED
+1890300,Omenkiller Boots,,,0.526,UNMATCHED
+1900000,Ash-of-War Scarab,,,0.600,UNMATCHED
+1901000,Incantation Scarab,,,0.581,UNMATCHED
+1902000,Glintstone Scarab,MENU_KNOWLEDGE_06010,Glintstone Stars,0.848,LOW_CONFIDENCE
+1910000,Crimson Tear Scarab,,,0.649,UNMATCHED
+1920000,Cerulean Tear Scarab,,,0.650,UNMATCHED
+1930100,Deathbed Dress,,,0.600,UNMATCHED
+1930300,Deathbed Smalls,,,0.643,UNMATCHED
+1940000,Fia's Hood,,,0.600,UNMATCHED
+1940100,Fia's Robe,,,0.600,UNMATCHED
+1980000,Highwayman Hood,,,0.562,UNMATCHED
+1980100,Highwayman Cloth Armor,,,0.513,UNMATCHED
+1980200,Highwayman Gauntlets,,,0.562,UNMATCHED
+1990000,High Page Hood,,,0.538,UNMATCHED
+1990100,High Page Clothes,,,0.552,UNMATCHED
+2000000,Rotten Duelist Helm,,,0.625,UNMATCHED
+2000100,Rotten Gravekeeper Cloak,,,0.564,UNMATCHED
+2000300,Rotten Duelist Greaves,,,0.684,UNMATCHED
+2001100,Rotten Gravekeeper Cloak (Altered),,,0.468,UNMATCHED
+2010000,Mushroom Crown,,,0.727,UNMATCHED
+2020000,Black Dumpling,,,0.600,UNMATCHED
+2030000,Lazuli Robe,,,0.480,UNMATCHED
+1000,Melina,,,0.588,UNMATCHED
+1020,Finger Reader Enia,,,0.621,UNMATCHED
+1060,Ranni the Witch,,,0.519,UNMATCHED
+1061,Renna the Witch,,,0.500,UNMATCHED
+1120,The Noble Goldmask,,,0.581,UNMATCHED
+2000,"Rennala, Queen of the Full Moon",,,0.735,UNMATCHED
+2020,"Gurranq, Beast Clergyman",MENU_KNOWLEDGE_06403,Gurranq_s Beast Claw,0.791,LOW_CONFIDENCE
+2130,Smithing Master Hewg,,,0.500,UNMATCHED
+2160,Blaidd the Half-Wolf,,,0.500,UNMATCHED
+2161,Baleful Shadow,,,0.538,UNMATCHED
+2180,"Asimi, Silver Tear",,,0.667,UNMATCHED
+2190,Old Albus,,,0.600,UNMATCHED
+2200,"Alexander, Warrior Jar",,,0.600,UNMATCHED
+2230,Demi-Human Boc,,,0.579,UNMATCHED
+2231,Boc the Seamster,,,0.571,UNMATCHED
+2240,War Counselor Iji,,,0.485,UNMATCHED
+2260,Jar-Bairn,,,0.632,UNMATCHED
+2280,Latenna the Albinauric,,,0.556,UNMATCHED
+3000,"Tanith, Volcano Manor Proprietress",,,0.526,UNMATCHED
+3010,White Mask Varré,,,0.467,UNMATCHED
+3020,Gatekeeper Gostoc,,,0.483,UNMATCHED
+3070,Preceptor Seluvis,,,0.500,UNMATCHED
+3090,Patches,,,0.556,UNMATCHED
+3100,Irina of Morne,,,0.593,UNMATCHED
+3110,Edgar the Revenger,,,0.588,UNMATCHED
+3120,Witch-Hunter Jerren,,,0.457,UNMATCHED
+3130,Rya the Scout,,,0.645,UNMATCHED
+3140,Potentate Diallos,,,0.488,UNMATCHED
+3160,Sorceress Sellen,,,0.562,UNMATCHED
+3180,Shabriri,,,0.727,UNMATCHED
+3190,"D, Hunter of the Dead",,,0.615,UNMATCHED
+3191,"D, Hunter of the Dead",,,0.615,UNMATCHED
+3200,"Roderika, Spirit Tuner",,,0.634,UNMATCHED
+3210,"Kenneth Haight, Limgrave Heir",,,0.533,UNMATCHED
+3220,"Fia, Deathbed Companion",,,0.514,UNMATCHED
+3230,Dung Eater,,,0.556,UNMATCHED
+3240,"Sir Gideon Ofnir, the All-Knowing",,,0.724,UNMATCHED
+3250,Sorcerer Rogier,,,0.483,UNMATCHED
+3260,Recusant Bernahl,,,0.615,UNMATCHED
+3300,"Miriel, Pastor of Vows",,,0.529,UNMATCHED
+3310,Blackguard,,,0.667,UNMATCHED
+3330,Sorcerer Thops,,,0.480,UNMATCHED
+3340,"Nepheli Loux, Warrior",,,0.500,UNMATCHED
+3350,Reeling Rico,,,0.640,UNMATCHED
+3480,Millicent,,,0.581,UNMATCHED
+3490,Sage Gowry,,,0.583,UNMATCHED
+3510,Scribe Corhyn,,,0.562,UNMATCHED
+8000,Merchant Kalé,,,0.552,UNMATCHED
+8010,Hermit Merchant,,,0.500,UNMATCHED
+8011,Imprisoned Merchant,,,0.588,UNMATCHED
+201010,Using Items,,,0.571,UNMATCHED
+301020,Sites of Grace,,,0.667,UNMATCHED
+301500,The Map,,,0.700,UNMATCHED
+301580,Containers,,,0.560,UNMATCHED
+301610,Birdseye Telescopes,,,0.471,UNMATCHED
+302460,Roundtable Hold,,,0.645,UNMATCHED
+302470,Dense Fog of Sleep,,,0.500,UNMATCHED
+302500,Great Runes,,,0.714,UNMATCHED
+402000,Equipment Menu,,,0.533,UNMATCHED
+402010,Item Crafting Menu,,,0.600,UNMATCHED
+402020,Inventory Menu,,,0.500,UNMATCHED
+402030,Status Menu,,,0.545,UNMATCHED
+402040,Message Menu,,,0.500,UNMATCHED
+402050,Multiplayer Menu,,,0.485,UNMATCHED
+402100,Map Menu,,,0.571,UNMATCHED
+402200,Level Up Menu,,,0.519,UNMATCHED
+402210,Menu: Additional Healing Flasks,,,0.465,UNMATCHED
+402220,Menu: Increasing Healing Amount,,,0.465,UNMATCHED
+402230,Allocating Flask Uses,,,0.500,UNMATCHED
+402240,Memorize Spells Menu,,,0.526,UNMATCHED
+402250,Sorting the Chest,,,0.562,UNMATCHED
+402300,Shop Menu,,,0.519,UNMATCHED
+402310,Menu: Weapon Upgrades,,,0.489,UNMATCHED
+402320,Ashes of War Menu,,,0.581,UNMATCHED
+402330,Spirit Tuning Menu,,,0.649,UNMATCHED
+402340,Menu: Dragon Communion Shop,MENU_KNOWLEDGE_11248,Dragon Communion Seal,0.766,LOW_CONFIDENCE
+402350,Great Rune Menu,,,0.625,UNMATCHED
+402360,Mixing Physicks,,,0.541,UNMATCHED
+402370,Rebirth Menu,,,0.545,UNMATCHED
+402380,Power of Remembrance Menu,,,0.488,UNMATCHED
+402390,Smithing Menu,,,0.526,UNMATCHED
+402400,Remembrance Duplication Menu,,,0.468,UNMATCHED
+110000,Unarmed,,,0.526,UNMATCHED
+1000000,Dagger,,,0.571,UNMATCHED
+1010000,Black Knife,MENU_KNOWLEDGE_03106,Black Knifeprint,0.815,LOW_CONFIDENCE
+1020000,Parrying Dagger,,,0.581,UNMATCHED
+1030000,Miséricorde,,,0.519,UNMATCHED
+1040000,Reduvia,,,0.600,UNMATCHED
+1050000,Crystal Knife,,,0.692,UNMATCHED
+1060000,Celebrant's Sickle,MENU_KNOWLEDGE_10445,Celebrant_s Skull,0.857,LOW_CONFIDENCE
+1070000,Glintstone Kris,MENU_KNOWLEDGE_06010,Glintstone Stars,0.839,LOW_CONFIDENCE
+1080000,Scorpion's Stinger,,,0.684,UNMATCHED
+1090000,Great Knife,,,0.667,UNMATCHED
+1100000,Wakizashi,,,0.500,UNMATCHED
+1110000,Cinquedea,,,0.519,UNMATCHED
+1130000,Ivory Sickle,,,0.615,UNMATCHED
+1140000,Bloodstained Dagger,,,0.667,UNMATCHED
+1150000,Erdsteel Dagger,,,0.645,UNMATCHED
+1160000,Blade of Calling,,,0.625,UNMATCHED
+2000000,Longsword,,,0.625,UNMATCHED
+2010000,Short Sword,,,0.727,UNMATCHED
+2020000,Broadsword,,,0.538,UNMATCHED
+2030000,Royal Soldier Straight Sword,,,0.625,UNMATCHED
+2040000,Lordsworn's Straight Sword,,,0.682,UNMATCHED
+2050000,Weathered Straight Sword,,,0.720,UNMATCHED
+2060000,Ornamental Straight Sword,,,0.550,UNMATCHED
+2070000,Golden Epitaph,,,0.640,UNMATCHED
+2080000,Nox Flowing Sword,,,0.743,UNMATCHED
+2090000,Inseparable Sword,,,0.571,UNMATCHED
+2090100,Heavy Inseparable Sword,,,0.500,UNMATCHED
+2110000,Coded Sword,,,0.593,UNMATCHED
+2140000,Sword of Night and Flame,,,0.545,UNMATCHED
+2150000,Crystal Sword,MENU_KNOWLEDGE_10602,Crystal Spear,0.769,LOW_CONFIDENCE
+2180000,Carian Knight's Sword,MENU_KNOWLEDGE_12055,Carian Knight_s Shield,0.837,LOW_CONFIDENCE
+2190000,Sword of St. Trina,,,0.600,UNMATCHED
+2200000,Miquellan Knight's Sword,,,0.652,UNMATCHED
+2210000,Cane Sword,,,0.667,UNMATCHED
+2220000,Regalia of Eochaid,,,0.625,UNMATCHED
+2230000,Noble's Slender Sword,,,0.683,UNMATCHED
+2240000,Warhawk's Talon,,,0.571,UNMATCHED
+2250000,Lazuli Glintstone Sword,,,0.711,UNMATCHED
+2260000,Rotten Crystal Sword,MENU_KNOWLEDGE_10616,Rotten Crystal Spear,0.850,LOW_CONFIDENCE
+3000000,Bastard Sword,,,0.714,UNMATCHED
+3010000,Forked Greatsword,,,0.706,UNMATCHED
+3020000,Iron Greatsword,MENU_KNOWLEDGE_06050,Carian Greatsword,0.812,LOW_CONFIDENCE
+3030000,Lordsworn's Greatsword,,,0.700,UNMATCHED
+3040000,Knight's Greatsword,,,0.667,UNMATCHED
+3050000,Flamberge,,,0.625,UNMATCHED
+3060000,Ordovis's Greatsword,,,0.703,UNMATCHED
+3070000,Alabaster Lord's Sword,,,0.595,UNMATCHED
+3080000,Banished Knight's Greatsword,MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,0.792,LOW_CONFIDENCE
+3090000,Dark Moon Greatsword,MENU_KNOWLEDGE_06050,Carian Greatsword,0.757,LOW_CONFIDENCE
+3100000,Sacred Relic Sword,,,0.591,UNMATCHED
+3130000,Helphen's Steeple,,,0.541,UNMATCHED
+3140000,Blasphemous Blade,,,0.643,UNMATCHED
+3150000,Marais Executioner's Sword,,,0.625,UNMATCHED
+3160000,Sword of Milos,,,0.643,UNMATCHED
+3160100,Heavy Sword of Milos,,,0.529,UNMATCHED
+3170000,Golden Order Greatsword,MENU_KNOWLEDGE_10097,Copy of Golden Order Greatsword,0.852,LOW_CONFIDENCE
+3180000,Claymore,,,0.571,UNMATCHED
+3190000,Gargoyle's Greatsword,MENU_KNOWLEDGE_10574,Gargoyle_s Great Axe,0.780,LOW_CONFIDENCE
+3200000,Death's Poker,,,0.645,UNMATCHED
+3210000,Gargoyle's Blackblade,MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,0.878,LOW_CONFIDENCE
+3210100,Heavy Gargoyle's Blackblade,MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,0.766,LOW_CONFIDENCE
+4000000,Greatsword,,,0.741,UNMATCHED
+4010000,Watchdog's Greatsword,,,0.649,UNMATCHED
+4020000,Maliketh's Black Blade,,,0.667,UNMATCHED
+4030000,Troll's Golden Sword,MENU_KNOWLEDGE_10123,Troll_s Golden Sword,1.000,UPDATED
+4040000,Zweihander,MENU_KNOWLEDGE_10124,Zweihander,1.000,UPDATED
+4050000,Starscourge Greatsword,,,0.667,UNMATCHED
+4060000,Royal Greatsword,MENU_KNOWLEDGE_06050,Carian Greatsword,0.788,LOW_CONFIDENCE
+4070000,Godslayer's Greatsword,,,0.737,UNMATCHED
+4080000,Ruins Greatsword,MENU_KNOWLEDGE_06050,Carian Greatsword,0.848,LOW_CONFIDENCE
+4100000,Grafted Blade Greatsword,,,0.634,UNMATCHED
+4110000,Troll Knight's Sword,,,0.650,UNMATCHED
+5000000,Estoc,,,0.533,UNMATCHED
+5010000,Cleanrot Knight's Sword,,,0.667,UNMATCHED
+5020000,Rapier,,,0.600,UNMATCHED
+5030000,Rogier's Rapier,,,0.571,UNMATCHED
+5040000,Antspur Rapier,,,0.562,UNMATCHED
+5050000,Frozen Needle,,,0.692,UNMATCHED
+5060000,Noble's Estoc,,,0.667,UNMATCHED
+6000000,Bloody Helice,,,0.583,UNMATCHED
+6010000,Godskin Stitcher,,,0.588,UNMATCHED
+6020000,Great Épée,,,0.737,UNMATCHED
+6040000,Dragon King's Cragblade,,,0.591,UNMATCHED
+7000000,Falchion,,,0.571,UNMATCHED
+7010000,Beastman's Curved Sword,,,0.682,UNMATCHED
+7020000,Shotel,,,0.600,UNMATCHED
+7030000,Shamshir,,,0.600,UNMATCHED
+7040000,Bandit's Curved Sword,,,0.571,UNMATCHED
+7050000,Magma Blade,,,0.696,UNMATCHED
+7060000,Flowing Curved Sword,,,0.585,UNMATCHED
+7070000,Wing of Astel,,,0.645,UNMATCHED
+7080000,Scavenger's Curved Sword,,,0.533,UNMATCHED
+7090000,Sharktooth Curved Sword,,,0.545,UNMATCHED
+7100000,Eclipse Shotel,,,0.615,UNMATCHED
+7110000,Serpent-God's Curved Sword,,,0.541,UNMATCHED
+7120000,Mantis Blade,,,0.667,UNMATCHED
+7140000,Scimitar,,,0.556,UNMATCHED
+7150000,Grossmesser,,,0.500,UNMATCHED
+8010000,Onyx Lord's Greatsword,,,0.642,UNMATCHED
+8020000,Dismounter,,,0.500,UNMATCHED
+8030000,Bloodhound's Fang,,,0.727,UNMATCHED
+8040000,Magma Wyrm's Scalesword,,,0.578,UNMATCHED
+8050000,Zamor Curved Sword,,,0.727,UNMATCHED
+8060000,Omen Cleaver,MENU_KNOWLEDGE_10524,Iron Cleaver,0.833,LOW_CONFIDENCE
+8070000,Monk's Flameblade,MENU_KNOWLEDGE_10408,Monk_s Flamemace,0.848,LOW_CONFIDENCE
+8080000,Beastman's Cleaver,MENU_KNOWLEDGE_10286,Copy of Beastman_s Cleaver,0.818,LOW_CONFIDENCE
+8100000,Morgott's Cursed Sword,,,0.591,UNMATCHED
+8110000,Holy Inferno Greatsword,,,0.650,UNMATCHED
+9000000,Uchigatana,,,0.545,UNMATCHED
+9010000,Nagakiba,,,0.500,UNMATCHED
+9020000,Hand of Malenia,,,0.667,UNMATCHED
+9030000,Meteoric Ore Blade,,,0.611,UNMATCHED
+9040000,Rivers of Blood,,,0.667,UNMATCHED
+9060000,Moonveil,,,0.522,UNMATCHED
+9070000,Dragonscale Blade,,,0.667,UNMATCHED
+9080000,Serpentbone Blade,,,0.690,UNMATCHED
+10000000,Twinblade,,,0.667,UNMATCHED
+10010000,Godskin Peeler,,,0.688,UNMATCHED
+10030000,Twinned Knight Swords,,,0.609,UNMATCHED
+10050000,Eleonora's Poleblade,,,0.615,UNMATCHED
+10060000,Abundance and Decay Twinblade,MENU_KNOWLEDGE_10365,Abundance and Decay Twinblade,1.000,UPDATED
+10070000,Abundance Twinblade,MENU_KNOWLEDGE_10365,Abundance and Decay Twinblade,0.792,LOW_CONFIDENCE
+10080000,Gargoyle's Twinblade,MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,0.750,LOW_CONFIDENCE
+10090000,Gargoyle's Black Blades,MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,0.884,LOW_CONFIDENCE
+11000000,Mace,MENU_KNOWLEDGE_10400,Mace,1.000,UPDATED
+11010000,Club,,,0.571,UNMATCHED
+11030000,Curved Club,MENU_KNOWLEDGE_10444,Curved Great Club,0.786,LOW_CONFIDENCE
+11040000,Warpick,,,0.571,UNMATCHED
+11050000,Morning Star,MENU_KNOWLEDGE_10404,Morning Star,1.000,UPDATED
+11060000,Varré's Bouquet,MENU_KNOWLEDGE_10405,Varré_s Bouquet,1.000,UPDATED
+11060100,Heavy Varré's Bouquet,MENU_KNOWLEDGE_10405,Varré_s Bouquet,0.824,LOW_CONFIDENCE
+11070000,Spiked Club,MENU_KNOWLEDGE_10406,Spiked Club,1.000,UPDATED
+11080000,Hammer,MENU_KNOWLEDGE_10407,Hammer,1.000,UPDATED
+11090000,Monk's Flamemace,MENU_KNOWLEDGE_10408,Monk_s Flamemace,1.000,UPDATED
+11100000,Envoy's Horn,MENU_KNOWLEDGE_10409,Envoy_s Horn,1.000,UPDATED
+11110000,Scepter of the All-Knowing,MENU_KNOWLEDGE_10410,Scepter of the All-Knowing,1.000,UPDATED
+11120000,Nox Flowing Hammer,MENU_KNOWLEDGE_10411,Nox Flowing Hammer,1.000,UPDATED
+11130000,Ringed Finger,,,0.538,UNMATCHED
+11140000,Stone Club,MENU_KNOWLEDGE_10413,Stone Club,1.000,UPDATED
+11150000,Marika's Hammer,MENU_KNOWLEDGE_10414,Marika_s Hammer,1.000,UPDATED
+11160000,Father Marika's Hammer,MENU_KNOWLEDGE_10414,Marika_s Hammer,0.811,LOW_CONFIDENCE
+11161200,Occult Marika's Hammer,MENU_KNOWLEDGE_10414,Marika_s Hammer,0.811,LOW_CONFIDENCE
+12000000,Large Club,MENU_KNOWLEDGE_10440,Large Club,1.000,UPDATED
+12010000,Greathorn Hammer,MENU_KNOWLEDGE_10441,Greathorn Hammer,1.000,UPDATED
+12020000,Battle Hammer,MENU_KNOWLEDGE_10442,Battle Hammer,1.000,UPDATED
+12060000,Great Mace,MENU_KNOWLEDGE_10443,Great Mace,1.000,UPDATED
+12080000,Curved Great Club,MENU_KNOWLEDGE_10444,Curved Great Club,1.000,UPDATED
+12130000,Celebrant's Skull,MENU_KNOWLEDGE_10445,Celebrant_s Skull,1.000,UPDATED
+12140000,Pickaxe,MENU_KNOWLEDGE_10446,Pickaxe,1.000,UPDATED
+12150000,Beastclaw Greathammer,MENU_KNOWLEDGE_10447,Beastclaw Greathammer,1.000,UPDATED
+12160000,Envoy's Long Horn,MENU_KNOWLEDGE_10448,Envoy_s Long Horn,1.000,UPDATED
+12170000,Cranial Vessel Candlestand,MENU_KNOWLEDGE_10449,Cranial Vessel Candlestand,1.000,UPDATED
+12180000,Great Stars,,,0.667,UNMATCHED
+12190000,Brick Hammer,MENU_KNOWLEDGE_10451,Brick Hammer,1.000,UPDATED
+12200000,Devourer's Scepter,,,0.571,UNMATCHED
+12210000,Rotten Battle Hammer,MENU_KNOWLEDGE_10453,Rotten Battle Hammer,1.000,UPDATED
+13000000,Nightrider Flail,MENU_KNOWLEDGE_10480,Nightrider Flail,1.000,UPDATED
+13010000,Flail,,,0.545,UNMATCHED
+13020000,Family Heads,,,0.538,UNMATCHED
+13030000,Bastard's Stars,MENU_KNOWLEDGE_10483,Bastard_s Stars,1.000,UPDATED
+13040000,Chainlink Flail,MENU_KNOWLEDGE_10484,Chainlink Flail,1.000,UPDATED
+14000000,Battle Axe,MENU_KNOWLEDGE_10520,Battle Axe,1.000,UPDATED
+14010000,Forked Hatchet,,,0.690,UNMATCHED
+14020000,Hand Axe,MENU_KNOWLEDGE_10522,Hand Axe,1.000,UPDATED
+14030000,Jawbone Axe,MENU_KNOWLEDGE_10523,Jawbone Axe,1.000,UPDATED
+14040000,Iron Cleaver,MENU_KNOWLEDGE_10524,Iron Cleaver,1.000,UPDATED
+14050000,Ripple Blade,,,0.640,UNMATCHED
+14060000,Celebrant's Cleaver,MENU_KNOWLEDGE_10526,Celebrant_s Cleaver,1.000,UPDATED
+14080000,Icerind Hatchet,MENU_KNOWLEDGE_10527,Icerind Hatchet,1.000,UPDATED
+14100000,Highland Axe,MENU_KNOWLEDGE_10529,Highland Axe,1.000,UPDATED
+14110000,Sacrificial Axe,MENU_KNOWLEDGE_18750,Sacrificial Twig,0.774,LOW_CONFIDENCE
+14120000,Rosus' Axe,,,0.556,UNMATCHED
+14130000,Burial Axe,,,0.700,UNMATCHED
+14140000,Stormhawk Axe,MENU_KNOWLEDGE_10533,Stormhawk Axe,1.000,UPDATED
+15000000,Greataxe,MENU_KNOWLEDGE_10560,Greataxe,1.000,UPDATED
+15010000,Warped Axe,,,0.667,UNMATCHED
+15020000,Great Omenkiller Cleaver,,,0.611,UNMATCHED
+15030000,Crescent Moon Axe,MENU_KNOWLEDGE_10563,Crescent Moon Axe,1.000,UPDATED
+15040000,Axe of Godrick,MENU_KNOWLEDGE_10885,Axe of Godfrey,0.786,LOW_CONFIDENCE
+15050000,Longhaft Axe,MENU_KNOWLEDGE_10565,Longhaft Axe,1.000,UPDATED
+15060000,Rusted Anchor,,,0.625,UNMATCHED
+15080000,Executioner's Greataxe,MENU_KNOWLEDGE_10568,Executioner_s Greataxe,1.000,UPDATED
+15110000,Winged Greathorn,MENU_KNOWLEDGE_10571,Winged Greathorn,1.000,UPDATED
+15120000,Butchering Knife,MENU_KNOWLEDGE_10572,Butchering Knife,1.000,UPDATED
+15130000,Gargoyle's Great Axe,MENU_KNOWLEDGE_10574,Gargoyle_s Great Axe,1.000,UPDATED
+15140000,Gargoyle's Black Axe,MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,1.000,UPDATED
+15140100,Heavy Gargoyle's Black Axe,MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,0.870,LOW_CONFIDENCE
+16000000,Short Spear,MENU_KNOWLEDGE_10600,Short Spear,1.000,UPDATED
+16010000,Spear,MENU_KNOWLEDGE_10601,Spear,1.000,UPDATED
+16020000,Crystal Spear,MENU_KNOWLEDGE_10602,Crystal Spear,1.000,UPDATED
+16030000,Clayman's Harpoon,MENU_KNOWLEDGE_10603,Clayman_s Harpoon,1.000,UPDATED
+16040000,Cleanrot Spear,MENU_KNOWLEDGE_10604,Cleanrot Spear,1.000,UPDATED
+16040100,Heavy Cleanrot Knight's Spear,,,0.651,UNMATCHED
+16050000,Partisan,MENU_KNOWLEDGE_10605,Partisan,1.000,UPDATED
+16060000,Celebrant's Rib-Rake,MENU_KNOWLEDGE_10606,Celebrant_s Rib-Rake,1.000,UPDATED
+16070000,Pike,MENU_KNOWLEDGE_10607,Pike,1.000,UPDATED
+16080000,Torchpole,MENU_KNOWLEDGE_10608,Torchpole,1.000,UPDATED
+16090000,Bolt of Gransax,,,0.581,UNMATCHED
+16110000,Cross-Naginata,MENU_KNOWLEDGE_10611,Cross-Naginata,1.000,UPDATED
+16120000,Death Ritual Spear,MENU_KNOWLEDGE_10612,Death Ritual Spear,1.000,UPDATED
+16130000,Inquisitor's Girandole,MENU_KNOWLEDGE_10613,Inquisitor_s Girandole,1.000,UPDATED
+16140000,Spiked Spear,MENU_KNOWLEDGE_10614,Spiked Spear,1.000,UPDATED
+16150000,Iron Spear,MENU_KNOWLEDGE_10615,Iron Spear,1.000,UPDATED
+16160000,Rotten Crystal Spear,MENU_KNOWLEDGE_10616,Rotten Crystal Spear,1.000,UPDATED
+17010000,Mohgwyn's Sacred Spear,MENU_KNOWLEDGE_10641,Mohgwyn_s Sacred Spear,1.000,UPDATED
+17020000,Siluria's Tree,,,0.643,UNMATCHED
+17030000,Serpent-Hunter,,,0.640,UNMATCHED
+17050000,Vyke's War Spear,MENU_KNOWLEDGE_10645,Vyke_s War Spear,1.000,UPDATED
+17060000,Lance,MENU_KNOWLEDGE_10646,Lance,1.000,UPDATED
+17070000,Treespear,MENU_KNOWLEDGE_10647,Treespear,1.000,UPDATED
+18000000,Halberd,MENU_KNOWLEDGE_10680,Halberd,1.000,UPDATED
+18010000,Pest's Glaive,,,0.667,UNMATCHED
+18020000,Lucerne,MENU_KNOWLEDGE_10682,Lucerne,1.000,UPDATED
+18030000,Banished Knight's Halberd,MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,1.000,UPDATED
+18040000,Commander's Standard,,,0.615,UNMATCHED
+18050000,Nightrider Glaive,MENU_KNOWLEDGE_10685,Nightrider Glaive,1.000,UPDATED
+18060000,Ripple Crescent Halberd,MENU_KNOWLEDGE_10686,Ripple Crescent Halberd,1.000,UPDATED
+18070000,Vulgar Militia Saw,MENU_KNOWLEDGE_10687,Vulgar Militia Saw,1.000,UPDATED
+18080000,Golden Halberd,MENU_KNOWLEDGE_10892,Golem_s Halberd,0.828,LOW_CONFIDENCE
+18090000,Glaive,MENU_KNOWLEDGE_10689,Glaive,1.000,UPDATED
+18100000,Loretta's War Sickle,MENU_KNOWLEDGE_10690,Loretta_s War Sickle,1.000,UPDATED
+18110000,Guardian's Swordspear,MENU_KNOWLEDGE_10691,Guardian_s Swordspear,1.000,UPDATED
+18130000,Vulgar Militia Shotel,MENU_KNOWLEDGE_10693,Vulgar Militia Shotel,1.000,UPDATED
+18140000,Dragon Halberd,MENU_KNOWLEDGE_10694,Dragon Halberd,1.000,UPDATED
+18140100,Heavy Dragon Halberd,MENU_KNOWLEDGE_10694,Dragon Halberd,0.824,LOW_CONFIDENCE
+18150000,Gargoyle's Halberd,MENU_KNOWLEDGE_10695,Gargoyle_s Halberd,1.000,UPDATED
+18160000,Gargoyle's Black Halberd,MENU_KNOWLEDGE_10696,Gargoyle_s Black Halberd,1.000,UPDATED
+18160100,Heavy Gargoyle's Black Halberd,MENU_KNOWLEDGE_10696,Gargoyle_s Black Halberd,0.889,LOW_CONFIDENCE
+19000000,Scythe,MENU_KNOWLEDGE_10720,Scythe,1.000,UPDATED
+19010000,Grave Scythe,MENU_KNOWLEDGE_10721,Grave Scythe,1.000,UPDATED
+19020000,Halo Scythe,MENU_KNOWLEDGE_10722,Halo Scythe,1.000,UPDATED
+19050000,Heretic's Hook,,,0.571,UNMATCHED
+19060000,Winged Scythe,MENU_KNOWLEDGE_10726,Winged Scythe,1.000,UPDATED
+20000000,Whip,MENU_KNOWLEDGE_10760,Whip,1.000,UPDATED
+20020000,Thorned Whip,MENU_KNOWLEDGE_10762,Thorned Whip,1.000,UPDATED
+20030000,Magma Whip Candlestick,MENU_KNOWLEDGE_10763,Magma Whip Candlestick,1.000,UPDATED
+20030100,Heavy Lava Whip,,,0.529,UNMATCHED
+20050000,Hoslow's Petal Whip,MENU_KNOWLEDGE_10765,Hoslow_s Petal Whip,1.000,UPDATED
+20060000,Giant's Red Braid,,,0.690,UNMATCHED
+20070000,Urumi,,,0.462,UNMATCHED
+21000000,Caestus,,,0.625,UNMATCHED
+21010000,Spiked Caestus,,,0.720,UNMATCHED
+21060000,Grafted Dragon,,,0.647,UNMATCHED
+21070000,Iron Ball,MENU_KNOWLEDGE_10807,Iron Ball,1.000,UPDATED
+21080000,Star Fist,MENU_KNOWLEDGE_10808,Star Fist,1.000,UPDATED
+21100000,Katar,MENU_KNOWLEDGE_10809,Katar,1.000,UPDATED
+21110000,Clinging Bone,MENU_KNOWLEDGE_10810,Clinging Bone,1.000,UPDATED
+21120000,Veteran's Prosthesis,,,0.732,UNMATCHED
+21130000,Cipher Pata,MENU_KNOWLEDGE_10812,Cipher Pita,0.909,LOW_CONFIDENCE
+22000000,Hookclaws,MENU_KNOWLEDGE_10840,Hookclaws,1.000,UPDATED
+22010000,Venomous Fang,MENU_KNOWLEDGE_10841,Venomous Fang,1.000,UPDATED
+22020000,Bloodhound Claws,MENU_KNOWLEDGE_10842,Bloodhound Claws,1.000,UPDATED
+22030000,Raptor Talons,MENU_KNOWLEDGE_10843,Raptor Talons,1.000,UPDATED
+23000000,Prelate's Inferno Crozier,MENU_KNOWLEDGE_10880,Prelate_s Inferno Crozier,1.000,UPDATED
+23010000,Watchdog's Staff,MENU_KNOWLEDGE_10881,Watchdog_s Staff,1.000,UPDATED
+23010100,Heavy Watchdog's Crosier,,,0.600,UNMATCHED
+23020000,Great Club,MENU_KNOWLEDGE_10882,Great Club,1.000,UPDATED
+23030000,Envoy's Greathorn,MENU_KNOWLEDGE_10883,Envoy_s Greathorn,1.000,UPDATED
+23040000,Duelist Greataxe,MENU_KNOWLEDGE_10884,Duelist Greataxe,1.000,UPDATED
+23050000,Axe of Godfrey,MENU_KNOWLEDGE_10885,Axe of Godfrey,1.000,UPDATED
+23060000,Dragon Greatclaw,MENU_KNOWLEDGE_10886,Dragon Greatclaw,1.000,UPDATED
+23070000,Staff of the Avatar,MENU_KNOWLEDGE_10887,Staff of the Avatar,1.000,UPDATED
+23080000,Fallingstar Beast Jaw,MENU_KNOWLEDGE_10888,Fallingstar Beast Jaw,1.000,UPDATED
+23100000,Ghiza's Wheel,MENU_KNOWLEDGE_10890,Ghiza_s Wheel,1.000,UPDATED
+23110000,Giant-Crusher,,,0.640,UNMATCHED
+23120000,Golem's Halberd,MENU_KNOWLEDGE_10892,Golem_s Halberd,1.000,UPDATED
+23130000,Troll's Hammer,MENU_KNOWLEDGE_10893,Troll_s Hammer,1.000,UPDATED
+23140000,Rotten Staff,MENU_KNOWLEDGE_10894,Rotten Staff,1.000,UPDATED
+23150000,Rotten Greataxe,MENU_KNOWLEDGE_10895,Rotten Greataxe,1.000,UPDATED
+24000000,Torch,,,0.714,UNMATCHED
+24020000,Steel-Wire Torch,,,0.500,UNMATCHED
+24040000,St. Trina's Torch,,,0.600,UNMATCHED
+24050000,Ghostflame Torch,,,0.556,UNMATCHED
+24060000,Beast-Repellent Torch,,,0.533,UNMATCHED
+24070000,Sentry's Torch,,,0.621,UNMATCHED
+30000000,Buckler,MENU_KNOWLEDGE_12000,Buckler,1.000,UPDATED
+30010000,Perfumer's Shield,MENU_KNOWLEDGE_12001,Perfumer_s Shield,1.000,UPDATED
+30020000,Man-Serpent's Shield,MENU_KNOWLEDGE_12002,Man-Serpent_s Shield,1.000,UPDATED
+30030000,Rickety Shield,MENU_KNOWLEDGE_12003,Rickety Shield,1.000,UPDATED
+30040000,Pillory Shield,MENU_KNOWLEDGE_12004,Pillory Shield,1.000,UPDATED
+30060000,Beastman's Jar-Shield,MENU_KNOWLEDGE_12006,Beastman_s Jar Shield,1.000,UPDATED
+30070000,Red Thorn Roundshield,MENU_KNOWLEDGE_12007,Red Thorn Roundshield,1.000,UPDATED
+30080000,Scripture Wooden Shield,MENU_KNOWLEDGE_12008,Scripture Wooden Shield,1.000,UPDATED
+30090000,Riveted Wooden Shield,MENU_KNOWLEDGE_12009,Riveted Wooden Shield,1.000,UPDATED
+30100000,Blue-White Wooden Shield,MENU_KNOWLEDGE_12010,Blue-White Wooden Shield,1.000,UPDATED
+30110000,Rift Shield,MENU_KNOWLEDGE_12011,Rift Shield,1.000,UPDATED
+30120000,Iron Roundshield,MENU_KNOWLEDGE_12012,Iron Roundshield,1.000,UPDATED
+30130000,Gilded Iron Shield,MENU_KNOWLEDGE_12013,Gilded Iron Shield,1.000,UPDATED
+30140000,Ice Crest Shield,MENU_KNOWLEDGE_12014,Ice Crest Shield,1.000,UPDATED
+30150000,Smoldering Shield,MENU_KNOWLEDGE_12015,Smoldering Shield,1.000,UPDATED
+30190000,Spiralhorn Shield,MENU_KNOWLEDGE_12019,Spiralhorn Shield,1.000,UPDATED
+30200000,Coil Shield,MENU_KNOWLEDGE_12020,Coil Shield,1.000,UPDATED
+31000000,Kite Shield,MENU_KNOWLEDGE_12040,Kite Shield,1.000,UPDATED
+31010000,Marred Leather Shield,MENU_KNOWLEDGE_12041,Marred Leather Shield,1.000,UPDATED
+31020000,Marred Wooden Shield,MENU_KNOWLEDGE_12042,Marred Wooden Shield,1.000,UPDATED
+31030000,Banished Knight's Shield,MENU_KNOWLEDGE_12043,Banished Knight_s Shield,1.000,UPDATED
+31040000,Albinauric Shield,MENU_KNOWLEDGE_12044,Albinauric Shield,1.000,UPDATED
+31050000,Sun Realm Shield,MENU_KNOWLEDGE_12045,Sun Realm Shield,1.000,UPDATED
+31060000,Silver Mirrorshield,MENU_KNOWLEDGE_12046,Silver Mirrorshield,1.000,UPDATED
+31070000,Round Shield,MENU_KNOWLEDGE_12047,Round Shield,1.000,UPDATED
+31080000,Scorpion Kite Shield,MENU_KNOWLEDGE_12048,Scorpion Kite Shield,1.000,UPDATED
+31090000,Twinbird Kite Shield,MENU_KNOWLEDGE_12049,Twinbird Kite Shield,1.000,UPDATED
+31100000,Blue-Gold Kite Shield,MENU_KNOWLEDGE_12050,Blue-Gold Kite Shield,1.000,UPDATED
+31130000,Brass Shield,MENU_KNOWLEDGE_12051,Brass Shield,1.000,UPDATED
+31140000,Great Turtle Shell,MENU_KNOWLEDGE_12052,Great Turtle Shell,1.000,UPDATED
+31170000,Shield of the Guilty,MENU_KNOWLEDGE_12053,Shield of the Guilty,1.000,UPDATED
+31190000,Carian Knight's Shield,MENU_KNOWLEDGE_12055,Carian Knight_s Shield,1.000,UPDATED
+31230000,Large Leather Shield,MENU_KNOWLEDGE_12059,Large Leather Shield,1.000,UPDATED
+31240000,Horse Crest Wooden Shield,MENU_KNOWLEDGE_12060,Horse Crest Wooden Shield,1.000,UPDATED
+31250000,Candletree Wooden Shield,MENU_KNOWLEDGE_12061,Candletree Wooden Shield,1.000,UPDATED
+31260000,Flame Crest Wooden Shield,MENU_KNOWLEDGE_12062,Flame Crest Wooden Shield,1.000,UPDATED
+31270000,Hawk Crest Wooden Shield,MENU_KNOWLEDGE_12063,Hawk Crest Wooden Shield,1.000,UPDATED
+31280000,Beast Crest Heater Shield,MENU_KNOWLEDGE_12064,Beast Crest Heater Shield,1.000,UPDATED
+31290000,Red Crest Heater Shield,MENU_KNOWLEDGE_12065,Red Crest Heater Shield,1.000,UPDATED
+31300000,Blue Crest Heater Shield,MENU_KNOWLEDGE_12066,Blue Crest Heater Shield,1.000,UPDATED
+31310000,Eclipse Crest Heater Shield,MENU_KNOWLEDGE_12067,Eclipse Crest Heater Shield,1.000,UPDATED
+31320000,Inverted Hawk Heater Shield,MENU_KNOWLEDGE_12068,Inverted Hawk Heater Shield,1.000,UPDATED
+31330000,Heater Shield,MENU_KNOWLEDGE_12069,Heater Shield,1.000,UPDATED
+31340000,Black Leather Shield,MENU_KNOWLEDGE_12070,Black Leather Shield,1.000,UPDATED
+32000000,Dragon Towershield,MENU_KNOWLEDGE_12080,Dragon Towershield,1.000,UPDATED
+32020000,Distinguished Greatshield,MENU_KNOWLEDGE_12081,Distinguished Greatshield,1.000,UPDATED
+32030000,Crucible Hornshield,MENU_KNOWLEDGE_12082,Crucible Hornshield,1.000,UPDATED
+32040000,Dragonclaw Shield,MENU_KNOWLEDGE_12083,Dragonclaw Shield,1.000,UPDATED
+32050000,Briar Greatshield,MENU_KNOWLEDGE_12084,Briar Greatshield,1.000,UPDATED
+32080000,Erdtree Greatshield,MENU_KNOWLEDGE_12086,Erdtree Greatshield,1.000,UPDATED
+32080100,Heavy Erdtree Greatshield,MENU_KNOWLEDGE_12086,Erdtree Greatshield,0.864,LOW_CONFIDENCE
+32090000,Golden Beast Crest Shield,MENU_KNOWLEDGE_12087,Golden Beast Crest Shield,1.000,UPDATED
+32120000,Jellyfish Shield,MENU_KNOWLEDGE_12090,Jellyfish Shield,1.000,UPDATED
+32130000,Fingerprint Stone Shield,MENU_KNOWLEDGE_12091,Fingerprint Stone Shield,1.000,UPDATED
+32140000,Icon Shield,MENU_KNOWLEDGE_12092,Icon Shield,1.000,UPDATED
+32150000,One-Eyed Shield,MENU_KNOWLEDGE_12093,One-Eyed Shield,1.000,UPDATED
+32160000,Visage Shield,MENU_KNOWLEDGE_12094,Visage Shield,1.000,UPDATED
+32170000,Spiked Palisade Shield,MENU_KNOWLEDGE_12095,Spiked Palisade Shield,1.000,UPDATED
+32190000,Manor Towershield,MENU_KNOWLEDGE_12097,Manor Towershield,1.000,UPDATED
+32200000,Crossed-Tree Towershield,MENU_KNOWLEDGE_12098,Crossed Tree Towershield,1.000,UPDATED
+32210000,Inverted Hawk Towershield,MENU_KNOWLEDGE_12099,Inverted Hawk Towershield,1.000,UPDATED
+32220000,Ant's Skull Plate,MENU_KNOWLEDGE_12100,Ant_s Skull Plate,1.000,UPDATED
+32230000,Redmane Greatshield,MENU_KNOWLEDGE_12101,Redmane Greatshield,1.000,UPDATED
+32240000,Eclipse Crest Greatshield,MENU_KNOWLEDGE_12102,Eclipse Crest Greatshield,1.000,UPDATED
+32250000,Cuckoo Greatshield,MENU_KNOWLEDGE_12103,Cuckoo Greatshield,1.000,UPDATED
+32260000,Golden Greatshield,MENU_KNOWLEDGE_12104,Golden Greatshield,1.000,UPDATED
+32270000,Gilded Greatshield,MENU_KNOWLEDGE_12105,Gilded Greatshield,1.000,UPDATED
+32280000,Haligtree Crest Greatshield,MENU_KNOWLEDGE_12106,Haligtree Crest Greatshield,1.000,UPDATED
+32290000,Wooden Greatshield,MENU_KNOWLEDGE_12107,Wooden Greatshield,1.000,UPDATED
+32300000,Lordsworn's Shield,MENU_KNOWLEDGE_12108,Lordsworn_s Shield,1.000,UPDATED
+33000000,Glintstone Staff,MENU_KNOWLEDGE_06010,Glintstone Stars,0.875,LOW_CONFIDENCE
+33040000,Crystal Staff,MENU_KNOWLEDGE_11218,Rotten Crystal Staff,0.788,LOW_CONFIDENCE
+33050000,Gelmir Glintstone Staff,MENU_KNOWLEDGE_11202,Gelmir Glintstone Staff,1.000,UPDATED
+33060000,Demi-Human Queen's Staff,MENU_KNOWLEDGE_11203,Demi-Human Queen_s Staff,1.000,UPDATED
+33090000,Carian Regal Scepter,MENU_KNOWLEDGE_11204,Carian Regal Scepter,1.000,UPDATED
+33120000,Digger's Staff,MENU_KNOWLEDGE_11205,Digger_s Staff,1.000,UPDATED
+33130000,Astrologer's Staff,MENU_KNOWLEDGE_11206,Astrologer_s Staff,1.000,UPDATED
+33170000,Carian Glintblade Staff,MENU_KNOWLEDGE_11208,Carian Glintblade Staff,1.000,UPDATED
+33180000,Prince of Death's Staff,MENU_KNOWLEDGE_11209,Prince of Death_s Staff,1.000,UPDATED
+33190000,Albinauric Staff,MENU_KNOWLEDGE_11210,Albinauric Staff,1.000,UPDATED
+33200000,Academy Glintstone Staff,MENU_KNOWLEDGE_11212,Academy Glintstone Staff,1.000,UPDATED
+33210000,Carian Glintstone Staff,MENU_KNOWLEDGE_11211,Carian Glintstone Staff,1.000,UPDATED
+33230000,Azur's Glintstone Staff,MENU_KNOWLEDGE_11214,Azur_s Glintstone Staff,1.000,UPDATED
+33240000,Lusat's Glintstone Staff,MENU_KNOWLEDGE_11215,Lusat_s Glintstone Staff,1.000,UPDATED
+33250000,Meteorite Staff,MENU_KNOWLEDGE_11216,Meteorite Staff,1.000,UPDATED
+33260000,Staff of the Guilty,MENU_KNOWLEDGE_11217,Staff of the Guilty,1.000,UPDATED
+33270000,Rotten Crystal Staff,MENU_KNOWLEDGE_11218,Rotten Crystal Staff,1.000,UPDATED
+33280000,Staff of Loss,MENU_KNOWLEDGE_11219,Staff of Loss,1.000,UPDATED
+34000000,Finger Seal,MENU_KNOWLEDGE_11240,Finger Seal,1.000,UPDATED
+34010000,Godslayer's Seal,MENU_KNOWLEDGE_11241,Godslayer_s Seal,1.000,UPDATED
+34020000,Giant's Seal,MENU_KNOWLEDGE_11242,Giant_s Seal,1.000,UPDATED
+34030000,Gravel Stone Seal,MENU_KNOWLEDGE_11243,Gravel Stone Seal,1.000,UPDATED
+34040000,Clawmark Seal,MENU_KNOWLEDGE_11244,Clawmark Seal,1.000,UPDATED
+34060000,Golden Order Seal,MENU_KNOWLEDGE_11247,Golden Order Seal,1.000,UPDATED
+34070000,Erdtree Seal,MENU_KNOWLEDGE_11246,Erdtree Seal,1.000,UPDATED
+34080000,Dragon Communion Seal,MENU_KNOWLEDGE_11248,Dragon Communion Seal,1.000,UPDATED
+34090000,Frenzied Flame Seal,MENU_KNOWLEDGE_11249,Frenzied Flame Seal,1.000,UPDATED
+40000000,Shortbow,MENU_KNOWLEDGE_11000,Shortbow,1.000,UPDATED
+40010000,Misbegotten Shortbow,MENU_KNOWLEDGE_11001,Misbegotten Shortbow,1.000,UPDATED
+40020000,Red Branch Shortbow,MENU_KNOWLEDGE_11002,Red Branch Shortbow,1.000,UPDATED
+40030000,Harp Bow,MENU_KNOWLEDGE_11003,Harp Bow,1.000,UPDATED
+40050000,Composite Bow,MENU_KNOWLEDGE_11005,Composite Bow,1.000,UPDATED
+41000000,Longbow,MENU_KNOWLEDGE_11040,Longbow,1.000,UPDATED
+41010000,Albinauric Bow,MENU_KNOWLEDGE_11041,Albinauric Bow,1.000,UPDATED
+41020000,Horn Bow,MENU_KNOWLEDGE_11042,Horn Bow,1.000,UPDATED
+41030000,Erdtree Bow,MENU_KNOWLEDGE_11043,Erdtree Bow,1.000,UPDATED
+41040000,Serpent Bow,MENU_KNOWLEDGE_11044,Serpent Bow,1.000,UPDATED
+41060000,Pulley Bow,MENU_KNOWLEDGE_11046,Pulley Bow,1.000,UPDATED
+41070000,Black Bow,MENU_KNOWLEDGE_11047,Black Bow,1.000,UPDATED
+42000000,Lion Greatbow,MENU_KNOWLEDGE_11080,Lion Greatbow,1.000,UPDATED
+42010000,Golem Greatbow,MENU_KNOWLEDGE_11081,Golem Greatbow,1.000,UPDATED
+42030000,Erdtree Greatbow,MENU_KNOWLEDGE_11083,Erdtree Greatbow,1.000,UPDATED
+42040000,Greatbow,MENU_KNOWLEDGE_11084,Greatbow,1.000,UPDATED
+43000000,Soldier's Crossbow,MENU_KNOWLEDGE_11120,Soldier_s Crossbow,1.000,UPDATED
+43020000,Light Crossbow,MENU_KNOWLEDGE_11121,Light Crossbow,1.000,UPDATED
+43030000,Heavy Crossbow,MENU_KNOWLEDGE_11122,Heavy Crossbow,1.000,UPDATED
+43050000,Pulley Crossbow,MENU_KNOWLEDGE_11123,Pulley Crossbow,1.000,UPDATED
+43060000,Full Moon Crossbow,MENU_KNOWLEDGE_11124,Full Moon Crossbow,1.000,UPDATED
+43080000,Arbalest,MENU_KNOWLEDGE_11125,Arbalest,1.000,UPDATED
+43100000,Buckshot Crossbow,,,0.710,UNMATCHED
+43110000,Crepus's Black-Key Crossbow,MENU_KNOWLEDGE_11128,Crepus_s Black-Key Crossbow,1.000,UPDATED
+44000000,Hand Ballista,MENU_KNOWLEDGE_11160,Hand Ballista,1.000,UPDATED
+44010000,Jar Cannon,MENU_KNOWLEDGE_11161,Jar Cannon,1.000,UPDATED
+50000000,Arrow,,,0.615,UNMATCHED
+50010000,Fire Arrow,,,0.600,UNMATCHED
+50020000,Serpent Arrow,MENU_KNOWLEDGE_11044,Serpent Bow,0.833,LOW_CONFIDENCE
+50030000,Bone Arrow (Fletched),,,0.514,UNMATCHED
+50040000,St. Trina's Arrow,,,0.571,UNMATCHED
+50060000,Shattershard Arrow (Fletched),,,0.550,UNMATCHED
+50080000,Rainbow Stone Arrow (Fletched),,,0.524,UNMATCHED
+50090000,Golden Arrow,MENU_KNOWLEDGE_00532,Golden Rowa,0.870,LOW_CONFIDENCE
+50100000,Dwelling Arrow,,,0.560,UNMATCHED
+50110000,Bone Arrow,,,0.571,UNMATCHED
+50130000,Firebone Arrow (Fletched),,,0.486,UNMATCHED
+50140000,Firebone Arrow,,,0.583,UNMATCHED
+50150000,Poisonbone Arrow (Fletched),,,0.550,UNMATCHED
+50160000,Poisonbone Arrow,,,0.667,UNMATCHED
+50170000,Sleepbone Arrow (Fletched),,,0.488,UNMATCHED
+50180000,Sleepbone Arrow,,,0.538,UNMATCHED
+50190000,Stormwing Bone Arrow,,,0.556,UNMATCHED
+50200000,Lightningbone Arrow (Fletched),,,0.558,UNMATCHED
+50210000,Lightningbone Arrow,,,0.706,UNMATCHED
+50220000,Rainbow Stone Arrow,,,0.606,UNMATCHED
+50230000,Shattershard Arrow,,,0.581,UNMATCHED
+50240000,Spiritflame Arrow,,,0.593,UNMATCHED
+50250000,Storm Arrow,,,0.583,UNMATCHED
+50260000,Magicbone Arrow (Fletched),,,0.500,UNMATCHED
+50270000,Magicbone Arrow,,,0.645,UNMATCHED
+50280000,Haligbone Arrow (Fletched),,,0.500,UNMATCHED
+50290000,Haligbone Arrow,,,0.581,UNMATCHED
+50300000,Bloodbone Arrow (Fletched),,,0.512,UNMATCHED
+50310000,Bloodbone Arrow,,,0.667,UNMATCHED
+50320000,Coldbone Arrow (Fletched),,,0.471,UNMATCHED
+50330000,Coldbone Arrow,,,0.640,UNMATCHED
+50340000,Rotbone Arrow (Fletched),,,0.474,UNMATCHED
+50350000,Rotbone Arrow,,,0.552,UNMATCHED
+51000000,Great Arrow,,,0.737,UNMATCHED
+51010000,Golem's Great Arrow,MENU_KNOWLEDGE_11081,Golem Greatbow,0.788,LOW_CONFIDENCE
+51020000,Golden Great Arrow,MENU_KNOWLEDGE_11081,Golem Greatbow,0.750,LOW_CONFIDENCE
+51030000,Golem's Magic Arrow,,,0.588,UNMATCHED
+51040000,Radahn's Spear,,,0.727,UNMATCHED
+51050000,Bone Great Arrow (Fletched),,,0.578,UNMATCHED
+51060000,Bone Great Arrow,,,0.690,UNMATCHED
+52000000,Bolt,,,0.571,UNMATCHED
+52010000,Lightning Bolt,,,0.733,UNMATCHED
+52020000,Perfumer's Bolt,MENU_KNOWLEDGE_03123,Perfumer_s Cookbook,0.765,LOW_CONFIDENCE
+52030000,Black-Key Bolt,,,0.696,UNMATCHED
+52040000,Burred Bolt,,,0.667,UNMATCHED
+52050000,Meteor Bolt,,,0.700,UNMATCHED
+52060000,Explosive Bolt,,,0.706,UNMATCHED
+52070000,Golden Bolt,MENU_KNOWLEDGE_06504,Golden Vow,0.762,LOW_CONFIDENCE
+52080000,Lordsworn's Bolt,MENU_KNOWLEDGE_12108,Lordsworn_s Shield,0.765,LOW_CONFIDENCE
+52090000,Bone Bolt,MENU_KNOWLEDGE_06073,Honed Bolt,0.842,LOW_CONFIDENCE
+52100000,Firebone Bolt,,,0.696,UNMATCHED
+52110000,Lightningbone Bolt,,,0.643,UNMATCHED
+52120000,Magicbone Bolt,,,0.667,UNMATCHED
+52130000,Haligbone Bolt,MENU_KNOWLEDGE_06073,Honed Bolt,0.750,LOW_CONFIDENCE
+52140000,Poisonbone Bolt,,,0.692,UNMATCHED
+52150000,Bloodbone Bolt,,,0.696,UNMATCHED
+52160000,Coldbone Bolt,,,0.696,UNMATCHED
+52170000,Rotbone Bolt,,,0.727,UNMATCHED
+52180000,Sleepbone Bolt,,,0.667,UNMATCHED
+52190000,Flaming Bolt,,,0.609,UNMATCHED
+53000000,Ballista Bolt,,,0.615,UNMATCHED
+53010000,Lightning Greatbolt,,,0.706,UNMATCHED
+53020000,Explosive Greatbolt,,,0.625,UNMATCHED
+53030000,Bone Ballista Bolt,,,0.645,UNMATCHED

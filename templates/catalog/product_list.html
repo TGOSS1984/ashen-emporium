@@ -60,6 +60,12 @@
                     {% endif %}
                 </div>
             </div>
+            {% if product.short_description %}
+            <div class="lore-snippet">{{ product.short_description }}</div>
+            {% elif product.description %}
+            <div class="lore-snippet">{{ product.description|truncatechars:140 }}</div>
+            {% endif %}
+
         </a>
     {% empty %}
     {% if q or category or rarity or in_stock == "1" %}
