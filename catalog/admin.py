@@ -1,10 +1,53 @@
 import re
 from datetime import datetime
 
+from django import forms
+from django.contrib.admin.helpers import ActionForm
+
 from django.contrib import admin, messages
 from django.db import transaction
 
+from django.contrib import admin
+from django.db.models import Q
+
 from .models import Product, Asset, ProductImage
+
+class HasLoreFilter(admin.SimpleListFilter):
+    title = "lore"
+    parameter_name = "has_lore"
+
+    def lookups(self, request, model_admin):
+        return (
+            ("yes", "Has lore"),
+            ("no", "Missing lore"),
+        )
+
+    def queryset(self, request, queryset):
+        if self.value() == "yes":
+            return queryset.exclude(Q(description="") & Q(short_description=""))
+        if self.value() == "no":
+            return queryset.filter(Q(description="") & Q(short_description=""))
+        return queryset
+class StockFilter(admin.SimpleListFilter):
+    title = "stock"
+    parameter_name = "stock_state"
+
+    def lookups(self, request, model_admin):
+        return (
+            ("in", "In stock"),
+            ("out", "Out of stock"),
+        )
+
+    def queryset(self, request, queryset):
+        if self.value() == "in":
+            return queryset.filter(stock_qty__gt=0)
+        if self.value() == "out":
+            return queryset.filter(stock_qty=0)
+        return queryset
+   
+class ProductActionForm(ActionForm):
+    stock_value = forms.IntegerField(required=False, min_value=0, label="Stock")
+    price_pence = forms.IntegerField(required=False, min_value=0, label="Price (pence)")
 
 
 def folder_to_category(source: str) -> str:
@@ -119,17 +162,6 @@ def create_products_from_assets(modeladmin, request, queryset):
     if skipped_count:
         messages.warning(request, f"Skipped {skipped_count} asset(s).")
 
-
-@admin.register(Product)
-class ProductAdmin(admin.ModelAdmin):
-    list_display = ("sku", "name", "category", "rarity", "price_pence", "stock_qty", "is_active", "updated_at")
-    list_filter = ("category", "rarity", "is_active")
-    search_fields = ("sku", "name")
-    prepopulated_fields = {"slug": ("name",)}
-    ordering = ("name",)
-    inlines = [ProductImageInline]
-
-
 @admin.register(Asset)
 class AssetAdmin(admin.ModelAdmin):
     list_display = ("admin_thumb", "asset_id", "title", "source", "created_at")
@@ -137,3 +169,52 @@ class AssetAdmin(admin.ModelAdmin):
     ordering = ("-created_at",)
     actions = [create_products_from_assets]
 
+@admin.action(description="Publish selected products")
+def publish_products(modeladmin, request, queryset):
+    updated = queryset.update(is_active=True)
+    modeladmin.message_user(request, f"Published {updated} product(s).")
+
+
+@admin.action(description="Unpublish selected products")
+def unpublish_products(modeladmin, request, queryset):
+    updated = queryset.update(is_active=False)
+    modeladmin.message_user(request, f"Unpublished {updated} product(s).")
+
+
+@admin.action(description="Set stock quantity for selected products")
+def set_stock(modeladmin, request, queryset):
+    stock_raw = request.POST.get("stock_value")
+    try:
+        stock = int(stock_raw)
+    except (TypeError, ValueError):
+        modeladmin.message_user(request, "Enter a Stock value (integer) above, then run the action.", level="ERROR")
+        return
+
+    updated = queryset.update(stock_qty=stock)
+    modeladmin.message_user(request, f"Set stock to {stock} for {updated} product(s).")
+
+
+
+@admin.action(description="Set price (pence) for selected products")
+def set_price_pence(modeladmin, request, queryset):
+    price_raw = request.POST.get("price_pence")
+    try:
+        price = int(price_raw)
+    except (TypeError, ValueError):
+        modeladmin.message_user(request, "Enter a Price (pence) value above, then run the action.", level="ERROR")
+        return
+
+    updated = queryset.update(price_pence=price)
+    modeladmin.message_user(request, f"Set price to {price}p for {updated} product(s).")
+
+
+@admin.register(Product)
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ("sku", "name", "category", "rarity", "price_pence", "stock_qty", "is_active", "updated_at")
+    list_filter = ("category", "rarity", "is_active", StockFilter, HasLoreFilter)
+    search_fields = ("sku", "name")
+    prepopulated_fields = {"slug": ("name",)}
+    ordering = ("name",)
+    inlines = [ProductImageInline]
+    actions = [publish_products, unpublish_products, set_stock, set_price_pence]
+    action_form = ProductActionForm
