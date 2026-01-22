@@ -12,4 +12,80 @@
 
     <a href="#" class="cta-button">Enter the Catalogue</a>
 </section>
+{% if featured %}
+  <section style="margin-top: 2rem;">
+    <h2>Featured Relics</h2>
+    <p class="muted">Chosen from the Emporium’s sealed vaults.</p>
+
+    <div class="grid">
+      {% for product in featured %}
+        <a class="product-card" href="{{ product.get_absolute_url }}">
+          <div class="thumb">
+            {% with img=product.primary_image %}
+              {% if img %}
+                <img src="{{ img.url }}" alt="{{ product.name }}">
+              {% else %}
+                <div class="thumb-placeholder">No image</div>
+              {% endif %}
+            {% endwith %}
+          </div>
+
+          <div class="product-meta">
+            <div class="row">
+              <h3 class="product-title">{{ product.name }}</h3>
+              <span class="price">{{ product.price_gbp }}</span>
+            </div>
+            <div class="tags">
+              <span class="tag">{{ product.get_category_display }}</span>
+              <span class="tag">{{ product.get_rarity_display }}</span>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% if new_arrivals %}
+  <section style="margin-top: 2.5rem;">
+    <h2>New Arrivals</h2>
+    <p class="muted">Recently catalogued from the Ashen archives.</p>
+
+    <div class="grid">
+      {% for product in new_arrivals %}
+        <a class="product-card" href="{{ product.get_absolute_url }}">
+          <div class="thumb">
+            {% with img=product.primary_image %}
+              {% if img %}
+                <img src="{{ img.url }}" alt="{{ product.name }}">
+              {% else %}
+                <div class="thumb-placeholder">No image</div>
+              {% endif %}
+            {% endwith %}
+          </div>
+
+          <div class="product-meta">
+            <div class="row">
+              <h3 class="product-title">{{ product.name }}</h3>
+              <span class="price">{{ product.price_gbp }}</span>
+            </div>
+            <div class="tags">
+              <span class="tag">{{ product.get_category_display }}</span>
+              {% if product.in_stock %}
+                <span class="tag tag-ok">In stock</span>
+              {% else %}
+                <span class="tag tag-warn">Out</span>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <a href="{% url 'product_list' %}" class="cta-button" style="margin-top: 1.5rem; display:inline-block;">
+      Browse full catalogue
+    </a>
+  </section>
+{% endif %}
+
 {% endblock %}
