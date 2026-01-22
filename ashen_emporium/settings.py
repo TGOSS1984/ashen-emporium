@@ -55,6 +55,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "cloudinary",
+    "cloudinary_storage",
 
     # Local apps
     "core",
@@ -190,3 +192,18 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 SESSION_COOKIE_SECURE = os.getenv("COOKIE_SECURE", "0") == "1"
 CSRF_COOKIE_SECURE = os.getenv("COOKIE_SECURE", "0") == "1"
 SECURE_SSL_REDIRECT = os.getenv("SECURE_SSL_REDIRECT", "0") == "1"
+
+# ---------------------------------------------------------------------
+# Cloudinary
+# ---------------------------------------------------------------------
+
+USE_CLOUDINARY = os.getenv("USE_CLOUDINARY", "0") == "1"
+
+if USE_CLOUDINARY:
+    # Cloudinary will use CLOUDINARY_URL env var
+    STORAGES["default"] = {"BACKEND": "cloudinary_storage.storage.MediaCloudinaryStorage"}
+    MEDIA_URL = "/media/"  # Cloudinary returns full URLs anyway
+else:
+    # Local filesystem (dev)
+    STORAGES["default"] = {"BACKEND": "django.core.files.storage.FileSystemStorage"}
+

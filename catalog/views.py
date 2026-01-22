@@ -12,6 +12,8 @@ def product_list(request):
     category = request.GET.get("category", "").strip()
     rarity = request.GET.get("rarity", "").strip()
     in_stock = request.GET.get("in_stock", "").strip()
+    sort = request.GET.get("sort", "name").strip()
+
 
     if q:
         qs = qs.filter(
@@ -30,7 +32,16 @@ def product_list(request):
     if in_stock == "1":
         qs = qs.filter(stock_qty__gt=0)
 
-    qs = qs.order_by("name")
+    sort_map = {
+    "name": "name",
+    "price_asc": "price_pence",
+    "price_desc": "-price_pence",
+    "rarity": "rarity",
+    "newest": "-created_at",
+    }
+
+    qs = qs.order_by(sort_map.get(sort, "name"))
+
 
     paginator = Paginator(qs, 24)  # 24 items per page (nice grid)
     page_number = request.GET.get("page")
@@ -44,6 +55,7 @@ def product_list(request):
         "in_stock": in_stock,
         "category_choices": Product.Category.choices,
         "rarity_choices": Product.Rarity.choices,
+        "sort": sort,
     }
     return render(request, "catalog/product_list.html", context)
 

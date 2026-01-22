@@ -6,6 +6,18 @@
 <h1>Catalogue</h1>
 <p class="muted">Curated relics, forged arms, and forbidden incantations.</p>
 
+<div class="chips">
+  <a class="chip" href="{% url 'product_list' %}">All</a>
+
+  {% for value, label in category_choices %}
+    <a class="chip {% if value == category %}chip-active{% endif %}"
+       href="?category={{ value }}&rarity={{ rarity }}&in_stock={{ in_stock }}&q={{ q }}&sort={{ sort }}">
+      {{ label }}
+    </a>
+  {% endfor %}
+</div>
+
+
 <form method="get" class="filter-bar">
     <input type="text" name="q" placeholder="Search…" value="{{ q }}">
 
@@ -23,6 +35,15 @@
         {% endfor %}
     </select>
 
+    <select name="sort">
+        <option value="name" {% if sort == "name" %}selected{% endif %}>Sort: Name</option>
+        <option value="price_asc" {% if sort == "price_asc" %}selected{% endif %}>Sort: Price (Low → High)</option>
+        <option value="price_desc" {% if sort == "price_desc" %}selected{% endif %}>Sort: Price (High → Low)</option>
+        <option value="rarity" {% if sort == "rarity" %}selected{% endif %}>Sort: Rarity</option>
+        <option value="newest" {% if sort == "newest" %}selected{% endif %}>Sort: Newest</option>
+    </select>
+
+
     <label class="checkbox">
         <input type="checkbox" name="in_stock" value="1" {% if in_stock == "1" %}checked{% endif %}>
         In stock only
@@ -30,6 +51,13 @@
 
     <button type="submit" class="cta-button">Filter</button>
 </form>
+
+{% if q or category or rarity or in_stock == "1" %}
+  <p class="muted">
+    Filters applied. <a href="{% url 'product_list' %}">Clear filters</a>
+  </p>
+{% endif %}
+
 
 <div class="grid">
     {% for product in page_obj %}
