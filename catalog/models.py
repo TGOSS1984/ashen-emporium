@@ -149,3 +149,58 @@ class ProductImage(models.Model):
             ProductImage.objects.filter(product=self.product).exclude(pk=self.pk).update(is_primary=False)
 
 
+class ProductGroup(models.Model):
+    class GroupType(models.TextChoices):
+        ARMOUR_SET = "armour_set", "Armour Set"
+        WEAPON_FAMILY = "weapon_family", "Weapon Family"  # future
+        SPELL_SCHOOL = "spell_school", "Spell School"      # future
+
+    name = models.CharField(max_length=140, unique=True)
+    slug = models.SlugField(max_length=160, unique=True, blank=True)
+
+    group_type = models.CharField(
+        max_length=30,
+        choices=GroupType.choices,
+        default=GroupType.ARMOUR_SET,
+    )
+
+    # Optional: scope by category for convenience
+    category = models.CharField(
+        max_length=20,
+        choices=Product.Category.choices,
+        default=Product.Category.ARMOUR,
+    )
+
+    # Main image source for the group card (e.g. robe/armor)
+    primary_product = models.ForeignKey(
+        "Product",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="primary_for_groups",
+    )
+
+    products = models.ManyToManyField(
+        "Product",
+        related_name="groups",
+        blank=True,
+    )
+
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["name"]
+
+    def __str__(self) -> str:
+        return self.name
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            base = slugify(self.name)
+            slug = base
+            i = 2
+            while ProductGroup.objects.filter(slug=slug).exclude(pk=self.pk).exists():
+                slug = f"{base}-{i}"
+                i += 1
+            self.slug = slug
+        super().save(*args, **kwargs)

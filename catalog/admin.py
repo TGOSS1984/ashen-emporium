@@ -10,7 +10,7 @@ from django.db import transaction
 from django.contrib import admin
 from django.db.models import Q
 
-from .models import Product, Asset, ProductImage
+from .models import Product, Asset, ProductImage, ProductGroup
 
 class HasLoreFilter(admin.SimpleListFilter):
     title = "lore"
@@ -218,3 +218,10 @@ class ProductAdmin(admin.ModelAdmin):
     inlines = [ProductImageInline]
     actions = [publish_products, unpublish_products, set_stock, set_price_pence]
     action_form = ProductActionForm
+
+@admin.register(ProductGroup)
+class ProductGroupAdmin(admin.ModelAdmin):
+    list_display = ("name", "group_type", "category", "primary_product")
+    list_filter = ("group_type", "category")
+    search_fields = ("name",)
+    filter_horizontal = ("products",)
