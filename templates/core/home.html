@@ -10,8 +10,47 @@
         The Emporium stands for those who still walk the cindered paths.
     </p>
 
-    <a href="#" class="cta-button">Enter the Catalogue</a>
+    <a href="{% url 'product_list' %}" class="cta-button">Enter the Catalogue</a>
+
 </section>
+
+<section style="margin-top: 2rem;">
+  <h2>Shop by Category</h2>
+  <p class="muted">Choose a path — each leads to a different kind of relic.</p>
+
+  <div class="category-tiles">
+    <a class="category-tile" href="{% url 'product_list' %}?category=weapon">
+      <div class="tile-title">Weapons</div>
+      <div class="tile-sub muted">Blades and iron oathbound.</div>
+    </a>
+
+    <a class="category-tile" href="{% url 'product_list' %}?category=shield">
+      <div class="tile-title">Shields</div>
+      <div class="tile-sub muted">Wards against the abyss.</div>
+    </a>
+
+    <a class="category-tile" href="{% url 'product_list' %}?category=armour">
+      <div class="tile-title">Armour</div>
+      <div class="tile-sub muted">Plate, mail, and scarred leather.</div>
+    </a>
+
+    <a class="category-tile" href="{% url 'product_list' %}?category=relic">
+      <div class="tile-title">Relics</div>
+      <div class="tile-sub muted">Tokens of forgotten vows.</div>
+    </a>
+
+    <a class="category-tile" href="{% url 'product_list' %}?category=consumable">
+      <div class="tile-title">Consumables</div>
+      <div class="tile-sub muted">Resins, flasks, and embers.</div>
+    </a>
+
+    <a class="category-tile" href="{% url 'product_list' %}?category=spell">
+      <div class="tile-title">Spells</div>
+      <div class="tile-sub muted">Scriptures and forbidden ink.</div>
+    </a>
+  </div>
+</section>
+
 {% if featured %}
   <section style="margin-top: 2rem;">
     <h2>Featured Relics</h2>
