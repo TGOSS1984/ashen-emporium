@@ -1,11 +1,30 @@
+/*Main Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Title / H1 Font*/
+
+@font-face {
+    font-family: 'Mantinia';
+    src: url('../fonts/Mantinia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Base reset */
 * {
     box-sizing: border-box;
 }
 
+/* Force brand font on Bootstrap navbar */
+a.navbar-brand.main-header {
+  font-family: 'Mantinia', 'Cinzel', serif !important;
+  font-size: 3rem;
+}
+
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Cinzel', serif;
     background-color: #0b0d10;
     color: #e5e7eb;
 }
