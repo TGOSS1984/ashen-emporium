@@ -89,7 +89,54 @@
 
       <hr class="ae-divider">
 
-      <p class="muted mb-2">Filters will move into this menu next (Commit B).</p>
+<h6 class="mb-2">Filters</h6>
+
+<form method="get" action="{% url 'product_list' %}" class="d-grid gap-2">
+
+  <label class="form-label mb-0 muted">Category</label>
+  <select class="form-select ae-select" name="category">
+    <option value="">All categories</option>
+    <option value="weapon">Weapons</option>
+    <option value="shield">Shields</option>
+    <option value="armour">Armour</option>
+    <option value="relic">Relics</option>
+    <option value="consumable">Consumables</option>
+    <option value="spell">Spells</option>
+  </select>
+
+  <label class="form-label mb-0 muted">Rarity</label>
+  <select class="form-select ae-select" name="rarity">
+    <option value="">All rarities</option>
+    <option value="common">Common</option>
+    <option value="rare">Rare</option>
+    <option value="mythic">Mythic</option>
+    <option value="relic">Relic</option>
+  </select>
+
+  <div class="form-check mt-1">
+    <input class="form-check-input" type="checkbox" value="1" id="inStockOnly" name="in_stock">
+    <label class="form-check-label muted" for="inStockOnly">
+      In stock only
+    </label>
+  </div>
+
+  <!-- Keep sort available here too -->
+  <label class="form-label mb-0 muted">Sort</label>
+  <select class="form-select ae-select" name="sort">
+    <option value="name">Name</option>
+    <option value="price_asc">Price (Low → High)</option>
+    <option value="price_desc">Price (High → Low)</option>
+    <option value="rarity">Rarity</option>
+    <option value="newest">Newest</option>
+  </select>
+
+  <!-- Preserve current search query when filtering -->
+  <input type="hidden" name="q" value="{{ request.GET.q|default:'' }}">
+
+  <button type="submit" class="btn btn-warning fw-bold">Apply filters</button>
+  <a class="btn ae-menu-btn" href="{% url 'product_list' %}">Clear filters</a>
+</form>
+
     </div>
   </div>
 </header>

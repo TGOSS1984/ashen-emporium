@@ -19,38 +19,24 @@
 
 
 <form method="get" class="filter-bar">
-    <input type="text" name="q" placeholder="Search…" value="{{ q }}">
+  <input type="text" name="q" placeholder="Search…" value="{{ q }}">
 
-    <select name="category">
-        <option value="">All categories</option>
-        {% for value, label in category_choices %}
-            <option value="{{ value }}" {% if value == category %}selected{% endif %}>{{ label }}</option>
-        {% endfor %}
-    </select>
+  <select name="sort">
+    <option value="name" {% if sort == "name" %}selected{% endif %}>Sort: Name</option>
+    <option value="price_asc" {% if sort == "price_asc" %}selected{% endif %}>Sort: Price (Low → High)</option>
+    <option value="price_desc" {% if sort == "price_desc" %}selected{% endif %}>Sort: Price (High → Low)</option>
+    <option value="rarity" {% if sort == "rarity" %}selected{% endif %}>Sort: Rarity</option>
+    <option value="newest" {% if sort == "newest" %}selected{% endif %}>Sort: Newest</option>
+  </select>
 
-    <select name="rarity">
-        <option value="">All rarities</option>
-        {% for value, label in rarity_choices %}
-            <option value="{{ value }}" {% if value == rarity %}selected{% endif %}>{{ label }}</option>
-        {% endfor %}
-    </select>
+  <!-- Preserve filters chosen in offcanvas -->
+  <input type="hidden" name="category" value="{{ category }}">
+  <input type="hidden" name="rarity" value="{{ rarity }}">
+  <input type="hidden" name="in_stock" value="{{ in_stock }}">
 
-    <select name="sort">
-        <option value="name" {% if sort == "name" %}selected{% endif %}>Sort: Name</option>
-        <option value="price_asc" {% if sort == "price_asc" %}selected{% endif %}>Sort: Price (Low → High)</option>
-        <option value="price_desc" {% if sort == "price_desc" %}selected{% endif %}>Sort: Price (High → Low)</option>
-        <option value="rarity" {% if sort == "rarity" %}selected{% endif %}>Sort: Rarity</option>
-        <option value="newest" {% if sort == "newest" %}selected{% endif %}>Sort: Newest</option>
-    </select>
-
-
-    <label class="checkbox">
-        <input type="checkbox" name="in_stock" value="1" {% if in_stock == "1" %}checked{% endif %}>
-        In stock only
-    </label>
-
-    <button type="submit" class="cta-button">Filter</button>
+  <button type="submit" class="cta-button">Search</button>
 </form>
+
 
 {% if q or category or rarity or in_stock == "1" %}
   <p class="muted">
