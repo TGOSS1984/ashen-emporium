@@ -17,6 +17,21 @@
   {% endfor %}
 </div>
 
+<div class="chips">
+  <a class="chip {% if not subtype %}chip-active{% endif %}"
+     href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&sort={{ sort }}">
+    All types
+  </a>
+
+  {% for value, label in subtype_choices %}
+    <a class="chip {% if value == subtype %}chip-active{% endif %}"
+       href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&sort={{ sort }}&subtype={{ value }}">
+      {{ label }}
+    </a>
+  {% endfor %}
+</div>
+
+
 
 <form method="get" class="filter-bar">
   <input type="text" name="q" placeholder="Search…" value="{{ q }}">
@@ -33,6 +48,8 @@
   <input type="hidden" name="category" value="{{ category }}">
   <input type="hidden" name="rarity" value="{{ rarity }}">
   <input type="hidden" name="in_stock" value="{{ in_stock }}">
+  <input type="hidden" name="subtype" value="{{ subtype }}">
+
 
   <button type="submit" class="cta-button">Search</button>
 </form>
@@ -100,13 +117,13 @@
 {% if page_obj.paginator.num_pages > 1 %}
 <nav class="pagination">
     {% if page_obj.has_previous %}
-        <a href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&page={{ page_obj.previous_page_number }}">Prev</a>
+        <a href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&subtype={{ subtype }}&page={{ page_obj.previous_page_number }}">Prev</a>
     {% endif %}
 
     <span class="muted">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
 
     {% if page_obj.has_next %}
-        <a href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&page={{ page_obj.next_page_number }}">Next</a>
+        <a href="?q={{ q }}&category={{ category }}&rarity={{ rarity }}&in_stock={{ in_stock }}&subtype={{ subtype }}&page={{ page_obj.next_page_number }}">Next</a>
     {% endif %}
 </nav>
 {% endif %}

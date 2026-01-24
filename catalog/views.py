@@ -13,6 +13,8 @@ def product_list(request):
     rarity = request.GET.get("rarity", "").strip()
     in_stock = request.GET.get("in_stock", "").strip()
     sort = request.GET.get("sort", "name").strip()
+    subtype = request.GET.get("subtype", "").strip()
+
 
 
     if q:
@@ -31,6 +33,10 @@ def product_list(request):
 
     if in_stock == "1":
         qs = qs.filter(stock_qty__gt=0)
+
+    if subtype in dict(Product.Subtype.choices):
+        qs = qs.filter(subtype=subtype)
+
 
     sort_map = {
     "name": "name",
@@ -56,6 +62,9 @@ def product_list(request):
         "category_choices": Product.Category.choices,
         "rarity_choices": Product.Rarity.choices,
         "sort": sort,
+        "subtype": subtype,
+        "subtype_choices": Product.Subtype.choices,
+
     }
     return render(request, "catalog/product_list.html", context)
 
