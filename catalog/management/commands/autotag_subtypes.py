@@ -61,6 +61,9 @@ def weapon_type_from_text(s: str) -> str:
 
 def spell_school_from_text(s: str) -> str:
     # Spell classification by lore keywords
+    ashes_kw = [
+        "ashes of war", "ash of war", "affinity", "skill",
+    ]
     sorcery_kw = [
         "sorcery", "glintstone", "carian", "moon", "primeval", "comet", "gravity",
         "crystal", "academy", "lucaria",
@@ -70,6 +73,8 @@ def spell_school_from_text(s: str) -> str:
         "flame", "fire monk", "black flame", "bestial", "lightning",
     ]
 
+    if any(k in s for k in ashes_kw):
+        return Product.Subtype.ASHES_OF_WAR
     if any(k in s for k in incant_kw):
         return Product.Subtype.INCANTATION
     if any(k in s for k in sorcery_kw):

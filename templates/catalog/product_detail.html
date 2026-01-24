@@ -30,6 +30,7 @@
         <div class="tags">
             <span class="tag">{{ product.get_category_display }}</span>
             <span class="tag">{{ product.get_rarity_display }}</span>
+            <span class="tag">{{ product.get_subtype_display }}</span>
             {% if product.in_stock %}
                 <span class="tag tag-ok">In stock</span>
             {% else %}

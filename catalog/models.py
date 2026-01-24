@@ -43,6 +43,8 @@ class Product(models.Model):
         # Spells
         SORCERY = "sorcery", "Sorcery"
         INCANTATION = "incantation", "Incantation"
+        ASHES_OF_WAR = "ashes_of_war", "Ashes of War"
+
 
     sku = models.CharField(max_length=64, unique=True)
     name = models.CharField(max_length=140)

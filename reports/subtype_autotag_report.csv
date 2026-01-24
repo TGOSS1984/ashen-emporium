@@ -451,7 +451,7 @@ MENU_KNOWLEDGE_12082,Crucible Hornshield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12103,Cuckoo Greatshield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12081,Distinguished Greatshield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12080,Dragon Towershield,shield,other,other,UNCHANGED
-MENU_KNOWLEDGE_12083,Dragonclaw Shield,shield,fist,fist,UPDATED
+MENU_KNOWLEDGE_12083,Dragonclaw Shield,shield,fist,fist,UNCHANGED
 MENU_KNOWLEDGE_12102,Eclipse Crest Greatshield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12067,Eclipse Crest Heater Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12086,Erdtree Greatshield,shield,other,other,UNCHANGED
@@ -470,7 +470,7 @@ MENU_KNOWLEDGE_12014,Ice Crest Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12092,Icon Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12068,Inverted Hawk Heater Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12099,Inverted Hawk Towershield,shield,other,other,UNCHANGED
-MENU_KNOWLEDGE_12012,Iron Roundshield,shield,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_12012,Iron Roundshield,shield,polearm,polearm,UNCHANGED
 MENU_KNOWLEDGE_12090,Jellyfish Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12040,Kite Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12059,Large Leather Shield,shield,other,other,UNCHANGED
@@ -487,641 +487,641 @@ MENU_KNOWLEDGE_12007,Red Thorn Roundshield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12101,Redmane Greatshield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12003,Rickety Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12011,Rift Shield,shield,other,other,UNCHANGED
-MENU_KNOWLEDGE_12009,Riveted Wooden Shield,shield,sword,sword,UPDATED
+MENU_KNOWLEDGE_12009,Riveted Wooden Shield,shield,sword,sword,UNCHANGED
 MENU_KNOWLEDGE_12047,Round Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12048,Scorpion Kite Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12008,Scripture Wooden Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12053,Shield of the Guilty,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12046,Silver Mirrorshield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12015,Smoldering Shield,shield,other,other,UNCHANGED
-MENU_KNOWLEDGE_12095,Spiked Palisade Shield,shield,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_12095,Spiked Palisade Shield,shield,polearm,polearm,UNCHANGED
 MENU_KNOWLEDGE_12019,Spiralhorn Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12049,Twinbird Kite Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12094,Visage Shield,shield,other,other,UNCHANGED
 MENU_KNOWLEDGE_12107,Wooden Greatshield,shield,other,other,UNCHANGED
-MENU_KNOWLEDGE_06031,Adula_s Moonblade,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06081,Agheel_s Flame,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06036,Ambush Shard,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06049,Ancient Death Rancor,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06074,Ancient Dragons_ Lightning Spear,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06069,Ancient Dragons_ Lightning Strike,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06615,Aspects of the Crucible_ Breath,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06614,Aspects of the Crucible_ Horns,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06613,Aspects of the Crucible_ Tail,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06312,Assassin_s Approach,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06311,Barrier of Gold,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06402,Beast Claw,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06503,Bestial Constitution,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06400,Bestial Sling,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06500,Bestial Vitality,spell,incantation,incantation,UPDATED
+MENU_KNOWLEDGE_06031,Adula_s Moonblade,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06081,Agheel_s Flame,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06036,Ambush Shard,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06049,Ancient Death Rancor,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06074,Ancient Dragons_ Lightning Spear,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06069,Ancient Dragons_ Lightning Strike,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06615,Aspects of the Crucible_ Breath,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06614,Aspects of the Crucible_ Horns,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06613,Aspects of the Crucible_ Tail,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06312,Assassin_s Approach,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06311,Barrier of Gold,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06402,Beast Claw,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06503,Bestial Constitution,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06400,Bestial Sling,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06500,Bestial Vitality,spell,incantation,incantation,UNCHANGED
 MENU_KNOWLEDGE_06712,Black Blade,spell,other,other,UNCHANGED
-MENU_KNOWLEDGE_06203,Black Flame,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06306,Black Flame Armament,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06214,Black Flame Ritual,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06310,Black Flame_s Protection,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06305,Blessing of the Erdtree,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06304,Blessing_s Boon,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06254,Bloodboon,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06307,Bloodflame Armament,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06056,Bloodflame Talons,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06084,Borealis_s Mist,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06047,Briars of Punishment,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06046,Briars of Sin,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06211,"Burn, O Flame!",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06017,Cannon of Haima,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06050,Carian Greatsword,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06023,Carian Phalanx,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06052,Carian Piercer,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06040,Carian Retaliation,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06051,Carian Slicer,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06200,Catch Flame,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06044,Collapsing Stars,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06003,Comet,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06012,Comet Azur,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06009,Crystal Barrage,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06006,Crystal Burst,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06034,Crystal Release,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06035,Crystal Torrent,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06057,Cure Poison,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06059,Darkness,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06104,Death Lightning,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06252,Discus of Light,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06710,Divine Fortification,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06079,Dragonbolt Blessing,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06090,Dragonclaw,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06080,Dragonfire,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06083,Dragonice,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06091,Dragonmaw,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06086,Ekzykes_s Decay,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06063,Elden Stars,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06077,Electrify Armament,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06302,Erdtree Heal,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06041,Eternal Darkness,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06053,Explosive Ghostflame,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06054,Fia_s Mist,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06060,Fire_s Deadly Sin,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06707,Flame Fortification,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06207,Flame of the Fell God,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06202,Flame Sling,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06303,"Flame, Cleanse Me",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06206,"Flame, Fall Upon Them",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06308,"Flame, Grant Me Strength",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06309,"Flame, Protect Me",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06075,Fortissax_s Lightning Spear,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06021,Founding Rain of Stars,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06030,Freezing Mist,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06097,Frenzied Burst,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06507,Frozen Armament,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06072,Frozen Lightning Spear,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06020,Gavel of Haima,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06212,Gelmir_s Fury,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06204,Giantsflame Take Thee,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06005,Glintblade Phalanx,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06014,Glintstone Arc,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06087,Glintstone Breath,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06002,Glintstone Cometshard,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06028,Glintstone Icecrag,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06000,Glintstone Pebble,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06010,Glintstone Stars,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06706,Golden Lightning Fortification,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06504,Golden Vow,spell,other,other,UNCHANGED
-MENU_KNOWLEDGE_06043,Gravity Well,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06015,Great Glintstone Shard,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06505,Great Heal,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06608,Great Oracular Bubble,spell,other,other,UNCHANGED
-MENU_KNOWLEDGE_06024,Greatblade Phalanx,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06092,Greyoll_s Roar,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06403,Gurranq_s Beast Claw,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06301,Heal,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06073,Honed Bolt,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06098,Howl of Shabriri,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06065,Immutable Shield,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06094,Inescapable Frenzy,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06076,Lansseax_s Glaive,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06066,Law of Causality,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06064,Law of Regression,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06709,Lightning Fortification,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06406,Lightning Spear,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06408,Lightning Strike,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06256,Litany of Proper Death,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06058,Lord_s Aid,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06711,Lord_s Divine Fortification,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06506,Lord_s Heal,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06013,Loretta_s Greatbow,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06026,Loretta_s Mastery,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06032,Lucidity,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06011,Magic Downpour,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06708,Magic Fortification,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06027,Magic Glintblade,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06082,Magma Breath,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06205,Magma Shot,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06070,Meteorite,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06042,Meteorite of Astel,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06038,Night Comet,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06253,Night Maiden_s Mist,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06037,Night Shard,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06055,Noble Presence,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06201,"O, Flame!",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06607,Oracle Bubbles,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06068,Order Healing,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06067,Order_s Blade,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06609,Pest Threads,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06089,Placidusax_s Ruin,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06612,Poison Armament,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06610,Poison Mist,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06255,Protection of the Erdtree,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06062,Radagon_s Rings of Light,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06048,Rancorcall,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06025,Ranni_s Dark Moon,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06250,Rejection,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06007,Rennala_s Full Moon,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06019,Rock Blaster,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06071,Rock Sling,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06213,Roiling Magma,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06085,Rotten Breath,spell,incantation,incantation,UPDATED
+MENU_KNOWLEDGE_06203,Black Flame,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06306,Black Flame Armament,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06214,Black Flame Ritual,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06310,Black Flame_s Protection,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06305,Blessing of the Erdtree,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06304,Blessing_s Boon,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06254,Bloodboon,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06307,Bloodflame Armament,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06056,Bloodflame Talons,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06084,Borealis_s Mist,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06047,Briars of Punishment,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06046,Briars of Sin,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06211,"Burn, O Flame!",spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06017,Cannon of Haima,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06050,Carian Greatsword,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06023,Carian Phalanx,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06052,Carian Piercer,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06040,Carian Retaliation,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06051,Carian Slicer,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06200,Catch Flame,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06044,Collapsing Stars,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06003,Comet,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06012,Comet Azur,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06009,Crystal Barrage,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06006,Crystal Burst,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06034,Crystal Release,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06035,Crystal Torrent,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06057,Cure Poison,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06059,Darkness,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06104,Death Lightning,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06252,Discus of Light,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06710,Divine Fortification,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06079,Dragonbolt Blessing,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06090,Dragonclaw,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06080,Dragonfire,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06083,Dragonice,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06091,Dragonmaw,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06086,Ekzykes_s Decay,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06063,Elden Stars,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06077,Electrify Armament,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06302,Erdtree Heal,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06041,Eternal Darkness,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06053,Explosive Ghostflame,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06054,Fia_s Mist,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06060,Fire_s Deadly Sin,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06707,Flame Fortification,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06207,Flame of the Fell God,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06202,Flame Sling,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06303,"Flame, Cleanse Me",spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06206,"Flame, Fall Upon Them",spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06308,"Flame, Grant Me Strength",spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06309,"Flame, Protect Me",spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06075,Fortissax_s Lightning Spear,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06021,Founding Rain of Stars,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06030,Freezing Mist,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06097,Frenzied Burst,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06507,Frozen Armament,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06072,Frozen Lightning Spear,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06020,Gavel of Haima,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06212,Gelmir_s Fury,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06204,Giantsflame Take Thee,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06005,Glintblade Phalanx,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06014,Glintstone Arc,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06087,Glintstone Breath,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06002,Glintstone Cometshard,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06028,Glintstone Icecrag,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06000,Glintstone Pebble,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06010,Glintstone Stars,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06706,Golden Lightning Fortification,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06504,Golden Vow,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06043,Gravity Well,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06015,Great Glintstone Shard,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06505,Great Heal,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06608,Great Oracular Bubble,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06024,Greatblade Phalanx,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06092,Greyoll_s Roar,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06403,Gurranq_s Beast Claw,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06301,Heal,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06073,Honed Bolt,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06098,Howl of Shabriri,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06065,Immutable Shield,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06094,Inescapable Frenzy,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06076,Lansseax_s Glaive,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06066,Law of Causality,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06064,Law of Regression,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06709,Lightning Fortification,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06406,Lightning Spear,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06408,Lightning Strike,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06256,Litany of Proper Death,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06058,Lord_s Aid,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06711,Lord_s Divine Fortification,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06506,Lord_s Heal,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06013,Loretta_s Greatbow,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06026,Loretta_s Mastery,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06032,Lucidity,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06011,Magic Downpour,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06708,Magic Fortification,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06027,Magic Glintblade,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06082,Magma Breath,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06205,Magma Shot,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06070,Meteorite,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06042,Meteorite of Astel,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06038,Night Comet,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06253,Night Maiden_s Mist,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06037,Night Shard,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06055,Noble Presence,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06201,"O, Flame!",spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06607,Oracle Bubbles,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06068,Order Healing,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06067,Order_s Blade,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06609,Pest Threads,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06089,Placidusax_s Ruin,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06612,Poison Armament,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06610,Poison Mist,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06255,Protection of the Erdtree,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06062,Radagon_s Rings of Light,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06048,Rancorcall,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06025,Ranni_s Dark Moon,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06250,Rejection,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06007,Rennala_s Full Moon,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06019,Rock Blaster,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06071,Rock Sling,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06213,Roiling Magma,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06085,Rotten Breath,spell,incantation,incantation,UNCHANGED
 MENU_KNOWLEDGE_06045,Rykard_s Rancor,spell,other,other,UNCHANGED
 MENU_KNOWLEDGE_06713,Scarlet Aeonia,spell,other,other,UNCHANGED
-MENU_KNOWLEDGE_06100,Scholar_s Armament,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06101,Scholar_s Shield,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06210,Scouring Black Flame,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06313,Shadow Bait,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06004,Shard Spiral,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06018,Shatter Earth,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06033,Shattering Crystal,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06088,Smarag_s Glintstone Breath,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06016,Star Shower,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06102,Starlight,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06022,Stars of Ruin,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06401,Stone of Gurranq,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06208,"Surge, O Flame!",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06611,Swarm of Flies,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06001,Swift Glintstone Shard,spell,sorcery,sorcery,UPDATED
+MENU_KNOWLEDGE_06100,Scholar_s Armament,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06101,Scholar_s Shield,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06210,Scouring Black Flame,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06313,Shadow Bait,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06004,Shard Spiral,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06018,Shatter Earth,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06033,Shattering Crystal,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06088,Smarag_s Glintstone Breath,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06016,Star Shower,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06102,Starlight,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06022,Stars of Ruin,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06401,Stone of Gurranq,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06208,"Surge, O Flame!",spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06611,Swarm of Flies,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06001,Swift Glintstone Shard,spell,sorcery,sorcery,UNCHANGED
 MENU_KNOWLEDGE_06103,Terra Magica,spell,other,other,UNCHANGED
-MENU_KNOWLEDGE_06095,The Flame of Frenzy,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06105,Theodorix_s Magma,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06039,Thops_s Barrier,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06099,Tibia_s Summons,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06061,Triple Rings of Light,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06096,Unendurable Frenzy,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06702,Unseen Blade,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06704,Unseen Form,spell,sorcery,sorcery,UPDATED
-MENU_KNOWLEDGE_06300,Urgent Heal,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06078,Vyke_s Dragonbolt,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06209,"Whirl, O Flame!",spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06251,Wrath of Gold,spell,incantation,incantation,UPDATED
-MENU_KNOWLEDGE_06029,Zamor Ice Storm,spell,other,other,UNCHANGED
-MENU_KNOWLEDGE_10365,Abundance and Decay Twinblade,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_11212,Academy Glintstone Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_11041,Albinauric Bow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11210,Albinauric Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_11125,Arbalest,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11206,Astrologer_s Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10885,Axe of Godfrey,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_11214,Azur_s Glintstone Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_06095,The Flame of Frenzy,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06105,Theodorix_s Magma,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06039,Thops_s Barrier,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06099,Tibia_s Summons,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06061,Triple Rings of Light,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06096,Unendurable Frenzy,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06702,Unseen Blade,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06704,Unseen Form,spell,sorcery,sorcery,UNCHANGED
+MENU_KNOWLEDGE_06300,Urgent Heal,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06078,Vyke_s Dragonbolt,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_06209,"Whirl, O Flame!",spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06251,Wrath of Gold,spell,incantation,incantation,UNCHANGED
+MENU_KNOWLEDGE_06029,Zamor Ice Storm,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_10365,Abundance and Decay Twinblade,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_11212,Academy Glintstone Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_11041,Albinauric Bow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11210,Albinauric Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_11125,Arbalest,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11206,Astrologer_s Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10885,Axe of Godfrey,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_11214,Azur_s Glintstone Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10683,Banished Knight_s Halberd,weapon,polearm,polearm,UNCHANGED
 MENU_KNOWLEDGE_10483,Bastard_s Stars,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10520,Battle Axe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10442,Battle Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10447,Beastclaw Greathammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_11047,Black Bow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10842,Bloodhound Claws,weapon,fist,fist,UPDATED
-MENU_KNOWLEDGE_10451,Brick Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10572,Butchering Knife,weapon,dagger,dagger,UPDATED
-MENU_KNOWLEDGE_11208,Carian Glintblade Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_11211,Carian Glintstone Staff,weapon,staff,staff,UPDATED
+MENU_KNOWLEDGE_10520,Battle Axe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10442,Battle Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10447,Beastclaw Greathammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_11047,Black Bow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10842,Bloodhound Claws,weapon,fist,fist,UNCHANGED
+MENU_KNOWLEDGE_10451,Brick Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10572,Butchering Knife,weapon,dagger,dagger,UNCHANGED
+MENU_KNOWLEDGE_11208,Carian Glintblade Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_11211,Carian Glintstone Staff,weapon,staff,staff,UNCHANGED
 MENU_KNOWLEDGE_11204,Carian Regal Scepter,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_10526,Celebrant_s Cleaver,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_10606,Celebrant_s Rib-Rake,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_10445,Celebrant_s Skull,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10484,Chainlink Flail,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_10484,Chainlink Flail,weapon,polearm,polearm,UNCHANGED
 MENU_KNOWLEDGE_10812,Cipher Pita,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_11244,Clawmark Seal,weapon,fist,fist,UPDATED
-MENU_KNOWLEDGE_10603,Clayman_s Harpoon,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_10604,Cleanrot Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10810,Clinging Bone,weapon,fist,fist,UPDATED
-MENU_KNOWLEDGE_11005,Composite Bow,weapon,bow,bow,UPDATED
+MENU_KNOWLEDGE_11244,Clawmark Seal,weapon,fist,fist,UNCHANGED
+MENU_KNOWLEDGE_10603,Clayman_s Harpoon,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_10604,Cleanrot Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10810,Clinging Bone,weapon,fist,fist,UNCHANGED
+MENU_KNOWLEDGE_11005,Composite Bow,weapon,bow,bow,UNCHANGED
 MENU_KNOWLEDGE_10286,Copy of Beastman_s Cleaver,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10097,Copy of Golden Order Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10097,Copy of Golden Order Greatsword,weapon,sword,sword,UNCHANGED
 MENU_KNOWLEDGE_10449,Cranial Vessel Candlestand,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_11128,Crepus_s Black-Key Crossbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10563,Crescent Moon Axe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10611,Cross-Naginata,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10602,Crystal Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10444,Curved Great Club,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10612,Death Ritual Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_11203,Demi-Human Queen_s Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_11205,Digger_s Staff,weapon,staff,staff,UPDATED
+MENU_KNOWLEDGE_11128,Crepus_s Black-Key Crossbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10563,Crescent Moon Axe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10611,Cross-Naginata,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10602,Crystal Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10444,Curved Great Club,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10612,Death Ritual Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_11203,Demi-Human Queen_s Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_11205,Digger_s Staff,weapon,staff,staff,UNCHANGED
 MENU_KNOWLEDGE_11248,Dragon Communion Seal,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10886,Dragon Greatclaw,weapon,fist,fist,UPDATED
-MENU_KNOWLEDGE_10694,Dragon Halberd,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10884,Duelist Greataxe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10886,Dragon Greatclaw,weapon,fist,fist,UNCHANGED
+MENU_KNOWLEDGE_10694,Dragon Halberd,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10884,Duelist Greataxe,weapon,axe,axe,UNCHANGED
 MENU_KNOWLEDGE_10883,Envoy_s Greathorn,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_10409,Envoy_s Horn,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_10448,Envoy_s Long Horn,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_11043,Erdtree Bow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11083,Erdtree Greatbow,weapon,bow,bow,UPDATED
+MENU_KNOWLEDGE_11043,Erdtree Bow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11083,Erdtree Greatbow,weapon,bow,bow,UNCHANGED
 MENU_KNOWLEDGE_11246,Erdtree Seal,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10568,Executioner_s Greataxe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10568,Executioner_s Greataxe,weapon,axe,axe,UNCHANGED
 MENU_KNOWLEDGE_10888,Fallingstar Beast Jaw,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_11240,Finger Seal,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_11249,Frenzied Flame Seal,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_11124,Full Moon Crossbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10696,Gargoyle_s Black Halberd,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10574,Gargoyle_s Great Axe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10695,Gargoyle_s Halberd,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_11202,Gelmir Glintstone Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10890,Ghiza_s Wheel,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_11124,Full Moon Crossbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10573,Gargoyle_s Black Axe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10696,Gargoyle_s Black Halberd,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10574,Gargoyle_s Great Axe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10695,Gargoyle_s Halberd,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_11202,Gelmir Glintstone Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10890,Ghiza_s Wheel,weapon,sword,sword,UNCHANGED
 MENU_KNOWLEDGE_11242,Giant_s Seal,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10689,Glaive,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_10689,Glaive,weapon,polearm,polearm,UNCHANGED
 MENU_KNOWLEDGE_11241,Godslayer_s Seal,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_11247,Golden Order Seal,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_11081,Golem Greatbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10892,Golem_s Halberd,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10721,Grave Scythe,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_11081,Golem Greatbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10892,Golem_s Halberd,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10721,Grave Scythe,weapon,sword,sword,UNCHANGED
 MENU_KNOWLEDGE_11243,Gravel Stone Seal,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10882,Great Club,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10443,Great Mace,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10560,Greataxe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_11084,Greatbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10441,Greathorn Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10691,Guardian_s Swordspear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10680,Halberd,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10722,Halo Scythe,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_10407,Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10522,Hand Axe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10882,Great Club,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10443,Great Mace,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10560,Greataxe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_11084,Greatbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10441,Greathorn Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10691,Guardian_s Swordspear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10680,Halberd,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10722,Halo Scythe,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_10407,Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10522,Hand Axe,weapon,axe,axe,UNCHANGED
 MENU_KNOWLEDGE_11160,Hand Ballista,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_11003,Harp Bow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11122,Heavy Crossbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10529,Highland Axe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10840,Hookclaws,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_11042,Horn Bow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10765,Hoslow_s Petal Whip,weapon,whip,whip,UPDATED
-MENU_KNOWLEDGE_10527,Icerind Hatchet,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_10613,Inquisitor_s Girandole,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_11003,Harp Bow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11122,Heavy Crossbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10529,Highland Axe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10840,Hookclaws,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_11042,Horn Bow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10765,Hoslow_s Petal Whip,weapon,whip,whip,UNCHANGED
+MENU_KNOWLEDGE_10527,Icerind Hatchet,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_10613,Inquisitor_s Girandole,weapon,polearm,polearm,UNCHANGED
 MENU_KNOWLEDGE_10807,Iron Ball,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_10524,Iron Cleaver,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10615,Iron Spear,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_10615,Iron Spear,weapon,polearm,polearm,UNCHANGED
 MENU_KNOWLEDGE_11161,Jar Cannon,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10523,Jawbone Axe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10809,Katar,weapon,dagger,dagger,UPDATED
-MENU_KNOWLEDGE_10646,Lance,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10440,Large Club,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_11121,Light Crossbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11080,Lion Greatbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11040,Longbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10565,Longhaft Axe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10523,Jawbone Axe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10809,Katar,weapon,dagger,dagger,UNCHANGED
+MENU_KNOWLEDGE_10646,Lance,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10440,Large Club,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_11121,Light Crossbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11080,Lion Greatbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11040,Longbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10565,Longhaft Axe,weapon,axe,axe,UNCHANGED
 MENU_KNOWLEDGE_10690,Loretta_s War Sickle,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10682,Lucerne,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_11215,Lusat_s Glintstone Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10400,Mace,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10763,Magma Whip Candlestick,weapon,whip,whip,UPDATED
-MENU_KNOWLEDGE_10414,Marika_s Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_11216,Meteorite Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_11001,Misbegotten Shortbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10641,Mohgwyn_s Sacred Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10408,Monk_s Flamemace,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10404,Morning Star,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10480,Nightrider Flail,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10685,Nightrider Glaive,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10411,Nox Flowing Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10605,Partisan,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10446,Pickaxe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10607,Pike,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10880,Prelate_s Inferno Crozier,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_11209,Prince of Death_s Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_11046,Pulley Bow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11123,Pulley Crossbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10843,Raptor Talons,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_11002,Red Branch Shortbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10686,Ripple Crescent Halberd,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10453,Rotten Battle Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10616,Rotten Crystal Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_11218,Rotten Crystal Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10895,Rotten Greataxe,weapon,axe,axe,UPDATED
-MENU_KNOWLEDGE_10894,Rotten Staff,weapon,staff,staff,UPDATED
+MENU_KNOWLEDGE_10682,Lucerne,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_11215,Lusat_s Glintstone Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10400,Mace,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10763,Magma Whip Candlestick,weapon,whip,whip,UNCHANGED
+MENU_KNOWLEDGE_10414,Marika_s Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_11216,Meteorite Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_11001,Misbegotten Shortbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10641,Mohgwyn_s Sacred Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10408,Monk_s Flamemace,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10404,Morning Star,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10480,Nightrider Flail,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10685,Nightrider Glaive,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10411,Nox Flowing Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10605,Partisan,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10446,Pickaxe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10607,Pike,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10880,Prelate_s Inferno Crozier,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_11209,Prince of Death_s Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_11046,Pulley Bow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11123,Pulley Crossbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10843,Raptor Talons,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_11002,Red Branch Shortbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10686,Ripple Crescent Halberd,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10453,Rotten Battle Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10616,Rotten Crystal Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_11218,Rotten Crystal Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10895,Rotten Greataxe,weapon,axe,axe,UNCHANGED
+MENU_KNOWLEDGE_10894,Rotten Staff,weapon,staff,staff,UNCHANGED
 MENU_KNOWLEDGE_10410,Scepter of the All-Knowing,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10720,Scythe,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_11044,Serpent Bow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10600,Short Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_11000,Shortbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_11120,Soldier_s Crossbow,weapon,bow,bow,UPDATED
-MENU_KNOWLEDGE_10601,Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10406,Spiked Club,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10614,Spiked Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_11219,Staff of Loss,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10887,Staff of the Avatar,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_11217,Staff of the Guilty,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10808,Star Fist,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10413,Stone Club,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10533,Stormhawk Axe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10720,Scythe,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_11044,Serpent Bow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10600,Short Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_11000,Shortbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_11120,Soldier_s Crossbow,weapon,bow,bow,UNCHANGED
+MENU_KNOWLEDGE_10601,Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10406,Spiked Club,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10614,Spiked Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_11219,Staff of Loss,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10887,Staff of the Avatar,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_11217,Staff of the Guilty,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10808,Star Fist,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10413,Stone Club,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10533,Stormhawk Axe,weapon,axe,axe,UNCHANGED
 MENU_KNOWLEDGE_12045,Sun Realm Shield,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10762,Thorned Whip,weapon,whip,whip,UPDATED
+MENU_KNOWLEDGE_10762,Thorned Whip,weapon,whip,whip,UNCHANGED
 MENU_KNOWLEDGE_10608,Torchpole,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10647,Treespear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10123,Troll_s Golden Sword,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_10893,Troll_s Hammer,weapon,hammer,hammer,UPDATED
-MENU_KNOWLEDGE_10405,Varré_s Bouquet,weapon,hammer,hammer,UPDATED
+MENU_KNOWLEDGE_10647,Treespear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10123,Troll_s Golden Sword,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_10893,Troll_s Hammer,weapon,hammer,hammer,UNCHANGED
+MENU_KNOWLEDGE_10405,Varré_s Bouquet,weapon,hammer,hammer,UNCHANGED
 MENU_KNOWLEDGE_10841,Venomous Fang,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10687,Vulgar Militia Saw,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_10693,Vulgar Militia Shotel,weapon,sword,sword,UPDATED
-MENU_KNOWLEDGE_10645,Vyke_s War Spear,weapon,polearm,polearm,UPDATED
-MENU_KNOWLEDGE_10881,Watchdog_s Staff,weapon,staff,staff,UPDATED
-MENU_KNOWLEDGE_10760,Whip,weapon,whip,whip,UPDATED
+MENU_KNOWLEDGE_10687,Vulgar Militia Saw,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_10693,Vulgar Militia Shotel,weapon,sword,sword,UNCHANGED
+MENU_KNOWLEDGE_10645,Vyke_s War Spear,weapon,polearm,polearm,UNCHANGED
+MENU_KNOWLEDGE_10881,Watchdog_s Staff,weapon,staff,staff,UNCHANGED
+MENU_KNOWLEDGE_10760,Whip,weapon,whip,whip,UNCHANGED
 MENU_KNOWLEDGE_10571,Winged Greathorn,weapon,other,other,UNCHANGED
 MENU_KNOWLEDGE_10726,Winged Scythe,weapon,other,other,UNCHANGED
-MENU_KNOWLEDGE_10124,Zweihander,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10124,Zweihander,weapon,sword,sword,UNCHANGED
 MENU_KNOWLEDGE_13092,Alberich_s Bracers,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13100,Alberich_s Pointed Hat (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13090,Alberich_s Pointed Hat,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13101,Alberich_s Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13091,Alberich_s Robe,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13100,Alberich_s Pointed Hat (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13090,Alberich_s Pointed Hat,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13101,Alberich_s Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13091,Alberich_s Robe,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13093,Alberich_s Trousers,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14800,Albinauric Mask,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_13871,All-Knowing Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13861,All-Knowing Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13862,All-Knowing Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13863,All-Knowing Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13860,All-Knowing Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13543,Aristocrat Boots,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13561,Aristocrat Coat,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14800,Albinauric Mask,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_13871,All-Knowing Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13861,All-Knowing Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13862,All-Knowing Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13863,All-Knowing Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13860,All-Knowing Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13543,Aristocrat Boots,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13561,Aristocrat Coat,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_13551,Aristocrat Garb (Altered),armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13541,Aristocrat Garb,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13560,Aristocrat Hat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13540,Aristocrat Headband,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13541,Aristocrat Garb,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13560,Aristocrat Hat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13540,Aristocrat Headband,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_15280,Ash-of-War Scarab,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13952,Astrologer Gloves,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13950,Astrologer Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13961,Astrologer Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13951,Astrologer Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13953,Astrologer Trousers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13850,Azur_s Glintstone Crown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13851,Azur_s Glintstone Robe,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13952,Astrologer Gloves,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13950,Astrologer Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13961,Astrologer Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13951,Astrologer Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13953,Astrologer Trousers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13850,Azur_s Glintstone Crown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13851,Azur_s Glintstone Robe,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13852,Azur_s Manchettes,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14533,Bandit Boots,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14541,Bandit Garb,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14532,Bandit Manchettes,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14980,Bandit Mask,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13231,Banished Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13221,Banished Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13222,Banished Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13223,Banished Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13230,Banished Knight Helm (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13220,Banished Knight Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14533,Bandit Boots,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14541,Bandit Garb,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14532,Bandit Manchettes,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14980,Bandit Mask,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13231,Banished Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13221,Banished Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13222,Banished Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13223,Banished Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13230,Banished Knight Helm (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13220,Banished Knight Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14683,Battlemage Legwraps,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14682,Battlemage Manchettes,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14681,Battlemage Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14111,Beast Champion Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14101,Beast Champion Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14102,Beast Champion Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14103,Beast Champion Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14100,Beast Champion Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14681,Battlemage Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14111,Beast Champion Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14101,Beast Champion Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14102,Beast Champion Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14103,Beast Champion Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14100,Beast Champion Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_15440,Black Dumpling,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14970,Black Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13201,Black Knife Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13191,Black Knife Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13192,Black Knife Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13193,Black Knife Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13190,Black Knife Hood,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14970,Black Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13201,Black Knife Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13191,Black Knife Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13192,Black Knife Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13193,Black Knife Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13190,Black Knife Hood,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13170,Black Wolf Mask,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13511,Blackflame Monk Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13512,Blackflame Monk Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13513,Blackflame Monk Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13510,Blackflame Monk Hood,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14450,Blackguard_s Iron Mask,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13181,Blaidd_s Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13171,Blaidd_s Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13172,Blaidd_s Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13173,Blaidd_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14221,Bloodhound Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14211,Bloodhound Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14212,Bloodhound Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14213,Bloodhound Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14210,Bloodhound Knight Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_13511,Blackflame Monk Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13512,Blackflame Monk Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13513,Blackflame Monk Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13510,Blackflame Monk Hood,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14450,Blackguard_s Iron Mask,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13181,Blaidd_s Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13171,Blaidd_s Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13172,Blaidd_s Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13173,Blaidd_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14221,Bloodhound Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14211,Bloodhound Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14212,Bloodhound Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14213,Bloodhound Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14210,Bloodhound Knight Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14613,Bloodsoaked Manchettes,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14620,Bloodsoaked Mask,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_15251,Bloodsoaked Tabard,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14030,Blue Cloth Cowl,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14031,Blue Cloth Vest,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_15251,Bloodsoaked Tabard,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14030,Blue Cloth Cowl,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14031,Blue Cloth Vest,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14251,Blue Festive Garb,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14250,Blue Festive Hood,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14250,Blue Festive Hood,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13302,Blue Silver Bracelets,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13311,Blue Silver Mail Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13301,Blue Silver Mail Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13300,Blue Silver Mail Hood,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13303,Blue Silver Mail Skirt,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13251,Briar Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13241,Briar Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13242,Briar Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13243,Briar Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13240,Briar Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13131,Bull-Goat Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13132,Bull-Goat Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13133,Bull-Goat Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13130,Bull-Goat Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14651,Carian Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14641,Carian Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14642,Carian Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14643,Carian Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14640,Carian Knight Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_13311,Blue Silver Mail Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13301,Blue Silver Mail Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13300,Blue Silver Mail Hood,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13303,Blue Silver Mail Skirt,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13251,Briar Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13241,Briar Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13242,Briar Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13243,Briar Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13240,Briar Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13131,Bull-Goat Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13132,Bull-Goat Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13133,Bull-Goat Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13130,Bull-Goat Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14651,Carian Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14641,Carian Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14642,Carian Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14643,Carian Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14640,Carian Knight Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_15320,Cerulean Tear Scarab,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14891,Chain Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14896,Chain Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14890,Chain Coif,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14895,Chain Coif,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14892,Chain Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14897,Chain Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14893,Chain Leggings,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15211,Chain-Draped Tabard,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14122,Champion Bracers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14123,Champion Gaiters,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14120,Champion Headband,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14121,Champion Pauldron,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13491,Cleanrot Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13481,Cleanrot Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13482,Cleanrot Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13483,Cleanrot Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13490,Cleanrot Helm (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13480,Cleanrot Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13161,Cloth Garb,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13163,Cloth Trousers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_142711,Commoner_s Garb (Altered),armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14891,Chain Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14896,Chain Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14890,Chain Coif,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14895,Chain Coif,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14892,Chain Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14897,Chain Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14893,Chain Leggings,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15211,Chain-Draped Tabard,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14122,Champion Bracers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14123,Champion Gaiters,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14120,Champion Headband,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14121,Champion Pauldron,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13491,Cleanrot Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13481,Cleanrot Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13482,Cleanrot Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13483,Cleanrot Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13490,Cleanrot Helm (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13480,Cleanrot Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13161,Cloth Garb,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13163,Cloth Trousers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_142711,Commoner_s Garb (Altered),armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14271,Commoner_s Garb (Altered),armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14261,Commoner_s Garb,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_142701,Commoner_s Headband (Altered),armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14261,Commoner_s Garb,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_142701,Commoner_s Headband (Altered),armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14270,Commoner_s Headband (Altered),armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14260,Commoner_s Headband,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14263,Commoner_s Shoes,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_142911,Commoner_s Simple Garb (Altered),armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14260,Commoner_s Headband,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14263,Commoner_s Shoes,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_142911,Commoner_s Simple Garb (Altered),armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14291,Commoner_s Simple Garb (Altered),armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14281,Commoner_s Simple Garb,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14431,Confessor Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14421,Confessor Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14423,Confessor Boots,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14422,Confessor Gloves,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_144301,Confessor Hood (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14430,Confessor Hood (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14420,Confessor Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14590,Consort_s Mask,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14591,Consort_s Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14593,Consort_s Trousers,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14281,Commoner_s Simple Garb,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14431,Confessor Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14421,Confessor Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14423,Confessor Boots,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14422,Confessor Gloves,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_144301,Confessor Hood (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14430,Confessor Hood (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14420,Confessor Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14590,Consort_s Mask,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14591,Consort_s Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14593,Consort_s Trousers,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_15011,Copy of Tree-and-Beast Surcoat,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13921,Corhyn_s Robe,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14130,Crimson Hood,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13921,Corhyn_s Robe,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14130,Crimson Hood,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_15310,Crimson Tear Scarab,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13821,Crucible Axe Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13801,Crucible Axe Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13800,Crucible Axe Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13802,Crucible Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13803,Crucible Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13831,Crucible Tree Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13811,Crucible Tree Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13810,Crucible Tree Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15121,Cuckoo Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15111,Cuckoo Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15112,Cuckoo Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15113,Cuckoo Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15110,Cuckoo Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15021,Cuckoo Surcoat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15331,Deathbed Dress,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13821,Crucible Axe Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13801,Crucible Axe Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13800,Crucible Axe Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13802,Crucible Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13803,Crucible Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13831,Crucible Tree Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13811,Crucible Tree Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13810,Crucible Tree Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15121,Cuckoo Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15111,Cuckoo Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15112,Cuckoo Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15113,Cuckoo Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15110,Cuckoo Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15021,Cuckoo Surcoat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15331,Deathbed Dress,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_15333,Deathbed Smalls,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13742,Depraved Perfumer Gloves,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13740,Depraved Perfumer Headscarf,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13751,Depraved Perfumer Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13741,Depraved Perfumer Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13743,Depraved Perfumer Trousers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14000,Diallos_s Mask,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14801,Dirty Chainmail,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_130311,Drake Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13031,Drake Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13021,Drake Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13022,Drake Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13023,Drake Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_130301,Drake Knight Helm (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13030,Drake Knight Helm (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13020,Drake Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13433,Duelist Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13430,Duelist Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14551,Eccentric_s Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14553,Eccentric_s Breeches,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_145601,Eccentric_s Hood (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14560,Eccentric_s Hood (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14550,Eccentric_s Hood,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14552,Eccentric_s Manchettes,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13661,Elden Lord Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13651,Elden Lord Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13652,Elden Lord Bracers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13650,Elden Lord Crown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13653,Elden Lord Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14300,Envoy Crown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15031,Erdtree Surcoat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14663,Errant Sorcerer Boots,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14662,Errant Sorcerer Manchettes,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14671,Errant Sorcerer Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14661,Errant Sorcerer Robe,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13211,Exile Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13212,Exile Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13213,Exile Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13210,Exile Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14901,Eye Surcoat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14791,Fell Omen Cloak,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13742,Depraved Perfumer Gloves,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13740,Depraved Perfumer Headscarf,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13751,Depraved Perfumer Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13741,Depraved Perfumer Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13743,Depraved Perfumer Trousers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14000,Diallos_s Mask,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14801,Dirty Chainmail,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_130311,Drake Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13031,Drake Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13021,Drake Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13022,Drake Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13023,Drake Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_130301,Drake Knight Helm (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13030,Drake Knight Helm (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13020,Drake Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13433,Duelist Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13430,Duelist Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14551,Eccentric_s Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14553,Eccentric_s Breeches,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_145601,Eccentric_s Hood (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14560,Eccentric_s Hood (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14550,Eccentric_s Hood,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14552,Eccentric_s Manchettes,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13661,Elden Lord Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13651,Elden Lord Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13652,Elden Lord Bracers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13650,Elden Lord Crown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13653,Elden Lord Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14300,Envoy Crown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15031,Erdtree Surcoat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14663,Errant Sorcerer Boots,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14662,Errant Sorcerer Manchettes,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14671,Errant Sorcerer Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14661,Errant Sorcerer Robe,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13211,Exile Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13212,Exile Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13213,Exile Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13210,Exile Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14901,Eye Surcoat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14791,Fell Omen Cloak,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14241,Festive Garb (Altered),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14231,Festive Garb,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_142401,Festive Hood (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14240,Festive Hood (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14230,Festive Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15340,Fia_s Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_153511,Fia_s Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15351,Fia_s Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15341,Fia_s Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14480,Finger Maiden Fillet,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14491,Finger Maiden Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14481,Finger Maiden Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14482,Finger Maiden Shoes,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_145811,Fingerprint Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14581,Fingerprint Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14571,Fingerprint Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14572,Fingerprint Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14573,Fingerprint Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14570,Fingerprint Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13501,Fire Monk Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13502,Fire Monk Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13503,Fire Monk Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13500,Fire Monk Hood,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13531,Fire Prelate Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13521,Fire Prelate Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13522,Fire Prelate Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13523,Fire Prelate Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13520,Fire Prelate Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15210,Foot Soldier Cap,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15212,Foot Soldier Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15213,Foot Soldier Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15240,Foot Soldier Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15220,Foot Soldier Helmet,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15221,Foot Soldier Tabard,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13423,Fur Leggings,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_13421,Fur Raiment,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_15081,Gelmir Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15071,Gelmir Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15072,Gelmir Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15073,Gelmir Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15070,Gelmir Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15230,Gilded Foot Soldier Cap,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_142401,Festive Hood (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14240,Festive Hood (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14230,Festive Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15340,Fia_s Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_153511,Fia_s Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15351,Fia_s Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15341,Fia_s Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14480,Finger Maiden Fillet,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14491,Finger Maiden Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14481,Finger Maiden Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14482,Finger Maiden Shoes,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_145811,Fingerprint Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14581,Fingerprint Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14571,Fingerprint Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14572,Fingerprint Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14573,Fingerprint Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14570,Fingerprint Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13501,Fire Monk Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13502,Fire Monk Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13503,Fire Monk Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13500,Fire Monk Hood,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13531,Fire Prelate Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13521,Fire Prelate Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13522,Fire Prelate Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13523,Fire Prelate Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13520,Fire Prelate Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15210,Foot Soldier Cap,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15212,Foot Soldier Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15213,Foot Soldier Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15240,Foot Soldier Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15220,Foot Soldier Helmet,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15221,Foot Soldier Tabard,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13423,Fur Leggings,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_13421,Fur Raiment,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_15081,Gelmir Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15071,Gelmir Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15072,Gelmir Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15073,Gelmir Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15070,Gelmir Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15230,Gilded Foot Soldier Cap,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_15300,Glintstone Scarab,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_15101,Godrick Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15091,Godrick Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15092,Godrick Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15093,Godrick Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15090,Godrick Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15012,Godrick Soldier Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15013,Godrick Soldier Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15010,Godrick Soldier Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_15101,Godrick Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15091,Godrick Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15092,Godrick Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15093,Godrick Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15090,Godrick Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15012,Godrick Soldier Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15013,Godrick Soldier Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15010,Godrick Soldier Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_13722,Godskin Apostle Bracelets,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13720,Godskin Apostle Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13721,Godskin Apostle Robe,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13720,Godskin Apostle Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13721,Godskin Apostle Robe,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13723,Godskin Apostle Trousers,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13732,Godskin Noble Bracelets,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13730,Godskin Noble Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13731,Godskin Noble Robe,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13730,Godskin Noble Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13731,Godskin Noble Robe,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13733,Godskin Noble Trousers,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14782,Gold Bracelets,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14783,Gold Waistwrap,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14781,Goldmask_s Rags,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14781,Goldmask_s Rags,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_134411,Gravekeeper Cloak (Altered),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13441,Gravekeeper Cloak (Altered),armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13431,Gravekeeper Cloak,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13431,Gravekeeper Cloak,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13420,Great Horned Headband,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14900,Greathelm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15000,Greathood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13462,Guardian Bracers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13461,Guardian Garb (Full Bloom),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13471,Guardian Garb,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13463,Guardian Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13460,Guardian Mask,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13160,Guilty Hood,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14900,Greathelm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15000,Greathood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13462,Guardian Bracers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13461,Guardian Garb (Full Bloom),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13471,Guardian Garb,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13463,Guardian Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13460,Guardian Mask,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13160,Guilty Hood,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14680,Haima Glintstone Crown,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_15061,Haligtree Crest Surcoat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15062,Haligtree Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15063,Haligtree Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15060,Haligtree Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15201,Haligtree Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15191,Haligtree Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15192,Haligtree Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15193,Haligtree Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15190,Haligtree Knight Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_15061,Haligtree Crest Surcoat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15062,Haligtree Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15063,Haligtree Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15060,Haligtree Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15201,Haligtree Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15191,Haligtree Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15192,Haligtree Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15193,Haligtree Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15190,Haligtree Knight Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14660,Hierodas Glintstone Crown,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_15401,High Page Clothes (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15391,High Page Clothes,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15390,High Page Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15381,Highwayman Cloth Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15382,Highwayman Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15380,Highwayman Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14001,Hoslow_s Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13991,Hoslow_s Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13992,Hoslow_s Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13993,Hoslow_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13990,Hoslow_s Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14960,Iji_s Mirrorhelm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_15401,High Page Clothes (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15391,High Page Clothes,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15390,High Page Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15381,Highwayman Cloth Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15382,Highwayman Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15380,Highwayman Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14001,Hoslow_s Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13991,Hoslow_s Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13992,Hoslow_s Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13993,Hoslow_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13990,Hoslow_s Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14960,Iji_s Mirrorhelm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14820,Imp Head (Cat),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14850,Imp Head (Corpse),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14870,Imp Head (Elder),armour,other,other,UNCHANGED
@@ -1129,280 +1129,522 @@ MENU_KNOWLEDGE_14830,Imp Head (Fanged),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14840,Imp Head (Long-Tongued),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14860,Imp Head (Wolf),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_15290,Incantation Scarab,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13002,Iron Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13000,Iron Helmet,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13140,Iron Kasa,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15261,Ivory-Draped Tabard,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14930,Jar,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_13002,Iron Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13000,Iron Helmet,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13140,Iron Kasa,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15261,Ivory-Draped Tabard,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14930,Jar,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14770,Juvenile Scholar Cap,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14771,Juvenile Scholar Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13011,Kaiden Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13012,Kaiden Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13010,Kaiden Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14771,Juvenile Scholar Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13011,Kaiden Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13012,Kaiden Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13010,Kaiden Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_13013,Kaiden Trousers,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_14340,Karolos Glintstone Crown,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14991,Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14992,Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14993,Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14990,Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14401,Land of Reeds Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14391,Land of Reeds Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14392,Land of Reeds Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14393,Land of Reeds Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14390,Land of Reeds Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14330,Lazuli Glintstone Crown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15451,Lazuli Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14971,Leather Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14976,Leather Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14973,Leather Boots,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14972,Leather Gloves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13003,Leather Trousers,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_15231,Leather-Draped Tabard,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15141,Leyndell Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15131,Leyndell Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15132,Leyndell Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15133,Leyndell Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15130,Leyndell Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15032,Leyndell Soldier Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15033,Leyndell Soldier Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15030,Leyndell Soldier Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13981,Lionel_s Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13971,Lionel_s Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13972,Lionel_s Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13973,Lionel_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13970,Lionel_s Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14711,Lord of Blood_s Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13681,Lord of Blood_s Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13840,Lusat_s Glintstone Crown,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14991,Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14992,Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14993,Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14990,Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14401,Land of Reeds Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14391,Land of Reeds Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14392,Land of Reeds Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14393,Land of Reeds Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14390,Land of Reeds Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14330,Lazuli Glintstone Crown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15451,Lazuli Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14971,Leather Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14976,Leather Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14973,Leather Boots,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14972,Leather Gloves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13003,Leather Trousers,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_15231,Leather-Draped Tabard,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15141,Leyndell Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15131,Leyndell Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15132,Leyndell Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15133,Leyndell Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15130,Leyndell Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15032,Leyndell Soldier Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15033,Leyndell Soldier Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15030,Leyndell Soldier Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13981,Lionel_s Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13971,Lionel_s Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13972,Lionel_s Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13973,Lionel_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13970,Lionel_s Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14711,Lord of Blood_s Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13681,Lord of Blood_s Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13840,Lusat_s Glintstone Crown,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13842,Lusat_s Manchettes,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13841,Lusat_s Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14181,Malenia_s Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14171,Malenia_s Armor,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_13841,Lusat_s Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14181,Malenia_s Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14171,Malenia_s Armor,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14172,Malenia_s Gauntlet,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14173,Malenia_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14170,Malenia_s Winged Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13341,Malformed Dragon Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13342,Malformed Dragon Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13343,Malformed Dragon Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13340,Malformed Dragon Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14161,Maliketh_s Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14151,Maliketh_s Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14152,Maliketh_s Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14153,Maliketh_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14150,Maliketh_s Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14173,Malenia_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14170,Malenia_s Winged Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13341,Malformed Dragon Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13342,Malformed Dragon Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13343,Malformed Dragon Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13340,Malformed Dragon Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14161,Maliketh_s Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14151,Maliketh_s Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14152,Maliketh_s Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14153,Maliketh_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14150,Maliketh_s Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14600,Marais Mask,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14601,Marais Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14351,Marionette Soldier Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14360,Marionette Soldier Birdhelm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14350,Marionette Soldier Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14510,Mask of Confidence,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15052,Mausoleum Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15053,Mausoleum Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15181,Mausoleum Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15171,Mausoleum Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15172,Mausoleum Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15173,Mausoleum Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15051,Mausoleum Surcoat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14942,Mushroom Arms,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14941,Mushroom Body,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14601,Marais Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14351,Marionette Soldier Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14360,Marionette Soldier Birdhelm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14350,Marionette Soldier Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14510,Mask of Confidence,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15052,Mausoleum Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15053,Mausoleum Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15181,Mausoleum Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15171,Mausoleum Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15172,Mausoleum Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15173,Mausoleum Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15051,Mausoleum Surcoat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14942,Mushroom Arms,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14941,Mushroom Body,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_15430,Mushroom Crown,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14940,Mushroom Head,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14943,Mushroom Legs,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14140,Navy Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15461,Night Maiden Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15460,Night Maiden Twin Crown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13291,Night_s Cavalry Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13281,Night_s Cavalry Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13282,Night_s Cavalry Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13283,Night_s Cavalry Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13290,Night_s Cavalry Helm (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13280,Night_s Cavalry Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14132,Noble_s Gloves,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14131,Noble_s Traveling Garb,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14940,Mushroom Head,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14943,Mushroom Legs,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14140,Navy Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15461,Night Maiden Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15460,Night Maiden Twin Crown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13291,Night_s Cavalry Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13281,Night_s Cavalry Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13282,Night_s Cavalry Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13283,Night_s Cavalry Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13290,Night_s Cavalry Helm (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13280,Night_s Cavalry Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14132,Noble_s Gloves,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14131,Noble_s Traveling Garb,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14133,Noble_s Trousers,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13320,Nomadic Merchant_s Chapeau,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13331,Nomadic Merchant_s Finery (Altered),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13321,Nomadic Merchant_s Finery,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13323,Nomadic Merchant_s Trousers,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14950,Nox Mirrorhelm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13401,Nox Monk Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13391,Nox Monk Armor,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14950,Nox Mirrorhelm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13401,Nox Monk Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13391,Nox Monk Armor,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_13392,Nox Monk Bracelets,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13393,Nox Monk Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13400,Nox Monk Hood (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13390,Nox Monk Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15471,Nox Swordstress Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13411,Nox Swordstress Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15470,Nox Swordstress Crown (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13410,Nox Swordstress Crown,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13393,Nox Monk Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13400,Nox Monk Hood (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13390,Nox Monk Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15471,Nox Swordstress Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13411,Nox Swordstress Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15470,Nox Swordstress Crown (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13410,Nox Swordstress Crown,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14920,Octopus Head,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14603,Official_s Attire,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14410,Okina Mask,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13570,Old Aristocrat Cowl,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13571,Old Aristocrat Gown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13573,Old Aristocrat Shoes,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13843,Old Sorcerer_s Legwraps,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14603,Official_s Attire,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14410,Okina Mask,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13570,Old Aristocrat Cowl,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13571,Old Aristocrat Gown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13573,Old Aristocrat Shoes,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13843,Old Sorcerer_s Legwraps,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14320,Olivinus Glintstone Crown,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14631,Omen Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14632,Omen Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14633,Omen Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14630,Omen Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15273,Omenkiller Boots,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_15272,Omenkiller Long Gloves,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_15271,Omenkiller Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15270,Omensmirk Mask,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14631,Omen Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14632,Omen Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14633,Omen Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14630,Omen Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15273,Omenkiller Boots,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_15272,Omenkiller Long Gloves,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_15271,Omenkiller Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15270,Omensmirk Mask,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13271,Page Garb (Altered),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13261,Page Garb,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13260,Page Hood,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13260,Page Hood,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13263,Page Trousers,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13062,Perfumer Gloves,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13060,Perfumer Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13065,Perfumer Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13061,Perfumer Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13063,Perfumer Sarong,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13062,Perfumer Gloves,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13060,Perfumer Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13065,Perfumer Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13061,Perfumer Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13063,Perfumer Sarong,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13081,Perfumer_s Traveling Garb (Altered),armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13071,Perfumer_s Traveling Garb,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14500,Preceptor_s Big Hat,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14502,Preceptor_s Gloves,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14511,Preceptor_s Long Gown (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14501,Preceptor_s Long Gown,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_13071,Perfumer_s Traveling Garb,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14500,Preceptor_s Big Hat,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14502,Preceptor_s Gloves,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14511,Preceptor_s Long Gown (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14501,Preceptor_s Long Gown,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14503,Preceptor_s Trousers,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14441,Prisoner Clothing,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14440,Prisoner Iron Mask,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14441,Prisoner Clothing,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14440,Prisoner Iron Mask,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14443,Prisoner Trousers,armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_13920,Prophet Blindfold,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13931,Prophet Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13941,Prophet Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13923,Prophet Trousers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13620,Pumpkin Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13712,Queen_s Bracelets,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13710,Queen_s Crescent Crown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13713,Queen_s Leggings,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13711,Queen_s Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15042,Radahn Soldier Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15043,Radahn Soldier Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15040,Radahn Soldier Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13672,Radahn_s Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13673,Radahn_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14701,Radahn_s Lion Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13671,Radahn_s Lion Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13670,Radahn_s Redmane Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14780,Radiant Gold Mask,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14381,Raging Wolf Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14371,Raging Wolf Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14372,Raging Wolf Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14373,Raging Wolf Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14370,Raging Wolf Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14531,Raptor_s Black Feathers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15022,Raya Lucarian Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15023,Raya Lucarian Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15020,Raya Lucarian Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14311,Raya Lucarian Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15161,Redmane Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15151,Redmane Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15152,Redmane Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15153,Redmane Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15150,Redmane Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15041,Redmane Surcoat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13151,Ronin_s Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13141,Ronin_s Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13142,Ronin_s Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13143,Ronin_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15413,Rotten Duelist Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15410,Rotten Duelist Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_13931,Prophet Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13941,Prophet Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13923,Prophet Trousers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13620,Pumpkin Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13712,Queen_s Bracelets,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13710,Queen_s Crescent Crown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13713,Queen_s Leggings,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13711,Queen_s Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15042,Radahn Soldier Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15043,Radahn Soldier Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15040,Radahn Soldier Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13672,Radahn_s Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13673,Radahn_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14701,Radahn_s Lion Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13671,Radahn_s Lion Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13670,Radahn_s Redmane Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14780,Radiant Gold Mask,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14381,Raging Wolf Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14371,Raging Wolf Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14372,Raging Wolf Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14373,Raging Wolf Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14370,Raging Wolf Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14531,Raptor_s Black Feathers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15022,Raya Lucarian Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15023,Raya Lucarian Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15020,Raya Lucarian Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14311,Raya Lucarian Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15161,Redmane Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15151,Redmane Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15152,Redmane Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15153,Redmane Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15150,Redmane Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15041,Redmane Surcoat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13151,Ronin_s Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13141,Ronin_s Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13142,Ronin_s Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13143,Ronin_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15413,Rotten Duelist Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15410,Rotten Duelist Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_15421,Rotten Gravekeeper Cloak (Altered),armour,other,other,UNCHANGED
 MENU_KNOWLEDGE_15411,Rotten Gravekeeper Cloak,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13381,Royal Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13371,Royal Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13372,Royal Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13373,Royal Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13370,Royal Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14061,Royal Remains Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14062,Royal Remains Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14063,Royal Remains Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14060,Royal Remains Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_13381,Royal Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13371,Royal Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13372,Royal Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13373,Royal Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13370,Royal Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14061,Royal Remains Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14062,Royal Remains Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14063,Royal Remains Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14060,Royal Remains Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14610,Ruler_s Mask,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14611,Ruler_s Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_15260,Sacred Crown Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13610,Sage Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13611,Sage Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13613,Sage Trousers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13450,Sanguine Noble Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13451,Sanguine Noble Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13453,Sanguine Noble Waistcloth,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13001,Scale Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13051,Scaled Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13041,Scaled Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13042,Scaled Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13043,Scaled Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13040,Scaled Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_15241,Scarlet Tabard,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13426,Shaman Furs,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_13428,Shaman Leggings,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_13425,Shining Horned Headband,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14611,Ruler_s Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_15260,Sacred Crown Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13610,Sage Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13611,Sage Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13613,Sage Trousers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13450,Sanguine Noble Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13451,Sanguine Noble Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13453,Sanguine Noble Waistcloth,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13001,Scale Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13051,Scaled Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13041,Scaled Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13042,Scaled Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13043,Scaled Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13040,Scaled Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_15241,Scarlet Tabard,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13426,Shaman Furs,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_13428,Shaman Leggings,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_13425,Shining Horned Headband,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_14880,Silver Tear Mask,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14530,Skeletal Mask,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14740,Snow Witch Hat,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14751,Snow Witch Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14741,Snow Witch Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14743,Snow Witch Skirt,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14313,Sorcerer Leggings,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14312,Sorcerer Manchettes,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13112,Spellblade_s Gloves,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13110,Spellblade_s Pointed Hat,armour,cloth,cloth,UPDATED
+MENU_KNOWLEDGE_14530,Skeletal Mask,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14740,Snow Witch Hat,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14751,Snow Witch Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14741,Snow Witch Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14743,Snow Witch Skirt,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14313,Sorcerer Leggings,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14312,Sorcerer Manchettes,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13112,Spellblade_s Gloves,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13110,Spellblade_s Pointed Hat,armour,cloth,cloth,UNCHANGED
 MENU_KNOWLEDGE_13121,Spellblade_s Traveling Attire (Altered),armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_13111,Spellblade_s Traveling Attire,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13113,Spellblade_s Trousers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14763,Traveler_s Boots,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14761,Traveler_s Clothes,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13072,Traveler_s Gloves,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_13070,Traveler_s Hat,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14762,Traveler_s Manchettes,armour,leather,leather,UPDATED
+MENU_KNOWLEDGE_13111,Spellblade_s Traveling Attire,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13113,Spellblade_s Trousers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14763,Traveler_s Boots,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14761,Traveler_s Clothes,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13072,Traveler_s Gloves,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_13070,Traveler_s Hat,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14762,Traveler_s Manchettes,armour,leather,leather,UNCHANGED
 MENU_KNOWLEDGE_13073,Traveler_s Slops,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14463,Traveling Maiden Boots,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14462,Traveling Maiden Gloves,armour,leather,leather,UPDATED
-MENU_KNOWLEDGE_14460,Traveling Maiden Hood,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14471,Traveling Maiden Robe (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14461,Traveling Maiden Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_13361,Tree Sentinel Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13351,Tree Sentinel Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13352,Tree Sentinel Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13353,Tree Sentinel Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13350,Tree Sentinel Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14911,Tree Surcoat,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13891,Twinned Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13881,Twinned Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13882,Twinned Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13883,Twinned Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13880,Twinned Helm,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14463,Traveling Maiden Boots,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14462,Traveling Maiden Gloves,armour,leather,leather,UNCHANGED
+MENU_KNOWLEDGE_14460,Traveling Maiden Hood,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14471,Traveling Maiden Robe (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14461,Traveling Maiden Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_13361,Tree Sentinel Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13351,Tree Sentinel Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13352,Tree Sentinel Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13353,Tree Sentinel Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13350,Tree Sentinel Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14911,Tree Surcoat,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13891,Twinned Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13881,Twinned Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13882,Twinned Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13883,Twinned Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13880,Twinned Helm,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14310,Twinsage Glintstone Crown,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14621,Upper-Class Robe,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14021,Vagabond Knight Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14011,Vagabond Knight Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14012,Vagabond Knight Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14013,Vagabond Knight Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14010,Vagabond Knight Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14201,Veteran_s Armor (Altered),armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14191,Veteran_s Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14192,Veteran_s Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14193,Veteran_s Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14190,Veteran_s Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13601,Vulgar Militia Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13602,Vulgar Militia Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13603,Vulgar Militia Greaves,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_13600,Vulgar Militia Helm,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14042,War Surgeon Gloves,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14051,War Surgeon Gown (Altered),armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14041,War Surgeon Gown,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14043,War Surgeon Trousers,armour,cloth,cloth,UPDATED
-MENU_KNOWLEDGE_14032,Warrior Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14033,Warrior Greaves,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14621,Upper-Class Robe,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14021,Vagabond Knight Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14011,Vagabond Knight Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14012,Vagabond Knight Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14013,Vagabond Knight Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14010,Vagabond Knight Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14201,Veteran_s Armor (Altered),armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14191,Veteran_s Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14192,Veteran_s Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14193,Veteran_s Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14190,Veteran_s Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13601,Vulgar Militia Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13602,Vulgar Militia Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13603,Vulgar Militia Greaves,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_13600,Vulgar Militia Helm,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14042,War Surgeon Gloves,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14051,War Surgeon Gown (Altered),armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14041,War Surgeon Gown,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14043,War Surgeon Trousers,armour,cloth,cloth,UNCHANGED
+MENU_KNOWLEDGE_14032,Warrior Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14033,Warrior Greaves,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14040,White Mask,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14411,White Reed Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14412,White Reed Gauntlets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14413,White Reed Greaves,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14411,White Reed Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14412,White Reed Gauntlets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14413,White Reed Greaves,armour,plate,plate,UNCHANGED
 MENU_KNOWLEDGE_14720,Witch_s Glintstone Crown,armour,other,other,UNCHANGED
-MENU_KNOWLEDGE_14811,Zamor Armor,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14812,Zamor Bracelets,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14813,Zamor Legwraps,armour,plate,plate,UPDATED
-MENU_KNOWLEDGE_14810,Zamor Mask,armour,plate,plate,UPDATED
+MENU_KNOWLEDGE_14811,Zamor Armor,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14812,Zamor Bracelets,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14813,Zamor Legwraps,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_14810,Zamor Mask,armour,plate,plate,UNCHANGED
+MENU_KNOWLEDGE_08422,Ash of War_ Assassin_s Gambit,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08440,Ash of War_ Barbaric Roar,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08381,Ash of War_ Barrage,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08361,Ash of War_ Barricade Shield,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08442,Ash of War_ Beast_s Roar,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08348,Ash of War_ Black Flame Tornado,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08350,Ash of War_ Blood Blade,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08307,Ash of War_ Blood Tax,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08481,Ash of War_ Bloodhound_s Step,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08334,Ash of War_ Bloody Slash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08444,Ash of War_ Braggart_s Roar,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08345,Ash of War_ Carian Grandeur,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08346,Ash of War_ Carian Greatsword,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08363,Ash of War_ Carian Retaliation,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08304,Ash of War_ Charge Forth,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08353,Ash of War_ Chilling Mist,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08427,Ash of War_ Cragblade,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08420,Ash of War_ Determination,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08311,Ash of War_ Double Slash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08340,Ash of War_ Earthshaker,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08383,Ash of War_ Enchanted Shot,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08460,Ash of War_ Endure,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08336,Ash of War_ Eruption,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08404,Ash of War_ Flame of the Redmanes,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08342,Ash of War_ Flaming Strike,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08315,Ash of War_ Giant Hunt,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08330,Ash of War_ Glintblade Phalanx,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08333,Ash of War_ Glintstone Pebble,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08341,Ash of War_ Golden Land,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08365,Ash of War_ Golden Parry,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08406,Ash of War_ Golden Slam,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08423,Ash of War_ Golden Vow,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08338_1,Ash of War_ Gravitas,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08338,Ash of War_ Gravitas,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08405,Ash of War_ Ground Slam,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08408,Ash of War_ Hoarah Loux_s Earthshaker,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08400,Ash of War_ Hoarfrost Stomp,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08462,Ash of War_ Holy Ground,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08332,Ash of War_ Ice Spear,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08301,Ash of War_ Impaling Thrust,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08402,Ash of War_ Kick,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08335,Ash of War_ Lifesteal Fist,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08403,Ash of War_ Lightning Ram,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08344,Ash of War_ Lightning Slash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08300,Ash of War_ Lion_s Claw,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08316,Ash of War_ Loretta_s Slash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08382,Ash of War_ Mighty Shot,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08367,Ash of War_ No Skill,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08362,Ash of War_ Parry,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08351,Ash of War_ Phantom Slash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08302,Ash of War_ Piercing Fang,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08317,Ash of War_ Poison Moth Flight,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08354,Ash of War_ Poisonous Mist,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08337,Ash of War_ Prayerful Strike,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08312,Ash of War_ Prelate_s Charge,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08480,Ash of War_ Quickstep,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08385,Ash of War_ Rain of Arrows,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08482,Ash of War_ Raptor of the Mists,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08308,Ash of War_ Repeating Thrust,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08421,Ash of War_ Royal Knight_s Resolve,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08331,Ash of War_ Sacred Blade,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08424,Ash of War_ Sacred Order,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08349,Ash of War_ Sacred Ring of Light,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08426,Ash of War_ Seppuku,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08425,Ash of War_ Shared Order,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08360,Ash of War_ Shield Bash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08366,Ash of War_ Shield Crash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08384,Ash of War_ Sky Shot,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08352,Ash of War_ Spectral Lance,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08303,Ash of War_ Spinning Slash,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08310,Ash of War_ Spinning Strikes,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08318,Ash of War_ Spinning Weapon,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08314,Ash of War_ Square Off,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08306,Ash of War_ Stamp (Sweep),spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08305,Ash of War_ Stamp (Upward Cut),spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08319,Ash of War_ Storm Assault,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08339,Ash of War_ Storm Blade,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08401,Ash of War_ Storm Stomp,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08364,Ash of War_ Storm Wall,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08320,Ash of War_ Stormcaller,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08321,Ash of War_ Sword Dance,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08368,Ash of War_ Thops_s Barrier,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08380,Ash of War_ Through and Through,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08343,Ash of War_ Thunderbolt,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08443,Ash of War_ Troll_s Roar,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08313,Ash of War_ Unsheathe,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08347,Ash of War_ Vacuum Slice,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08461,Ash of War_ Vow of the Indomitable,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08441,Ash of War_ War Cry,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08407,Ash of War_ Waves of Darkness,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08490,Ash of War_ White Shadow_s Lure,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_08309,Ash of War_ Wild Strikes,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_03223,Lost Ashes of War,spell,ashes_of_war,ashes_of_war,UPDATED
+MENU_KNOWLEDGE_10087,Alabaster Lord_s Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10164,Antspur Rapier,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10564,Axe of Godrick,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10244,Bandit_s Curved Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10088,Banished Knight_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10080,Bastard Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10927,Beast-Repellent Torch,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10241,Beastman_s Curved Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10001,Black Knife,weapon,dagger,dagger,UPDATED
+MENU_KNOWLEDGE_10016,Blade of Calling,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10094,Blasphemous Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10282,Bloodhound_s Fang,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10014,Bloodstained Dagger,weapon,dagger,dagger,UPDATED
+MENU_KNOWLEDGE_10200,Bloody Helice,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10609,Bolt of Gransax,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10042,Broadsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10800,Caestus,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10060,Cane Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10057,Carian Knight_s Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10006,Celebrant_s Sickle,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10011,Cinquedea,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10098,Claymore,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10161,Cleanrot Knight_s Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10401,Club,weapon,hammer,hammer,UPDATED
+MENU_KNOWLEDGE_10051,Coded Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10684,Commander_s Standard,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10005,Crystal Knife,weapon,dagger,dagger,UPDATED
+MENU_KNOWLEDGE_11201,Crystal Staff,weapon,staff,staff,UPDATED
+MENU_KNOWLEDGE_10054,Crystal Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10402,Curved Club,weapon,hammer,hammer,UPDATED
+MENU_KNOWLEDGE_10000,Dagger,weapon,dagger,dagger,UPDATED
+MENU_KNOWLEDGE_10089,Dark Moon Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10100,Death_s Poker,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10452,Devourer_s Scepter,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10281,Dismounter,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10204,Dragon King_s Cragblade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10327,Dragonscale Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10250,Eclipse Shotel,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10364,Eleonora_s Poleblade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10015,Erdsteel Dagger,weapon,dagger,dagger,UPDATED
+MENU_KNOWLEDGE_10160,Estoc,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10240,Falchion,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10482,Family Heads,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10481,Flail,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10085,Flamberge,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10246,Flowing Curved Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10081,Forked Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10521,Forked Hatchet,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10165,Frozen Needle,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10368,Gargoyle_s Black Blades,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10101,Gargoyle_s Blackblade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10099,Gargoyle_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10367,Gargoyle_s Twinblade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10926,Ghostflame Torch,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10891,Giant-Crusher,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10766,Giant_s Red Braid,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10007,Glintstone Kris,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_11200,Glintstone Staff,weapon,staff,staff,UPDATED
+MENU_KNOWLEDGE_10361,Godskin Peeler,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10201,Godskin Stitcher,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10127,Godslayer_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10047,Golden Epitaph,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10688,Golden Halberd,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_10130,Grafted Blade Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10806,Grafted Dragon,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10009,Great Knife,weapon,dagger,dagger,UPDATED
+MENU_KNOWLEDGE_10562,Great Omenkiller Cleaver,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10450,Great Stars,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10202,Great Épée,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10120,Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10255,Grossmesser,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10322,Hand of Malenia,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10093,Helphen_s Steeple,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10049,Inseparable Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10082,Iron Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10013,Ivory Sickle,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10084,Knight_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10064,Lazuli Glintstone Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10040,Longsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10083,Lordsworn_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10044,Lordsworn_s Straight Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10245,Magma Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10283,Magma Wyrm_s Scalesword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10122,Maliketh_s Black Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10252,Mantis Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10095,Marais Executioner_s Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10323,Meteoric Ore Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10059,Miquellan Knight_s Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10003,Miséricorde,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10285,Monk_s Flameblade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10326,Moonveil,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10288,Morgott_s Cursed Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10321,Nagakiba,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10166,Noble_s Estoc,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10062,Noble_s Slender Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10048,Nox Flowing Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10284,Omen Cleaver,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10280,Onyx Lord_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10086,Ordovis_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10046,Ornamental Straight Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10002,Parrying Dagger,weapon,dagger,dagger,UPDATED
+MENU_KNOWLEDGE_10681,Pest_s Glaive,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_10162,Rapier,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10004,Reduvia,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10061,Regalia of Eochaid,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10412,Ringed Finger,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10525,Ripple Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10324,Rivers of Blood,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10163,Rogier_s Rapier,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10531,Rosus_ Axe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10065,Rotten Crystal Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10126,Royal Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10128,Ruins Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10566,Rusted Anchor,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10090,Sacred Relic Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10530,Sacrificial Axe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10249,Scavenger_s Curved Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10254,Scimitar,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10008,Scorpion_s Stinger,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10928,Sentry_s Torch,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10251,Serpent-God_s Curved Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10643,Serpent-Hunter,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10328,Serpentbone Blade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10243,Shamshir,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10041,Short Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10242,Shotel,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10642,Siluria_s Tree,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10801,Spiked Caestus,weapon,polearm,polearm,UPDATED
+MENU_KNOWLEDGE_10924,St. Trina_s Torch,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10125,Starscourge Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10922,Steel-Wire Torch,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10096,Sword of Milos,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10053,Sword of Night and Flame,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10058,Sword of St. Trina,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10920,Torch,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10132,Troll Knight_s Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10360,Twinblade,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10362,Twinned Knight Swords,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10320,Uchigatana,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10767,Urumi,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10811,Veteran_s Prosthesis,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10010,Wakizashi,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10063,Warhawk_s Talon,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10561,Warped Axe,weapon,axe,axe,UPDATED
+MENU_KNOWLEDGE_10403,Warpick,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10121,Watchdog_s Greatsword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10045,Weathered Straight Sword,weapon,sword,sword,UPDATED
+MENU_KNOWLEDGE_10247,Wing of Astel,weapon,other,other,UNCHANGED
+MENU_KNOWLEDGE_10289,Zamor Curved Sword,weapon,sword,sword,UPDATED
