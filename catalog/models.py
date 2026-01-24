@@ -22,6 +22,28 @@ class Product(models.Model):
         MYTHIC = "mythic", "Mythic"
         RELIC = "relic", "Relic"
 
+    class Subtype(models.TextChoices):
+        # Armour materials
+        CLOTH = "cloth", "Cloth"
+        LEATHER = "leather", "Leather"
+        PLATE = "plate", "Plate"
+        OTHER = "other", "Other"
+
+        # Weapon archetypes
+        SWORD = "sword", "Sword"
+        AXE = "axe", "Axe"
+        POLEARM = "polearm", "Polearm"
+        STAFF = "staff", "Staff"
+        BOW = "bow", "Bow"
+        DAGGER = "dagger", "Dagger"
+        HAMMER = "hammer", "Hammer"
+        WHIP = "whip", "Whip"
+        FIST = "fist", "Fist"
+
+        # Spells
+        SORCERY = "sorcery", "Sorcery"
+        INCANTATION = "incantation", "Incantation"
+
     sku = models.CharField(max_length=64, unique=True)
     name = models.CharField(max_length=140)
     slug = models.SlugField(max_length=160, unique=True, blank=True)
@@ -35,6 +57,12 @@ class Product(models.Model):
         max_length=20,
         choices=Rarity.choices,
         default=Rarity.COMMON,
+    )
+
+    subtype = models.CharField(
+        max_length=20,
+        choices=Subtype.choices,
+        default=Subtype.OTHER,
     )
 
     # Store money as integer minor units (pence) to avoid float issues.

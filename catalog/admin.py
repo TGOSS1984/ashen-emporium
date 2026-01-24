@@ -210,8 +210,8 @@ def set_price_pence(modeladmin, request, queryset):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ("sku", "name", "category", "rarity", "price_pence", "stock_qty", "is_active", "updated_at")
-    list_filter = ("category", "rarity", "is_active", StockFilter, HasLoreFilter)
+    list_display = ("sku", "name", "category", "subtype", "rarity", "price_pence", "stock_qty", "is_active", "updated_at")
+    list_filter = ("category", "rarity", "subtype", "is_active", StockFilter, HasLoreFilter)
     search_fields = ("sku", "name")
     prepopulated_fields = {"slug": ("name",)}
     ordering = ("name",)
