@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Armour Sets — Ashen Emporium{% endblock %}
+
+{% block content %}
+<h1>Armour Sets</h1>
+<p class="muted">Full regalia recovered from forgotten battlefields.</p>
+
+<div class="grid">
+  {% for s in sets %}
+    <a class="product-card" href="{% url 'armour_set_detail' s.slug %}">
+      <div class="thumb">
+        {% if s.hero_image %}
+          <img src="{{ s.hero_image.image.url }}" alt="{{ s.name }}">
+        {% else %}
+          <div class="thumb-placeholder">No image</div>
+        {% endif %}
+      </div>
+
+      <div class="product-meta">
+        <div class="row">
+          <h2 class="product-title">{{ s.name }}</h2>
+        </div>
+        <div class="tags">
+          <span class="tag">Armour Set</span>
+          <span class="tag">{{ s.pieces.count }} pieces</span>
+        </div>
+      </div>
+    </a>
+  {% empty %}
+    <p class="muted">No armour sets found.</p>
+  {% endfor %}
+</div>
+{% endblock %}

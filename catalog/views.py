@@ -3,6 +3,7 @@ from django.db.models import Q
 from django.shortcuts import get_object_or_404, render
 
 from .models import Product
+from .models import ArmourSet
 
 
 def product_list(request):
@@ -76,3 +77,36 @@ def product_detail(request, slug):
     )
     return render(request, "catalog/product_detail.html", {"product": product})
 
+
+def armour_set_list(request):
+    sets = ArmourSet.objects.all().select_related("hero_image")
+    return render(request, "catalog/armour_set_list.html", {"sets": sets})
+
+
+def armour_set_detail(request, slug):
+    armour_set = get_object_or_404(
+        ArmourSet.objects.select_related("hero_image").prefetch_related(
+            "pieces__images__asset"
+        ),
+        slug=slug,
+    )
+
+    # Sort pieces by common slot order for nicer display
+    slot_order = ["helm", "helmet", "hood", "hat", "mask", "crown",
+                  "armor", "armour", "robe", "garb", "coat", "cuirass", "chest",
+                  "gauntlets", "gloves", "bracers", "manchettes",
+                  "greaves", "boots", "trousers", "leggings", "legwraps"]
+    def rank(p):
+        name = (p.name or "").lower()
+        for i, w in enumerate(slot_order):
+            if w in name:
+                return i
+        return 999
+
+    pieces = sorted(list(armour_set.pieces.all()), key=rank)
+
+    return render(
+        request,
+        "catalog/armour_set_detail.html",
+        {"armour_set": armour_set, "pieces": pieces},
+    )

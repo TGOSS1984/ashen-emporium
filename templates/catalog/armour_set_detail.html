@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ armour_set.name }} — Armour Set{% endblock %}
+
+{% block content %}
+<a class="muted" href="{% url 'armour_set_list' %}">← Back to armour sets</a>
+
+<div class="detail">
+  <div class="detail-media">
+    {% if armour_set.hero_image %}
+      <img class="detail-main" src="{{ armour_set.hero_image.image.url }}" alt="{{ armour_set.name }}">
+    {% else %}
+      <div class="thumb-placeholder">No image</div>
+    {% endif %}
+  </div>
+
+  <div class="detail-info card">
+    <h1>{{ armour_set.name }}</h1>
+
+    {% if armour_set.description %}
+      <div class="lore">{{ armour_set.description|linebreaks }}</div>
+    {% else %}
+      <p class="muted">A complete set, assembled by the Emporium’s archivists.</p>
+    {% endif %}
+
+    <div class="divider"></div>
+
+    <h3>Pieces</h3>
+    <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
+      {% for p in pieces %}
+        <a class="product-card" href="{{ p.get_absolute_url }}">
+          <div class="thumb" style="height:140px;">
+            {% with img=p.primary_image %}
+              {% if img %}
+                <img src="{{ img.url }}" alt="{{ p.name }}">
+              {% else %}
+                <div class="thumb-placeholder">No image</div>
+              {% endif %}
+            {% endwith %}
+          </div>
+          <div class="product-meta">
+            <h4 class="product-title">{{ p.name }}</h4>
+            <div class="tags">
+              <span class="tag">{{ p.price_gbp }}</span>
+              {% if p.in_stock %}
+                <span class="tag tag-ok">In stock</span>
+              {% else %}
+                <span class="tag tag-warn">Out</span>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
