@@ -67,6 +67,15 @@ class Product(models.Model):
         default=Subtype.OTHER,
     )
 
+    armour_set = models.ForeignKey(
+        "ArmourSet",
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name="pieces",
+    )
+
+
     # Store money as integer minor units (pence) to avoid float issues.
     price_pence = models.PositiveIntegerField(help_text="Price in pence (e.g. 1299 = £12.99)")
     stock_qty = models.PositiveIntegerField(default=0)
@@ -114,6 +123,29 @@ class Product(models.Model):
             return primary.asset.image
         first = self.images.select_related("asset").first()
         return first.asset.image if first else None
+
+
+class ArmourSet(models.Model):
+    name = models.CharField(max_length=120, unique=True)
+    slug = models.SlugField(unique=True)
+    description = models.TextField(blank=True)
+
+    # Optional hero image (usually chest piece)
+    hero_image = models.ForeignKey(
+        "Asset",
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name="+",
+    )
+
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["name"]
+
+    def __str__(self):
+        return self.name
 
 
 class Asset(models.Model):
