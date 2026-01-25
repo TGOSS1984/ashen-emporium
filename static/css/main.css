@@ -393,3 +393,28 @@ body {
     border: 1px solid #1f2933;
     background-color: #050608;
 }
+
+/* Armour set gallery */
+.ae-set-gallery {
+  margin-top: 0.75rem;
+}
+
+.ae-thumb-btn {
+  padding: 0;
+  border: 1px solid #1f2933;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ae-thumb-btn:hover {
+  border-color: #f59e0b;
+}
+
+.ae-thumb-active {
+  border-color: #f59e0b;
+}
+
+.ae-thumb-btn img {
+  display: block;
+}
+

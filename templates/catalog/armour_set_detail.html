@@ -6,12 +6,64 @@
 
 <div class="detail">
   <div class="detail-media">
+  {# Choose initial hero image: hero_image if present, else first piece image #}
     {% if armour_set.hero_image %}
-      <img class="detail-main" src="{{ armour_set.hero_image.image.url }}" alt="{{ armour_set.name }}">
+  <img
+    id="setHero"
+    class="detail-main"
+    src="{{ armour_set.hero_image.image.url }}"
+    alt="{{ armour_set.name }}"
+  >
     {% else %}
-      <div class="thumb-placeholder">No image</div>
+    {% with first_piece=pieces.0 %}
+        {% with img=first_piece.primary_image %}
+        {% if img %}
+            <img
+            id="setHero"
+            class="detail-main"
+            src="{{ img.url }}"
+            alt="{{ first_piece.name }}"
+            >
+        {% else %}
+            <div class="thumb-placeholder">No image</div>
+        {% endif %}
+        {% endwith %}
+    {% endwith %}
     {% endif %}
+
+  <div class="gallery ae-set-gallery">
+    {# Hero thumbnail (if set has a hero_image distinct from first piece) #}
+    {% if armour_set.hero_image %}
+      <button
+        type="button"
+        class="ae-thumb-btn ae-thumb-active"
+        data-src="{{ armour_set.hero_image.image.url }}"
+        data-alt="{{ armour_set.name }}"
+        aria-label="Show set hero"
+      >
+        <img class="gallery-thumb" src="{{ armour_set.hero_image.image.url }}" alt="{{ armour_set.name }}">
+      </button>
+    {% endif %}
+
+    {# Piece thumbnails #}
+    {% for p in pieces %}
+      {% with img=p.primary_image %}
+        {% if img %}
+          <button
+            type="button"
+            class="ae-thumb-btn {% if not armour_set.hero_image and forloop.first %}ae-thumb-active{% endif %}"
+            data-src="{{ img.url }}"
+            data-alt="{{ p.name }}"
+            aria-label="Show {{ p.name }}"
+          >
+            <img class="gallery-thumb" src="{{ img.url }}" alt="{{ p.name }}">
+          </button>
+        {% endif %}
+      {% endwith %}
+    {% endfor %}
   </div>
+</div>
+
 
   <div class="detail-info card">
     <h1>{{ armour_set.name }}</h1>
@@ -53,4 +105,28 @@
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    const hero = document.getElementById("setHero");
+    if (!hero) return;
+
+    const buttons = document.querySelectorAll(".ae-thumb-btn");
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const src = btn.getAttribute("data-src");
+        const alt = btn.getAttribute("data-alt") || "Armour piece";
+
+        if (src) {
+          hero.src = src;
+          hero.alt = alt;
+        }
+
+        buttons.forEach(b => b.classList.remove("ae-thumb-active"));
+        btn.classList.add("ae-thumb-active");
+      });
+    });
+  })();
+</script>
+
 {% endblock %}
