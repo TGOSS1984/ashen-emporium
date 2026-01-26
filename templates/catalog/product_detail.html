@@ -31,6 +31,12 @@
             <span class="tag">{{ product.get_category_display }}</span>
             <span class="tag">{{ product.get_rarity_display }}</span>
             <span class="tag">{{ product.get_subtype_display }}</span>
+            {% if product.armour_set %}
+            <p class="muted" style="margin-top: 0.75rem;">
+                Part of: <a href="{% url 'armour_set_detail' product.armour_set.slug %}">{{ product.armour_set.name }}</a>
+            </p>
+            {% endif %}
+
             {% if product.in_stock %}
                 <span class="tag tag-ok">In stock</span>
             {% else %}
