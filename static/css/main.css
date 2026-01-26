@@ -29,6 +29,10 @@ body {
     color: #e5e7eb;
 }
 
+h1, h2, h3 {
+    color: #e5e7eb;
+}
+
 /* Layout */
 .container {
     max-width: 1400px;

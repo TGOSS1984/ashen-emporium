@@ -75,9 +75,23 @@
     {% endif %}
 
     <form method="post" action="{% url 'armour_set_add_to_cart' armour_set.slug %}" style="margin-top: 1rem;">
-      {% csrf_token %}
-      <button type="submit" class="cta-button">Add full set to basket</button>
-    </form>
+  {% csrf_token %}
+  <button type="submit" name="mode" value="all" class="cta-button">
+    Add full set to basket
+  </button>
+</form>
+
+<form method="post" action="{% url 'armour_set_add_to_cart' armour_set.slug %}" style="margin-top: 0.75rem;">
+  {% csrf_token %}
+  <button type="submit" name="mode" value="missing" class="btn ae-link-btn w-100 cta-button">
+    Add missing pieces only
+  </button>
+</form>
+
+<p class="muted" style="margin-top:.75rem;">
+  “Missing pieces” adds items not already in your basket. Out-of-stock items are skipped.
+</p>
+
 
 
     <div class="divider"></div>
@@ -124,7 +138,7 @@
   <p class="price-lg mb-0">{{ bundle_total_gbp }}</p>
 
   <p class="muted" style="margin-top:.5rem;">
-    Discount shown for bundle purchase. (Bundle checkout logic can be added later.)
+    Discount shown for bundle purchase. (Bundle checkout logic add later.)
   </p>
 </div>
 

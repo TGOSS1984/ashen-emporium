@@ -149,11 +149,17 @@ def armour_set_add_to_cart(request, slug):
         slug=slug,
     )
 
+    mode = request.POST.get("mode", "all")  # "all" or "missing"
     cart = Cart(request.session)
+
+    # Current cart product IDs as strings (your Cart stores keys as strings)
+    cart_data = request.session.get("cart", {})
+    in_cart_ids = set(cart_data.keys())
 
     added = 0
     skipped_out = 0
     skipped_inactive = 0
+    skipped_already_in_cart = 0
 
     for p in armour_set.pieces.all():
         if not p.is_active:
@@ -163,14 +169,28 @@ def armour_set_add_to_cart(request, slug):
             skipped_out += 1
             continue
 
+        if mode == "missing" and str(p.id) in in_cart_ids:
+            skipped_already_in_cart += 1
+            continue
+
         cart.add(product_id=p.id, qty=1)
         added += 1
 
-    if added:
-        messages.success(request, f"Added {added} piece(s) from {armour_set.name} to your basket.")
+    if mode == "missing":
+        if added:
+            messages.success(request, f"Added {added} missing piece(s) from {armour_set.name}.")
+        else:
+            messages.info(request, "All available pieces are already in your basket.")
+        if skipped_already_in_cart:
+            messages.info(request, f"Skipped {skipped_already_in_cart} piece(s) already in your basket.")
+    else:
+        if added:
+            messages.success(request, f"Added {added} piece(s) from {armour_set.name} to your basket.")
+
     if skipped_out:
         messages.warning(request, f"Skipped {skipped_out} out-of-stock piece(s).")
     if skipped_inactive:
         messages.info(request, f"Skipped {skipped_inactive} unavailable piece(s).")
 
     return redirect("armour_set_detail", slug=armour_set.slug)
+
