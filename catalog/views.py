@@ -97,10 +97,13 @@ def armour_set_detail(request, slug):
     )
 
     # Sort pieces by common slot order for nicer display
-    slot_order = ["helm", "helmet", "hood", "hat", "mask", "crown",
-                  "armor", "armour", "robe", "garb", "coat", "cuirass", "chest",
-                  "gauntlets", "gloves", "bracers", "manchettes",
-                  "greaves", "boots", "trousers", "leggings", "legwraps"]
+    slot_order = [
+        "helm", "helmet", "hood", "hat", "mask", "crown",
+        "armor", "armour", "robe", "garb", "coat", "cuirass", "chest",
+        "gauntlets", "gloves", "bracers", "manchettes",
+        "greaves", "boots", "trousers", "leggings", "legwraps"
+    ]
+
     def rank(p):
         name = (p.name or "").lower()
         for i, w in enumerate(slot_order):
@@ -110,11 +113,34 @@ def armour_set_detail(request, slug):
 
     pieces = sorted(list(armour_set.pieces.all()), key=rank)
 
+    # ✅ AS3.5: Bundle summary + discount display (read-only)
+    bundle_discount_rate = 0.10  # 10%
+
+    in_stock_pieces = [p for p in pieces if p.is_active and p.stock_qty > 0]
+    out_of_stock_pieces = [p for p in pieces if not (p.is_active and p.stock_qty > 0)]
+
+    pieces_total_pence = sum(p.price_pence for p in in_stock_pieces)
+
+    bundle_discount_pence = int(pieces_total_pence * bundle_discount_rate)
+    bundle_total_pence = max(pieces_total_pence - bundle_discount_pence, 0)
+
+    context = {
+        "armour_set": armour_set,
+        "pieces": pieces,
+        "in_stock_pieces": in_stock_pieces,
+        "out_of_stock_pieces": out_of_stock_pieces,
+        "pieces_total_gbp": f"£{pieces_total_pence/100:,.2f}",
+        "bundle_discount_rate": int(bundle_discount_rate * 100),
+        "bundle_discount_gbp": f"£{bundle_discount_pence/100:,.2f}",
+        "bundle_total_gbp": f"£{bundle_total_pence/100:,.2f}",
+    }
+
     return render(
         request,
         "catalog/armour_set_detail.html",
-        {"armour_set": armour_set, "pieces": pieces},
+        context,
     )
+
 
 @require_POST
 def armour_set_add_to_cart(request, slug):
@@ -148,4 +174,3 @@ def armour_set_add_to_cart(request, slug):
         messages.info(request, f"Skipped {skipped_inactive} unavailable piece(s).")
 
     return redirect("armour_set_detail", slug=armour_set.slug)
-

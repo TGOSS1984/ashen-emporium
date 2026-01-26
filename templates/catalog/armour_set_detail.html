@@ -109,6 +109,25 @@
         </a>
       {% endfor %}
     </div>
+    <div class="card" style="margin-top: 1rem;">
+  <h3>Bundle Summary</h3>
+
+  <p class="muted mb-1">Pieces in stock: <strong>{{ in_stock_pieces|length }}</strong></p>
+  {% if out_of_stock_pieces %}
+    <p class="muted mb-2">Unavailable: <strong>{{ out_of_stock_pieces|length }}</strong></p>
+  {% endif %}
+
+  <div class="divider"></div>
+
+  <p class="mb-1">Pieces total: <strong>{{ pieces_total_gbp }}</strong></p>
+  <p class="mb-1 muted">Bundle discount ({{ bundle_discount_rate }}%): −{{ bundle_discount_gbp }}</p>
+  <p class="price-lg mb-0">{{ bundle_total_gbp }}</p>
+
+  <p class="muted" style="margin-top:.5rem;">
+    Discount shown for bundle purchase. (Bundle checkout logic can be added later.)
+  </p>
+</div>
+
   </div>
 </div>
 
