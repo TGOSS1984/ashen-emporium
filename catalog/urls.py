@@ -6,6 +6,7 @@ from . import views
 urlpatterns = [
     path("catalogue/", product_list, name="product_list"),
     path("catalogue/<slug:slug>/", product_detail, name="product_detail"),
+    path("armour-sets/<slug:slug>/add-to-cart/", views.armour_set_add_to_cart, name="armour_set_add_to_cart"),
 ]
 
 urlpatterns += [

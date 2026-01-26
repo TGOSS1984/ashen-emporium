@@ -1,9 +1,14 @@
 from django.core.paginator import Paginator
 from django.db.models import Q
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render, redirect
 
 from .models import Product
 from .models import ArmourSet
+
+from django.contrib import messages
+from django.views.decorators.http import require_POST
+from cart.cart import Cart
+
 
 
 def product_list(request):
@@ -110,3 +115,37 @@ def armour_set_detail(request, slug):
         "catalog/armour_set_detail.html",
         {"armour_set": armour_set, "pieces": pieces},
     )
+
+@require_POST
+def armour_set_add_to_cart(request, slug):
+    armour_set = get_object_or_404(
+        ArmourSet.objects.prefetch_related("pieces"),
+        slug=slug,
+    )
+
+    cart = Cart(request.session)
+
+    added = 0
+    skipped_out = 0
+    skipped_inactive = 0
+
+    for p in armour_set.pieces.all():
+        if not p.is_active:
+            skipped_inactive += 1
+            continue
+        if p.stock_qty <= 0:
+            skipped_out += 1
+            continue
+
+        cart.add(product_id=p.id, qty=1)
+        added += 1
+
+    if added:
+        messages.success(request, f"Added {added} piece(s) from {armour_set.name} to your basket.")
+    if skipped_out:
+        messages.warning(request, f"Skipped {skipped_out} out-of-stock piece(s).")
+    if skipped_inactive:
+        messages.info(request, f"Skipped {skipped_inactive} unavailable piece(s).")
+
+    return redirect("armour_set_detail", slug=armour_set.slug)
+
