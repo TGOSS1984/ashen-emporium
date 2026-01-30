@@ -2,7 +2,7 @@
 
 # 🗡️ Ashen Emporium
 
-[![Heroku Deployment](https://img.shields.io/badge/Heroku-Live%20App-79589F?style=for-the-badge&logo=heroku&logoColor=white)]()
+[![Heroku Deployment](https://img.shields.io/badge/Heroku-Live%20App-79589F?style=for-the-badge&logo=heroku&logoColor=white)](https://ashen-emporium-ecommerce-533460192970.herokuapp.com/)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-4.2-darkgreen?style=for-the-badge&logo=django&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap&logoColor=white)
