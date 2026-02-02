@@ -16,6 +16,8 @@ from pathlib import Path
 import dj_database_url
 from dotenv import load_dotenv
 
+WHITENOISE_MANIFEST_STRICT = os.getenv("WHITENOISE_MANIFEST_STRICT", "1") == "1"
+
 
 # ---------------------------------------------------------------------
 # Base paths & environment
@@ -160,8 +162,6 @@ STORAGES = {
         "OPTIONS": {"manifest_strict": WHITENOISE_MANIFEST_STRICT},
     },
 }
-
-WHITENOISE_MANIFEST_STRICT = os.getenv("WHITENOISE_MANIFEST_STRICT", "1") == "1"
 
 
 # ---------------------------------------------------------------------
