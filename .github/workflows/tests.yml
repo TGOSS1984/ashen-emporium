@@ -30,4 +30,5 @@ jobs:
           DJANGO_DEBUG: "0"
           DJANGO_ALLOWED_HOSTS: "127.0.0.1,localhost"
         run: |
-          pytest
+            pytest --cov=catalog --cov=cart --cov=orders --cov=payments --cov-report=term-missing --cov-report=xml
+
