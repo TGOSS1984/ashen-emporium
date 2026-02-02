@@ -29,6 +29,7 @@ jobs:
           DJANGO_SECRET_KEY: "ci-secret-key"
           DJANGO_DEBUG: "0"
           DJANGO_ALLOWED_HOSTS: "127.0.0.1,localhost"
+          WHITENOISE_MANIFEST_STRICT: "0"
+          STRIPE_WEBHOOK_SECRET: "whsec_test_dummy"
         run: |
             pytest --cov=catalog --cov=cart --cov=orders --cov=payments --cov-report=term-missing --cov-report=xml
-
