@@ -11,7 +11,10 @@
 ![Platform](https://img.shields.io/badge/Platform-Web_App-black?style=for-the-badge)
 ![Database](https://img.shields.io/badge/Database-SQLite-lightgrey?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Portfolio_Project-success?style=for-the-badge)
-![Coverage](https://img.shields.io/codecov/c/github/<USER>/<REPO>?style=for-the-badge)
+![Coverage](https://img.shields.io/codecov/c/github/TGOSS1984/ashen-emporium?style=for-the-badge)
+
+![Tests](https://github.com/TGOSS1984/ashen-emporium/actions/workflows/tests.yml/badge.svg)
+
 
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 

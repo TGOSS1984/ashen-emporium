@@ -33,3 +33,11 @@ jobs:
           STRIPE_WEBHOOK_SECRET: "whsec_test_dummy"
         run: |
             pytest --cov=catalog --cov=cart --cov=orders --cov=payments --cov-report=term-missing --cov-report=xml
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: ./coverage.xml
+          fail_ci_if_error: true
+
+
