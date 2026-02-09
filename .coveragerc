@@ -1,0 +1,17 @@
+[run]
+source =
+    catalog
+    cart
+    orders
+    payments
+omit =
+    */migrations/*
+    */management/commands/*
+    */admin.py
+    */apps.py
+    */tests.py
+    */__init__.py
+
+[report]
+show_missing = True
+skip_covered = True
