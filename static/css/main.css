@@ -430,3 +430,15 @@ h1, h2, h3 {
 .detail-info a:hover {
   text-decoration: underline;
 }
+
+.category-tile{
+  display: block;
+  padding: 1.25rem;
+  border: 1px solid #1f2933;
+  background-color: #050608;
+  text-decoration: none;
+  color: inherit;
+}
+.category-tile:hover{
+  border-color: #f59e0b;
+}
