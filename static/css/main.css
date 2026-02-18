@@ -33,6 +33,10 @@ h1, h2, h3 {
     color: #e5e7eb;
 }
 
+.ae-logo{
+    max-width: 200px;
+}
+
 /* Layout */
 .container {
     max-width: 1400px;

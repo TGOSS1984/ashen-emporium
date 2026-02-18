@@ -72,10 +72,11 @@
         <a class="product-card" href="{{ product.get_absolute_url }}">
           <div class="thumb">
             {% with img=product.primary_image %}
+            {% load static %}
               {% if img %}
                 <img src="{{ img.url }}" alt="{{ product.name }}">
               {% else %}
-                <div class="thumb-placeholder">No image</div>
+                <img src="{% static 'images/placeholder.png' %}" alt="Placeholder image">
               {% endif %}
             {% endwith %}
           </div>
@@ -106,10 +107,11 @@
         <a class="product-card" href="{{ product.get_absolute_url }}">
           <div class="thumb">
             {% with img=product.primary_image %}
+            {% load static %}
               {% if img %}
                 <img src="{{ img.url }}" alt="{{ product.name }}">
               {% else %}
-                <div class="thumb-placeholder">No image</div>
+                <img src="{% static 'images/placeholder.png' %}" alt="Placeholder image">
               {% endif %}
             {% endwith %}
           </div>

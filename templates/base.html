@@ -27,10 +27,15 @@
         <i class="fa-solid fa-bars text-light"></i>
       </button>
 
+      {% load static %}
+
       <!-- Center: brand -->
-      <a class="navbar-brand ae-brand mx-auto text-light main-header" href="{% url 'home' %}">
-        Ashen Emporium
+      <a class="navbar-brand mx-auto d-flex align-items-center justify-content-center" href="{% url 'home' %}">
+        <img src="{% static 'images/logo2.png' %}" 
+            alt="Ashen Emporium Logo"
+            class="ae-logo">
       </a>
+
 
       <!-- Right: icons -->
       <div class="d-flex align-items-center gap-2">
