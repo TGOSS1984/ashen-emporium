@@ -45,6 +45,23 @@ h1, h2, h3 {
   }
 }
 
+@media (min-width: 768px) {
+
+  /* Reserve equal width on left side */
+  .navbar .ae-icon-btn.me-2 {
+    width: 260px;          /* match approx width of right side */
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* Prevent the button from actually stretching */
+  .navbar .ae-icon-btn.me-2 i {
+    margin-left: 0;
+  }
+
+}
+
+
 /* Layout */
 .container {
     max-width: 1400px;
