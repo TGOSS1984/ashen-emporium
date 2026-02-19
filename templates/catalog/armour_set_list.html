@@ -1,4 +1,7 @@
 {% extends "base.html" %}
+
+{% load static image_helpers %}
+
 {% block title %}Armour Sets — Ashen Emporium{% endblock %}
 
 {% block content %}
@@ -9,12 +12,13 @@
   {% for s in sets %}
     <a class="product-card" href="{% url 'armour_set_detail' s.slug %}">
       <div class="thumb">
-        {% if s.hero_image %}
-          <img src="{{ s.hero_image.image.url }}" alt="{{ s.name }}">
-        {% else %}
-          <div class="thumb-placeholder">No image</div>
-        {% endif %}
-      </div>
+  {% if s.hero_image %}
+    <img src="{{ s.hero_image.image|image_or_placeholder }}" alt="{{ s.name }}">
+  {% else %}
+    <img src="{{ ''|image_or_placeholder }}" alt="{{ s.name }}">
+  {% endif %}
+</div>
+
 
       <div class="product-meta">
         <div class="row">

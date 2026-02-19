@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load static image_helpers %}
+
 {% block title %}Basket — Ashen Emporium{% endblock %}
 
 {% block content %}
@@ -23,11 +25,10 @@
         <tr>
           <td>
             <div class="cart-item">
-              {% with img=item.product.primary_image %}
-                {% if img %}
-                  <img class="cart-thumb" src="{{ img.url }}" alt="{{ item.product.name }}">
-                {% endif %}
-              {% endwith %}
+              <img class="cart-thumb"
+     src="{{ item.product.primary_image|image_or_placeholder }}"
+     alt="{{ item.product.name }}">
+
               <a href="{{ item.product.get_absolute_url }}">{{ item.product.name }}</a>
             </div>
           </td>

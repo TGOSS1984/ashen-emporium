@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load static image_helpers %}
+
 {% block title %}{{ product.name }} — Ashen Emporium{% endblock %}
 
 {% block content %}
@@ -7,18 +9,18 @@
 
 <div class="detail">
     <div class="detail-media">
-        {% with img=product.primary_image %}
-            {% if img %}
-                <img class="detail-main" src="{{ img.url }}" alt="{{ product.name }}">
-            {% else %}
-                <div class="thumb-placeholder">No image</div>
-            {% endif %}
-        {% endwith %}
+        <img class="detail-main"
+     src="{{ product.primary_image|image_or_placeholder }}"
+     alt="{{ product.name }}">
+
 
         {% if product.images.all %}
         <div class="gallery">
             {% for pi in product.images.all %}
-                <img class="gallery-thumb" src="{{ pi.asset.image.url }}" alt="{{ pi.alt_text|default:product.name }}">
+                <img class="gallery-thumb"
+     src="{{ pi.asset.image|image_or_placeholder }}"
+     alt="{{ pi.alt_text|default:product.name }}">
+
             {% endfor %}
         </div>
         {% endif %}

@@ -1,4 +1,7 @@
 {% extends "base.html" %}
+
+{% load static image_helpers %}
+
 {% block title %}{{ armour_set.name }} — Armour Set{% endblock %}
 
 {% block content %}
@@ -11,56 +14,53 @@
   <img
     id="setHero"
     class="detail-main"
-    src="{{ armour_set.hero_image.image.url }}"
+    src="{{ armour_set.hero_image.image|image_or_placeholder }}"
     alt="{{ armour_set.name }}"
   >
     {% else %}
-    {% with first_piece=pieces.0 %}
-        {% with img=first_piece.primary_image %}
-        {% if img %}
-            <img
-            id="setHero"
-            class="detail-main"
-            src="{{ img.url }}"
-            alt="{{ first_piece.name }}"
-            >
-        {% else %}
-            <div class="thumb-placeholder">No image</div>
-        {% endif %}
-        {% endwith %}
-    {% endwith %}
-    {% endif %}
+  {% with first_piece=pieces.0 %}
+    <img
+      id="setHero"
+      class="detail-main"
+      src="{{ first_piece.primary_image|image_or_placeholder }}"
+      alt="{{ first_piece.name }}"
+    >
+  {% endwith %}
+{% endif %}
+
 
   <div class="gallery ae-set-gallery">
     {# Hero thumbnail (if set has a hero_image distinct from first piece) #}
     {% if armour_set.hero_image %}
-      <button
-        type="button"
-        class="ae-thumb-btn ae-thumb-active"
-        data-src="{{ armour_set.hero_image.image.url }}"
-        data-alt="{{ armour_set.name }}"
-        aria-label="Show set hero"
-      >
-        <img class="gallery-thumb" src="{{ armour_set.hero_image.image.url }}" alt="{{ armour_set.name }}">
-      </button>
-    {% endif %}
+  <button
+    type="button"
+    class="ae-thumb-btn ae-thumb-active"
+    data-src="{{ armour_set.hero_image.image|image_or_placeholder }}"
+    data-alt="{{ armour_set.name }}"
+    aria-label="Show set hero"
+  >
+    <img class="gallery-thumb"
+         src="{{ armour_set.hero_image.image|image_or_placeholder }}"
+         alt="{{ armour_set.name }}">
+  </button>
+{% endif %}
+
 
     {# Piece thumbnails #}
     {% for p in pieces %}
-      {% with img=p.primary_image %}
-        {% if img %}
-          <button
-            type="button"
-            class="ae-thumb-btn {% if not armour_set.hero_image and forloop.first %}ae-thumb-active{% endif %}"
-            data-src="{{ img.url }}"
-            data-alt="{{ p.name }}"
-            aria-label="Show {{ p.name }}"
-          >
-            <img class="gallery-thumb" src="{{ img.url }}" alt="{{ p.name }}">
-          </button>
-        {% endif %}
-      {% endwith %}
-    {% endfor %}
+  <button
+    type="button"
+    class="ae-thumb-btn {% if not armour_set.hero_image and forloop.first %}ae-thumb-active{% endif %}"
+    data-src="{{ p.primary_image|image_or_placeholder }}"
+    data-alt="{{ p.name }}"
+    aria-label="Show {{ p.name }}"
+  >
+    <img class="gallery-thumb"
+         src="{{ p.primary_image|image_or_placeholder }}"
+         alt="{{ p.name }}">
+  </button>
+{% endfor %}
+
   </div>
 </div>
 
@@ -101,13 +101,8 @@
       {% for p in pieces %}
         <a class="product-card" href="{{ p.get_absolute_url }}">
           <div class="thumb" style="height:140px;">
-            {% with img=p.primary_image %}
-              {% if img %}
-                <img src="{{ img.url }}" alt="{{ p.name }}">
-              {% else %}
-                <div class="thumb-placeholder">No image</div>
-              {% endif %}
-            {% endwith %}
+            <img src="{{ p.primary_image|image_or_placeholder }}" alt="{{ p.name }}">
+
           </div>
           <div class="product-meta">
             <h4 class="product-title">{{ p.name }}</h4>

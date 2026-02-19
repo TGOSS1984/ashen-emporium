@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% load static %}
+
+{% load image_helpers %}
+
 {% block title %}Catalogue — Ashen Emporium{% endblock %}
 
 {% block content %}
@@ -66,13 +70,9 @@
     {% for product in page_obj %}
         <a class="product-card" href="{{ product.get_absolute_url }}">
             <div class="thumb">
-                {% with img=product.primary_image %}
-                    {% if img %}
-                        <img src="{{ img.url }}" alt="{{ product.name }}">
-                    {% else %}
-                        <div class="thumb-placeholder">No image</div>
-                    {% endif %}
-                {% endwith %}
+                <img src="{{ product.primary_image|image_or_placeholder }}"
+                    alt="{{ product.name }}">
+
             </div>
 
             <div class="product-meta">
