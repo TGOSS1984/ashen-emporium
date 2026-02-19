@@ -2,7 +2,7 @@
 
 {% load static %}
 
-
+{% load image_helpers %}
 
 {% block title %}Ashen Emporium{% endblock %}
 
@@ -75,14 +75,9 @@
       {% for product in featured %}
         <a class="product-card" href="{{ product.get_absolute_url }}">
           <div class="thumb">
-            {% with img=product.primary_image %}
-            
-              {% if img %}
-                <img src="{{ img.url }}" alt="{{ product.name }}">
-              {% else %}
-                <img src="{% static 'images/placeholder.png' %}" alt="Placeholder image">
-              {% endif %}
-            {% endwith %}
+            <img src="{{ product.primary_image|image_or_placeholder }}"
+                  alt="{{ product.name }}">
+
           </div>
 
           <div class="product-meta">
@@ -110,14 +105,9 @@
       {% for product in new_arrivals %}
         <a class="product-card" href="{{ product.get_absolute_url }}">
           <div class="thumb">
-            {% with img=product.primary_image %}
-            
-              {% if img %}
-                <img src="{{ img.url }}" alt="{{ product.name }}">
-              {% else %}
-                <img src="{% static 'images/placeholder.png' %}" alt="Placeholder image">
-              {% endif %}
-            {% endwith %}
+            <img src="{{ product.primary_image|image_or_placeholder }}"
+                  alt="{{ product.name }}">
+
           </div>
 
           <div class="product-meta">

@@ -93,13 +93,16 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
-
                 # Cart
                 "cart.context_processors.cart_counts",
             ],
+            "libraries": {
+                "image_helpers": "catalog.templatetags.image_helpers",
+            },
         },
     },
 ]
+
 
 WSGI_APPLICATION = "ashen_emporium.wsgi.application"
 
