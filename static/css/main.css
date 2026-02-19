@@ -410,6 +410,10 @@ h1, h2, h3 {
     color: #d1d5db;
 }
 
+.lore-snippet {
+    padding: 10px;
+}
+
 .divider {
     margin: 1.5rem 0;
     border-top: 1px solid #1f2933;
