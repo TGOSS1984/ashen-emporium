@@ -10,7 +10,7 @@
     <h2>Your Order</h2>
     <ul>
       {% for item in items %}
-        <li>
+        <li class="mb-1 muted">
           {{ item.product.name }} × {{ item.qty }}
           <span class="muted">({{ item.line_total_gbp }})</span>
         </li>

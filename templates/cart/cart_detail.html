@@ -12,7 +12,7 @@
     <div class="table-wrap">
     <table class="cart-table">
       <thead>
-        <tr>
+        <tr class="mb-1 muted">
           <th>Item</th>
           <th>Price</th>
           <th>Qty</th>
@@ -32,7 +32,7 @@
               <a href="{{ item.product.get_absolute_url }}">{{ item.product.name }}</a>
             </div>
           </td>
-          <td>{{ item.line_total_gbp }}</td>
+          <td class="mb-1 muted">{{ item.line_total_gbp }}</td>
           <td>
             <form method="post" action="{% url 'cart_update' item.product.id %}" class="qty-form">
               {% csrf_token %}
@@ -40,7 +40,7 @@
               <button type="submit" class="link-button">Update</button>
             </form>
           </td>
-          <td>{{ item.line_total_gbp }}</td>
+          <td class="mb-1 muted">{{ item.line_total_gbp }}</td>
 
           <td>
             <form method="post" action="{% url 'cart_remove' item.product.id %}">
