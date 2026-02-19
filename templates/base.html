@@ -11,12 +11,20 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
 
+    <!-- Standard favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'icons/ae_favicon.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'icons/ae_favicon.png' %}">
+
+    <!-- Apple -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icons/ae_favicon.png' %}">
+     
+
 </head>
 <body>
 
 <header class="ae-header sticky-top">
   <nav class="navbar navbar-expand-lg py-1">
-    <div class="container py-0">
+    <div class="container py-0 d-flex align-items-center flex-nowrap">
       <!-- Left: hamburger -->
       <button class="btn ae-icon-btn me-2"
               type="button"
@@ -30,15 +38,15 @@
       {% load static %}
 
       <!-- Center: brand -->
-      <a class="navbar-brand mx-auto d-flex align-items-center justify-content-center" href="{% url 'home' %}">
-        <img src="{% static 'images/logo2.png' %}" 
+      <a class="navbar-brand mx-auto d-flex align-items-center justify-content-center flex-shrink-1" href="{% url 'home' %}">
+        <img src="{% static 'images/logo3.png' %}" 
             alt="Ashen Emporium Logo"
             class="ae-logo">
       </a>
 
 
       <!-- Right: icons -->
-      <div class="d-flex align-items-center gap-2">
+      <div class="d-flex align-items-center gap-0 flex-shrink-0">
         <a class="btn ae-icon-btn" href="{% url 'account_home' %}" aria-label="Account">
           <i class="fa-regular fa-user text-light"></i>
         </a>
