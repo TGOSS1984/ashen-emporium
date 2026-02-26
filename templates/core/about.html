@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}About — Ashen Emporium{% endblock %}
+
+{% block content %}
+<section class="about-hero">
+  <div class="container">
+    <h1 class="about-title">The Ashen Emporium</h1>
+    <p class="about-subtitle muted">
+      In a land where crowns are dust and roads end in ruin, one ledger still opens… and trade endures.
+    </p>
+  </div>
+</section>
+
+<section class="about-wrap">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Lore panel -->
+      <article class="about-panel">
+        <h2>Our Origin</h2>
+        <p class="muted">
+          They say the Emporium was built upon the last warm seam of cinderfire—an ember-vein running beneath the
+          shattered stones of a nameless keep. When the Great Bells fell silent and the old caravans vanished into fog,
+          the Ashen Emporium remained: a place where coin still means something, and where every purchase carries a whisper.
+        </p>
+
+        <p class="muted">
+          We deal in relics that remember their bearers—armour etched with half-prayers, talismans that hum in moonlight,
+          and curios dredged from drowned vaults. Not all goods are gentle. Some are hungry.
+          Yet travellers return, again and again, because here you can still prepare for the road ahead.
+        </p>
+
+        <div class="about-quote">
+          <p>
+            “When all else breaks, commerce becomes prophecy:
+            what you carry is what you survive.”
+          </p>
+          <span class="muted">— The Sable Ledger, Volume III</span>
+        </div>
+
+        <h3 class="mt-4">What We Offer</h3>
+        <ul class="about-list muted">
+          <li><strong>Forged Armour</strong> — sets, pieces, and salvaged mail with history in every rivet.</li>
+          <li><strong>Relics &amp; Talismans</strong> — charms for courage, warding, or mischief (use wisely).</li>
+          <li><strong>Arcana</strong> — tomes, sigils, and spellbound trinkets for those who bargain with the unseen.</li>
+          <li><strong>Traveler’s Supplies</strong> — provisions for long roads and longer nights.</li>
+        </ul>
+
+        <div class="about-cta">
+          <a class="cta-button" href="{% url 'product_list' %}">Browse the Emporium</a>
+        </div>
+      </article>
+
+      <!-- Map panel -->
+      <aside class="about-panel">
+        <h2>The Lands Beyond</h2>
+        <p class="muted">
+          The roads shift. The names change. But the map remembers.
+          (You’ll add your own cartography here—consider it a living record.)
+        </p>
+
+        <div class="about-map">
+  <img src="{% static 'images/map_of_the_lands.webp' %}"
+       alt="Map of the Lands Beyond"
+       class="about-map-img"
+       data-bs-toggle="modal"
+       data-bs-target="#mapModal"
+       style="cursor: zoom-in;">
+</div>
+
+        <h3 class="mt-4">Our Oath</h3>
+        <p class="muted">
+          We stock only what we would carry ourselves into the mist—tested, catalogued, and sealed with wax.
+          If it bears a curse, it will be named. If it bears a blessing, it will be earned.
+        </p>
+
+        <p class="muted mb-0">
+          Welcome, traveler. Spend what remains. Take what endures.
+        </p>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- Map Modal -->
+<div class="modal fade" id="mapModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark border border-secondary">
+      <div class="modal-body p-2">
+        <img src="{% static 'images/map_of_the_lands.webp' %}"
+             alt="Full Map"
+             class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

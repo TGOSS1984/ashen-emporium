@@ -21,3 +21,7 @@ def home(request):
             "new_arrivals": new_arrivals,
         },
     )
+
+
+def about(request):
+    return render(request, "core/about.html")
