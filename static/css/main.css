@@ -145,12 +145,147 @@ h1, h2, h3 {
 
 
 /* Footer */
-.footer {
-    text-align: center;
-    padding: 2rem;
-    border-top: 1px solid #1f2933;
-    color: #6b7280;
+
+/* =========================
+   Ashen Emporium Footer
+   ========================= */
+
+.ae-footer-newsletter {
+    background: radial-gradient(circle at top, #111827, #020617);
+    border: 1px solid #1f2933;
 }
+
+.ae-footer-main {
+  background: #0f141a;
+}
+
+.ae-footer p {
+  margin: 0;
+  color: #cbd5e1;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* Newsletter – force equal widths in the flex row */
+.ae-footer-newsletter .ae-footer-input,
+.ae-footer-newsletter .ae-footer-btn {
+  width: 240px;       /* tweak this number */
+  flex: 0 0 180px;    /* prevents stretching */
+  max-width: none;    /* stop max-width fighting */
+  margin: 0;          /* stop auto margins */
+}
+
+/* keep button text on one line */
+.ae-footer-newsletter .ae-footer-btn {
+  white-space: nowrap;
+}
+
+/* Small screens: stack full width */
+@media (max-width: 576px) {
+  .ae-footer-newsletter .ae-footer-input,
+  .ae-footer-newsletter .ae-footer-btn {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+}
+
+/* Keep the 3 main columns on one line on desktop */
+@media (min-width: 992px) {
+  .ae-footer-layout {
+    flex-wrap: nowrap;
+  }
+}
+
+/* Social icons */
+.ae-social {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid rgba(203, 213, 225, 0.25);
+  color: #e2e8f0;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.ae-social:hover {
+  transform: translateY(-1px);
+  background-color: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.45);
+  color: #f59e0b;
+}
+
+/* Link columns */
+.ae-footer-heading {
+  color: #e2e8f0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.ae-footer-links{
+    font-size: 0.8rem
+}
+
+.ae-footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 0;
+}
+
+.ae-footer-links a:hover {
+  color: #f59e0b;
+  text-decoration: underline;
+}
+
+/* Divider */
+.ae-footer-divider {
+  border-color: rgba(203, 213, 225, 0.12);
+}
+
+/* Footer logo sizing */
+.ae-footer-logo {
+  max-height: 80px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Restore Bootstrap grid behaviour inside footer only */
+.ae-footer .container {
+  padding: 0; /* optional; stop double-padding from your custom container */
+}
+
+.ae-footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: normal;
+  gap: 0;
+  align-items: center;
+}
+
+/* Force Information + Customer Services to be 2 columns on small screens */
+.ae-footer .ae-footer-links-row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem ;
+}
+
+.ae-footer .ae-footer-links-row > div {
+  width: 50%;
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+/* Remove rounded corners from footer newsletter input */
+.ae-footer-newsletter .form-control {
+  border-radius: 0;
+}
+
+/*Footer End*/
 
 .muted {
     color: #9ca3af;

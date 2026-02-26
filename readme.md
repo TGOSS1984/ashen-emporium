@@ -21,6 +21,10 @@
 
 </div>
 
+---
+
+![Image from mockup](static/images/screenshots/mockup.PNG)
+
 **A Souls-inspired e-commerce platform built with Django**
 
 Ashen Emporium is a full-stack Django application that combines automated content ingestion, rich lore presentation, and real-world e-commerce functionality into a cohesive, extensible retail platform inspired by Souls-like RPGs.
