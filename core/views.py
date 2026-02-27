@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from catalog.models import Product
+from django.urls import reverse, NoReverseMatch
 
 
 def home(request):
@@ -49,3 +50,77 @@ def privacy_policy(request):
 
 def terms(request):
     return render(request, "core/terms.html")
+
+
+def sitemap_view(request):
+    """
+    Used AI to support with sitemap function
+    Auto-generated sitemap built from named routes.
+    Optionally adds dynamic sections if available (without crashing if not).
+    """
+    groups = {
+        "Shop": [
+            ("Browse Catalog", "catalog_product_list"),
+        ],
+        "Information": [
+            ("FAQs", "faqs"),
+            ("About us", "about"),
+            ("Origin Stories", "origin_stories"),
+            ("Privacy Policy", "privacy_policy"),
+            ("Terms of Service", "terms"),
+            ("Sitemap", "sitemap"),
+        ],
+        "Customer Services": [
+            ("Shipping", "shipping"),
+            ("Returns & Refunds", "returns"),
+            ("Contact us", "contact"),  # we’ll build later
+        ],
+    }
+
+    # Turn route names into URLs safely (skip anything not yet implemented)
+    sitemap = {}
+    for group, items in groups.items():
+        resolved = []
+        for label, url_name in items:
+            try:
+                resolved.append({"label": label, "url": reverse(url_name)})
+            except NoReverseMatch:
+                # Route not implemented yet (e.g., contact)
+                continue
+        sitemap[group] = resolved
+
+    # Optional dynamic add-ons (only if you have these models/routes)
+    # Example: categories list (if your catalog app has Category model + category route)
+    dynamic = {}
+
+    try:
+        # Adjust import path if your app/model differs
+        from catalog.models import Category  # type: ignore
+
+        categories = Category.objects.all().order_by("name")[:50]
+        dyn_items = []
+        for c in categories:
+            # If you have a category page route, swap url_name accordingly:
+            # e.g. reverse("category_detail", kwargs={"slug": c.slug})
+            # This tries common patterns safely.
+            url = None
+            for candidate in ("category_detail", "catalog_category_detail"):
+                try:
+                    url = reverse(candidate, kwargs={"slug": c.slug})
+                    break
+                except Exception:
+                    continue
+            if url:
+                dyn_items.append({"label": c.name, "url": url})
+
+        if dyn_items:
+            dynamic["Categories"] = dyn_items
+
+    except Exception:
+        pass
+
+    return render(
+        request,
+        "core/sitemap.html",
+        {"sitemap": sitemap, "dynamic": dynamic},
+    )

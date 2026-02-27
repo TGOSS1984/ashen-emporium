@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Sitemap — Ashen Emporium{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="container text-center">
+    <h1>Sitemap</h1>
+    <p class="muted mb-0">
+      A map of the Emporium’s paths — for those who prefer not to wander blind.
+    </p>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <a href="{% url 'home' %}" class="btn cta-button">
+        <i class="fa-solid fa-angles-left me-2"></i>
+        Return to the Hearth
+      </a>
+
+      <a href="{% url 'product_list' %}" class="btn cta-button">
+        <i class="fa-solid fa-compass me-2"></i>
+        Browse the Emporium
+      </a>
+    </div>
+
+    <div class="sitemap-grid">
+      {% for group, links in sitemap.items %}
+        <div class="policy-card sitemap-card">
+          <h3 class="mb-3">{{ group }}</h3>
+
+          {% if links %}
+            <ul class="muted sitemap-list">
+              {% for item in links %}
+                <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p class="muted mb-0">No paths recorded yet.</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+
+      {% if dynamic %}
+        {% for group, links in dynamic.items %}
+          <div class="policy-card sitemap-card">
+            <h3 class="mb-3">{{ group }}</h3>
+            <ul class="muted sitemap-list">
+              {% for item in links %}
+                <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

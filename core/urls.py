@@ -8,6 +8,7 @@ from .views import (
     returns,
     privacy_policy,
     terms,
+    sitemap_view,
 )
 
 urlpatterns = [
@@ -19,4 +20,5 @@ urlpatterns = [
     path("returns/", returns, name="returns"),
     path("privacy-policy/", privacy_policy, name="privacy_policy"),
     path("terms/", terms, name="terms"),
+    path("sitemap/", sitemap_view, name="sitemap"),
 ]
