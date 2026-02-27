@@ -29,3 +29,7 @@ def about(request):
 
 def faq(request):
     return render(request, "core/faq.html")
+
+
+def origin_stories(request):
+    return render(request, "core/origin_stories.html")

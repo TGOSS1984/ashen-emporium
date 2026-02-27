@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Origin Stories — Ashen Emporium{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="container text-center">
+    <h1>Origin Stories</h1>
+    <p class="muted">
+      Every blade, every sigil, every talisman carries a memory.
+    </p>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <a href="{% url 'home' %}" class="btn cta-button">
+        <i class="fa-solid fa-angles-left me-2"></i>
+        Return to the Hearth
+      </a>
+
+      <a href="{% url 'product_list' %}" class="btn cta-button">
+        <i class="fa-solid fa-compass me-2"></i>
+        Browse the Emporium
+      </a>
+    </div>
+
+    <div class="origin-grid">
+
+      <!-- Weapons -->
+      <div class="origin-card">
+        <img src="{% static 'images/origin_weapons.jpg' %}" 
+             alt="Weapons"
+             class="origin-img">
+        <div class="origin-content">
+          <h3>Weapons</h3>
+          <p class="muted">
+            Forged in forgotten keeps and quenched in cold ash,
+            these blades once rang against tyrants and gods alike.
+            Each weapon remembers the hand that last wielded it.
+          </p>
+        </div>
+      </div>
+
+      <!-- Shields -->
+      <div class="origin-card">
+        <img src="{% static 'images/origin_shields.jpg' %}" 
+             alt="Shields"
+             class="origin-img">
+        <div class="origin-content">
+          <h3>Shields</h3>
+          <p class="muted">
+            Walls of iron and oak. Symbols of defiance.
+            Some shields have stopped more than steel —
+            they have halted curses mid-flight.
+          </p>
+        </div>
+      </div>
+
+      <!-- Sorceries -->
+      <div class="origin-card">
+        <img src="{% static 'images/origin_sorcery.jpg' %}" 
+             alt="Sorcery"
+             class="origin-img">
+        <div class="origin-content">
+          <h3>Sorceries</h3>
+          <p class="muted">
+            Arcane whispers trapped in vellum and crystal.
+            These spells hum softly at night,
+            waiting for a mind bold enough to read them aloud.
+          </p>
+        </div>
+      </div>
+
+      <!-- Incantations -->
+      <div class="origin-card">
+        <img src="{% static 'images/origin_incantations.jpg' %}" 
+             alt="Incantations"
+             class="origin-img">
+        <div class="origin-content">
+          <h3>Incantations</h3>
+          <p class="muted">
+            Not all power is taken — some is invoked.
+            These rites call upon remnants of celestial fire
+            and forgotten deities.
+          </p>
+        </div>
+      </div>
+
+      <!-- Talismans -->
+      <div class="origin-card">
+        <img src="{% static 'images/origin_talismans.jpg' %}" 
+             alt="Talismans"
+             class="origin-img">
+        <div class="origin-content">
+          <h3>Talismans</h3>
+          <p class="muted">
+            Small objects. Heavy consequences.
+            Carved from bone, amber, or meteor stone,
+            each carries a fragment of fate.
+          </p>
+        </div>
+      </div>
+
+      <!-- Consumables -->
+      <div class="origin-card">
+        <img src="{% static 'images/origin_consumables.jpg' %}" 
+             alt="Consumables"
+             class="origin-img">
+        <div class="origin-content">
+          <h3>Consumables</h3>
+          <p class="muted">
+            Draughts, embers, and tinctures.
+            Temporary power is still power —
+            and sometimes survival is measured in seconds.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}
