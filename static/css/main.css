@@ -899,3 +899,23 @@ h1, h2, h3 {
   border: 1px solid rgba(203, 213, 225, 0.25);
   color: #f59e0b;
 }
+
+/* Policy Pages */
+
+.policy-card {
+  border: 1px solid #1f2933;
+  background-color: #050608;
+  padding: 2rem;
+}
+
+.policy-card h3 {
+  margin-top: 1.5rem;
+}
+
+.policy-card h3:first-child {
+  margin-top: 0;
+}
+
+.policy-card ul {
+  padding-left: 1.25rem;
+}

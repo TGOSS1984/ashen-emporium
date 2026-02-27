@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Ashen Emporium{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="container text-center">
+    <h1>Privacy Policy</h1>
+    <p class="muted mb-0">
+      Even in a broken land, your data remains yours.
+    </p>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <a href="{% url 'home' %}" class="btn cta-button">
+        <i class="fa-solid fa-angles-left me-2"></i>
+        Return to the Hearth
+      </a>
+
+      <a href="{% url 'product_list' %}" class="btn cta-button">
+        <i class="fa-solid fa-compass me-2"></i>
+        Browse the Emporium
+      </a>
+    </div>
+
+    <div class="policy-card">
+
+      <h3>1. Who We Are</h3>
+      <p class="muted">
+        Ashen Emporium operates as an online retailer of curated goods.
+        For the purposes of data protection law, we act as the data controller
+        for personal information collected through this website.
+      </p>
+
+      <h3>2. What Information We Collect</h3>
+      <ul class="muted">
+        <li>Name and contact details</li>
+        <li>Billing and shipping address</li>
+        <li>Email address</li>
+        <li>Order history</li>
+        <li>Technical data (IP address, browser type)</li>
+      </ul>
+
+      <h3>3. How We Use Your Information</h3>
+      <ul class="muted">
+        <li>To process and deliver orders</li>
+        <li>To provide customer support</li>
+        <li>To improve our website experience</li>
+        <li>To comply with legal obligations</li>
+      </ul>
+
+      <h3>4. Payment Processing</h3>
+      <p class="muted">
+        Payments are processed securely via third-party payment providers.
+        We do not store full card details on our servers.
+      </p>
+
+      <h3>5. Data Retention</h3>
+      <p class="muted">
+        We retain personal data only for as long as necessary to fulfil
+        orders and comply with accounting and legal requirements.
+      </p>
+
+      <h3>6. Your Rights</h3>
+      <p class="muted">
+        Under applicable data protection laws (including UK GDPR),
+        you have the right to access, correct, or request deletion of your data.
+      </p>
+
+      <h3>7. Cookies</h3>
+      <p class="muted">
+        We use cookies to enhance site functionality and analyse traffic.
+        You may disable cookies via your browser settings.
+      </p>
+
+      <h3>8. Contact</h3>
+      <p class="muted mb-0">
+        For privacy-related enquiries, please contact us via the Contact page.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

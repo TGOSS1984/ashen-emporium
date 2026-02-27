@@ -41,3 +41,7 @@ def shipping(request):
 
 def returns(request):
     return render(request, "core/returns.html")
+
+
+def privacy_policy(request):
+    return render(request, "core/privacy_policy.html")
