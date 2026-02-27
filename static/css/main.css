@@ -840,3 +840,37 @@ h1, h2, h3 {
 .origin-content {
   padding: 1rem;
 }
+
+/* Shipping page */
+.ship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1.5rem;
+}
+
+.ship-card {
+  border: 1px solid #1f2933;
+  background-color: #050608;
+  padding: 1.5rem;
+}
+
+.ship-card h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.ship-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(203, 213, 225, 0.25);
+  color: #f59e0b;
+}
+
+.ship-list {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}

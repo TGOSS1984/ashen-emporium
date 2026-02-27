@@ -33,3 +33,7 @@ def faq(request):
 
 def origin_stories(request):
     return render(request, "core/origin_stories.html")
+
+
+def shipping(request):
+    return render(request, "core/shipping.html")
