@@ -769,3 +769,43 @@ h1, h2, h3 {
     text-align: center;
   }
 }
+
+/* FAQ Accordion (Ashen theme) */
+
+.ae-accordion .accordion-item {
+  border: 1px solid #1f2933;
+  background-color: #050608;
+  border-radius: 0;
+}
+
+.ae-accordion .accordion-button {
+  background-color: #050608;
+  color: #e5e7eb;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ae-accordion .accordion-button:focus {
+  box-shadow: none;
+  border-color: #1f2933;
+}
+
+.ae-accordion .accordion-body {
+  background-color: #0b0d10;
+}
+
+/* Replace Bootstrap chevron with + / − */
+.ae-accordion .accordion-button::after {
+  background-image: none !important;
+  content: "+";
+  font-weight: 800;
+  font-size: 1.25rem;
+  width: auto;
+  height: auto;
+  transform: none !important;
+  color: #f59e0b;
+}
+
+.ae-accordion .accordion-button:not(.collapsed)::after {
+  content: "−";
+}

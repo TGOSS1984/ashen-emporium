@@ -25,3 +25,7 @@ def home(request):
 
 def about(request):
     return render(request, "core/about.html")
+
+
+def faq(request):
+    return render(request, "core/faq.html")

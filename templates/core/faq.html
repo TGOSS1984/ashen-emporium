@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}FAQs — Ashen Emporium{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container text-center">
+    <h1>FAQs</h1>
+    <p class="muted mb-0">
+      Answers for travelers, collectors, and the cinder-bound.
+    </p>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <a href="{% url 'home' %}" class="cta-button"><i class="fa-solid fa-arrow-left-long"></i> Back to Home</a>
+
+      
+      <a href="{% url 'product_list' %}" class="cta-button"><i class="fa-solid fa-compass"></i> Browse Catalog</a>
+    </div>
+
+    <div class="accordion ae-accordion" id="faqAccordion">
+
+      <div class="accordion-item ae-accordion-item">
+        <h2 class="accordion-header" id="faqOne">
+          <button class="accordion-button collapsed ae-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne">
+            Are the relics and weapons authentic?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse"
+             aria-labelledby="faqOne" data-bs-parent="#faqAccordion">
+          <div class="accordion-body muted">
+            Each item is catalogued, inspected, and sealed in wax before shipment. Some artifacts carry history,
+            and a few carry consequences — we disclose what we know in the listing.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item ae-accordion-item">
+        <h2 class="accordion-header" id="faqTwo">
+          <button class="accordion-button collapsed ae-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo">
+            Do you ship internationally?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse"
+             aria-labelledby="faqTwo" data-bs-parent="#faqAccordion">
+          <div class="accordion-body muted">
+            We do — where the roads still hold. Shipping options and timeframes vary by region.
+            See our Shipping page for details (coming next).
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item ae-accordion-item">
+        <h2 class="accordion-header" id="faqThree">
+          <button class="accordion-button collapsed ae-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree">
+            Can I return an item if it doesn’t fit?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse"
+             aria-labelledby="faqThree" data-bs-parent="#faqAccordion">
+          <div class="accordion-body muted">
+            Yes. Unused items can be returned within our returns window. Custom-forged pieces may be excluded.
+            Our Returns & Refunds page will detail the full process.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item ae-accordion-item">
+        <h2 class="accordion-header" id="faqFour">
+          <button class="accordion-button collapsed ae-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour">
+            How do I track my order?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse"
+             aria-labelledby="faqFour" data-bs-parent="#faqAccordion">
+          <div class="accordion-body muted">
+            Once dispatched, you’ll receive a tracking link by email. If the courier is lost to fog,
+            contact us with your order number and we’ll investigate.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item ae-accordion-item">
+        <h2 class="accordion-header" id="faqFive">
+          <button class="accordion-button collapsed ae-accordion-btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive">
+            What payments do you accept?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse"
+             aria-labelledby="faqFive" data-bs-parent="#faqAccordion">
+          <div class="accordion-body muted">
+            Standard cards and secure checkout methods (as enabled at checkout). The Emporium does not accept
+            cursed coin, blood-oaths, or promises whispered to the dark.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}
