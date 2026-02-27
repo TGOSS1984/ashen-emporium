@@ -37,3 +37,7 @@ def origin_stories(request):
 
 def shipping(request):
     return render(request, "core/shipping.html")
+
+
+def returns(request):
+    return render(request, "core/returns.html")

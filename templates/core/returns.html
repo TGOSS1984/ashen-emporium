@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Returns & Refunds — Ashen Emporium{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="container text-center">
+    <h1>Returns &amp; Refunds</h1>
+    <p class="muted mb-0">
+      Even in a broken land, fairness endures.
+    </p>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <a href="{% url 'home' %}" class="btn cta-button">
+        <i class="fa-solid fa-angles-left me-2"></i>
+        Return to the Hearth
+      </a>
+
+      <a href="{% url 'product_list' %}" class="btn cta-button">
+        <i class="fa-solid fa-compass me-2"></i>
+        Browse the Emporium
+      </a>
+    </div>
+
+    <div class="returns-grid">
+
+      <div class="returns-card">
+        <div class="returns-icon">
+          <i class="fa-solid fa-calendar-days"></i>
+        </div>
+        <h3>Return Window</h3>
+        <p class="muted">
+          Most items may be returned within <strong>14 days</strong> of delivery.
+          Items must be unused and in original condition.
+        </p>
+      </div>
+
+      <div class="returns-card">
+        <div class="returns-icon">
+          <i class="fa-solid fa-box-open"></i>
+        </div>
+        <h3>Condition of Items</h3>
+        <p class="muted">
+          Returned goods must include all original packaging, seals, and documentation.
+          Custom-forged or bespoke items may not be eligible.
+        </p>
+      </div>
+
+      <div class="returns-card">
+        <div class="returns-icon">
+          <i class="fa-solid fa-rotate-left"></i>
+        </div>
+        <h3>How to Return</h3>
+        <p class="muted">
+          Contact us with your order number. We will provide return instructions
+          and the correct return address.
+        </p>
+      </div>
+
+      <div class="returns-card">
+        <div class="returns-icon">
+          <i class="fa-solid fa-money-bill-transfer"></i>
+        </div>
+        <h3>Refund Processing</h3>
+        <p class="muted">
+          Once received and inspected, refunds are processed within
+          <strong>5–7 business days</strong> to your original payment method.
+        </p>
+      </div>
+
+      <div class="returns-card">
+        <div class="returns-icon">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+        </div>
+        <h3>Damaged or Faulty Items</h3>
+        <p class="muted">
+          If your item arrives damaged, notify us within 48 hours with photos.
+          We will arrange replacement or refund.
+        </p>
+      </div>
+
+      <div class="returns-card">
+        <div class="returns-icon">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <h3>Need Help?</h3>
+        <p class="muted">
+          If unsure whether your item qualifies, reach out before returning.
+        </p>
+        <div class="mt-2">
+          <a class="btn btn-outline-light btn-sm" href="#">Contact us</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}
