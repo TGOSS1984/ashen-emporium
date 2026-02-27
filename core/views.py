@@ -45,3 +45,7 @@ def returns(request):
 
 def privacy_policy(request):
     return render(request, "core/privacy_policy.html")
+
+
+def terms(request):
+    return render(request, "core/terms.html")

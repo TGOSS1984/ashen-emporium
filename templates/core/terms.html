@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Terms of Service — Ashen Emporium{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="container text-center">
+    <h1>Terms of Service</h1>
+    <p class="muted mb-0">
+      The Emporium trades in goods — not in promises made to the dark.
+    </p>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <a href="{% url 'home' %}" class="btn cta-button">
+        <i class="fa-solid fa-angles-left me-2"></i>
+        Return to the Hearth
+      </a>
+
+      <a href="{% url 'product_list' %}" class="btn cta-button">
+        <i class="fa-solid fa-compass me-2"></i>
+        Browse the Emporium
+      </a>
+    </div>
+
+    <div class="policy-card">
+      <h3>1. Overview</h3>
+      <p class="muted">
+        These Terms of Service govern your use of the Ashen Emporium website and purchases made through it.
+        By accessing the site or placing an order, you agree to these terms.
+      </p>
+
+      <h3>2. Orders</h3>
+      <ul class="muted">
+        <li>Orders are subject to availability and confirmation of payment.</li>
+        <li>We reserve the right to refuse or cancel orders where fraud is suspected.</li>
+        <li>Product descriptions and images are provided in good faith; colours may vary by screen.</li>
+      </ul>
+
+      <h3>3. Prices &amp; Payment</h3>
+      <p class="muted">
+        Prices are shown in GBP unless otherwise stated. Payment is handled via secure third-party providers.
+        We do not store full payment card details.
+      </p>
+
+      <h3>4. Shipping</h3>
+      <p class="muted">
+        Dispatch and delivery estimates are provided as guidance and may vary by region and courier conditions.
+        See the Shipping page for current delivery information.
+      </p>
+
+      <h3>5. Returns &amp; Refunds</h3>
+      <p class="muted">
+        Returns are accepted in line with our Returns &amp; Refunds policy. Items must be returned in original condition
+        unless faulty.
+      </p>
+
+      <h3>6. Account &amp; Site Use</h3>
+      <ul class="muted">
+        <li>You agree not to misuse the site, attempt unauthorised access, or disrupt service.</li>
+        <li>You are responsible for keeping your account details secure.</li>
+      </ul>
+
+      <h3>7. Liability</h3>
+      <p class="muted">
+        To the fullest extent permitted by law, we are not liable for indirect or consequential losses.
+        Nothing in these terms limits liability where unlawful to do so.
+      </p>
+
+      <h3>8. Changes</h3>
+      <p class="muted">
+        We may update these terms from time to time. Continued use of the site constitutes acceptance of updates.
+      </p>
+
+      <h3>9. Contact</h3>
+      <p class="muted mb-0">
+        For questions about these terms, please contact us via the Contact page.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}

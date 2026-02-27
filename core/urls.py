@@ -7,6 +7,7 @@ from .views import (
     shipping,
     returns,
     privacy_policy,
+    terms,
 )
 
 urlpatterns = [
@@ -17,4 +18,5 @@ urlpatterns = [
     path("shipping/", shipping, name="shipping"),
     path("returns/", returns, name="returns"),
     path("privacy-policy/", privacy_policy, name="privacy_policy"),
+    path("terms/", terms, name="terms"),
 ]
