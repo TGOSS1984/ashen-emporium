@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Contact — Ashen Emporium{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container text-center">
+    <h1>Contact Us</h1>
+    <p class="muted mb-0">
+      Send word to the Emporium. Include your order number if the matter concerns a shipment.
+    </p>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <a href="{% url 'home' %}" class="btn cta-button">
+        <i class="fa-solid fa-angles-left me-2"></i> Return to the Hearth
+      </a>
+      <a href="{% url 'product_list' %}" class="btn cta-button">
+        <i class="fa-solid fa-compass me-2"></i> Browse the Emporium
+      </a>
+    </div>
+
+    <div class="policy-card">
+      <form method="post" novalidate>
+        {% csrf_token %}
+
+        {# honeypot #}
+        {{ form.website }}
+
+        <div class="row g-3">
+          <div class="col-12 col-md-6">
+            <label class="form-label">Name</label>
+            {{ form.name }}
+            {% for e in form.name.errors %}<div class="text-danger small mt-1">{{ e }}</div>{% endfor %}
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label">Email</label>
+            {{ form.email }}
+            {% for e in form.email.errors %}<div class="text-danger small mt-1">{{ e }}</div>{% endfor %}
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label">Order number (optional)</label>
+            {{ form.order_number }}
+            {% for e in form.order_number.errors %}<div class="text-danger small mt-1">{{ e }}</div>{% endfor %}
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label">Subject</label>
+            {{ form.subject }}
+            {% for e in form.subject.errors %}<div class="text-danger small mt-1">{{ e }}</div>{% endfor %}
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">Message</label>
+            {{ form.message }}
+            {% for e in form.message.errors %}<div class="text-danger small mt-1">{{ e }}</div>{% endfor %}
+          </div>
+        </div>
+
+        <div class="mt-4 d-flex gap-2 flex-wrap">
+          <button type="submit" class="btn cta-button">
+            <i class="fa-solid fa-paper-plane me-2"></i> Send Message
+          </button>
+          <a href="{% url 'home' %}" class="btn cta-button">Cancel</a>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+{% endblock %}

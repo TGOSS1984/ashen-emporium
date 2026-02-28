@@ -1,6 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from catalog.models import Product
 from django.urls import reverse, NoReverseMatch
+
+from django.contrib import messages
+
+from .forms import ContactForm
 
 
 def home(request):
@@ -124,3 +128,15 @@ def sitemap_view(request):
         "core/sitemap.html",
         {"sitemap": sitemap, "dynamic": dynamic},
     )
+
+def contact(request):
+    if request.method == "POST":
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            # We’ll send email in Commit B — for now just show success
+            messages.success(request, "Message received — the Emporium will respond soon.")
+            return redirect("contact")
+    else:
+        form = ContactForm()
+
+    return render(request, "core/contact.html", {"form": form})
