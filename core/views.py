@@ -6,6 +6,9 @@ from django.contrib import messages
 
 from .forms import ContactForm
 
+from django.conf import settings
+from django.core.mail import EmailMessage
+
 
 def home(request):
     featured = (
@@ -133,8 +136,28 @@ def contact(request):
     if request.method == "POST":
         form = ContactForm(request.POST)
         if form.is_valid():
-            # We’ll send email in Commit B — for now just show success
-            messages.success(request, "Message received — the Emporium will respond soon.")
+            data = form.cleaned_data
+
+            subject = f"[Ashen Emporium] {data['subject']}"
+            lines = [
+                f"Name: {data['name']}",
+                f"Email: {data['email']}",
+                f"Order number: {data.get('order_number') or '—'}",
+                "",
+                data["message"],
+            ]
+            body = "\n".join(lines)
+
+            msg = EmailMessage(
+                subject=subject,
+                body=body,
+                from_email=settings.DEFAULT_FROM_EMAIL,
+                to=[settings.SUPPORT_EMAIL],
+                reply_to=[data["email"]],
+            )
+            msg.send(fail_silently=False)
+
+            messages.success(request, "Message sent — the Emporium will respond soon.")
             return redirect("contact")
     else:
         form = ContactForm()

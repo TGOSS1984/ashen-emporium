@@ -218,3 +218,14 @@ else:
     # Local filesystem (dev)
     STORAGES["default"] = {"BACKEND": "django.core.files.storage.FileSystemStorage"}
 
+import os
+
+EMAIL_BACKEND = os.getenv("EMAIL_BACKEND", "django.core.mail.backends.console.EmailBackend")
+DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "Ashen Emporium <noreply@ashen-emporium.com>")
+SUPPORT_EMAIL = os.getenv("SUPPORT_EMAIL", "support@ashen-emporium.com")
+
+EMAIL_HOST = os.getenv("EMAIL_HOST", "")
+EMAIL_PORT = int(os.getenv("EMAIL_PORT", "587"))
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER", "")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD", "")
+EMAIL_USE_TLS = os.getenv("EMAIL_USE_TLS", "1") == "1"
