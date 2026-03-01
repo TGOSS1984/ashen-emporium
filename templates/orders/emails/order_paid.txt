@@ -1,0 +1,18 @@
+Ashen Emporium — Order Confirmed
+
+Thank you for your order, traveler.
+Your payment has been received and your order is now confirmed.
+
+Order: #{{ order.id }}
+Total: {{ order.total_gbp }}
+Status: {{ order.get_status_display }}
+
+Items:
+{% for item in order.items.all %}
+- {{ item.product_name }} (x{{ item.qty }}) — {{ item.line_total_gbp }}
+{% endfor %}
+
+We will dispatch your parcel once it is sealed and ready for the road.
+
+— Ashen Emporium
+Forged in Cinder

@@ -28,13 +28,13 @@ class Order(models.Model):
     stripe_session_id = models.CharField(max_length=255, blank=True, default="")
     stripe_payment_intent_id = models.CharField(max_length=255, blank=True, default="")
     stripe_session_url = models.URLField(blank=True, default="")
-
-
-    total_pence = models.PositiveIntegerField()
+    
 
     total_pence = models.PositiveIntegerField()
 
     created_at = models.DateTimeField(auto_now_add=True)
+
+    paid_email_sent_at = models.DateTimeField(null=True, blank=True)
 
     @property
     def total_gbp(self) -> str:

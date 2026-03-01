@@ -13,6 +13,9 @@ from django.db import transaction
 from orders.models import Order
 from catalog.models import Product
 
+from django.utils import timezone
+from orders.emails import send_order_paid_email
+
 
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -125,25 +128,38 @@ def stripe_webhook(request):
         session = event["data"]["object"]
         order_id = session.get("metadata", {}).get("order_id")
 
-        if order_id:
-            order = Order.objects.select_for_update().filter(id=order_id).first()
+    if not order_id:
+        return HttpResponse(status=200)
 
-            if order and order.status != Order.Status.PAID:
-                with transaction.atomic():
-                    # Mark paid
-                    order.status = Order.Status.PAID
-                    order.stripe_session_id = session.get("id", order.stripe_session_id)
-                    order.stripe_payment_intent_id = session.get("payment_intent", order.stripe_payment_intent_id) or ""
-                    order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
+    # IMPORTANT: wrap select_for_update INSIDE the atomic block
+    with transaction.atomic():
+        order = Order.objects.select_for_update().filter(id=order_id).first()
+        if not order:
+            return HttpResponse(status=200)
 
-                    # Decrement stock using the order snapshot
-                    for item in order.items.all():
-                        # Find the live product by SKU (because OrderItem doesn't FK Product)
-                        product = Product.objects.filter(sku=item.sku).first()
-                        if not product:
-                            continue
-                        product.stock_qty = max(product.stock_qty - item.qty, 0)
-                        product.save(update_fields=["stock_qty"])
+        # Idempotency: if already paid, do not decrement stock again
+        just_marked_paid = False
+        if order.status != Order.Status.PAID:
+            order.status = Order.Status.PAID
+            order.stripe_session_id = session.get("id", order.stripe_session_id)
+            order.stripe_payment_intent_id = session.get("payment_intent", order.stripe_payment_intent_id) or ""
+            order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
+            just_marked_paid = True
+
+        # Decrement stock only on the transition to PAID
+        if just_marked_paid:
+            for item in order.items.all():
+                product = Product.objects.filter(sku=item.sku).first()
+                if not product:
+                    continue
+                product.stock_qty = max(product.stock_qty - item.qty, 0)
+                product.save(update_fields=["stock_qty"])
+
+        # Send confirmation email only once (webhook retries won't duplicate)
+        if order.paid_email_sent_at is None:
+            send_order_paid_email(order)
+            order.paid_email_sent_at = timezone.now()
+            order.save(update_fields=["paid_email_sent_at"])
 
 
     return HttpResponse(status=200)
