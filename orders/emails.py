@@ -23,4 +23,5 @@ def send_order_paid_email(order) -> None:
         to=[to_email],
     )
     msg.attach_alternative(html_body, "text/html")
+    print(f"📧 Order PAID email queued: order={order.id} to={to_email}")
     msg.send()

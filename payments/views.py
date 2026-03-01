@@ -105,10 +105,6 @@ def payment_cancel(request):
 
 @csrf_exempt
 def stripe_webhook(request):
-    """
-    Verify Stripe signature and handle checkout.session.completed.
-    Stripe recommends fulfilling orders via this event and verifying signatures. :contentReference[oaicite:3]{index=3}
-    """
     payload = request.body
     sig_header = request.META.get("HTTP_STRIPE_SIGNATURE", "")
     webhook_secret = settings.STRIPE_WEBHOOK_SECRET
@@ -123,21 +119,27 @@ def stripe_webhook(request):
     except stripe.error.SignatureVerificationError:
         return HttpResponseBadRequest("Invalid signature")
 
-    # Event types: checkout.session.completed indicates session completed :contentReference[oaicite:4]{index=4}
-    if event["type"] == "checkout.session.completed":
-        session = event["data"]["object"]
-        order_id = session.get("metadata", {}).get("order_id")
-
-    if not order_id:
+    # Only handle the event we care about
+    if event["type"] != "checkout.session.completed":
         return HttpResponse(status=200)
 
-    # IMPORTANT: wrap select_for_update INSIDE the atomic block
+    session = event["data"]["object"]
+    session_id = session.get("id")
+    order_id = session.get("metadata", {}).get("order_id")
+
     with transaction.atomic():
-        order = Order.objects.select_for_update().filter(id=order_id).first()
+        order_qs = Order.objects.select_for_update()
+
+        order = None
+        if order_id:
+            order = order_qs.filter(id=order_id).first()
+
+        if order is None and session_id:
+            order = order_qs.filter(stripe_session_id=session_id).first()
+
         if not order:
             return HttpResponse(status=200)
 
-        # Idempotency: if already paid, do not decrement stock again
         just_marked_paid = False
         if order.status != Order.Status.PAID:
             order.status = Order.Status.PAID
@@ -146,7 +148,6 @@ def stripe_webhook(request):
             order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
             just_marked_paid = True
 
-        # Decrement stock only on the transition to PAID
         if just_marked_paid:
             for item in order.items.all():
                 product = Product.objects.filter(sku=item.sku).first()
@@ -155,11 +156,9 @@ def stripe_webhook(request):
                 product.stock_qty = max(product.stock_qty - item.qty, 0)
                 product.save(update_fields=["stock_qty"])
 
-        # Send confirmation email only once (webhook retries won't duplicate)
         if order.paid_email_sent_at is None:
             send_order_paid_email(order)
             order.paid_email_sent_at = timezone.now()
             order.save(update_fields=["paid_email_sent_at"])
-
 
     return HttpResponse(status=200)
