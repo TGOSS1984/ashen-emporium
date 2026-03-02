@@ -130,33 +130,22 @@ class OrderAdmin(admin.ModelAdmin):
             paid_unfulfilled_qs = paid_unfulfilled_qs.filter(fulfilled_at__isnull=True)
         paid_unfulfilled = paid_unfulfilled_qs.count()
 
-        # Revenue last 7 days (uses your existing total_gbp property/field if it's aggregatable)
-        # If total_gbp is a @property, Sum won't work. We'll try common DB fields first.
-        revenue_7d = None
-        revenue_field = None
+        # Revenue last 7 days (pence → GBP)
+        agg = qs.filter(
+            created_at__gte=start_7d,
+            status__in=[Order.Status.PAID, Order.Status.FULFILLED],
+        ).aggregate(
+            total_pence_sum=Sum("total_pence")
+        )
 
-        for candidate in ("grand_total_gbp", "total_gbp", "total", "order_total", "total_amount", "total_pence"):
-            if hasattr(Order, candidate):
-                revenue_field = candidate
-                break
-
-        if revenue_field:
-            try:
-                agg = qs.filter(created_at__gte=start_7d, status__in=[Order.Status.PAID, Order.Status.FULFILLED]).aggregate(
-                    s=Sum(revenue_field)
-                )
-                revenue_7d = agg["s"] or Decimal("0.00")
-            except Exception:
-                # If it's not a real DB field (e.g., @property), don't crash admin
-                revenue_7d = None
-                revenue_field = None
+        total_pence_sum = agg["total_pence_sum"] or 0
+        revenue_7d = Decimal(total_pence_sum) / Decimal("100")
 
         extra_context["ops_kpis"] = {
             "orders_today": orders_today,
             "orders_7d": orders_7d,
             "paid_unfulfilled": paid_unfulfilled,
             "revenue_7d": revenue_7d,
-            "revenue_field": revenue_field,
         }
 
         return super().changelist_view(request, extra_context=extra_context)

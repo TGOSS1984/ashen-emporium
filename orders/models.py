@@ -82,6 +82,3 @@ class OrderItem(models.Model):
     @property
     def unit_price_gbp(self) -> str:
         return f"£{self.unit_price_pence/100:,.2f}"
-    
-    
-

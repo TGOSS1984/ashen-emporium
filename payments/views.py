@@ -1,24 +1,27 @@
 import stripe
 
+from decimal import Decimal
+
 from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.db import transaction, IntegrityError
+from django.db.models import Sum, F
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
+from django.utils import timezone
 from django.views.decorators.csrf import csrf_exempt
-
-from django.db import transaction
 
 from orders.models import Order
 from catalog.models import Product
-
-from django.utils import timezone
 from orders.emails import send_order_paid_email
 
+from .models import StripeEvent
 
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
+
 
 @login_required
 def start_checkout(request, order_id: int):
@@ -34,20 +37,15 @@ def start_checkout(request, order_id: int):
     if not settings.STRIPE_SECRET_KEY:
         messages.error(request, "Stripe is not configured (missing secret key).")
         return redirect("order_confirmation", order_id=order.id)
-    
+
     reset = request.GET.get("reset") == "1"
 
     # Resume existing Stripe session if one already exists (unless reset requested)
     if order.status == Order.Status.PLACED and order.stripe_session_url and not reset:
         return redirect(order.stripe_session_url)
 
-
-    success_url = request.build_absolute_uri(
-        reverse("payment_success")
-    ) + f"?order_id={order.id}"
-    cancel_url = request.build_absolute_uri(
-        reverse("payment_cancel")
-    ) + f"?order_id={order.id}"
+    success_url = request.build_absolute_uri(reverse("payment_success")) + f"?order_id={order.id}"
+    cancel_url = request.build_absolute_uri(reverse("payment_cancel")) + f"?order_id={order.id}"
 
     # Build line items from order snapshot
     line_items = []
@@ -68,7 +66,7 @@ def start_checkout(request, order_id: int):
         line_items=line_items,
         success_url=success_url,
         cancel_url=cancel_url,
-        client_reference_id=str(order.id),  # useful reconciliation value :contentReference[oaicite:2]{index=2}
+        client_reference_id=str(order.id),
         metadata={"order_id": str(order.id)},
     )
 
@@ -76,7 +74,6 @@ def start_checkout(request, order_id: int):
     order.stripe_payment_intent_id = session.payment_intent or ""
     order.stripe_session_url = session.url or ""
     order.save(update_fields=["stripe_session_id", "stripe_payment_intent_id", "stripe_session_url"])
-
 
     return redirect(session.url)
 
@@ -123,11 +120,32 @@ def stripe_webhook(request):
     if event["type"] != "checkout.session.completed":
         return HttpResponse(status=200)
 
+    event_id = event.get("id", "")
     session = event["data"]["object"]
     session_id = session.get("id")
     order_id = session.get("metadata", {}).get("order_id")
 
+    # Convert Stripe created timestamp to timezone-aware datetime (optional)
+    stripe_created_dt = None
+    if event.get("created"):
+        stripe_created_dt = timezone.datetime.fromtimestamp(
+            int(event["created"]),
+            tz=timezone.utc
+        )
+
     with transaction.atomic():
+        # 1) Idempotency gate: store event id once, no-op if already processed
+        try:
+            StripeEvent.objects.create(
+                event_id=event_id,
+                event_type=event["type"],
+                livemode=bool(event.get("livemode", False)),
+                stripe_created=stripe_created_dt,
+            )
+        except IntegrityError:
+            # This Stripe event was already processed
+            return HttpResponse(status=200)
+
         order_qs = Order.objects.select_for_update()
 
         order = None
@@ -138,9 +156,11 @@ def stripe_webhook(request):
             order = order_qs.filter(stripe_session_id=session_id).first()
 
         if not order:
+            # Keep StripeEvent record so we don't spin on retries for unknown orders
             return HttpResponse(status=200)
 
         just_marked_paid = False
+
         if order.status != Order.Status.PAID:
             order.status = Order.Status.PAID
             order.stripe_session_id = session.get("id", order.stripe_session_id)
@@ -148,17 +168,39 @@ def stripe_webhook(request):
             order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
             just_marked_paid = True
 
+        # 2) Stock decrement only when we actually transitioned to PAID
         if just_marked_paid:
             for item in order.items.all():
-                product = Product.objects.filter(sku=item.sku).first()
-                if not product:
+                # Use SKU snapshot from OrderItem to find Product
+                # (If SKU can be null, guard it)
+                if not item.sku:
                     continue
-                product.stock_qty = max(product.stock_qty - item.qty, 0)
-                product.save(update_fields=["stock_qty"])
 
+                # Atomic decrement in DB
+                updated = Product.objects.filter(sku=item.sku, stock_qty__gt=0).update(
+                    stock_qty=F("stock_qty") - item.qty
+                )
+
+                # Optional clamp if qty > stock: prevent negative in rare cases
+                # (You can tighten this later to enforce "no oversell" rules)
+                if updated:
+                    Product.objects.filter(sku=item.sku, stock_qty__lt=0).update(stock_qty=0)
+
+        # 3) Email: mark timestamp in DB, send after commit to avoid “email sent but DB rolled back”
+        send_email = False
         if order.paid_email_sent_at is None:
-            send_order_paid_email(order)
             order.paid_email_sent_at = timezone.now()
             order.save(update_fields=["paid_email_sent_at"])
+            send_email = True
+
+        if send_email:
+            order_id_to_email = order.id
+
+            def _send():
+                # Refetch in case template uses related objects
+                o = Order.objects.get(id=order_id_to_email)
+                send_order_paid_email(o)
+
+            transaction.on_commit(_send)
 
     return HttpResponse(status=200)
