@@ -6,6 +6,9 @@ from django.utils import timezone
 
 from .models import Order, OrderItem
 
+from django.urls import reverse
+from django.utils.http import urlencode
+
 
 class OrderItemInline(admin.TabularInline):
     model = OrderItem
@@ -110,43 +113,68 @@ class OrderAdmin(admin.ModelAdmin):
     ordering = ("-id",)
 
     def changelist_view(self, request, extra_context=None):
-        """
-        Adds lightweight KPIs to the changelist template context.
-        Safe even if you haven't added the template override yet.
-        """
         extra_context = extra_context or {}
         qs = self.get_queryset(request)
 
         now = timezone.now()
         start_today = now.replace(hour=0, minute=0, second=0, microsecond=0)
         start_7d = now - timezone.timedelta(days=7)
+        start_24h = now - timezone.timedelta(hours=24)
 
         orders_today = qs.filter(created_at__gte=start_today).count()
         orders_7d = qs.filter(created_at__gte=start_7d).count()
 
-        # Paid but not fulfilled (uses fulfilled_at if it exists, else just PAID)
         has_fulfilled_at = hasattr(Order, "fulfilled_at")
         paid_unfulfilled_qs = qs.filter(status=Order.Status.PAID)
         if has_fulfilled_at:
             paid_unfulfilled_qs = paid_unfulfilled_qs.filter(fulfilled_at__isnull=True)
         paid_unfulfilled = paid_unfulfilled_qs.count()
 
-        # Revenue last 7 days (pence → GBP)
-        agg = qs.filter(
-            created_at__gte=start_7d,
-            status__in=[Order.Status.PAID, Order.Status.FULFILLED],
-        ).aggregate(
-            total_pence_sum=Sum("total_pence")
+        # Revenue: PAID + FULFILLED only
+        paid_like = [Order.Status.PAID, Order.Status.FULFILLED]
+        revenue_7d_pence = (
+            qs.filter(created_at__gte=start_7d, status__in=paid_like)
+            .aggregate(s=Sum("total_pence"))
+            .get("s")
+            or 0
         )
+        revenue_7d = Decimal(revenue_7d_pence) / Decimal("100")
 
-        total_pence_sum = agg["total_pence_sum"] or 0
-        revenue_7d = Decimal(total_pence_sum) / Decimal("100")
+        # Refunds: count + amount (if you keep refunded orders around)
+        refunded_status = getattr(Order.Status, "REFUNDED", None)
+        refunded_7d = 0
+        refunded_7d_amount = Decimal("0.00")
+        if refunded_status:
+            refunded_7d_qs = qs.filter(created_at__gte=start_7d, status=refunded_status)
+            refunded_7d = refunded_7d_qs.count()
+            refunded_7d_pence = refunded_7d_qs.aggregate(s=Sum("total_pence")).get("s") or 0
+            refunded_7d_amount = Decimal(refunded_7d_pence) / Decimal("100")
+
+        net_revenue_7d = revenue_7d - refunded_7d_amount
+
+        # Quick links (safe even if models/admin URLs change slightly)
+        low_stock_url = None
+        try:
+            low_stock_url = reverse("admin:catalog_product_changelist") + "?" + urlencode({"stock_qty__lte": 3})
+        except Exception:
+            pass
+
+        stripe_events_url = None
+        try:
+            stripe_events_url = reverse("admin:payments_stripeevent_changelist")
+        except Exception:
+            pass
 
         extra_context["ops_kpis"] = {
             "orders_today": orders_today,
             "orders_7d": orders_7d,
             "paid_unfulfilled": paid_unfulfilled,
             "revenue_7d": revenue_7d,
+            "refunded_7d": refunded_7d,
+            "refunded_7d_amount": refunded_7d_amount,
+            "net_revenue_7d": net_revenue_7d,
+            "low_stock_url": low_stock_url,
+            "stripe_events_url": stripe_events_url,
         }
 
         return super().changelist_view(request, extra_context=extra_context)

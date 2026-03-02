@@ -2,15 +2,33 @@
 
 {% block content_title %}
   {{ block.super }}
+
   {% if ops_kpis %}
-    <div style="margin: 12px 0; padding: 12px; border: 1px solid #ddd; border-radius: 6px;">
-      <strong>Ops KPIs:</strong>
-      <span style="margin-left: 12px;">Orders today: <strong>{{ ops_kpis.orders_today }}</strong></span>
-      <span style="margin-left: 12px;">Orders (7d): <strong>{{ ops_kpis.orders_7d }}</strong></span>
-      <span style="margin-left: 12px;">Paid, unfulfilled: <strong>{{ ops_kpis.paid_unfulfilled }}</strong></span>
-      {% if ops_kpis.revenue_7d is not None %}
-        <span style="margin-left: 12px;">Revenue (7d): <strong>{{ ops_kpis.revenue_7d }}</strong></span>
-      {% endif %}
+    <div style="margin: 12px 0 16px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; background: #fff;">
+      <div style="display:flex; flex-wrap:wrap; gap:12px;">
+        <div><strong>Orders today:</strong> {{ ops_kpis.orders_today }}</div>
+        <div><strong>Orders 7d:</strong> {{ ops_kpis.orders_7d }}</div>
+        <div><strong>Paid not fulfilled:</strong> {{ ops_kpis.paid_unfulfilled }}</div>
+        <div><strong>Revenue 7d:</strong> £{{ ops_kpis.revenue_7d|floatformat:2 }}</div>
+
+        {% if ops_kpis.refunded_7d %}
+          <div><strong>Refunded 7d:</strong> {{ ops_kpis.refunded_7d }}</div>
+          <div><strong>Refund value 7d:</strong> £{{ ops_kpis.refunded_7d_amount|floatformat:2 }}</div>
+        {% else %}
+          <div><strong>Refunded 7d:</strong> 0</div>
+          <div><strong>Refund value 7d:</strong> £0.00</div>
+        {% endif %}
+
+        <div><strong>Net revenue 7d:</strong> £{{ ops_kpis.net_revenue_7d|floatformat:2 }}</div>
+
+        {% if ops_kpis.low_stock_url %}
+          <div><a href="{{ ops_kpis.low_stock_url }}">Low stock products (≤3)</a></div>
+        {% endif %}
+
+        {% if ops_kpis.stripe_events_url %}
+          <div><a href="{{ ops_kpis.stripe_events_url }}">Stripe events</a></div>
+        {% endif %}
+      </div>
     </div>
   {% endif %}
 {% endblock %}
