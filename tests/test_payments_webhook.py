@@ -41,6 +41,7 @@ def test_webhook_marks_paid_and_decrements_stock(client):
 
     # Fake Stripe event payload (what our code uses)
     fake_event = {
+        "id": "evt_test_paid_123",
         "type": "checkout.session.completed",
         "data": {
             "object": {
@@ -100,17 +101,36 @@ def test_webhook_is_idempotent_does_not_double_decrement(client):
     url = reverse("stripe_webhook")
 
     fake_event = {
+        "id": "evt_test_paid_idem_123",
         "type": "checkout.session.completed",
-        "data": {"object": {"metadata": {"order_id": str(order.id)}}},
+        "data": {
+            "object": {
+                "id": "cs_test_999",
+                "payment_intent": "pi_test_999",
+                "metadata": {"order_id": str(order.id)},
+            }
+        },
     }
 
     with patch("payments.views.stripe.Webhook.construct_event", return_value=fake_event):
+        payload = json.dumps(fake_event).encode("utf-8")
+
         # First call
-        res1 = client.post(url, data=b"{}", content_type="application/json", HTTP_STRIPE_SIGNATURE="test")
+        res1 = client.post(
+            url,
+            data=payload,
+            content_type="application/json",
+            HTTP_STRIPE_SIGNATURE="test",
+        )
         assert res1.status_code == 200
 
         # Second call (retry)
-        res2 = client.post(url, data=b"{}", content_type="application/json", HTTP_STRIPE_SIGNATURE="test")
+        res2 = client.post(
+            url,
+            data=payload,
+            content_type="application/json",
+            HTTP_STRIPE_SIGNATURE="test",
+        )
         assert res2.status_code == 200
 
     p.refresh_from_db()

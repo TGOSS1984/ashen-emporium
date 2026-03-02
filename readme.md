@@ -37,21 +37,24 @@ This project emphasises **scalable architecture, automation over manual admin wo
 
 - [Live Demo](#-live-demo)
 - [Project Overview](#-project-overview)
+- [Architecture & System Design](#-architecture--system-design)
+- [Order & Payment Lifecycle](#-order--payment-lifecycle)
+- [Webhook & Idempotency Design](#-webhook--idempotency-design)
 - [Core Features](#-core-features)
   - [E-commerce](#-e-commerce)
-  - [Armour Sets](#-armour-sets-advanced-domain-logic)
+  - [Armour Sets (Advanced Domain Logic)](#-armour-sets-advanced-domain-logic)
   - [Lore System](#-lore-system)
   - [Automation & Data Pipelines](#-automation--data-pipelines)
   - [Frontend & UX](#-frontend--ux)
+- [Testing Strategy](#-testing-strategy)
+- [Security & Production Considerations](#-security--production-considerations)
 - [Technology Stack](#-technology-stack)
-- [Project Structure](#-project-structure-simplified)
+- [Project Structure](#-project-structure)
 - [Local Setup](#-local-setup)
-- [Asset & Lore Workflows](#-asset--lore-workflows)
-- [Testing & Safety](#-testing--safety)
 - [Deployment Notes](#-deployment-notes)
 - [Licensing & Assets](#-licensing--assets)
 - [Author](#-author)
-- [Next Possible Enhancements](#-next-possible-enhancements)
+- [Future Enhancements](#-future-enhancements)
 
 ---
 
@@ -77,6 +80,169 @@ The project deliberately mirrors challenges found in real retail systems:
 - shared components
 - automated classification
 - safe bulk operations
+
+---
+
+## 🏗 Architecture & System Design
+
+**Design goals:** webhook-as-source-of-truth, atomic stock reconciliation, and idempotent event processing to prevent double-decrement/refund replays.
+
+```mermaid
+flowchart LR
+
+  %% Customer Flow
+  U[Customer] --> CART[Cart]
+  CART --> ORDER[Order created - PLACED]
+  ORDER --> SESS[Create Stripe Session]
+  SESS --> STRIPE[Stripe Checkout]
+
+  %% Stripe Events
+  STRIPE --> EVT1[Event: checkout.session.completed]
+  STRIPE --> EVT2[Event: charge.refunded]
+
+  %% Webhook
+  EVT1 --> WH[Webhook endpoint]
+  EVT2 --> WH
+
+  %% Idempotency
+  WH --> LEDGER[Store event_id in StripeEvent]
+  LEDGER --> CHECK{Already processed?}
+  CHECK -->|Yes| NOOP[Return 200 - No action]
+  CHECK -->|No| TX[transaction.atomic]
+
+  %% Paid Path
+  TX --> PAID[Set order to PAID]
+  PAID --> STOCKD[Decrease stock]
+  PAID --> EMAIL[Send paid email once]
+
+  %% Refund Path
+  TX --> REF[Set order to REFUNDED]
+  REF --> STOCKR[Restore stock]
+```
+
+```mermaid
+stateDiagram-v2
+  [*] --> PLACED: Order created
+  PLACED --> PAID: Stripe webhook\ncheckout.session.completed
+  PAID --> FULFILLED: Admin action\nMark fulfilled
+  PAID --> REFUNDED: Stripe webhook\nrefund event(s)
+
+  FULFILLED --> [*]
+  REFUNDED --> [*]
+```
+
+> Note: Mermaid diagrams render on GitHub. Some local Markdown previews may show “diagram not supported”.
+
+Ashen Emporium is structured around a separation of concerns between:
+
+Catalogue domain logic (products, armour sets, lore)
+
+Commerce logic (cart, orders, stock control)
+
+Payment orchestration (Stripe Checkout + webhook lifecycle)
+
+Automation pipelines (management commands for ingestion and classification)
+
+Key architectural principles:
+
+Webhook as single source of truth for payment state
+
+Idempotent event handling
+
+Atomic database transactions for stock integrity
+
+Clear order state transitions
+
+Automation over manual administration
+
+The system is intentionally designed to reflect real-world retail backend constraints, not tutorial-level examples.
+
+---
+
+## 💳 Order & Payment Lifecycle
+
+The order system models explicit state transitions:
+
+PLACED → PAID → FULFILLED
+            ↘ REFUNDED
+
+PLACED
+
+Created at checkout initiation
+
+Stripe session created
+
+No stock mutation yet
+
+PAID
+
+Triggered only via verified Stripe webhook
+
+Stock decremented atomically
+
+Payment identifiers stored
+
+Confirmation email sent post-commit
+
+REFUNDED
+
+Triggered via Stripe refund webhook events
+
+Stock restored atomically
+
+Refunded timestamp recorded
+
+Idempotent protection prevents double-restoration
+
+FULFILLED
+
+Admin-triggered state change
+
+Restricted to paid orders only
+
+This lifecycle ensures consistency between:
+
+Stripe payment state
+
+Order status
+
+Inventory levels
+
+---
+
+## 🔁 Webhook & Idempotency Design
+
+The webhook implementation includes:
+
+Stripe signature verification
+
+Event type filtering
+
+Atomic transaction boundaries
+
+Event ledger (StripeEvent model)
+
+Unique constraint on event_id
+
+Safe replay handling (no duplicate stock changes)
+
+select_for_update() row locking
+
+This prevents:
+
+Double stock decrement
+
+Double refund restoration
+
+Duplicate confirmation emails
+
+Race conditions during concurrent requests
+
+Replay simulation is tested using:
+
+stripe events resend evt_...
+
+The system safely no-ops on duplicate events.
 
 ---
 
@@ -150,6 +316,52 @@ All commands support dry-run or reporting modes where appropriate.
 - Dark, Souls-inspired visual theme
 
 The UI balances atmosphere with usability, particularly on smaller screens.
+
+---
+
+## 🧪 Testing Strategy
+
+Testing includes:
+
+Manual end-to-end checkout validation
+
+Stripe CLI webhook replay testing
+
+Refund lifecycle testing
+
+CI workflow (GitHub Actions)
+
+Coverage tracking via Codecov
+
+Idempotency verification using duplicate event replay
+
+Commerce testing scenarios include:
+
+Normal payment
+
+Webhook replay
+
+Refund processing
+
+Refund replay
+
+Stock reconciliation integrity
+
+---
+
+## 🔐 Security & Production Considerations
+
+Webhook signature verification enforced
+
+Business logic not executed on success page redirect
+
+Stripe secret keys managed via environment variables
+
+Atomic DB updates prevent inconsistent state
+
+Stock integrity preserved through database-level updates
+
+Idempotent event processing prevents replay attacks
 
 ---
 
