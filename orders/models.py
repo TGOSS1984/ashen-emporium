@@ -11,6 +11,7 @@ class Order(models.Model):
         PAID = "paid", "Paid"
         FULFILLED = "fulfilled", "Fulfilled"
         CANCELLED = "cancelled", "Cancelled"
+        REFUNDED = "refunded", "Refunded"
 
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
@@ -37,6 +38,8 @@ class Order(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     paid_email_sent_at = models.DateTimeField(null=True, blank=True)
+
+    refunded_at = models.DateTimeField(null=True, blank=True)
 
     @property
     def total_gbp(self) -> str:

@@ -1,0 +1,65 @@
+Content-Type: multipart/alternative;
+ boundary="===============6099263748634030588=="
+MIME-Version: 1.0
+Subject: =?utf-8?q?Ashen_Emporium_=E2=80=94_Order_=2331_confirmed?=
+From: Ashen Emporium <noreply@ashen-emporium.com>
+To: tomgoss84@gmail.com
+Date: Mon, 02 Mar 2026 13:26:38 -0000
+Message-ID: <177245799885.11300.10694825652843541163@DESKTOP-QCU4IAB>
+
+--===============6099263748634030588==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+Ashen Emporium — Order Confirmed
+
+Thank you for your order, traveler.
+Your payment has been received and your order is now confirmed.
+
+Order: #31
+Total: £25.98
+Status: Paid
+
+Items:
+
+- Abundance and Decay Twinblade (x2) — £25.98
+
+
+We will dispatch your parcel once it is sealed and ready for the road.
+
+— Ashen Emporium
+Forged in Cinder
+--===============6099263748634030588==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html>
+  <body style="font-family: Arial, sans-serif; background:#0b0d10; color:#e5e7eb; padding:20px;">
+    <div style="max-width:640px; margin:0 auto; border:1px solid #1f2933; background:#050608; padding:20px;">
+      <h2 style="margin-top:0; color:#f59e0b;">Order Confirmed</h2>
+      <p>Thank you for your order, traveler. Your payment has been received and your order is now confirmed.</p>
+
+      <p style="margin:16px 0; padding:12px; border:1px solid #1f2933; background:#0b0d10;">
+        <strong>Order:</strong> #31<br>
+        <strong>Total:</strong> £25.98<br>
+        <strong>Status:</strong> Paid
+      </p>
+
+      <h3 style="color:#e5e7eb;">Items</h3>
+      <ul>
+        
+          <li>Abundance and Decay Twinblade (x2) — £25.98</li>
+        
+      </ul>
+
+      <p>We will dispatch your parcel once it is sealed and ready for the road.</p>
+      <p style="margin-bottom:0; color:#cbd5e1;">— Ashen Emporium<br>Forged in Cinder</p>
+    </div>
+  </body>
+</html>
+--===============6099263748634030588==--
+
+-------------------------------------------------------------------------------

@@ -101,6 +101,7 @@ class OrderAdmin(admin.ModelAdmin):
         "status",
         "total_gbp",
         "created_at",
+        "refunded_at",
     )
     # Keep your existing filters, add ops filter
     list_filter = ("status", PaidFulfilmentFilter, "created_at")

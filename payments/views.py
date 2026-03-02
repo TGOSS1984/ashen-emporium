@@ -116,91 +116,126 @@ def stripe_webhook(request):
     except stripe.error.SignatureVerificationError:
         return HttpResponseBadRequest("Invalid signature")
 
-    # Only handle the event we care about
-    if event["type"] != "checkout.session.completed":
+    event_type = event["type"]
+
+    REFUND_EVENTS = ("charge.refunded", "charge.refund.updated", "refund.created", "refund.updated")
+
+    if event_type not in ("checkout.session.completed", *REFUND_EVENTS):
         return HttpResponse(status=200)
 
     event_id = event.get("id", "")
-    session = event["data"]["object"]
-    session_id = session.get("id")
-    order_id = session.get("metadata", {}).get("order_id")
+    if not event_id:
+        return HttpResponseBadRequest("Missing Stripe event id")
 
-    # Convert Stripe created timestamp to timezone-aware datetime (optional)
     stripe_created_dt = None
     if event.get("created"):
-        stripe_created_dt = timezone.datetime.fromtimestamp(
-            int(event["created"]),
-            tz=timezone.utc
-        )
+        stripe_created_dt = timezone.datetime.fromtimestamp(int(event["created"]), tz=timezone.utc)
 
     with transaction.atomic():
-        # 1) Idempotency gate: store event id once, no-op if already processed
+        # Idempotency gate
         try:
             StripeEvent.objects.create(
                 event_id=event_id,
-                event_type=event["type"],
+                event_type=event_type,
                 livemode=bool(event.get("livemode", False)),
                 stripe_created=stripe_created_dt,
             )
         except IntegrityError:
-            # This Stripe event was already processed
             return HttpResponse(status=200)
 
-        order_qs = Order.objects.select_for_update()
+        # -----------------------------
+        # A) Checkout completed (mark paid + decrement stock + paid email)
+        # -----------------------------
+        if event_type == "checkout.session.completed":
+            session = event["data"]["object"]
+            session_id = session.get("id")
+            order_id = session.get("metadata", {}).get("order_id")
 
-        order = None
-        if order_id:
-            order = order_qs.filter(id=order_id).first()
+            order_qs = Order.objects.select_for_update()
 
-        if order is None and session_id:
-            order = order_qs.filter(stripe_session_id=session_id).first()
+            order = None
+            if order_id:
+                order = order_qs.filter(id=order_id).first()
 
-        if not order:
-            # Keep StripeEvent record so we don't spin on retries for unknown orders
+            if order is None and session_id:
+                order = order_qs.filter(stripe_session_id=session_id).first()
+
+            if not order:
+                return HttpResponse(status=200)
+
+            just_marked_paid = False
+            if order.status != Order.Status.PAID:
+                order.status = Order.Status.PAID
+                order.stripe_session_id = session.get("id", order.stripe_session_id)
+                order.stripe_payment_intent_id = session.get("payment_intent", order.stripe_payment_intent_id) or ""
+                order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
+                just_marked_paid = True
+
+            if just_marked_paid:
+                for item in order.items.all():
+                    if not item.sku:
+                        continue
+                    updated = Product.objects.filter(sku=item.sku, stock_qty__gt=0).update(
+                        stock_qty=F("stock_qty") - item.qty
+                    )
+                    if updated:
+                        Product.objects.filter(sku=item.sku, stock_qty__lt=0).update(stock_qty=0)
+
+            # Paid email (only for checkout completion)
+            send_email = False
+            if order.paid_email_sent_at is None:
+                order.paid_email_sent_at = timezone.now()
+                order.save(update_fields=["paid_email_sent_at"])
+                send_email = True
+
+            if send_email:
+                order_id_to_email = order.id
+
+                def _send():
+                    o = Order.objects.get(id=order_id_to_email)
+                    send_order_paid_email(o)
+
+                transaction.on_commit(_send)
+
             return HttpResponse(status=200)
 
-        just_marked_paid = False
+        # -----------------------------
+        # B) Refund (restore stock + mark refunded)
+        # -----------------------------
+        if event_type in REFUND_EVENTS:
+            obj = event["data"]["object"]
 
-        if order.status != Order.Status.PAID:
-            order.status = Order.Status.PAID
-            order.stripe_session_id = session.get("id", order.stripe_session_id)
-            order.stripe_payment_intent_id = session.get("payment_intent", order.stripe_payment_intent_id) or ""
-            order.save(update_fields=["status", "stripe_session_id", "stripe_payment_intent_id"])
-            just_marked_paid = True
+            # refund.* and charge.refund.updated give you a Refund object
+            payment_intent_id = obj.get("payment_intent")
 
-        # 2) Stock decrement only when we actually transitioned to PAID
-        if just_marked_paid:
+            # charge.refunded gives you a Charge object
+            if not payment_intent_id and obj.get("object") == "charge":
+                payment_intent_id = obj.get("payment_intent")
+
+            if not payment_intent_id:
+                return HttpResponse(status=200)
+
+            order = Order.objects.select_for_update().filter(
+                stripe_payment_intent_id=payment_intent_id
+            ).first()
+
+            if not order:
+                return HttpResponse(status=200)
+
+            if order.status == Order.Status.REFUNDED:
+                return HttpResponse(status=200)
+
             for item in order.items.all():
-                # Use SKU snapshot from OrderItem to find Product
-                # (If SKU can be null, guard it)
                 if not item.sku:
                     continue
-
-                # Atomic decrement in DB
-                updated = Product.objects.filter(sku=item.sku, stock_qty__gt=0).update(
-                    stock_qty=F("stock_qty") - item.qty
+                Product.objects.filter(sku=item.sku).update(
+                    stock_qty=F("stock_qty") + item.qty
                 )
 
-                # Optional clamp if qty > stock: prevent negative in rare cases
-                # (You can tighten this later to enforce "no oversell" rules)
-                if updated:
-                    Product.objects.filter(sku=item.sku, stock_qty__lt=0).update(stock_qty=0)
+            order.status = Order.Status.REFUNDED
+            order.refunded_at = timezone.now()
+            order.save(update_fields=["status", "refunded_at"])
 
-        # 3) Email: mark timestamp in DB, send after commit to avoid “email sent but DB rolled back”
-        send_email = False
-        if order.paid_email_sent_at is None:
-            order.paid_email_sent_at = timezone.now()
-            order.save(update_fields=["paid_email_sent_at"])
-            send_email = True
-
-        if send_email:
-            order_id_to_email = order.id
-
-            def _send():
-                # Refetch in case template uses related objects
-                o = Order.objects.get(id=order_id_to_email)
-                send_order_paid_email(o)
-
-            transaction.on_commit(_send)
+            return HttpResponse(status=200)
 
     return HttpResponse(status=200)
