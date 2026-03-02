@@ -1,0 +1,16 @@
+{% extends "admin/change_list.html" %}
+
+{% block content_title %}
+  {{ block.super }}
+  {% if ops_kpis %}
+    <div style="margin: 12px 0; padding: 12px; border: 1px solid #ddd; border-radius: 6px;">
+      <strong>Ops KPIs:</strong>
+      <span style="margin-left: 12px;">Orders today: <strong>{{ ops_kpis.orders_today }}</strong></span>
+      <span style="margin-left: 12px;">Orders (7d): <strong>{{ ops_kpis.orders_7d }}</strong></span>
+      <span style="margin-left: 12px;">Paid, unfulfilled: <strong>{{ ops_kpis.paid_unfulfilled }}</strong></span>
+      {% if ops_kpis.revenue_7d is not None %}
+        <span style="margin-left: 12px;">Revenue (7d): <strong>{{ ops_kpis.revenue_7d }}</strong></span>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}

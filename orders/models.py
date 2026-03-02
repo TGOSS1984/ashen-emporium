@@ -1,6 +1,8 @@
 from django.conf import settings
 from django.db import models
 
+from django.utils import timezone
+
 
 class Order(models.Model):
     class Status(models.TextChoices):
@@ -43,6 +45,16 @@ class Order(models.Model):
 
     def __str__(self) -> str:
         return f"Order #{self.id} ({self.get_status_display()})"
+    
+    fulfilled_at = models.DateTimeField(null=True, blank=True)
+
+    # optional helper (for admin + future services)
+    def mark_fulfilled(self):
+        if self.fulfilled_at is None:
+            self.fulfilled_at = timezone.now()
+        # if use status, set it too:
+        if hasattr(self, "status"):
+            self.status = "fulfilled"
 
 
 class OrderItem(models.Model):
