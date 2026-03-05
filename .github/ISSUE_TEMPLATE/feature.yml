@@ -1,0 +1,17 @@
+name: Feature
+description: New feature request
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: textarea
+    attributes:
+      label: What & why
+      description: What are we building and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance criteria
+      description: Bullet list of done-when conditions
+    validations:
+      required: true

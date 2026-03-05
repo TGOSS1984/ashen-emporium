@@ -1,0 +1,59 @@
+name: Auto-add Issues/PRs to Project
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+permissions:
+  contents: read
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install GitHub CLI
+        uses: cli/cli@v3
+
+      - name: Add item to project
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          ISSUE_NODE_ID: ${{ github.event.issue.node_id }}
+          PR_NODE_ID: ${{ github.event.pull_request.node_id }}
+        run: |
+          set -e
+
+          # Find the project by title
+          PROJECT_TITLE="Ashen Emporium — Roadmap"
+
+          PROJECT_ID=$(gh api graphql -f query='
+            query($owner: String!, $title: String!) {
+              user(login: $owner) {
+                projectsV2(first: 50, query: $title) { nodes { id title } }
+              }
+              organization(login: $owner) {
+                projectsV2(first: 50, query: $title) { nodes { id title } }
+              }
+            }' -F owner="$OWNER" -F title="$PROJECT_TITLE" --jq '
+              (.data.user.projectsV2.nodes[]? | select(.title=="'"$PROJECT_TITLE"'") | .id)
+              // (.data.organization.projectsV2.nodes[]? | select(.title=="'"$PROJECT_TITLE"'") | .id)
+            ')
+
+          if [ -z "$PROJECT_ID" ]; then
+            echo "Project not found. Run the bootstrap workflow first."
+            exit 1
+          fi
+
+          CONTENT_ID="${ISSUE_NODE_ID:-$PR_NODE_ID}"
+
+          gh api graphql -f query='
+            mutation($projectId: ID!, $contentId: ID!) {
+              addProjectV2ItemById(input: {projectId: $projectId, contentId: $contentId}) {
+                item { id }
+              }
+            }' -F projectId="$PROJECT_ID" -F contentId="$CONTENT_ID" >/dev/null
+
+          echo "Added item to project."

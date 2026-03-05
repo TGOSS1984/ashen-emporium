@@ -1,0 +1,14 @@
+name: Design / UX
+description: UI/UX decision, component, or layout change
+title: "[Design] "
+labels: ["design"]
+body:
+  - type: textarea
+    attributes:
+      label: Goal
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Notes / references
+      description: Screenshots, links, components affected

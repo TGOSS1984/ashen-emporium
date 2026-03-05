@@ -1,0 +1,140 @@
+name: Bootstrap Project Board (v2)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install GitHub CLI
+        uses: cli/cli@v3
+
+      - name: Auth GH CLI
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+        run: |
+          gh auth status
+
+      - name: Create Project + seed draft issues
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          set -e
+
+          TITLE="Ashen Emporium — Roadmap"
+          echo "Creating project: $TITLE"
+
+          # Create a Projects v2 project (user project)
+          PROJECT_ID=$(gh api graphql -f query='
+            mutation($owner: String!, $title: String!) {
+              createProjectV2(input: {ownerId: (query { user(login: $owner) { id } }.user.id), title: $title}) {
+                projectV2 { id }
+              }
+            }' -F owner="$OWNER" -F title="$TITLE" --jq '.data.createProjectV2.projectV2.id' 2>/dev/null || true)
+
+          if [ -z "$PROJECT_ID" ]; then
+            echo "Could not create via user lookup. Trying repository owner as organization..."
+            PROJECT_ID=$(gh api graphql -f query='
+              mutation($owner: String!, $title: String!) {
+                createProjectV2(input: {ownerId: (query { organization(login: $owner) { id } }.organization.id), title: $title}) {
+                  projectV2 { id }
+                }
+              }' -F owner="$OWNER" -F title="$TITLE" --jq '.data.createProjectV2.projectV2.id')
+          fi
+
+          echo "PROJECT_ID=$PROJECT_ID" >> $GITHUB_ENV
+
+          # Add a simple Status field with options
+          FIELD_ID=$(gh api graphql -f query='
+            mutation($projectId: ID!) {
+              createProjectV2Field(input: {
+                projectId: $projectId,
+                dataType: SINGLE_SELECT,
+                name: "Status"
+              }) {
+                projectV2FieldConfiguration {
+                  ... on ProjectV2SingleSelectField {
+                    id
+                  }
+                }
+              }
+            }' -F projectId="$PROJECT_ID" --jq '.data.createProjectV2Field.projectV2FieldConfiguration.id')
+
+          echo "STATUS_FIELD_ID=$FIELD_ID" >> $GITHUB_ENV
+
+          # Add options to Status
+          for opt in "Backlog" "In Progress" "Blocked" "Review" "Done"; do
+            gh api graphql -f query='
+              mutation($fieldId: ID!, $name: String!) {
+                createProjectV2SingleSelectFieldOption(input: {fieldId: $fieldId, name: $name}) {
+                  option { id name }
+                }
+              }' -F fieldId="$FIELD_ID" -F name="$opt" >/dev/null
+          done
+
+          # Get option IDs for setting initial status
+          OPTIONS_JSON=$(gh api graphql -f query='
+            query($projectId: ID!) {
+              node(id: $projectId) {
+                ... on ProjectV2 {
+                  field(name: "Status") {
+                    ... on ProjectV2SingleSelectField {
+                      options { id name }
+                    }
+                  }
+                }
+              }
+            }' -F projectId="$PROJECT_ID" --jq '.data.node.field.options')
+
+          BACKLOG_ID=$(echo "$OPTIONS_JSON" | jq -r '.[] | select(.name=="Backlog") | .id')
+
+          # Draft issues = your design + feature choices (edit this list freely)
+          mapfile -t ITEMS <<'EOF'
+Design system: Gothic UI tokens (colors, typography, spacing) + reusable components
+Navigation: responsive navbar + offcanvas + consistent CTAs
+Homepage: hero, featured categories, trust badges, newsletter section
+Catalog: filtering, sorting, pagination, empty-states
+Product detail: image gallery, stock status, related products, SEO meta
+Cart UX: quantity update, remove, totals, shipping messaging
+Checkout: address form validation, order summary, error handling
+Payments: Stripe webhook as source of truth, idempotency, order lifecycle
+Orders: status transitions (placed→paid→fulfilled/refunded/cancelled) + admin tools
+Emails: order confirmation/paid email + contact form reply-to wiring
+Accounts: register/login/logout, profile, order history
+Accessibility: keyboard nav, focus states, alt text, ARIA, contrast checks
+Performance: image optimisation, caching, Lighthouse improvements
+Testing: expand coverage for catalog/cart/orders/payments + CI enforcement
+Deployment: env var checklist, static/media config, production hardening
+EOF
+
+          # Create draft items in project (and set Status=Backlog)
+          for title in "${ITEMS[@]}"; do
+            ITEM_ID=$(gh api graphql -f query='
+              mutation($projectId: ID!, $title: String!) {
+                addProjectV2DraftIssue(input: {projectId: $projectId, title: $title}) {
+                  projectItem { id }
+                }
+              }' -F projectId="$PROJECT_ID" -F title="$title" --jq '.data.addProjectV2DraftIssue.projectItem.id')
+
+            # Set Status field to Backlog
+            gh api graphql -f query='
+              mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+                updateProjectV2ItemFieldValue(input: {
+                  projectId: $projectId,
+                  itemId: $itemId,
+                  fieldId: $fieldId,
+                  value: { singleSelectOptionId: $optionId }
+                }) { clientMutationId }
+              }' -F projectId="$PROJECT_ID" -F itemId="$ITEM_ID" -F fieldId="$FIELD_ID" -F optionId="$BACKLOG_ID" >/dev/null
+
+            echo "Added: $title"
+          done
+
+          echo ""
+          echo "Done. Open your Project via:"
+          echo "https://github.com/users/$OWNER/projects"
