@@ -32,22 +32,21 @@ jobs:
           TITLE="Ashen Emporium — Roadmap"
           echo "Creating project: $TITLE"
 
-          # Try to create as a user-owned project first
-          PROJECT_ID=$(gh api graphql -f query='
+          # Resolve owner ID (user first, then organisation)
+          OWNER_ID=$(gh api graphql -f query='
             query($owner: String!) {
               user(login: $owner) { id }
             }' -F owner="$OWNER" --jq '.data.user.id' 2>/dev/null || true)
 
-          if [ -n "$PROJECT_ID" ]; then
-            OWNER_ID="$PROJECT_ID"
-          else
-            echo "Could not resolve user owner. Trying organization..."
+          if [ -z "$OWNER_ID" ] || [ "$OWNER_ID" = "null" ]; then
+            echo "Could not resolve user owner. Trying organisation..."
             OWNER_ID=$(gh api graphql -f query='
               query($owner: String!) {
                 organization(login: $owner) { id }
               }' -F owner="$OWNER" --jq '.data.organization.id')
           fi
 
+          # Create project
           PROJECT_ID=$(gh api graphql -f query='
             mutation($ownerId: ID!, $title: String!) {
               createProjectV2(input: { ownerId: $ownerId, title: $title }) {
@@ -56,33 +55,25 @@ jobs:
             }' -F ownerId="$OWNER_ID" -F title="$TITLE" --jq '.data.createProjectV2.projectV2.id')
 
           echo "PROJECT_ID=$PROJECT_ID" >> "$GITHUB_ENV"
+          echo "Created project ID: $PROJECT_ID"
 
-          # Create Status single-select field with options
-          FIELD_ID=$(gh api graphql -f query='
-            mutation($projectId: ID!) {
-              createProjectV2Field(input: {
-                projectId: $projectId,
-                dataType: SINGLE_SELECT,
-                name: "Status",
-                singleSelectOptions: [
-                  { name: "Backlog", color: GRAY }
-                  { name: "In Progress", color: BLUE }
-                  { name: "Blocked", color: RED }
-                  { name: "Review", color: YELLOW }
-                  { name: "Done", color: GREEN }
-                ]
-              }) {
-                projectV2Field {
-                  ... on ProjectV2SingleSelectField {
-                    id
+          # Use the default Status field that GitHub creates for new projects
+          STATUS_FIELD_ID=$(gh api graphql -f query='
+            query($projectId: ID!) {
+              node(id: $projectId) {
+                ... on ProjectV2 {
+                  field(name: "Status") {
+                    ... on ProjectV2SingleSelectField {
+                      id
+                    }
                   }
                 }
               }
-            }' -F projectId="$PROJECT_ID" --jq '.data.createProjectV2Field.projectV2Field.id')
+            }' -F projectId="$PROJECT_ID" --jq '.data.node.field.id')
 
-          echo "STATUS_FIELD_ID=$FIELD_ID" >> "$GITHUB_ENV"
+          echo "STATUS_FIELD_ID=$STATUS_FIELD_ID" >> "$GITHUB_ENV"
 
-          # Get option IDs for setting initial status
+          # Get the default Status options and find Backlog / Todo / To do
           OPTIONS_JSON=$(gh api graphql -f query='
             query($projectId: ID!) {
               node(id: $projectId) {
@@ -96,7 +87,17 @@ jobs:
               }
             }' -F projectId="$PROJECT_ID" --jq '.data.node.field.options')
 
-          BACKLOG_ID=$(echo "$OPTIONS_JSON" | jq -r '.[] | select(.name=="Backlog") | .id')
+          echo "Status options found:"
+          echo "$OPTIONS_JSON"
+
+          BACKLOG_ID=$(echo "$OPTIONS_JSON" | jq -r '
+            map(select(.name == "Backlog" or .name == "Todo" or .name == "To do")) | .[0].id
+          ')
+
+          if [ -z "$BACKLOG_ID" ] || [ "$BACKLOG_ID" = "null" ]; then
+            echo "Could not find Backlog/Todo option on default Status field."
+            exit 1
+          fi
 
           ITEMS=(
             "Design system: Gothic UI tokens (colors, typography, spacing) + reusable components"
@@ -134,7 +135,7 @@ jobs:
                 }) {
                   projectV2Item { id }
                 }
-              }' -F projectId="$PROJECT_ID" -F itemId="$ITEM_ID" -F fieldId="$FIELD_ID" -F optionId="$BACKLOG_ID" >/dev/null
+              }' -F projectId="$PROJECT_ID" -F itemId="$ITEM_ID" -F fieldId="$STATUS_FIELD_ID" -F optionId="$BACKLOG_ID" >/dev/null
 
             echo "Added: $title"
           done
