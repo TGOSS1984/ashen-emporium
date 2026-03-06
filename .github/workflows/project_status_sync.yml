@@ -1,0 +1,149 @@
+name: Project Status Sync
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review, closed]
+
+permissions:
+  contents: read
+
+jobs:
+  sync-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check GitHub CLI
+        run: gh --version
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Update linked project item status
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NODE_ID: ${{ github.event.pull_request.node_id }}
+          ACTION_NAME: ${{ github.event.action }}
+          IS_DRAFT: ${{ github.event.pull_request.draft }}
+          IS_MERGED: ${{ github.event.pull_request.merged }}
+          PROJECT_TITLE: Ashen Emporium — Roadmap
+        run: |
+          set -e
+
+          echo "Project title: $PROJECT_TITLE"
+          echo "PR number: $PR_NUMBER"
+          echo "Action: $ACTION_NAME"
+
+          # Find the user project by title
+          PROJECT_ID=$(gh api graphql -f query='
+            query($owner: String!, $title: String!) {
+              user(login: $owner) {
+                projectsV2(first: 50, query: $title) {
+                  nodes { id title }
+                }
+              }
+            }' -F owner="$OWNER" -F title="$PROJECT_TITLE" --jq \
+            '.data.user.projectsV2.nodes[] | select(.title=="'"$PROJECT_TITLE"'") | .id' 2>/dev/null || true)
+
+          # If not found on user, try organisation
+          if [ -z "$PROJECT_ID" ]; then
+            PROJECT_ID=$(gh api graphql -f query='
+              query($owner: String!, $title: String!) {
+                organization(login: $owner) {
+                  projectsV2(first: 50, query: $title) {
+                    nodes { id title }
+                  }
+                }
+              }' -F owner="$OWNER" -F title="$PROJECT_TITLE" --jq \
+              '.data.organization.projectsV2.nodes[] | select(.title=="'"$PROJECT_TITLE"'") | .id' 2>/dev/null || true)
+          fi
+
+          if [ -z "$PROJECT_ID" ]; then
+            echo "Project not found."
+            exit 1
+          fi
+
+          echo "PROJECT_ID=$PROJECT_ID"
+
+          # Find the Status field and its options
+          STATUS_FIELD_JSON=$(gh api graphql -f query='
+            query($projectId: ID!) {
+              node(id: $projectId) {
+                ... on ProjectV2 {
+                  field(name: "Status") {
+                    ... on ProjectV2SingleSelectField {
+                      id
+                      options { id name }
+                    }
+                  }
+                }
+              }
+            }' -F projectId="$PROJECT_ID" --jq '.data.node.field')
+
+          FIELD_ID=$(echo "$STATUS_FIELD_JSON" | jq -r '.id')
+
+          # Decide target status
+          if [ "$ACTION_NAME" = "opened" ] || [ "$ACTION_NAME" = "reopened" ]; then
+            TARGET_STATUS="In Progress"
+          elif [ "$ACTION_NAME" = "ready_for_review" ]; then
+            TARGET_STATUS="Review"
+          elif [ "$ACTION_NAME" = "closed" ] && [ "$IS_MERGED" = "true" ]; then
+            TARGET_STATUS="Done"
+          else
+            echo "No status change needed for this event."
+            exit 0
+          fi
+
+          OPTION_ID=$(echo "$STATUS_FIELD_JSON" | jq -r --arg name "$TARGET_STATUS" '.options[] | select(.name==$name) | .id')
+
+          if [ -z "$OPTION_ID" ] || [ "$OPTION_ID" = "null" ]; then
+            echo "Could not find Status option: $TARGET_STATUS"
+            exit 1
+          fi
+
+          echo "Target status: $TARGET_STATUS"
+
+          # Get the project item for this PR directly
+          ITEM_ID=$(gh api graphql -f query='
+            query($projectId: ID!, $contentId: ID!) {
+              node(id: $projectId) {
+                ... on ProjectV2 {
+                  items(first: 100) {
+                    nodes {
+                      id
+                      content {
+                        ... on PullRequest { id number }
+                      }
+                    }
+                  }
+                }
+              }
+            }' -F projectId="$PROJECT_ID" -F contentId="$PR_NODE_ID" --jq \
+            '.data.node.items.nodes[] | select(.content.id=="'"$PR_NODE_ID"'") | .id' 2>/dev/null || true)
+
+          if [ -z "$ITEM_ID" ]; then
+            echo "PR is not yet in the project. Make sure built-in auto-add is enabled."
+            exit 1
+          fi
+
+          echo "ITEM_ID=$ITEM_ID"
+
+          gh api graphql -f query='
+            mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+              updateProjectV2ItemFieldValue(input: {
+                projectId: $projectId,
+                itemId: $itemId,
+                fieldId: $fieldId,
+                value: { singleSelectOptionId: $optionId }
+              }) {
+                projectV2Item { id }
+              }
+            }' \
+            -F projectId="$PROJECT_ID" \
+            -F itemId="$ITEM_ID" \
+            -F fieldId="$FIELD_ID" \
+            -F optionId="$OPTION_ID"
+
+          echo "Updated PR item to status: $TARGET_STATUS"

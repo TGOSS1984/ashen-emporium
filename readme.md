@@ -37,6 +37,7 @@ This project emphasises **scalable architecture, automation over manual admin wo
 
 - [Live Demo](#-live-demo)
 - [Project Overview](#-project-overview)
+- [Project Management](#-project-management)
 - [Architecture & System Design](#-architecture--system-design)
 - [Order & Payment Lifecycle](#-order--payment-lifecycle)
 - [Webhook & Idempotency Design](#-webhook--idempotency-design)
@@ -80,6 +81,15 @@ The project deliberately mirrors challenges found in real retail systems:
 - shared components
 - automated classification
 - safe bulk operations
+
+---
+
+## 📋 Project Management
+
+Development for **Ashen Emporium** is tracked using a GitHub Project board.
+
+Project roadmap:
+https://github.com/users/TGOSS1984/projects/4/views/1
 
 ---
 
