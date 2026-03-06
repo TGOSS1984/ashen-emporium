@@ -9,6 +9,7 @@ permissions:
 jobs:
   bootstrap:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check GitHub CLI
         run: gh --version
@@ -31,51 +32,57 @@ jobs:
           TITLE="Ashen Emporium — Roadmap"
           echo "Creating project: $TITLE"
 
+          # Try to create as a user-owned project first
           PROJECT_ID=$(gh api graphql -f query='
-            mutation($owner: String!, $title: String!) {
-              createProjectV2(input: {ownerId: (query { user(login: $owner) { id } }.user.id), title: $title}) {
-                projectV2 { id }
-              }
-            }' -F owner="$OWNER" -F title="$TITLE" --jq '.data.createProjectV2.projectV2.id' 2>/dev/null || true)
+            query($owner: String!) {
+              user(login: $owner) { id }
+            }' -F owner="$OWNER" --jq '.data.user.id' 2>/dev/null || true)
 
-          if [ -z "$PROJECT_ID" ]; then
-            echo "Could not create via user lookup. Trying repository owner as organization..."
-            PROJECT_ID=$(gh api graphql -f query='
-              mutation($owner: String!, $title: String!) {
-                createProjectV2(input: {ownerId: (query { organization(login: $owner) { id } }.organization.id), title: $title}) {
-                  projectV2 { id }
-                }
-              }' -F owner="$OWNER" -F title="$TITLE" --jq '.data.createProjectV2.projectV2.id')
+          if [ -n "$PROJECT_ID" ]; then
+            OWNER_ID="$PROJECT_ID"
+          else
+            echo "Could not resolve user owner. Trying organization..."
+            OWNER_ID=$(gh api graphql -f query='
+              query($owner: String!) {
+                organization(login: $owner) { id }
+              }' -F owner="$OWNER" --jq '.data.organization.id')
           fi
 
-          echo "PROJECT_ID=$PROJECT_ID" >> $GITHUB_ENV
+          PROJECT_ID=$(gh api graphql -f query='
+            mutation($ownerId: ID!, $title: String!) {
+              createProjectV2(input: { ownerId: $ownerId, title: $title }) {
+                projectV2 { id }
+              }
+            }' -F ownerId="$OWNER_ID" -F title="$TITLE" --jq '.data.createProjectV2.projectV2.id')
 
+          echo "PROJECT_ID=$PROJECT_ID" >> "$GITHUB_ENV"
+
+          # Create Status single-select field with options
           FIELD_ID=$(gh api graphql -f query='
             mutation($projectId: ID!) {
               createProjectV2Field(input: {
                 projectId: $projectId,
                 dataType: SINGLE_SELECT,
-                name: "Status"
+                name: "Status",
+                singleSelectOptions: [
+                  { name: "Backlog", color: GRAY }
+                  { name: "In Progress", color: BLUE }
+                  { name: "Blocked", color: RED }
+                  { name: "Review", color: YELLOW }
+                  { name: "Done", color: GREEN }
+                ]
               }) {
-                projectV2FieldConfiguration {
+                projectV2Field {
                   ... on ProjectV2SingleSelectField {
                     id
                   }
                 }
               }
-            }' -F projectId="$PROJECT_ID" --jq '.data.createProjectV2Field.projectV2FieldConfiguration.id')
+            }' -F projectId="$PROJECT_ID" --jq '.data.createProjectV2Field.projectV2Field.id')
 
-          echo "STATUS_FIELD_ID=$FIELD_ID" >> $GITHUB_ENV
+          echo "STATUS_FIELD_ID=$FIELD_ID" >> "$GITHUB_ENV"
 
-          for opt in "Backlog" "In Progress" "Blocked" "Review" "Done"; do
-            gh api graphql -f query='
-              mutation($fieldId: ID!, $name: String!) {
-                createProjectV2SingleSelectFieldOption(input: {fieldId: $fieldId, name: $name}) {
-                  option { id name }
-                }
-              }' -F fieldId="$FIELD_ID" -F name="$opt" >/dev/null
-          done
-
+          # Get option IDs for setting initial status
           OPTIONS_JSON=$(gh api graphql -f query='
             query($projectId: ID!) {
               node(id: $projectId) {
@@ -112,7 +119,7 @@ jobs:
           for title in "${ITEMS[@]}"; do
             ITEM_ID=$(gh api graphql -f query='
               mutation($projectId: ID!, $title: String!) {
-                addProjectV2DraftIssue(input: {projectId: $projectId, title: $title}) {
+                addProjectV2DraftIssue(input: { projectId: $projectId, title: $title }) {
                   projectItem { id }
                 }
               }' -F projectId="$PROJECT_ID" -F title="$title" --jq '.data.addProjectV2DraftIssue.projectItem.id')
@@ -124,7 +131,9 @@ jobs:
                   itemId: $itemId,
                   fieldId: $fieldId,
                   value: { singleSelectOptionId: $optionId }
-                }) { clientMutationId }
+                }) {
+                  projectV2Item { id }
+                }
               }' -F projectId="$PROJECT_ID" -F itemId="$ITEM_ID" -F fieldId="$FIELD_ID" -F optionId="$BACKLOG_ID" >/dev/null
 
             echo "Added: $title"
